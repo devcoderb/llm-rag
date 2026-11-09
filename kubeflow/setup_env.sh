@@ -21,6 +21,10 @@
 # Idempotent: later runs are fast and mainly re-register the kernel (the venv
 # persists across pod restarts, the kernel registration does not).
 # ---------------------------------------------------------------------------
+# Re-launch in bash if started with sh/dash (pipefail and BASH_SOURCE need bash).
+if [ -z "${BASH_VERSION:-}" ]; then
+    exec bash "$0" "$@"
+fi
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
