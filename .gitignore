@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ML caches and large artifacts
+.cache/
+huggingface/
+wandb/
+assignment_2b_outputs/
+
+# Course material (same convention as the 1A repo)
+concepts/
+
+# Local-only: screenshot shows student ID/namespace; working notes and verification
+# evidence contain local machine paths
+Kube-Flow Issue.png
+session-context.md
+artifact-verification.json
