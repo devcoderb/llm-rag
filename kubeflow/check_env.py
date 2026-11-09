@@ -2,64 +2,91 @@
 """
 kubeflow/check_env.py  (Assignment 2B)
 
-Verifies the RAG environment created by kubeflow/setup_env.sh.
+Verifies the RAG environment created by kubeflow/setup_env.sh. The expected versions are read from
+kubeflow/requirements.txt, the same file setup_env.sh installs from, so the two cannot drift apart.
 
-    /home/group157/venv-rag/bin/python kubeflow/check_env.py
+    /home/group157/venv-rag/bin/python llm-rag/kubeflow/check_env.py
 
 GPU checks are informational: Stages 0 to 5 run on CPU, only Stages 6 and 7 need a GPU.
-Exits 0 when every package check passes, 1 otherwise.
+Exits 0 when every required check passes, 1 otherwise.
+Optional environment variables: CHECK_REQUIREMENTS (path to another requirements file),
+VENV_DIR (expected venv path; default $VOLUME_ROOT/venv-rag with VOLUME_ROOT=/home/group157).
 """
 import importlib
+import importlib.metadata as md
+import os
 import sys
+from pathlib import Path
 
-EXPECTED = {            # module name -> required version prefix (None = any)
-    "torch": "2.",
-    "transformers": "4.46.3",
-    "tokenizers": "0.20.3",
-    "accelerate": "1.1.1",
-    "safetensors": "0.4.5",
-    "huggingface_hub": "0.26.2",
-    "peft": "0.13.2",
-    "bitsandbytes": "0.44.1",
-    "sentence_transformers": "3.3.1",
-    "faiss": None,
-    "rank_bm25": None,
-    "sklearn": "1.5.2",
-    "pandas": "2.2.3",
-    "numpy": "2.",
-    "tqdm": "4.67.0",
-}
+HERE = Path(__file__).resolve().parent
+REQ_FILE = Path(os.environ.get("CHECK_REQUIREMENTS", HERE / "requirements.txt"))
+VENV_DIR = Path(os.environ.get("VENV_DIR", Path(os.environ.get("VOLUME_ROOT", "/home/group157")) / "venv-rag"))
+
+# pip distribution name -> importable module name (everything else: replace '-' with '_')
+MODULE_NAMES = {"scikit-learn": "sklearn", "faiss-cpu": "faiss", "sentence-transformers": "sentence_transformers"}
 
 
 def line(n=60):
     print("-" * n)
 
 
+def read_requirements(path):
+    from packaging.requirements import Requirement
+    reqs = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        text = raw.split("#", 1)[0].strip()
+        if text:
+            reqs.append(Requirement(text))
+    return reqs
+
+
 def check_interpreter():
     print("\n--- Interpreter ---")
     line()
-    print(f"  python executable: {sys.executable}")
-    if "venv-rag" in sys.executable:
-        print("  OK: running inside the RAG venv.")
-    else:
-        print("  WARNING: not the RAG venv interpreter (select 'Python (RAG venv)' in the notebook).")
-    return True
+    print(f"  python executable : {sys.executable}")
+    print(f"  expected venv     : {VENV_DIR}")
+    inside = Path(sys.prefix).resolve() == VENV_DIR.resolve() if VENV_DIR.exists() else False
+    print("  OK: running inside the RAG venv." if inside else
+          "  WARNING: not the RAG venv interpreter (select the 'Python (RAG venv)' kernel in the notebook).")
+    return True   # warning only
 
 
-def check_imports():
-    print("\n--- Package imports and versions ---")
+def check_packages():
+    print(f"\n--- Packages from {REQ_FILE.name} ---")
     line()
     ok = True
-    for pkg, prefix in EXPECTED.items():
+    try:
+        reqs = read_requirements(REQ_FILE)
+    except Exception as e:
+        print(f"  cannot read requirements: {e}")
+        return False
+    for req in reqs:
+        module = MODULE_NAMES.get(req.name, req.name.replace("-", "_"))
         try:
-            mod = importlib.import_module(pkg)
-            ver = str(getattr(mod, "__version__", "(no __version__)"))
-            bad = bool(prefix) and not ver.startswith(prefix)
-            ok &= not bad
-            print(f"  {pkg:<24}{ver:<16}{'MISMATCH (expected ' + prefix + ')' if bad else 'OK'}")
-        except ImportError as e:
+            installed = md.version(req.name)
+        except md.PackageNotFoundError:
+            print(f"  {req.name:<26}MISSING")
             ok = False
-            print(f"  {pkg:<24}MISSING         ({e})")
+            continue
+        spec_ok = req.specifier.contains(installed, prereleases=True) if str(req.specifier) else True
+        try:
+            importlib.import_module(module)
+            import_ok = True
+        except Exception as e:
+            import_ok = False
+            err = f" import failed: {e}"
+        status = "OK" if spec_ok and import_ok else ("MISMATCH (wanted " + str(req.specifier) + ")" if not spec_ok else err)
+        print(f"  {req.name:<26}{installed:<14}{status}")
+        ok &= spec_ok and import_ok
+    # torch comes from the Kubeflow image
+    try:
+        import torch
+        torch_ok = torch.__version__.startswith("2.")
+        print(f"  {'torch (image)':<26}{torch.__version__:<14}{'OK' if torch_ok else 'MISMATCH (wanted 2.x)'}")
+        ok &= torch_ok
+    except Exception as e:
+        print(f"  torch (image)             MISSING ({e})")
+        ok = False
     return ok
 
 
@@ -72,7 +99,7 @@ def check_functional():
         import numpy as np
         index = faiss.IndexFlatIP(4)
         index.add(np.eye(4, dtype="float32"))
-        scores, ids = index.search(np.eye(4, dtype="float32")[:1], 1)
+        _, ids = index.search(np.eye(4, dtype="float32")[:1], 1)
         assert int(ids[0][0]) == 0
         print("  faiss IndexFlatIP add/search OK")
     except Exception as e:
@@ -122,7 +149,7 @@ def main():
     print("=" * 60)
     print(" Assignment 2B environment verification")
     print("=" * 60)
-    results = [("Interpreter", check_interpreter()), ("Package versions", check_imports()),
+    results = [("Interpreter", check_interpreter()), ("Package versions", check_packages()),
                ("Functional smoke tests", check_functional())]
     check_gpu()
     print("\n--- Summary ---")

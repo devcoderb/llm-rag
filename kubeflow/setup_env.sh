@@ -12,14 +12,10 @@
 # WHAT IT DOES
 #   - Creates $VOLUME_ROOT/venv-rag with --system-site-packages, so it inherits the
 #     image's working torch + CUDA (no ~3 GB GPU wheel download).
-#   - Installs ONLY what the RAG notebook needs, using the same pins that worked in 1A:
-#       transformers/tokenizers/accelerate/safetensors/huggingface_hub : load models
-#       peft + bitsandbytes : attach the 1A LoRA adapter to the 4-bit CPT model
-#       sentence-transformers : BGE embedder and the cross-encoder reranker
-#       faiss-cpu : vector index    rank_bm25 : keyword search (new for 2B)
-#       numpy, pandas, scikit-learn, tqdm, ipywidgets, ipykernel : tables, progress, kernel
-#   - Dropped versus 1A (not used by 2B): trl, datasets, evaluate, wandb, matplotlib,
-#     seaborn, sentencepiece, protobuf.
+#   - Installs ONLY what the RAG notebook needs, from kubeflow/requirements.txt (the same file
+#     check_env.py verifies against, so the two cannot drift). Same pins as 1A plus rank_bm25.
+#     Dropped versus 1A (not used by 2B): trl, datasets, evaluate, wandb, matplotlib, seaborn,
+#     sentencepiece, protobuf.
 #   - Registers the kernel and saves the exact versions next to the venv.
 #
 # Idempotent: later runs are fast and mainly re-register the kernel (the venv
@@ -76,23 +72,7 @@ PYCHECK
 echo ""
 echo "--- [3/5] Installing packages (2-4 minutes the first time) ---"
 "$PIP" install --upgrade pip --quiet
-"$PIP" install --quiet \
-    "transformers==4.46.3" \
-    "tokenizers==0.20.3" \
-    "accelerate==1.1.1" \
-    "safetensors==0.4.5" \
-    "huggingface_hub==0.26.2" \
-    "peft==0.13.2" \
-    "bitsandbytes==0.44.1" \
-    "sentence-transformers==3.3.1" \
-    "faiss-cpu==1.9.0" \
-    "rank_bm25==0.2.2" \
-    "scikit-learn==1.5.2" \
-    "pandas==2.2.3" \
-    "numpy>=2.0,<3" \
-    "tqdm==4.67.0" \
-    "ipywidgets==8.1.5" \
-    "ipykernel"
+"$PIP" install --quiet -r "$SCRIPT_DIR/requirements.txt"
 
 echo ""
 echo "--- [4/5] Registering Jupyter kernel ---"

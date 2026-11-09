@@ -23,5 +23,5 @@ The CPT model (1.45 GB) is not in git. The notebook looks for it at `$CPT_DIR`, 
 |---|---|
 | `data/` | frozen 1A corpus (30 texts) and Q/A files incl. the 957/239 split, with `MANIFEST.sha256` |
 | `models/` | 1A QLoRA adapter and `MANIFEST.sha256` (also lists the CPT weight hashes) |
-| `kubeflow/` | `setup_env.sh`, `check_env.py` |
+| `kubeflow/` | `setup_env.sh`, `check_env.py`, `requirements.txt` (single source of package pins) |
 | `assignment_2b_outputs/` | generated at run time on the volume (not in git) |
