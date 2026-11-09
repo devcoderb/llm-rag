@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-07):** planning review complete; notebook implementation and GPU execution not reviewed. Current next action: Stage 0 only, with uploaded corpus/QA verification passed; submitted notebook confirms historical split/checkpoint inventory; current pod availability/resource checks remain. No 2B notebook created in this review.
+**Review status (2026-11-09):** Stage 0 approved to proceed to Stage 1 after review of executed notebook commit `fb43f1c`; details in `review-stage0.md`. All setup cells ran with matching data/model hashes and no missing imports on NVIDIA L40S. Model metadata access is confirmed; gated judge-weight permission remains deferred until before Stage 7. Next: implement Stage 1 only; its contents are not yet approved.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
@@ -45,6 +45,13 @@
 | Randomness | One global seed; generation greedy/`do_sample=False`; judge `temperature=0` | Reproducible for Codex and graders |
 | Generator | Try A1 model first; switch only with evidence (D1) | Spec allows a switch only after showing the problem |
 | Judge | A model **different from the generator** | Spec requirement; avoids self-grading |
+
+**Operator model preference (2026-11-09; replacement generator and LLM judge):** prefer US-developed models. Primary: `meta-llama/Llama-3.1-8B-Instruct` (Meta); secondary: `microsoft/Phi-3.5-mini-instruct` (Microsoft). Consider a suitable Google Gemma or IBM Granite instruct checkpoint if access, load compatibility or output quality prevents a usable Llama/Phi pairing. Use `Qwen/Qwen2.5-7B-Instruct` only as a last resort after documenting why the feasible US options did not work. DeepSeek is no longer the planned tertiary choice under this updated preference.
+
+The assignment still requires testing the existing 1A generator first. If it succeeds, use Llama as judge, or Phi if Llama is unavailable. If switching is justified, a candidate all-US pairing is Phi generator + Llama judge; the reverse is also possible after output checks. Distinct model IDs are mandatory; neither role is proven suitable until tested for grounding or judge-label quality. Do not download all candidates up front.
+
+Current execution target is **L40S, 47.8 GB total / 39.4 GB free GPU memory, 19.3 GB container RAM** (Stage 0 saved output), rather than assuming the historical A100. Load generation/judge models sequentially, use memory-efficient loading, reserve prompt/output memory, and check actual loading. Freeze exact model/tokenizer revisions when selected.
+
 
 ---
 
@@ -172,8 +179,8 @@ Question: <query>
 ```
 2. **Run the A1 model first** (CPT + adapter loaded as in 1a, same 4-bit setup and saved tokenizer; verify pad/EOS IDs, vocab size and resized embeddings before attaching the adapter), greedy, `max_new_tokens≈150`, 10 queries with reranked top-3 labelled [1]–[3]; show all 10 answers (1 mark). Keep these raw outputs and the exact prompts/token counts; decode only generated continuation tokens. Save all [1]–[3] to chunk-ID mappings. Check citation numbers are valid and inspect whether cited passages support the claims.
 3. **Not-found query (1 mark):** run the 11th query through the same pipeline; show the reply. Use the PDF’s exact fallback string `Not found in the documents` consistently in prompt and checks (without adding a required final period).
-4. **Switch decision (conditional):** if the A1 model ignores chunks, fails the grounding/abstention requirement, save **one concrete example** of the failure, then switch to an instruct model (**Qwen2.5-7B-Instruct** or **Llama-3.1-8B-Instruct**), name it, and rerun 1–3. Load in bf16 on the A100 (or 4-bit) with `low_cpu_mem_usage=True`; free GPU memory between models (the pod has 16 Gi RAM).
-5. **Judge/generator separation:** use a different named LLM from the chosen generator. Qwen/Llama are examples, not mandatory pairings; select a feasible judge after checking access, resources and complete judge-prompt context length. Run sequentially and preserve raw outputs.
+4. **Switch decision (conditional):** if the A1 model ignores chunks, fails the grounding/abstention requirement, save **one concrete example** of the failure, then switch to a US instruct model using the preference/pairing in §2; Qwen is last resort only. Name the selected model, explain the choice, and rerun 1–3. Load in bf16 (or 4-bit) with `low_cpu_mem_usage=True` on the current L40S; free GPU memory between models and respect the measured 19.3 GB container RAM limit.
+5. **Judge/generator separation:** use a different named LLM from the chosen generator. Follow the operator’s US-first model preference in §2; select a feasible judge after checking access, resources and complete judge-prompt context length. Qwen is allowed only if feasible US options fail, with the reason documented. Run sequentially and preserve raw outputs.
 6. Check context budget: print prompt token length for each query (3 chunks + instructions) against the uploaded generator configuration’s context capacity, reserving `max_new_tokens`. Record 512 as the SFT setting and 1,024 as CPT block length separately. Never silently truncate the three chunks; any context change requires disclosed reruns and consistent evidence.
 
 **Record:** generator model name, prompt, 10 answers + "Not found" answer, failure example if switched.

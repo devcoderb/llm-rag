@@ -1,0 +1,255 @@
+{
+  "description": "Frozen evaluation set for Assignment 2B (Group 157). Ten unchanged questions from the 239-row 1A evaluation split, with raw answer spans, plus one unanswerable query kept out of all metrics over the ten.",
+  "created_utc": "2026-11-09T12:30:25Z",
+  "seed": 42,
+  "split": {
+    "train": 957,
+    "eval": 239
+  },
+  "hit_rule": "lower-case and collapse whitespace in both span and chunk; hit if span_norm is a substring of the chunk",
+  "eval_file_sha256": "79c2fbdc5999e5650062b6902357b650373ee68ec38665a40e30c189807f48d1",
+  "curated_file_sha256": "203054bc9305ec194ffd6f62295e01c16caa47221bb377b9d9e449ae91379b74",
+  "freeze_sha256": "99eac52609fbde845b59fa30014d4cdd91457814b77443c0dd0c63b547882e0e",
+  "queries": [
+    {
+      "qid": "Q01",
+      "type": "numeric limit",
+      "row_id": 243,
+      "eval_position": 58,
+      "query": "What is the maximum value per transaction for a PA - CB under the RBI Master Direction on Regulation of Payment Aggregators?",
+      "expected_answer": "For inward or outward transactions processed by a PA - CB, the maximum value per transaction is ₹25 lakh.",
+      "qa_sha256": "078b3dd52739a7bdfef936cfbd03f28fd83e662cd3497840fcc8e929de2f6465",
+      "source_document": "RBI - Master Direction on Regulation of Payment Aggregator.txt",
+      "doc_sha256": "5661229a0e63aa0f50f083e812ecec167febdf95634da555a0a62637fa733a01",
+      "curated_evidence": "the maximum value per transaction shall be ₹25 lakh.",
+      "answer_span": "In respect of inward or outward transactions \nprocessed by a PA - CB, the maximum value per transaction shall be ₹25 lakh.",
+      "span_norm": "in respect of inward or outward transactions processed by a pa - cb, the maximum value per transaction shall be ₹25 lakh.",
+      "span_start": 18032,
+      "span_end": 18154,
+      "answer_keys": [
+        "₹25 lakh",
+        "maximum value per transaction"
+      ]
+    },
+    {
+      "qid": "Q02",
+      "type": "where / account type",
+      "row_id": 1069,
+      "eval_position": 109,
+      "query": "Where must a non-bank PPI issuer maintain the outstanding balance of PPIs under the RBI Master Direction on Prepaid Payment Instruments (PPIs)?",
+      "expected_answer": "A non-bank PPI issuer is required to maintain the outstanding balance in an escrow account with any scheduled commercial bank. It may maintain an additional escrow account with a different scheduled commercial bank.",
+      "qa_sha256": "1367662f79d970c816ddaf66922249d0324860bfe63f600fd48b17013657be53",
+      "source_document": "RBI - Master Direction on Prepaid Payment Instruments.txt",
+      "doc_sha256": "4b7aca1803345cc7ff9621a03d0868529dc45f32be0ee81280b7e573485d58bc",
+      "curated_evidence": "Non-bank PPI issuer is required to maintain the outstanding balance in an escrow account with any scheduled commercial bank.",
+      "answer_span": "Non-bank PPI issuer is required to maintain the outstanding balance in an escrow \naccount with any scheduled commercial bank. An additional escrow account may be \nmaintained with a different scheduled commercial bank at the discretion of the PPI issuer.",
+      "span_norm": "non-bank ppi issuer is required to maintain the outstanding balance in an escrow account with any scheduled commercial bank. an additional escrow account may be maintained with a different scheduled commercial bank at the discretion of the ppi issuer.",
+      "span_start": 42080,
+      "span_end": 42333,
+      "answer_keys": [
+        "escrow",
+        "scheduled commercial bank"
+      ]
+    },
+    {
+      "qid": "Q03",
+      "type": "statistic",
+      "row_id": 1093,
+      "eval_position": 171,
+      "query": "How much did UPI's share of digital payments volume grow between CY-2019 and CY-2024, according to RBI's Payment Systems Report (December 2024)?",
+      "expected_answer": "UPI's contribution to digital payments volume rose from 34% in CY-2019 to 83% in CY-2024.",
+      "qa_sha256": "33af631b916d6cb001f3a0b7fc3e7a8a9b0d77a01001dd4caaf41968980b6170",
+      "source_document": "RBI - Payment Systems Report Dec 2024.txt",
+      "doc_sha256": "75c712a798a6bfaf714e814540a73dc134be7f076a9c18691d5cbeee8c3a6b3d",
+      "curated_evidence": "Its contribution to digital payments volume surged from 34% in CY-2019 to an impressive 83% in CY-2024",
+      "answer_span": "UPI has been the most significant contributor to the growth of digital payments \nin India. Its contribution to digital payments volume surged from 34% in CY-2019 to an \nimpressive 83% in CY-2024",
+      "span_norm": "upi has been the most significant contributor to the growth of digital payments in india. its contribution to digital payments volume surged from 34% in cy-2019 to an impressive 83% in cy-2024",
+      "span_start": 43019,
+      "span_end": 43213,
+      "answer_keys": [
+        "34%",
+        "83%"
+      ]
+    },
+    {
+      "qid": "Q04",
+      "type": "prohibition",
+      "row_id": 1113,
+      "eval_position": 11,
+      "query": "What does section 10-A of the Payment and Settlement Systems Act, 2007 forbid banks and system providers from doing?",
+      "expected_answer": "No bank or system provider may impose, directly or indirectly, any charge on a person making or receiving a payment through the prescribed electronic modes.",
+      "qa_sha256": "b4a71ef3014d983bf49a871d1eb420208d211e71ade202ece55aa6539251a581",
+      "source_document": "RBI - Payment and Settlement Systems Act 2007.txt",
+      "doc_sha256": "64a6fd4fa1d581f5b19ee39c491dd7405d542e4f75b31fec5138484268abee5d",
+      "curated_evidence": "no bank or system provider shall impose, whether directly or indirectly, any charge upon a person making or receiving a payment by using the electronic modes of payment",
+      "answer_span": "Notwithstanding anything contained in this Act, no bank or system provider shall impose, whether \ndirectly or indirectly, any charge upon a person making or receiving a payment by using the electronic \nmodes of payment prescribed under section 269-SU of the Income Tax Act, 1961 (43 of 1961).",
+      "span_norm": "notwithstanding anything contained in this act, no bank or system provider shall impose, whether directly or indirectly, any charge upon a person making or receiving a payment by using the electronic modes of payment prescribed under section 269-su of the income tax act, 1961 (43 of 1961).",
+      "span_start": 19510,
+      "span_end": 19802,
+      "answer_keys": [
+        "no bank or system provider",
+        "any charge"
+      ]
+    },
+    {
+      "qid": "Q05",
+      "type": "definition and duty",
+      "row_id": 1149,
+      "eval_position": 221,
+      "query": "How does RBI's Digital Lending Guidelines describe First Loss Default Guarantee arrangements, and what must Regulated Entities follow for them?",
+      "expected_answer": "In an FLDG, a third party guarantees to compensate up to a certain percentage of default in a loan portfolio. REs must adhere to the Securitisation of Standard Assets Directions, 2021, especially the synthetic securitisation provisions.",
+      "qa_sha256": "353f591e6188dc24eaf4285c67e73863f7f18bac94f170019bdf2cd5d41ac72c",
+      "source_document": "RBI - Digital Lending Guidelines.txt",
+      "doc_sha256": "e3bdf99f87fa925dc1ba6134848b237fe84e90600294b61a71c81e19f7c7fafe",
+      "curated_evidence": "First Loss Default Guarantee (FLDG) in which a third party guarantees to compensate up to a certain percentage of default in a loan portfolio",
+      "answer_span": "As regards the industry practice of offering financial products involving contractual \nagreements such as First Loss Default Guarantee (FLDG) in which a third party \nguarantees to compensate up to a certain percentage of default in a loan portfolio\n\nof the RE, it is advised that REs shall adhere to the provisions of the Master \nDirection – Reserve Bank of India (Securitisation of Standard Assets) Directions, \n2021 dated September 24, 2021, especially, synthetic securitisation8 contained in \nPara (6)(c).",
+      "span_norm": "as regards the industry practice of offering financial products involving contractual agreements such as first loss default guarantee (fldg) in which a third party guarantees to compensate up to a certain percentage of default in a loan portfolio of the re, it is advised that res shall adhere to the provisions of the master direction – reserve bank of india (securitisation of standard assets) directions, 2021 dated september 24, 2021, especially, synthetic securitisation8 contained in para (6)(c).",
+      "span_start": 17020,
+      "span_end": 17528,
+      "answer_keys": [
+        "first loss default guarantee",
+        "securitisation of standard assets"
+      ]
+    },
+    {
+      "qid": "Q06",
+      "type": "proposal",
+      "row_id": 1164,
+      "eval_position": 28,
+      "query": "What new class of providers does RBI's Payments Vision 2028 propose to explore recognising?",
+      "expected_answer": "It proposes recognising Small Payment System Providers, which would not need RBI authorisation before carrying out their activities.",
+      "qa_sha256": "2dc206041f861ce3fe447bd47cb33dbabae821ae3607de6b837521e5a4590dd0",
+      "source_document": "RBI - Payments Vision 2028.txt",
+      "doc_sha256": "28963031c17ee944143a7ce9423dc93838fc6e994c760d9a7260c9e2d69d6cd3",
+      "curated_evidence": "the case for recognising a new class of Small Payment System Providers (SPSPs) that would not require to be authorised by RBI before carrying out their activities shall be explored.",
+      "answer_span": "Thus, the case for recognising \na new class of Small Payment System Providers (SPSPs) that would not require to be \nauthorised by RBI before carrying out their activities shall be explored.",
+      "span_norm": "thus, the case for recognising a new class of small payment system providers (spsps) that would not require to be authorised by rbi before carrying out their activities shall be explored.",
+      "span_start": 15589,
+      "span_end": 15778,
+      "answer_keys": [
+        "small payment system providers",
+        "not require to be authorised"
+      ]
+    },
+    {
+      "qid": "Q07",
+      "type": "price rule",
+      "row_id": 897,
+      "eval_position": 79,
+      "query": "Under SEBI's Takeover Regulations, 2011, what happens to the offer price if the acquirer buys shares during the offer period at a higher price?",
+      "expected_answer": "The offer price is revised upward to the highest price paid or payable for any such acquisition during the offer period.",
+      "qa_sha256": "fd3fa0826a76135a9ab595c57f2b9aeacb5c1f5645324a2b93c5537546be0334",
+      "source_document": "SEBI - Takeover SAST Regulations 2011.txt",
+      "doc_sha256": "e285f5fc5e19ea48c568252eb59ca84c97ec264347f2cb490dc1e4b2f83d75d6",
+      "curated_evidence": "the offer price shall stand revised to the highest price paid or payable for any such acquisition",
+      "answer_span": "(8) Where the acquirer has acquired or agreed to acquire whether by himself or through \nor with persons acting in concert with him any shares or voting rights in the target \ncompany during the offer period, whether by subscription or purchase, at a price\n\nhigher than the offer price, the offer price shall stand revised to the highest price \npaid or payable for any such acquisition:",
+      "span_norm": "(8) where the acquirer has acquired or agreed to acquire whether by himself or through or with persons acting in concert with him any shares or voting rights in the target company during the offer period, whether by subscription or purchase, at a price higher than the offer price, the offer price shall stand revised to the highest price paid or payable for any such acquisition:",
+      "span_start": 35313,
+      "span_end": 35697,
+      "answer_keys": [
+        "offer price shall stand revised",
+        "highest price paid or payable"
+      ]
+    },
+    {
+      "qid": "Q08",
+      "type": "threshold (distractors)",
+      "row_id": 864,
+      "eval_position": 229,
+      "query": "Under the SEBI (Mutual Funds) Regulations, 1996, what minimum net worth must an asset management company have to be approved under the eligibility criteria in the general case?",
+      "expected_answer": "The asset management company must have a net worth of not less than rupees fifty crore, deployed in assets as may be specified by the Board.",
+      "qa_sha256": "5b4e87fe8be065789eaec47bc9fbc3a9186378bd6a680e738818261dd284358d",
+      "source_document": "SEBI - Mutual Funds Regulations 1996.txt",
+      "doc_sha256": "406773be84f0601769a5dd7c7fc64d859745d335de851557989971f9231eed46",
+      "curated_evidence": "the asset management company has a networth of not less than rupees fifty crore deployed in assets as may be specified by the Board",
+      "answer_span": "the asset management company has a networth of not less than rupees fifty crore \ndeployed in assets as may be specified by the Board:",
+      "span_norm": "the asset management company has a networth of not less than rupees fifty crore deployed in assets as may be specified by the board:",
+      "span_start": 64864,
+      "span_end": 64997,
+      "answer_keys": [
+        "networth",
+        "fifty crore"
+      ]
+    },
+    {
+      "qid": "Q09",
+      "type": "margin rule",
+      "row_id": 826,
+      "eval_position": 42,
+      "query": "Under the SEBI Master Circular for Commodity Derivatives, what Extreme Loss Margin is levied on gross open positions, and how is it deducted?",
+      "expected_answer": "An Extreme Loss Margin of 1% on gross open positions is levied and deducted from the liquid assets of the clearing member on an online, real time basis.",
+      "qa_sha256": "ecbff30b1a7379f396d9921b14181b0b01f42f2223df9d4e16079dc93e93c4ba",
+      "source_document": "SEBI - Master Circular for Commodity Derivatives.txt",
+      "doc_sha256": "fcb424e42cbc48fbf2569ffc75e9fd0359be8460a83a4266fb14e505f1f0a492",
+      "curated_evidence": "ELM of 1% on gross open positions shall be levied and shall be deducted from the liquid assets of the clearing member on an online, real time basis.",
+      "answer_span": "ELM of 1% on gross open positions \nshall be levied and shall be deducted from the liquid assets of the \nclearing member on an online, real time basis.",
+      "span_norm": "elm of 1% on gross open positions shall be levied and shall be deducted from the liquid assets of the clearing member on an online, real time basis.",
+      "span_start": 164117,
+      "span_end": 164267,
+      "answer_keys": [
+        "elm of 1%",
+        "liquid assets of the clearing member"
+      ]
+    },
+    {
+      "qid": "Q10",
+      "type": "settlement mode",
+      "row_id": 118,
+      "eval_position": 96,
+      "query": "Under SEBI's Buy-Back of Securities Regulations, 2018, in what form must a company pay the buy-back consideration?",
+      "expected_answer": "The company shall pay the consideration only by way of cash.",
+      "qa_sha256": "773691713d2051583b30d9eff554e13052fe9aba712abd0d20b029eb769e8b13",
+      "source_document": "SEBI - Buy-Back of Securities.txt",
+      "doc_sha256": "2149eb7cf6ef19fb686a2e57b2c0c4c7c0e169a5cea275f7d03d006a900d092b",
+      "curated_evidence": "the company shall pay the consideration only by way of cash;",
+      "answer_span": "the company shall pay the consideration only by way of cash;",
+      "span_norm": "the company shall pay the consideration only by way of cash;",
+      "span_start": 63033,
+      "span_end": 63093,
+      "answer_keys": [
+        "only by way of cash"
+      ]
+    }
+  ],
+  "unanswerable": {
+    "qid": "U01",
+    "query": "Who won the FIFA World Cup in 2018?",
+    "category": "out-of-domain factual question",
+    "expected_behaviour": "Not found in the documents",
+    "why_absent": "The corpus is 30 RBI/SEBI regulatory and statistical documents on payments, banking and securities markets. None covers football or sports results, so the answer cannot be found or derived from it.",
+    "absence_checks": {
+      "fifa": {
+        "hits": 0,
+        "documents": 0
+      },
+      "football": {
+        "hits": 0,
+        "documents": 0
+      },
+      "soccer": {
+        "hits": 0,
+        "documents": 0
+      },
+      "croatia": {
+        "hits": 0,
+        "documents": 0
+      },
+      "world cup": {
+        "hits": 1,
+        "documents": 1
+      },
+      "champion": {
+        "hits": 0,
+        "documents": 0
+      },
+      "winner": {
+        "hits": 3,
+        "documents": 1
+      },
+      "france": {
+        "hits": 36,
+        "documents": 7
+      }
+    }
+  }
+}
