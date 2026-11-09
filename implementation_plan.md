@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-09):** Stage 0 approved to proceed to Stage 1 after review of executed notebook commit `fb43f1c`; details in `review-stage0.md`. All setup cells ran with matching data/model hashes and no missing imports on NVIDIA L40S. Model metadata access is confirmed; gated judge-weight permission remains deferred until before Stage 7. Next: implement Stage 1 only; its contents are not yet approved.
+**Review status (2026-11-09):** Stages 0 and 1 approved. Stage 1 executed outputs and frozen queries reviewed at commit `1d74918`; independent membership, source-span/offset and hash checks pass. See `review-stage1.md`. Next: Stage 2 dense-search implementation only. Keep notebook explanations concise, factual and specific to assignment sections; avoid first-person narration.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
