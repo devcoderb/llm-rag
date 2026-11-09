@@ -1,0 +1,1766 @@
+Trading Behaviour of Individual Traders in the 
+Equity Derivatives Segment 
+A Study of Trading Strategies, Capital Employed, Persistence and Behavioural Patterns Among 
+Individual Traders in EDS 
+Study Period: FY25–FY26 
+
+Prasad Patankar 
+Asst. General Manager 
+(Division Chief - In Charge) 
+Department of Economic and Policy Analysis II, 
+SEBI 
+Dr. Prabhas Kumar Rath 
+Chief General Manager, 
+(Head of Department) 
+Department of Economic and Policy Analysis II, SEBI 
+
+August 2026 
+
+Department of Economic and Policy Analysis
+
+Acknowledgment 
+
+The author gratefully acknowledges the valuable guidance, institutional 
+support, and motivation provided by Shri Tuhin Kanta Pandey, Chairman, 
+SEBI; Shri K.V.R. Murty, Whole Time Member, SEBI; Shri Shashi Kumar 
+Valsakumar, Executive Director, SEBI and Shri Sunil Kadam, Former 
+Executive Director, SEBI. 
+
+The authors gratefully acknowledge the support of the selected Stock Brokers, 
+National Stock Exchange (NSE), BSE, NSE Clearing Limited (NCL), and BSE 
+Clearing Limited (BSECL). Special thanks are due to the SEBI ITD Team and 
+Mr. Ankit Kumar (Assistant Manager, SEBI, ITD) for their prompt assistance 
+in providing critical data. We also extend our gratitude to the officials of the 
+Market Regulation Department, Mr. Darshil Bhatt (Deputy General Manager, 
+SEBI, MRD) and Mr. Harshad Patil (Asst. General Manager, SEBI, MRD) for 
+their valuable insights and suggestions. Special thanks to Mr. Shubham 
+Sharma (Young Professional, SEBI, DEPA) for providing research assistance to 
+the authors.
+
+Table of Contents 
+Executive Summary .......................................................................................................................................... 5 
+1. Introduction ................................................................................................................................................... 9 
+2. Objectives of the Study.............................................................................................................................. 10 
+3. Data Collection and Overview ................................................................................................................. 11 
+4. Methodology ................................................................................................................................................ 13 
+5. Data Analysis and Findings ...................................................................................................................... 16 
+SECTION 1: BUY/SELL TRADING STRATEGY IN EDS .................................................................. 16 
+5.1 Trading Outcomes by Buyer–Seller Profile .................................................................................. 17 
+5.2 Statistical Divergence in Options Selling: High Profitability Rates vs. Extreme Tail-Risk 
+Loss Sizes ...................................................................................................................................................... 19 
+SECTION 2: CAPITAL DEPLOYMENT AND TRADING INTENSITY ......................................... 20 
+5.3 Trading Outcomes by Capital (Peak Margin) of the Traders .................................................... 20 
+5.4 Trading Outcomes of Low-Capital Traders .................................................................................. 22 
+5.5 Returns on Capital Employed in EDS ............................................................................................ 23 
+5.6 Capital Employed Relative to Declared Annual Income ........................................................... 24 
+5.7 Trading Intensity by Age, Income, City, Turnover, and Portfolio ........................................... 24 
+5.8 Summary of Observations by Trading Intensity ......................................................................... 26 
+SECTION 3: RELATIONSHIP BETWEEN INCOME, CAPITAL EMPLOYED, TURNOVER 
+AND TRADING OUTCOME ................................................................................................................... 28 
+5.9 Trading Outcome by Turnover and Capital Employed ............................................................ 28 
+5.10 Trading Outcome by Income and Capital Employed ............................................................... 29 
+SECTION 4: BEHAVIOUR OF EDS TRADERS ................................................................................... 31 
+5.11 Trading Persistence – Long Term Trend ..................................................................................... 31 
+5.12 Trading Persistence – FY25 Cohort (Latest Evidence) ............................................................... 31 
+5.13 Persistence of First-Time Traders ................................................................................................. 32 
+5.14 Persistence of Losses Among Continuing Traders .................................................................... 33 
+5.15 Trading Outcome by Trading Experience ................................................................................... 34 
+5.16 Frequency of Trading Across Turnover Categories ................................................................... 35 
+5.17 Trading Outcome by Number of Days Traded in a Year ......................................................... 36 
+5.18 Cash Market Participation of EDS Traders ................................................................................. 38 
+5.19 Trading Outcomes by Relative Cash and Derivatives Activity .............................................. 38 
+5.20 Trading Outcomes by Cash Market Participation (FY25-FY26) .............................................. 40 
+5.21 Shift in Trading Preference from Cash to Derivatives (FY22-FY26 population) .................. 41
+
+5.22 Cash Market Behaviour After Exiting EDS ................................................................................. 42 
+SECTION 6: TRADING OUTCOMES BASED ON PAST TRADING BEHAVIOUR .................. 43 
+5.23 Probability of Continued Participation in EDS (Based on Past Performance) ..................... 43 
+5.24 Persistence of Trading Outcomes (Based on Past Performance) ............................................. 43 
+5.25 Quarterly Profit and Loss Asymmetry ......................................................................................... 44 
+5.26 Temporary Exit from Trading Following Quarterly Losses ..................................................... 45 
+5.27 Magnitude of Losses Prior to Trading Exit ................................................................................. 46 
+SECTION 7: SUBSEQUENT EQUITY WEALTH / PORTFOLIO HOLDINGS OF EDS 
+TRADERS ..................................................................................................................................................... 48 
+5.28 Subsequent Equity Wealth of Loss-Making EDS Traders ....................................................... 48 
+5.29 Equity Portfolio Holdings of Historical EDS Traders .............................................................. 48 
+5.30 Losses as a Percentage of Equity Portfolio .................................................................................. 50 
+6. Key Behavioural Patterns Observed ....................................................................................................... 52 
+7. Concluding Observations .......................................................................................................................... 53 
+***** ................................................................................................................................................................... 53
+
+Executive Summary 
+Trading Strategy1: 
+● 
+Retail participation in the equity derivatives segment remained highly concentrated in options 
+buying. 97% of individual traders2 in the Equity Derivatives Segment (EDS) were 
+predominantly Options buyers, i.e. classified as either ’Only Options Buyers’3 or ‘Majorly 
+Options Buyers’4. 
+● 
+In FY26, 93% of traders were classified as ‘Only Options Buyers’, while a further 4% were 
+‘Majorly Options Buyers’. Only about 2% traders were classified as ‘Majorly Options Sellers’5. 
+Less than 1% traders were classified as ‘Majorly Futures Traders’. 
+● 
+Options-buying traders accounted for the largest share of aggregate losses in the segment (55% 
+to 65%) and had the highest incidence of loss-makers (~90%). 
+● 
+‘Majorly Options Sellers’ had the lowest proportion of loss-makers (44%), while options buyers 
+had the highest (90%). 
+● 
+However, losses among ‘Majorly Options Sellers’ were substantially larger when they occurred. 
+Their average loss per loss-making trader was approximately ₹ 51.7 lakh in FY26—more 
+than 11 times the corresponding figure for ‘Majorly Options Buyers’ (₹ 4.6 lakh) and over 30 
+times that for ‘Majorly Futures Traders’ (₹ 1.7 lakh) and ‘Only Options Buyers’ (₹ 1.3 lakh). 
+Capital Employed by Traders in EDS: 
+● 
+Retail participation was concentrated among low-capital traders. About 77% of traders used 
+peak margin below ₹ 1 lakh, but accounted for only 8% of turnover and 14% of losses. 
+● 
+Conversely, the 23% of the traders, using more than ₹ 1 lakh capital, accounted for 92% of 
+turnover and 86% of losses. 
+● 
+The proportion of loss-makers generally declined with higher capital employed. In FY26, 90% 
+of traders using below ₹ 1 lakh as capital incurred losses, compared with 67.6% among those 
+using ₹ 10 lakh–₹ 1 crore. 
+● 
+However, losses were substantially larger among higher-capital traders. The average loss per 
+loss-maker increased from about ₹ 5,600 for traders using below ₹ 10,000 to ₹ 9.6 lakh for those 
+
+1 The results in this section are based on random sample of about 5,050 traders and does not reflect entire population of traders. 
+Therefore, it should be noted that the findings in this section/report are only indicative and should be interpreted with caution. 
+2 Individual Traders include both retail and HNI traders, and comprise resident individuals, Hindu Undivided Families 
+(HUFs), Non-Resident Indians (NRIs), sole proprietorships, Individual investors under PMs. 
+3 ’Only Options Buyers’ – means Options Buyers on all trading days. It refers to the traders who enter positions by buying 
+options first and subsequently squaring them off on all trading days. 
+4 ’Majorly Options Buyers’ – means Options Selling (first leg of transaction) on < 50% of trading days 
+5 ’Majorly Options Sellers’ – means Options Selling (first leg of transaction) on >= 50% of trading days
+
+using ₹ 10 lakh–₹ 1 crore. Thus, lower-capital traders had a higher incidence of losses, while 
+higher-capital traders faced much larger losses when losses occurred. 
+
+Small-Capital Traders in EDS: 
+● 
+Small-capital traders (highest capital below ₹ 1 lakh) formed 77% of traders but accounted for 
+only 8% of turnover and 14% of total losses, while the remaining 23% of traders accounted for 
+92% of turnover and 86% of losses. 
+● 
+Loss incidence was higher among low-capital traders (90% vs. 81%), but losses were 
+substantially larger among higher-capital traders, averaging ₹ 9.2 lakh per loss-maker 
+compared with ₹ 0.44 lakh among low-capital traders. 
+Trading Experience and Trading Intensity6: 
+● 
+Longer trading experience was not associated with improved outcomes: The share of loss-
+makers increased from about 91% among first-year traders to over 95% among traders with 
+four or more consecutive years of participation. 
+● 
+Trading losses were heavily concentrated among the most active traders. Traders active 
+for more than 100 days accounted for 42% of traders, but 94% of turnover and 87% of total 
+losses. 
+● 
+Higher turnover and greater trading intensity were consistently associated with higher loss 
+rates and larger average losses. The relationship was particularly pronounced where high 
+turnover was combined with relatively low capital or portfolio holdings. 
+● 
+Trading intensity relative to the underlying equity portfolio was substantially higher 
+among younger, lower-income and small-portfolio traders, with small-portfolio traders 
+generating turnover many times their underlying portfolio value. 
+Profit–Loss Asymmetry: 
+● 
+Profitable quarters accounted for only 15% of client-quarter observations, while 85% were 
+loss-making. 
+● 
+The median loss in a loss-making quarter was ₹ 10,525, more than twice the median gain of 
+₹ 4,366 in a profitable quarter. 
+● 
+Among traders who experienced both profitable and loss-making quarters, 78.7% recorded a 
+higher average loss per losing quarter than their average gain per profitable quarter. 
+
+6 Trading Intensity is defined in terms of multiple parameters viz. a) number of days traded in a year, b) turnover, c) turnover 
+relative to capital or d) turnover relative to equity portfolio
+
+Trading Persistence: 
+● 
+Trading persistence moderated significantly in FY26. Only about 57% of the FY25 cohort 
+continued trading in FY26, compared with a long-term average of about 65%, while 43% 
+stopped trading in FY26. 
+● 
+Traders with large prior gains or losses were substantially more persistent than traders with 
+relatively small prior outcomes; around 88% of traders with cumulative gains or losses 
+exceeding ₹ 10 lakh continued trading. 
+● 
+Losses were highly persistent among continuing traders. 90–92% of traders who had incurred 
+losses in each of the preceding two years incurred losses again in the subsequent year. 
+● 
+Sustained profitability remained rare: among traders active throughout FY22–FY26, only 0.5% 
+were profitable in all five years, while 65.6% incurred losses in every year. 
+Losses Before Trading Exit: 
+● 
+Recent losses were strongly associated with temporary trading exits. Across quarters, 86–89% 
+of traders who discontinued trading had incurred a loss in the immediately preceding quarter. 
+● 
+However, large cumulative losses did not necessarily result in permanent exit. Traders with 
+cumulative losses exceeding ₹ 10 lakh during FY22–FY24 had a continuation rate of about 
+88%, indicating that substantial past losses were also associated with continued participation. 
+Cash Market Activity of Derivatives Traders: 
+● 
+Cash-market participation of EDS traders remained limited. 18.6 lakh EDS traders (24% of 
+FY26 EDS traders) had no cash-market turnover in FY26, while more than half had cash-
+market turnover below ₹ 1 lakh. 
+● 
+Trading outcomes improved systematically with greater cash-market participation relative to 
+derivatives activity: traders whose activity was concentrated predominantly in derivatives 
+recorded higher loss rates and larger average losses than those with greater cash-market 
+activity. 
+● 
+The shift towards derivatives-only participation has been pronounced: the number of traders 
+participating exclusively in derivatives increased substantially from the pre-COVID period to 
+FY26. 
+Subsequent Equity Holdings/ Wealth Creation: 
+● 
+Among approximately 1.10 crore traders who incurred EDS losses during FY22–FY24, 
+subsequent equity holdings remained very small for most traders: 77% had an FY26 equity 
+portfolio below 25% of their cumulative EDS losses, while only 18% had portfolios exceeding 
+their cumulative losses.
+
+● 
+Among traders with substantial historical derivatives losses, subsequent equity holdings were 
+particularly small; for example, traders with cumulative losses exceeding ₹ 1 crore had a 
+median FY26 equity portfolio of only ₹ 138. 
+● 
+In contrast, substantial historical EDS profits were associated with materially larger 
+subsequent equity portfolios: traders earning more than ₹ 1 crore during FY22–FY24 had a 
+median FY26 equity portfolio of about ₹ 1.08 crore. 
+● 
+Overall, the data shows a strong association between past derivatives outcomes and 
+subsequent equity holdings, but the analysis does not establish causation or measure overall 
+household wealth, as other financial assets and liabilities are not captured.
+
+1. Introduction 
+The Equity Derivatives Segment (EDS) in India has seen substantial growth in participation by 
+individual investors over the past few years. The number of retail traders — particularly in index and 
+stock options — has risen sharply, making individual investors a significant segment of the 
+derivatives market. The nature of that participation has also evolved, with trading increasingly 
+concentrated in short-duration option contracts and frequent-trading strategies. 
+SEBI has periodically analysed the profitability of individual investors in the derivatives segment. 
+These studies have consistently found that a large majority of individual traders incur losses after 
+accounting for transaction costs. While informative on outcomes, they have not, on their own, 
+explained the behavioural patterns associated with those outcomes. 
+Trading outcomes are shaped not only by market movements but by how investors participate in the 
+market — the scale of trading relative to available capital, turnover generated, investment portfolio, 
+trading experience, frequency of participation, and investor characteristics may all have an important 
+bearing on results. Understanding these behavioural patterns is therefore essential to assessing how 
+individual investors engage with the derivatives market. 
+This study examines the trading behaviour of individual investors in the EDS using transaction-level 
+data, margin information, portfolio holdings, and investor demographic information. It covers trading 
+activity, capital employed, turnover, investment portfolio, transaction costs, trading persistence, and 
+participation across demographic segments. 
+The study identifies broad behavioural patterns associated with trading outcomes and examines how 
+these vary across investor categories. The findings are intended to support investor-awareness 
+initiatives and inform policy formulation aimed at strengthening investor protection.
+
+2. Objectives of the Study 
+This study extends SEBI's earlier work on the profitability of individual traders in the equity 
+derivatives segment: 
+a) "Profits and Losses in the Equity Derivatives Segment (FY19–FY22)" published in January 
+2023 (link) 
+b) "Analysis of Profits and Losses in the Equity Derivatives Segment (FY22–FY24)" published 
+in September 2024 (link) 
+c) "Comparative study of growth in Equity Derivatives Segment vis-à- vis Cash Market after 
+recent measures" published in July 2025 (link) 
+d) "Analysis of Profits & Losses in the Equity Derivatives Segment (FY25-FY26)" published in 
+August 2026 
+
+The earlier studies found that a large majority of individual traders consistently incurred net losses in 
+EDS. During FY22–FY24 alone, individual traders incurred aggregate net losses exceeding ₹ 1.8 lakh 
+crore, with around 93% of traders making losses after transaction costs — underscoring the need for 
+continued monitoring of trading outcomes and behavioural patterns in a rapidly growing market. 
+This study aims to: 
+● 
+Study the relationship between trading outcomes and behavioural characteristics such as 
+trading turnover, trading frequency, investment horizon, portfolio size, and persistence of 
+participation; 
+● 
+Examine trends in trading activity, participation, and profitability across products, investor 
+categories, and demographic segments; 
+● 
+Analyse the relationship between trading behaviour and trading outcomes, and identify 
+behavioural characteristics associated with a higher incidence of losses; 
+● 
+Identify behavioural patterns that may indicate excessive or speculative trading activity, 
+including high turnover relative to capital employed or investment portfolio; 
+● 
+Generate empirical evidence to support investor-awareness initiatives and inform policy 
+formulation aimed at strengthening investor protection in the EDS.
+
+3. Data Collection and Overview 
+The study draws on two complementary datasets covering individual participants in the Equity 
+Derivatives Segment (EDS). 
+3.1. Individual Trader-Level Profit and Loss Data 
+● 
+Client-level data were obtained from the top 15 brokers, ranked by individual trader 
+turnover in the EDS during FY22–FY24. The data include realised trading profits and losses, 
+transaction costs, turnover, trading frequency and selected demographic characteristics, 
+including age, gender, pincode and city. 
+● 
+Unless otherwise specified, the tables and figures presented in Sections 5–9 are based on this 
+client-level dataset, supplemented with KYC and aggregate data from SEBI and PAN-level 
+information from Clearing Corporations. 
+● 
+Source: Top 15 brokers identified in SEBI's September 2024 study. Coverage: approximately 
+90% of individual traders in the EDS. Period: FY25 and FY26. Frequency: quarterly. 
+● 
+The dataset covers approximately 90% of the individual trader population and about three-
+fourths of individual turnover in the EDS. 
+Table 1: Sample Coverage — Top 15 Brokers by Individual Trader Turnover 
+Year 
+Sample (lakh) 
+Actual (lakh) 
+% of Total 
+FY22 
+42.74 
+51.35 
+FY23 
+58.35 
+66.96 
+FY24 
+86.26 
+95.75 
+FY25 
+98.10 
+106.30 
+FY26 
+78.60 
+87.71 
+
+3.2 Individual Trader-Level Margin Utilisation Dataset 
+● 
+Daily peak-margin and settlement data were obtained from the Clearing Corporations for a 
+randomly selected sample of 5,050 individual traders. This dataset is used for two specific 
+components of the analysis: (i) classification of traders according to predominant trading 
+behaviour, based on settlement-position data; and (ii) estimation of returns relative to capital 
+employed, using daily peak-margin data. 
+● 
+Source: NCL and BSECL. Coverage: 5,050 randomly selected individual traders. 
+● 
+Period: FY25 and FY26. Frequency: daily.
+
+● 
+Of the 5,050 selected traders, 5,001 traders had recorded trading activity in FY25 and 4,995 in 
+FY26. These constitute the effective analytical sample for the respective years. Traders with no 
+recorded activity during a particular year were excluded from the analysis for that year. 
+
+3.3 Computations by SEBI 
+● 
+The datasets described above were linked using the unique Permanent Account Number 
+(PAN) of each individual trader. 
+● 
+Aggregate values, proportions, averages, ratios and other derived measures presented in the 
+study were computed by SEBI using the granular data received from the sources described 
+above.
+
+4. Methodology 
+
+4.1 Analytical Approach 
+ 
+The margin-utilisation and settlement data were analysed at the individual-trader level to 
+examine the relationship between trading behaviour, capital employed and trading 
+outcomes. 
+ 
+Traders were classified into four broad categories based on their predominant trading 
+behaviour: 
+o 
+Only Options Buyer 
+o 
+Majorly Options Buyer 
+o 
+Majorly Futures Trader 
+o 
+Majorly Options Seller 
+ 
+The classification is based on the proportion of trading days on which a trader predominantly 
+held the respective type of position. 
+ 
+Returns were analysed relative to capital employed, with daily peak margin utilised used as 
+the measure of capital employed. This enables comparison of trading outcomes across traders 
+with different levels of capital deployment. 
+ 
+The analysis primarily uses descriptive measures such as averages, medians, percentages, 
+distributions, ratios and comparisons across trader categories and financial years. The study 
+also examines differences in outcomes across trading behaviour, trading intensity and other 
+relevant characteristics. 
+
+4.2 Sampling and Representativeness 
+ 
+The 5,050-trader dataset was selected through random sampling. Accordingly, the results 
+from this dataset are intended to provide estimates for the broader population of individual 
+traders from which the sample was drawn. 
+ 
+The reliability of estimates depends on the size of the relevant sub-group within the 5,050-
+trader sample. Accordingly, the sample size is taken into account while interpreting 
+disaggregated results, particularly for smaller behavioural categories. 
+ 
+Where appropriate, the study compares the characteristics and outcomes of different trader 
+categories and across FY25 and FY26. Such comparisons are used to identify broad patterns in 
+trading behaviour and outcomes rather than to establish causal relationships. 
+ 
+To assess whether the selected traders broadly reflect the underlying individual trader 
+population, the distribution of traders in the margin-utilisation dataset is compared with the 
+population distribution across turnover categories. This comparison provides an indication
+
+of whether traders with different levels of trading activity are adequately represented in the 
+dataset. 
+
+Table 2: Characteristics of Sample and Population Dataset (Category-wise Turnover) - FY26 
+EDS Turnover 
+Category 
+Sample Proportion 
+Population 
+Proportion 
+Difference 
+(n = 5,050) 
+(n=78.6 lakh) 
+₹ 10K–₹ 1L 
+-2.9% 
+₹ 1L–₹ 5L 
+-0.2% 
+₹ 5L–₹ 10L 
+₹ 10L–₹ 1Cr 
+> ₹ 1Cr 
+Note: 1) Sample dataset - Individual Trader-Level Margin Utilisation Dataset; 2) Population Dataset – Trading Level Profit and Loss 
+Data 
+
+Table 3: Characteristics of Sample and Population Dataset (% Loss-Makers) - FY26 
+Characteristic 
+Sample Proportion 
+Population 
+Proportion 
+Difference 
+(n = 5,050) 
+(n=78.6 lakh) 
+% of Loss-Makers 
+
+ 
+Since, there is very minimal difference in the characteristics of sample and population dataset, 
+our sample data of 5.050 traders can be considered as a good representative of the population 
+dataset. 
+
+4.3 Statistical Basis and Interpretation 
+ 
+The analysis is primarily descriptive and associational. It identifies patterns observed in the 
+sampled traders and examines how trading behaviour and outcomes vary across different 
+groups. 
+ 
+For a random sample of 5,050 traders, an estimated proportion of around 50% has a margin of 
+error of approximately ±1.4 percentage points at the 95% confidence level, assuming 
+simple random sampling. The margin of error is higher for smaller sub-groups.
+
+ 
+Accordingly, findings based on smaller sub-groups are interpreted with greater caution. 
+Where the number of observations is very small, the findings are treated as indicative rather 
+than representative estimates. 
+ 
+The study does not seek to establish that a particular trading behaviour caused a particular 
+outcome. Observed relationships are therefore described as associations or patterns in the 
+data. 
+
+4.4 Measurement of Capital Employed 
+ 
+For the purpose of analysing returns, daily peak margin utilised is used as a proxy for 
+capital employed. This provides a consistent measure of the capital deployed by traders across 
+the sample. 
+ 
+However, peak margin may not fully capture the actual capital at risk throughout the year. In 
+particular, it may differ from the trader's average capital deployed and may not fully reflect 
+the role of pledged securities or the timing of capital deployment. Returns based on this 
+measure should therefore be interpreted as returns relative to peak margin utilised, rather 
+than as conventional portfolio returns. 
+
+4.5 Limitations 
+ 
+The analysis is based on a random sample of 5,050 traders and is therefore subject to 
+sampling variability. 
+ 
+Results for smaller trader categories may be less precise and should be interpreted with 
+caution. 
+ 
+The classification of traders reflects their predominant trading behaviour and may not 
+capture changes in strategy over shorter periods. 
+ 
+Peak margin utilised is a proxy for capital employed and may not represent the actual amount 
+of capital at risk throughout the year. 
+ 
+The findings are descriptive and associational and should not be interpreted as establishing 
+causal relationships between trading behaviour, capital employed and trading outcomes.
+
+5. Data Analysis and Findings 
+SECTION 1: BUY/SELL TRADING STRATEGY IN EDS 
+This section examines trading outcomes based on whether traders predominantly bought options, 
+sold options, or traded futures. The analysis uses a random sample of 5,050 individual traders drawn 
+from the 1.23 crore unique individuals who traded in the EDS during FY25–FY26. Clearing 
+corporation MTM settled value, traded-value, and margin data were used to classify traders into Only 
+Options Buyers, Majorly Options Buyers, Majorly Futures Traders, and Majorly Options Sellers; these 
+classifications were then mapped to the profitability data from the top 15 brokers. 
+Sample-size caution: this section's findings are indicative, based on a random sample of 5,050 traders. 
+Of that sample, only 5001 (FY25) and 4995 (FY26) traders actually traded in the respective year — the 
+remainder did not trade. Results for the smaller categories, particularly Majorly Options Sellers and 
+Majorly Futures Traders, should be interpreted with caution given the low observation counts; this 
+caveat applies throughout Section 1 and is not repeated at every bullet below. 
+Table 4: Categorisation of Buyers and Sellers 
+Category 
+Criteria 
+Criteria in Detail 
+Majorly Futures Trader 
+>50% of trading days in futures in a year 
+Futures trading days > options trading 
+days 
+Only Options Buyer 
+100% of trading days in options bought 
+Options trading days > futures trading 
+days, and short-options-position days = 0 
+Majorly Options Buyer 
+>50% (<100%) of trading days in options 
+bought 
+Options trading days > futures trading 
+days, and short-options-position days < 
+50% of options trading days 
+Majorly Options Seller 
+>50% of trading days in options sold 
+Options trading days > futures trading 
+days, and short-options-position days ≥ 
+50% of options trading days 
+
+Alternatively, in simple terms, Options Buyers and Options Sellers are defined as below, 
+ 
+’Only Options Buyers’ – means Options Buyers on all trading days of the trader. It refers to the 
+traders who enter positions by buying options first and subsequently squaring them off. 
+ 
+‘Majorly Options Buyers’ – means Options Selling (first leg of transaction) on < 50% of trading 
+days 
+ 
+‘Majorly Options Sellers’ – means Options Selling (first leg of transaction) on >= 50% of trading 
+days
+
+5.1 Trading Outcomes by Buyer–Seller Profile 
+Composition of Options Buyers and Options Sellers: 
+● 
+Retail participation in the analysed sample remained highly concentrated among options 
+buyers. 
+● 
+In FY26, 93% of traders were classified as ‘Only Options Buyers’, while a further 4% were 
+‘Majorly Options Buyers’. Together, options-buying categories accounted for about 97% of the 
+sample. 
+● 
+‘Majorly Futures Traders’ remained a very small category, accounting for less than 1% of the 
+analysed traders in both FY25 and FY26. 
+
+Chart 1: Buyer/Seller Strategy-wise Participation and Loss Rate 
+Participation by Buyers and Sellers 
+Loss Makers (% of Traders) 
+
+Note: The findings for categories with a small number of traders, particularly Majorly Options Sellers and Majorly Futures Traders, 
+should be interpreted with caution 
+Proportion of Loss-Makers: 
+● 
+Options buying was associated with high loss incidence. In FY26, 90% of ‘Only Options Buyers’ 
+and 75% of ‘Majorly Options Buyers’ incurred losses. These two categories also accounted for 
+the bulk of aggregate losses and trading activity in the analysed sample. 
+● 
+‘Majorly Options Sellers’ had a relatively lower incidence of losses, but did not make an 
+aggregate profit. Their loss-maker share declined from 51% in FY25 to 44% in FY26, the lowest 
+among the four categories. However, the category as a whole incurred a net loss of ₹ 543 crore 
+in FY26, compared with ₹ 428 crore in FY25. 
+Only 
+Options 
+Buyer, 
+93%
+Majorly Options 
+Buyer, 4.2%
+Majorly 
+Futures, 
+Majorly 
+Options Seller, 
+93%
+85%
+61%
+51%
+90%
+75%
+61%
+44%
+Only
+Options
+Buyer
+Majorly
+Options
+Buyer
+Majorly
+Futures
+Majorly
+Options
+Seller
+FY25
+FY26
+
+● 
+Thus, ‘Majorly Options Sellers’ had the lowest proportion of loss-makers (44%), while options 
+buyers had the highest (90%). However, the lower incidence of losses among sellers needs to 
+be considered alongside the substantially higher losses incurred by those who did lose. 
+
+Table 5: Buyer–Seller Category-wise Profitability of Sample EDS Traders (FY25–FY26) 
+Year 
+Category 
+Traders 
+Loss 
+Makers 
+Net P&L 
+(₹ Lakh) 
+Turnover 
+(₹ Cr) 
+Loss 
+Makers 
+(%) 
+Avg. P&L/ 
+Person (₹) 
+FY25 
+Only Options Buyer 
+4,645 
+4,300 
+-7,464 
+6,972.93 
+-1,60,699 
+
+Majorly Options 
+Buyer 
+-909 
+3,825.71 
+-4,47,742 
+
+Majorly Futures 
+Trader 
+-61 
+771.02 
+-1,38,105 
+
+Majorly Options 
+Seller 
+-4,284 
+3,400.33 
+-39,29,987 
+
+Total 
+5,001 
+4,555 
+-12,718 
+14,969.99 
+-2,54,306 
+FY26 
+Only Options Buyer 
+4,634 
+4,167 
+-5,928 
+8,842.10 
+-1,27,934 
+
+Majorly Options 
+Buyer 
+-972 
+3,374.42 
+-4,63,048 
+
+Majorly Futures 
+Trader 
+-77 
+947.89 
+-1,66,519 
+
+Majorly Options 
+Seller 
+-5,430 
+4,880.49 
+-51,70,985 
+
+Total 
+4,995 
+4,399 
+-12,407 
+18,044.90 
+-2,48,389 
+Note: analysis based on a random sample of 5,050 traders, intended to be indicative. Of the sample, 5,001 (FY25) and 4,995 (FY26) traders 
+actually traded in each respective year (sample composition differs slightly by year as some traders did not trade in both years); results for 
+smaller categories should be interpreted with caution. 
+
+Average Per Person Losses: 
+● 
+‘Majorly Options Sellers’ recorded by far the highest average loss among loss-making traders, 
+increasing from approximately ₹ 39.3 lakh in FY25 to ₹ 51.7 lakh in FY26, despite having the 
+lowest proportion of loss-makers. 
+● 
+In comparison, the average loss was ₹ 4.5 lakh for ‘Majorly Options Buyers’ in FY25 and ₹ 4.6 
+lakh in FY26, while ‘Majorly Futures Traders’ recorded average losses of ₹ 1.4 lakh and ₹ 1.7 
+lakh, respectively. 
+● 
+‘Only Options Buyers’ had the lowest average loss among the four categories, with the average 
+loss declining from ₹ 1.6 lakh in FY25 to ₹ 1.3 lakh in FY26.
+
+● 
+The data therefore shows a clear asymmetry in options trading: options buyers had a higher 
+proportion of loss-makers but relatively smaller losses per loss-making trader, whereas 
+options sellers had a lower proportion of loss-makers but substantially larger losses when 
+losses occurred. 
+
+5.2 Statistical Divergence in Options Selling: High Profitability Rates vs. Extreme 
+Tail-Risk Loss Sizes 
+● 
+Majorly Options Sellers had a substantially lower proportion of loss-makers (44%) compared 
+with the buyer categories (75–90%). 
+● 
+However, losses among Options Sellers were substantially larger when they occurred. Their 
+average loss per loss-making trader was approximately ₹ 51.7 lakh in FY26—more than 11 
+times the corresponding figure for Majorly Options Buyers (₹ 4.6 lakh) and over 30 times that 
+for Majorly Futures Traders (₹ 1.7 lakh). 
+● 
+The relatively large magnitude of losses incurred by some sellers appears to skew broader 
+market outcomes and contributes meaningfully to the overall market-wide average loss of 
+₹ 2.5 lakh per person. 
+● 
+The findings highlight the asymmetric risk profile of options selling: a relatively lower 
+incidence of losses coexists with much higher loss severity among those who do incur losses. 
+This indicates that the lower overall loss rate of options sellers should not be viewed in 
+isolation from the potentially large losses incurred by individual traders. 
+● 
+Overall, the data indicates a risk asymmetry in options selling, where relatively high win rates 
+may mask a tail-risk profile that can result in significant financial losses.
+
+SECTION 2: CAPITAL DEPLOYMENT AND TRADING INTENSITY 
+5.3 Trading Outcomes by Capital (Peak Margin) of the Traders 
+Composition of Low- and High-Capital Traders 
+● 
+Trading was concentrated among traders using relatively small amounts of capital. In FY26, 
+about 77% of traders used peak margin below ₹1 lakh, broadly similar to FY25. 
+● 
+Despite representing a large majority of traders, the below-₹1 lakh group accounted for only 
+a small share of turnover, reflecting their relatively limited trading exposure. 
+● 
+In contrast, traders using ‘₹10 lakh–₹1 crore’ represented only about 3.5% of the sample in 
+FY26, but accounted for around 32% of total turnover. Traders using more than ₹ 5 lakh, 
+together, represented only about 4% of traders but generated over 40% of turnover. 
+● 
+The >₹1 crore category was extremely small, comprising only 22 traders in FY26. Results for 
+this group, particularly the very high average losses, should therefore be interpreted with 
+caution. 
+
+Chart 2: Participation and Loss Rate by Capital Employed (Peak Margin) 
+Participation by Capital size 
+Loss Makers (% of Traders) 
+
+Note: The findings for categories with a small number of traders, particularly Majorly Options Sellers and Majorly Futures Traders, 
+should be interpreted with caution; The highest peak margin during the year is used as proxy for Capital Employed. 
+
+<10K, 
+31%
+10K-1L, 
+46%
+1L-5L, 
+16%
+5L-10L, 3%
+10L-
+1CR, 4%
+>1CR, 
+92%
+94%
+88%
+85%
+66%
+65%
+90%
+90%
+86%
+76%
+68%
+36%
+<10K
+10K-1L
+1L-5L
+5L-10L 10L-1CR
+>1CR
+Trading Capital Category
+FY25
+FY26
+
+Proportion of Loss-Makers: 
+ 
+Loss-making remained widespread across all capital categories, although the proportion of 
+loss-makers generally declined as capital employed increased. 
+ 
+In FY26, 90% of traders using less than ₹ 1 lakh as peak margin incurred losses, compared with 
+67.6% among traders using ₹ 10 lakh–₹ 1 crore. 
+ 
+The decline was particularly visible at the higher end: the loss-maker share fell from 76.3% 
+among traders using ₹ 5–10 lakh to 67.6% in the ₹ 10 lakh–₹ 1 crore category and 36.4% among 
+the very small >₹ 1 crore group. 
+ 
+Thus, higher-capital traders were less frequently loss-making, but they accounted for a much 
+larger share of trading activity. 
+Average Per Person Losses: 
+ 
+The magnitude of losses increased substantially with capital employed. In FY26, average loss 
+per loss-making trader increased from about ₹ 5,600 among traders using less than ₹ 10,000 to 
+₹ 9.6 lakh among those using ₹ 10 lakh–₹ 1 crore. 
+ 
+For the >₹ 1 crore category, the average loss was about ₹ 2.61 crore per loss-maker. However, 
+this category had only 22 traders, of whom 8 were loss-makers, and should therefore be 
+interpreted with caution. 
+ 
+The data therefore shows a clear distinction between frequency and magnitude of losses: 
+lower-capital traders had a higher proportion of loss-makers, whereas higher-capital traders, 
+when they incurred losses, incurred substantially larger losses per person. 
+ 
+This pattern is accompanied by much higher trading activity among higher-capital traders, 
+suggesting that greater capital deployment was associated with substantially greater trading 
+exposure and larger absolute losses.
+
+traders were more frequently loss-making, while higher-capital traders incurred substantially 
+larger losses per person when they lost. 
+Table 7: Trading Outcomes of Low-Capital vs High-Capital Traders 
+Capital Employed 
+% of Traders 
+% of Losses 
+% of Turnover 
+Loss Makers 
+(%) 
+Avg. 
+Loss/Person 
+(₹ Lakh) 
+< ₹ 1 Lakh 
+77% 
+14% 
+8% 
+0.44 
+> ₹ 1 Lakh 
+23% 
+86% 
+92% 
+9.19 
+
+5.5 Returns on Capital Employed in EDS 
+Return on capital employed (RoCE) is calculated using the highest peak margin utilised during the 
+year as a proxy for capital employed. The return reported for each category is the median return across 
+traders in that category. 
+● 
+‘Only Options Buyers’ recorded the weakest median returns, at -187% in FY25 and -114% in 
+FY26. While the median return improved in FY26, it remained substantially negative. 
+● 
+A median return of -114% in FY26 indicates that at least half of the traders in the ‘Only Options 
+Buyers’ category incurred net losses exceeding their peak margin utilised during the year. The 
+corresponding figure of -187% in FY25 indicates an even larger loss relative to the capital 
+employed. 
+● 
+‘Majorly Options Buyers’ also recorded negative median returns, although the median return 
+improved from -30% in FY25 to -15% in FY26. 
+● 
+‘Majorly Futures Traders’ recorded median returns of -9% in FY25 and -13% in FY26, indicating 
+a modest negative return relative to the peak margin employed. 
+● 
+‘Majorly Options Sellers’ recorded the relatively better median returns, improving from -0.4% 
+in FY25 to +1% in FY26. They were the only category with a positive median return in FY26. 
+● 
+The results show a wide difference in returns across trading strategies. In FY26, the median 
+return for ‘Only Options Buyers’ was 115 percentage points lower than that of ‘Majorly Options 
+Sellers’. 
+● 
+Overall, options-buying strategies were associated with substantially weaker median returns 
+relative to capital employed than options-selling and futures-oriented strategies.
+
+Table 8: Buyer–Seller Category-wise Median Return on Capital Employed 
+Category 
+FY25 
+FY26 
+Only Options Buyer 
+-187% 
+-114% 
+Majorly Options Buyer 
+-30% 
+-15% 
+Majorly Futures Trader 
+-9% 
+-13% 
+Majorly Options Seller 
+-0.4% 
++1% 
+Note: RoCE uses the highest peak margin utilised during the year as a proxy for capital employed. Results for categories with a small 
+number of traders—particularly Majorly Options Sellers and Majorly Futures Traders—should be interpreted with caution (see Section 
+5.1). 
+
+5.6 Capital Employed Relative to Declared Annual Income 
+● 
+For most traders, capital employed in derivatives remained below their declared annual 
+income. However, a small but notable segment deployed capital exceeding their reported 
+annual income. 
+● 
+Among the 2,510 traders analysed, 141 traders (about 6%) employed derivatives capital higher 
+than their declared annual income. The analysis identifies this segment but does not establish 
+the source or nature of the capital deployed. 
+
+5.7 Trading Intensity by Age, Income, City, Turnover, and Portfolio 
+● 
+Trading intensity — the ratio of derivatives turnover to underlying equity portfolio — declines 
+consistently with age. Trading intensity was substantially higher among younger and lower-
+income traders. Traders below 30 years generated derivatives turnover of about 93 times their 
+equity portfolio, compared with around 20 times among traders above 50 years. Similarly, 
+intensity declined from about 75 times for traders earning below ₹ 5 lakh to 14 times for those 
+earning above ₹ 1 crore. 
+● 
+B30-city traders also recorded substantially higher trading intensity than T30-city traders — 
+about 72 times versus 29 times their equity portfolio value. 
+● 
+The strongest variation was observed by portfolio size. Small-portfolio traders generated 
+turnover of about 1,665 times their portfolio value, compared with 8 times among large-
+portfolio traders. The corresponding loss-maker shares were 89.7% and 62.9%, respectively. 
+● 
+Trading intensity and turnover were closely aligned: large-turnover traders generated 
+turnover equivalent to about 68 times their portfolio value, compared with 6 times among 
+medium-turnover traders and 0.1 times among small-turnover traders. The share of loss-
+makers also increased from 86.4% to 89.7% across these turnover categories.
+
+Table 10: Trading Intensity by Portfolio Size 
+Category 
+Trading Activity / Portfolio (x) 
+Loss Makers (%) 
+Small-Portfolio 
+1,664.93 
+Medium-Portfolio 
+43.56 
+Large-Portfolio 
+8.2 
+Notes: Portfolio categories: Small (< ₹ 1 lakh holding), Medium (₹ 1 lakh–₹ 1 crore holding), Large (> ₹ 1 crore holding). 
+
+5.8 Summary of Observations by Trading Intensity 
+● 
+Across age, income and portfolio-size categories, higher trading intensity (higher turnover 
+related to equity portfolio) was generally associated with a higher share of loss-makers. 
+● 
+High trading intensity relative to available capital was consistently associated with poorer 
+trading outcomes. This pattern was evident across age, income and portfolio-size groups. 
+● 
+Small-portfolio traders stood out most sharply: despite holding relatively little equity wealth, 
+they generated turnover many times the value of their portfolios and recorded among the 
+highest loss-maker shares. 
+● 
+The turnover–capital relationship was particularly pronounced: at a given capital level, higher 
+turnover was generally associated with a higher share of loss-makers, while at a given 
+turnover level, higher capital was associated with a lower share of loss-makers. 
+● 
+Higher trading intensity was associated not only with a larger share of loss-makers but also 
+with larger losses per trader, with the relationship evident across turnover and trading-
+frequency measures. 
+
+Table 11: Trading Intensity and Loss Rate by Age, Income, Portfolio, and Related Dimensions 
+Dimension 
+Section 
+Key finding 
+Age 
+Age-wise trading intensity 
+(turnover/portfolio ratio) 
+Traders below 30 had the highest turnover-to-portfolio 
+ratio (about 93x) and one of the highest loss-maker 
+shares (about 89%). Trading intensity and loss-maker 
+share generally declined with age. 
+Income 
+Income-wise trading intensity 
+Traders with income below ₹5 lakh had the highest 
+turnover relative to portfolio (about 75x) and among 
+the highest loss-maker shares. 
+Portfolio size 
+Portfolio-wise trading intensity 
+Smaller-portfolio traders generated substantially 
+higher turnover relative to portfolio value — 
+approximately 1,665x in the smallest category — and 
+recorded the highest loss-maker shares.
+
+Dimension 
+Section 
+Key finding 
+Capital employed 
+Trading outcome by turnover and 
+capital employed 
+For a given capital level, higher turnover was 
+generally associated with a higher share of loss-
+makers; for a given turnover level, higher capital was 
+generally associated with a lower share of loss-makers. 
+Trading frequency 
+Trading outcome by days traded 
+Traders active on more trading days recorded higher 
+turnover, larger losses and generally higher loss-maker 
+shares than traders active on fewer days. 
+Turnover 
+Turnover-wise trading outcomes 
+The share of loss-makers generally increased with 
+turnover, with the pattern less pronounced at the very 
+lowest turnover levels. 
+Magnitude of losses 
+Average loss by 
+turnover/capital/frequency 
+Higher trading intensity was generally associated with 
+larger average losses per trader, in addition to a 
+higher share of loss-makers. 
+Age 
+Age-wise trading intensity 
+(turnover/portfolio ratio) 
+Traders below 30 had the highest turnover-to-portfolio 
+ratio (about 93x) and one of the highest loss-maker 
+shares (about 89%). Trading intensity and loss-maker 
+share generally declined with age.
+
+SECTION 3: RELATIONSHIP BETWEEN INCOME, CAPITAL EMPLOYED, 
+TURNOVER AND TRADING OUTCOME 
+5.9 Trading Outcome by Turnover and Capital Employed 
+● 
+Trading outcomes varied with the relationship between turnover and capital employed, 
+rather than with either measure considered separately. Traders generating high turnover 
+relative to their peak margin recorded the highest shares of loss-makers. 
+● 
+Within a given capital category, the share of loss-makers generally increased with turnover in 
+both FY25 and FY26. Thus, higher trading activity relative to the capital deployed was 
+accompanied by a higher share of traders recording losses. 
+● 
+Conversely, within a given turnover category, the share of loss-makers generally declined as 
+capital employed increased. The data therefore shows a clear association between the amount 
+of capital deployed relative to trading activity and the share of traders recording losses. 
+● 
+A substantial group traded with relatively high turnover despite deploying modest capital. In 
+both FY25 and FY26, more than one-fifth of traders generated annual turnover of ₹ 10 lakh–
+₹ 1 crore while using peak margin of only ₹ 10,000–₹ 1 lakh. This group recorded loss-maker 
+shares of approximately 94–98%. 
+
+Chart 5: % Loss-Makers — Turnover vs. Capital Employed (Peak Margin) 
+
+● 
+The magnitude of losses also increased with turnover across most capital categories. Higher-
+turnover groups generally recorded larger average losses per trader, including among traders 
+with relatively higher capital employed. 
+● 
+Thus, higher turnover was associated not only with a larger share of loss-makers, but also 
+with larger losses per trader. The relationship was evident across most capital categories in 
+both years.
+
+Chart 6: Average Profit per Person — Turnover vs. Capital Employed (Peak Margin) 
+
+● 
+Overall, the data shows that high trading activity relative to capital employed was associated 
+with poorer trading outcomes — both a higher share of loss-makers and larger average losses. 
+● 
+Results for the highest capital-employed categories, particularly those with peak margin 
+above ₹ 5 lakh, should be interpreted with caution because the number of observations in 
+these categories is relatively limited. 
+
+5.10 Trading Outcome by Income and Capital Employed 
+● 
+Losses remained widespread across all income groups. Higher reported income was not 
+accompanied by a corresponding reduction in the share of loss-makers, with a majority of 
+traders recording losses even among higher-income groups. 
+● 
+The share of loss-makers was generally highest among traders with annual income below ₹ 10 
+lakh, particularly in the lower and medium capital-employed categories, where loss-maker 
+shares frequently exceeded 90%. 
+● 
+Within a given income category, the share of loss-makers generally declined as capital 
+employed increased. This pattern was particularly evident among traders with annual income 
+below ₹ 10 lakh. 
+● 
+The data therefore shows a stronger association between capital employed and the share of 
+loss-makers than between reported income and trading outcomes. Higher income, by itself, 
+was not accompanied by materially better outcomes. 
+● 
+The magnitude of losses increased substantially with capital employed, even though the share 
+of loss-makers generally declined at higher capital levels. Thus, higher-capital groups had 
+fewer loss-makers but substantially larger losses per loss-making trader.
+
+Chart 7: % Loss-Makers — Income vs. Capital Employed (Peak Margin) 
+
+Chart 8: Average Profit per Person — Income vs. Capital Employed (Peak Margin) 
+
+● 
+For example, among traders with annual income of ₹ 5–10 lakh, the average loss per trader 
+increased from about ₹ 6,000 among those deploying less than ₹ 10,000 of capital to 
+nearly ₹ 19.6 lakh among those deploying ₹ 10 lakh–₹ 1 crore. 
+● 
+Across income groups, traders deploying ₹ 10 lakh–₹ 1 crore generally recorded substantially 
+larger average losses than traders in lower capital categories. The data therefore shows 
+that higher capital deployment was associated with a lower share of loss-makers, but 
+substantially larger losses per trader. 
+● 
+Overall, the variation in trading outcomes was more closely associated with capital employed 
+than with reported income. Within similar income groups, differences in capital deployment 
+were accompanied by substantial differences in both the share of loss-makers and the 
+magnitude of losses. 
+● 
+Results for the highest capital-employed categories should be interpreted with caution 
+because of the relatively small number of observations.
+
+SECTION 4: BEHAVIOUR OF EDS TRADERS 
+5.11 Trading Persistence – Long Term Trend 
+● 
+Analysis of trader cohorts over FY15–FY25 shows a combination of year-on-year continuation, 
+temporary exits and longer-term attrition in EDS participation. 
+● 
+Across the cohorts, an average of 65% of traders continued trading in the following year, 
+while 35% did not trade in the immediately following year. 
+● 
+A portion of traders who stopped trading subsequently returned. On average, 6% returned 
+after a one-year gap, with the share declining to 3% after a two-year gap and around 1–2% 
+after longer gaps. 
+● 
+Around 20% of traders had no further trading activity over the subsequent five years, 
+indicating longer-term attrition from the segment. 
+● 
+Overall, EDS participation comprises a continuing base of traders alongside regular entry, 
+temporary withdrawal and longer-term exit. 
+
+5.12 Trading Persistence – FY25 Cohort (Latest Evidence) 
+● 
+The FY25 cohort recorded a marked decline in year-on-year continuation. 57% of traders 
+active in FY25 also traded in FY26, while 43% did not trade in FY26. 
+● 
+The 57% continuation rate was below the long-term cohort average of 65% and represented 
+the lowest continuation rate in the available period except FY15–FY16. Correspondingly, the 
+FY25 cohort recorded the highest immediate non-participation rate in the available data. 
+● 
+The decline in FY26 participation therefore reflected both lower participation by new traders 
+and lower continuation among existing traders. 
+● 
+The FY25–FY26 period also coincided with regulatory measures relating to weekly expiries, 
+contract sizes and transaction costs. The data establishes a temporal association but does not 
+establish that these measures caused the higher exit rate. 
+● 
+Despite the lower continuation rate, more than half (57%) of FY25 traders continued trading 
+in FY26, indicating that a substantial base of existing participants remained active.
+
+● 
+The FY22 cohort provides a similar picture. Among traders active for all five years, 65.6% 
+recorded losses in every year, while only 0.5% recorded profits in every year. 
+● 
+Average cumulative losses among consistent loss-makers also increased with duration—
+from ₹ 0.45 lakh for one-year participants to ₹ 13.79 lakh for those active throughout all five 
+years. 
+● 
+Overall, continued participation did not correspond to improved aggregate trading outcomes. 
+A substantial share of traders continued participating despite repeated losses, with loss-
+making shares remaining above 90% across all durations. 
+
+Table 16: Trading Outcomes by Length of Continuous Participation — FY22 Cohort 
+Years 
+Traded 
+Traders 
+(Lakh) 
+% of 
+Total 
+Consistent 
+Loss-
+Makers 
+Consistent 
+Profit-
+Makers 
+Avg. Loss, 
+Consistent 
+Losers (₹ 
+Lakh) 
+Avg. Profit, 
+Consistent 
+Winners (₹ 
+Lakh) 
+% Loss-
+Makers 
+(Total 
+P&L<0) 
+8.19 
+-0.45 
+0.39 
+7.16 
+-1.39 
+2.71 
+7.00 
+-2.91 
+15.64 
+7.53 
+-5.20 
+28.41 
+13.25 
+-13.79 
+66.47 
+Total 
+43.14 
+– 
+– 
+– 
+– 
+– 
+
+5.16 Frequency of Trading Across Turnover Categories 
+● 
+Trading frequency increased substantially with turnover. Small-Turnover traders, comprising 
+31% of traders, were active for an average of 5 days in a year, compared with 47 days for 
+Medium-Turnover traders and 126 days for Large-Turnover traders. 
+● 
+Trading activity was concentrated among a relatively small group of frequent traders. While 
+the average trader was active on 55 days during the year, Large-Turnover traders were active 
+on more than one-third of trading days, on average. 
+● 
+Higher turnover was accompanied by substantially more frequent participation. Large-
+Turnover traders therefore differed from Small-Turnover traders not only in the value traded, 
+but also in the frequency of market participation. 
+● 
+The higher trading frequency was also associated with poorer trading outcomes. Traders with 
+more frequent participation recorded higher average losses and higher shares of loss-makers, 
+linking greater trading intensity with larger adverse outcomes.
+
+Chart 10: Number of Trading Days by Turnover Category 
+
+Note: Small-Turnover means annual turnover up to ₹ 1 lakh; Medium-Turnover means annual turnover between ₹ 1 lakh 
+and ₹ 1 crore; Large-Turnover means annual turnover above ₹ 1 crore. 
+
+5.17 Trading Outcome by Number of Days Traded in a Year 
+● 
+Trading activity increased substantially with the number of days traded. Traders active 
+for more than 100 days had median annual turnover of about ₹ 80.3 lakh, compared with 
+only ₹ 7,916 among traders active for fewer than 10 days. 
+● 
+Median losses also increased with trading frequency, from about ₹ 654 among traders active 
+for fewer than 10 days to ₹ 76,722 among those active for more than 100 days. 
+● 
+The share of loss-makers was high across all frequency groups, ranging from 83.3% among 
+traders active for fewer than 10 days to 89.4% among those active for more than 100 days. 
+
+Table 17: Trading Outcome by Number of Days Traded in a Year 
+Days Traded 
+Traders 
+Turnover 
+(₹ Crore) 
+Net P&L 
+(₹ Lakh) 
+Median 
+Turnover (₹) 
+Median P&L 
+(₹) 
+% Loss-
+Makers 
+<10 days 
+-18 
+7,916 
+-654 
+10–25 days 
+-12 
+62,584 
+-2,665 
+25–50 days 
+-27 
+2,17,277 
+-5,297 
+50–100 days 
+-113 
+8,65,498 
+-19,183 
+>100 days 
+2,341 
+-1,144 
+80,28,408 
+-76,722 
+Total 
+2,504 
+-1,314 
+– 
+– 
+– 
+
+Small-Size
+Mid-Size
+Large-Size
+Overall
+Trading days per year
+Average days traded
+90th percentile days traded
+
+● 
+Traders active for more than 100 days accounted for only 42% of traders, but generated 94% 
+of turnover and 87% of total losses. In contrast, the remaining 58% of traders generated only 
+7% of turnover and 13% of losses. 
+● 
+Average loss per trader was also substantially higher among those active for more than 100 
+days: ₹ 2.76 lakh, compared with ₹ 0.22 lakh among traders active for 100 days or fewer. 
+● 
+Thus, higher trading frequency was associated primarily with much greater trading activity 
+and larger losses, rather than a large difference in the share of loss-makers: loss-maker shares 
+were 87.0% among traders active up to 100 days and 89.4% among those active for more than 
+100 days. 
+● 
+The data shows a clear association between frequency of participation, trading intensity and 
+magnitude of losses. Traders active on more than 100 days represented less than half of the 
+sample but accounted for almost all turnover and a disproportionate share of losses. 
+
+Table 18: Trading Outcome by Number of Days Traded in a Year — Two Slabs 
+Days Traded 
+% Share of 
+Traders 
+% Share of 
+Losses 
+% Share of 
+Turnover 
+% Loss Makers 
+Avg. 
+Loss/Person (₹ 
+Lakh) 
+≤100 days 
+58% 
+13% 
+7% 
+-0.22 
+>100 days 
+42% 
+87% 
+94% 
+-2.76 
+Total 
+100% 
+100% 
+100% 
+-1.32
+
+SECTION 5: CASH MARKET ACTIVITY OF EDS TRADERS 
+5.18 Cash Market Participation of EDS Traders 
+● 
+Cash-market participation among EDS traders remained limited in FY26. About 18.6 lakh 
+traders (24% of all the FY26 traders) recorded no cash-market turnover during the year. 
+● 
+More than 54% of EDS traders recorded cash-market turnover below ₹1 lakh, including 
+those with zero cash turnover, while only about 8% recorded cash turnover above ₹1 crore. 
+In comparison, about 20% of traders recorded EDS turnover above ₹1 crore. 
+● 
+Thus, a substantial part of the EDS trader base had limited or no activity in the underlying 
+cash market, while higher turnover was more concentrated in the derivatives segment. 
+
+Chart 11: Percentage of EDS Traders Trading in Cash by Turnover – FY26 
+
+5.19 Trading Outcomes by Relative Cash and Derivatives Activity 
+ 
+Traders were classified according to their cash-market turnover relative to their EDS 
+turnover to examine how the balance between cash and derivatives activity was associated 
+with trading outcomes. 
+ 
+Loss-maker proportions declined progressively as cash-market activity increased relative 
+to EDS activity. In FY26, 90% of traders with cash turnover below 10% of EDS turnover were 
+loss-makers, compared with 84% among traders whose cash turnover was more than five 
+times their EDS turnover. 
+ 
+The same pattern was observed in FY25, with the loss-maker proportion declining from 94% 
+to 87% across these two categories. 
+Zero, 24%
+<10K, 12%
+10K-1L, 18%
+1L-10L, 23%
+10L-1CR, 16%
+1CR-10CR, 6%
+>10CR, 1%
+
+5.20 Trading Outcomes by Cash Market Participation (FY25-FY26) 
+ 
+The relationship between cash-market participation and trading outcomes was also 
+observed within individual EDS turnover categories. Across almost all turnover categories, 
+traders with higher cash-market turnover recorded lower proportions of loss-makers. 
+ 
+For example, among traders with EDS turnover of ₹10 lakh–₹1 crore in FY26, 91% of those 
+with zero cash-market turnover were loss-makers, compared with 82% among those with cash 
+turnover above ₹ 10 crore. 
+ 
+The pattern was observed across other EDS turnover categories as well. However, losses 
+remained widespread even among traders with substantial cash-market activity, with a 
+majority of traders recording losses across the categories. 
+ 
+Within a given level of cash-market activity, higher EDS turnover was generally 
+accompanied by a higher proportion of loss-makers. Thus, the data shows a consistent 
+association between greater derivatives activity and poorer trading outcomes, even among 
+traders participating in the cash market. 
+ 
+The broadly similar pattern in FY25 and FY26 indicates that the relationship was not limited 
+to a single year. 
+
+Chart 12: Percentage of Loss-Makers - Cash Turnover vs Equity Derivatives Turnover
+
+SECTION 6: TRADING OUTCOMES BASED ON PAST TRADING BEHAVIOUR 
+5.23 Probability of Continued Participation in EDS (Based on Past Performance) 
+ 
+Continued participation was higher among traders with larger past gains or losses. 
+Around 88% of traders who had either earned more than ₹10 lakh or incurred losses 
+exceeding ₹10 lakh during FY22–FY24 continued trading in FY25–FY26. 
+ 
+In comparison, continuation was lower among traders with relatively smaller past outcomes. 
+Only about 53–55% of traders whose cumulative profit or loss was below ₹1 lakh continued 
+trading. 
+ 
+Thus, continued participation was associated more closely with the magnitude of past trading 
+outcomes than with whether the outcome was a profit or a loss. 
+
+Chart 16: Continued F&O Participation by Past Performance 
+
+5.24 Persistence of Trading Outcomes (Based on Past Performance) 
+ 
+Past trading outcomes were strongly associated with subsequent outcomes. Among traders 
+who had incurred cumulative losses exceeding ₹ 10 lakh during FY22–FY24, more than 95% 
+remained loss-making in FY25–FY26. 
+ 
+In contrast, traders with a history of profits recorded a substantially higher share of 
+subsequent profit-makers. Among those who had earned more than ₹ 10 lakh during FY22–
+FY24, about 48% earned profits again in FY25–FY26, compared with 17% among traders 
+88%
+78%
+55%
+53%
+79%
+88%
+0%
+20%
+40%
+60%
+80%
+100%
+Continued EDS participation (%)
+Profit / Loss Category during FY22-FY24
+
+whose earlier profits were below ₹ 1 lakh and 35% among those with prior profits of ₹ 1–10 
+lakh. 
+ 
+The persistence was therefore asymmetric: large past profits were associated with a materially 
+higher share of subsequent profit-makers, while large past losses were followed 
+predominantly by further losses. 
+
+Chart 17: Profit-Makers in FY25–FY26 by Past Trading Performance 
+
+5.25 Quarterly Profit and Loss Asymmetry 
+ 
+Quarterly trading outcomes were predominantly loss-making. Of approximately 4.02 crore 
+PAN-quarter observations, only 15.4% were profitable, while 84.6% recorded losses. 
+ 
+Losses were also larger than gains in a typical quarter. The median profit in a profitable 
+quarter was ₹4,366, compared with a median loss of ₹10,525 in a loss-making quarter. Thus, 
+the median loss was more than twice the median profit. 
+ 
+A similar pattern was observed at the trader level. Among approximately 35.5 lakh traders 
+who experienced both profitable and loss-making quarters, 78.7% had an average loss per 
+loss-making quarter that exceeded their average gain per profitable quarter. The 
+corresponding proportion was above 80% among traders active for five or more quarters. 
+ 
+Overall, traders experienced losses more frequently and in larger amounts than profits 
+during the study period. 
+
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+Probability of Making Profit 
+Profit / Loss Category during FY22-FY24
+
+Table 21: Quarterly Profit and Loss Pattern 
+Particulars 
+Value 
+Total PAN-quarter observations 
+4.02 crore 
+Profit-making quarters 
+Loss-making quarters 
+Median profit (winning quarter) 
+₹ 4,366 
+Median loss (losing quarter) 
+₹ 10,525 
+
+Table 22: Comparison of Gains and Losses at Client Level 
+Particulars 
+Value 
+Traders having both winning and losing quarters (n) 
+35.5 lakh 
+Average gain smaller than average loss (% of n) 
+Median gain smaller than median loss (% of n) 
+
+5.26 Temporary Exit from Trading Following Quarterly Losses 
+ 
+Quarter-to-quarter participation showed substantial movement in and out of the derivatives 
+segment. Across the study period, 28–40% of traders active in one quarter did not trade in 
+the immediately following quarter. 
+ 
+The highest quarterly exit was recorded in FY25Q4, when 40% of traders active in the 
+preceding quarter did not trade in the following quarter. This coincided with the period 
+following regulatory measures introduced during FY25, including changes relating to weekly 
+index expiries and Securities Transaction Tax (STT). The analysis does not establish a causal 
+relationship. 
+ 
+Recent losses were common among traders who subsequently stopped trading. Across the 
+quarters, 86–89% of traders who stopped trading had incurred a loss in the immediately 
+preceding quarter. 
+ 
+For example, in FY26Q4, 10.6 lakh of the 12.3 lakh traders who stopped trading had recorded 
+a loss in the preceding quarter, representing 86%. 
+ 
+These figures show that trading discontinuation was frequently preceded by a loss in the 
+immediately preceding quarter.
+
+their average historical profit, while the corresponding ratio for the top 10% exceeded 73 
+times. 
+ 
+The gap between losses and earlier profits also increased over time. The median ratio of 
+maximum historical loss to average preceding profit rose from about 3 times for traders 
+exiting in FY25Q4 to more than 6 times for traders exiting in FY26Q4. 
+ 
+Overall, traders who discontinued participation were frequently preceded by losses 
+substantially larger than the profits they had earned in earlier profitable quarters. This 
+pattern indicates a strong association between large adverse trading outcomes and subsequent 
+exit from the derivatives segment. 
+Table 25: Previous Loss Relative to Historical Profits 
+
+Days Traded 
+Number of Traders ** 
+stopped trading due to 
+losses in previous quarter 
+Median 
+Ratio of Previous-quarter loss / Average profit in 
+preceding quarters 
+16.22 lakh 
+2.23x 
+Ratio of Maximum historical loss ##/ Average profit 
+in preceding quarters 
+11.32 lakh 
+4.94x 
+Note: ** The sample includes all the traders, a) who have stopped trading because of losses in previous quarters and b) 
+who have experience both profits and losses during FY25-FY26. Traders experiencing highest loss in the last quarter. 
+Out of 16.32 lakh traders, 11.32 lakh experienced highest loss in the last quarter before stopping.
+
+SECTION 7: SUBSEQUENT EQUITY WEALTH / PORTFOLIO HOLDINGS OF 
+EDS TRADERS 
+5.28 Subsequent Equity Wealth of Loss-Making EDS Traders 
+ 
+Among approximately 1.10 crore traders who incurred losses in EDS during FY22–FY24, the 
+subsequent equity portfolio was small relative to their cumulative EDS losses. For 77% of these 
+traders (84.3 lakh), the equity portfolio at the end of FY26 was less than 25% of their cumulative 
+EDS losses. 
+ 
+A further 6% of loss-making traders had equity portfolios between 25% and 100% of their 
+cumulative EDS losses, while 18% had portfolios larger than their cumulative EDS losses. 
+ 
+Thus, the equity portfolio at the end of FY26 exceeded the cumulative EDS losses for only 18% 
+of loss-making traders. For the remaining 82%, the portfolio was either smaller than or broadly 
+comparable to the losses incurred during FY22–FY24. 
+ 
+The findings indicate that, for the large majority of loss-making EDS traders, subsequent 
+equity holdings were small relative to their cumulative derivatives losses. However, the 
+analysis covers only equity portfolio holdings and does not include other financial assets, 
+liabilities, income or consumption. It therefore should not be interpreted as a measure of 
+overall household wealth. 
+
+Table 26: Cumulative EDS Losses Relative to Equity Portfolio of Loss-Making Traders 
+Relationship between Equity Portfolio 
+and Cumulative EDS Loss 
+Traders (lakh) 
+Share of loss-making 
+traders 
+Portfolio = > 100% of Loss Amount 
+19.34 
+18% 
+Portfolio = 50 - 100% of Loss 
+3.18 
+3% 
+Portfolio = 25 - 50% of Loss 
+2.81 
+3% 
+Portfolio = 0 - 25% of Loss 
+84.33 
+77% 
+Total 
+109.67 
+100% 
+Notes: Portfolio is considered at the end of March 2026; Loss-Amount is net loss of loss-makers during FY22-
+FY24 
+5.29 Equity Portfolio Holdings of Historical EDS Traders 
+ 
+The analysis also examined equity portfolio holdings of traders who participated in EDS 
+during FY22–FY24, based on their cumulative net profit or loss during this period. Portfolio 
+holdings were measured at the end of FY25 and FY26. 
+ 
+A clear association was observed between historical EDS outcomes and subsequent equity 
+portfolio size. Median equity portfolios were substantially larger among traders with higher
+
+cumulative EDS profits, while traders with EDS losses or relatively small profits had very low 
+median portfolio holdings. 
+ 
+Among traders who earned more than ₹ 1 crore from EDS during FY22–FY24, the median 
+equity portfolio was ₹1.29 crore at the end of FY25 and ₹1.08 crore at the end of FY26. The 
+corresponding median portfolios were ₹ 58.3 lakh and ₹ 50.5 lakh for traders earning ₹ 50 
+lakh–₹ 1 crore, and ₹ 19.4 lakh and ₹ 17.1 lakh for those earning ₹ 10–50 lakh. 
+ 
+In contrast, traders who incurred EDS losses had very low median equity portfolios, even 
+where the cumulative losses were substantial. Among traders with cumulative EDS losses 
+exceeding ₹ 1 crore, the median equity portfolio was only ₹ 172 in FY25 and ₹ 138 in FY26. For 
+traders with losses between ₹ 1 lakh and ₹ 1 crore, the median portfolio was only 
+around ₹ 104–₹ 126. 
+ 
+The difference was also evident among traders with smaller profits. Traders earning less than 
+₹ 1 lakh had median portfolios ranging from zero to ₹ 280, compared with ₹ 2.14 lakh among 
+those earning ₹ 1–10 lakh, ₹ 19.4 lakh among those earning ₹ 10–50 lakh, and ₹ 1.29 
+crore among those earning more than ₹ 1 crore in FY25. 
+ 
+Overall, meaningful equity portfolio holdings were concentrated among traders with higher 
+historical EDS profits. Traders with EDS losses, including those with substantial cumulative 
+losses, generally had very small median equity portfolios 
+Table 27: Current Equity Portfolio of EDS Traders during FY22-FY24 
+Cumulative EDS 
+outcome 
+Traders 
+Median equity 
+portfolio FY25 
+Median equity 
+portfolio FY26 
+75th Percentile 
+Equity 
+Portfolio FY26 
+90th Percentile 
+Equity 
+Portfolio FY26 
+Loss > ₹ 1 crore 
+10749 
+85,796 
+₹ 55.7 lakh 
+Loss ₹ 50 lakh–₹ 1 crore 
+27499 
+40,113 
+₹ 19.6 lakh 
+Loss ₹ 10–50 lakh 
+356641 
+41,364 
+₹ 9.5 lakh 
+Loss ₹ 1–10 lakh 
+2336068 
+54,176 
+₹ 4.98 lakh 
+Loss ₹ 10K–₹ 1 lakh 
+3948250 
+– 
+– 
+13,682 
+₹ 2.01 lakh 
+Loss < ₹ 10K 
+3876342 
+– 
+– 
+48,841 
+Profit < ₹ 10K 
+461008 
+– 
+– 
+12,109 
+₹ 3.15 lakh 
+Profit ₹ 10K–₹ 1 lakh 
+182564 
+₹ 3.06 lakh 
+₹ 19.0 lakh 
+Profit ₹ 1–10 lakh 
+96445 
+₹ 2.14 lakh 
+₹ 1.48 lakh 
+₹ 20.72 lakh 
+₹ 70.9 lakh 
+Profit ₹ 10–50 lakh 
+23166 
+₹ 19.4 lakh 
+₹ 17.1 lakh 
+₹ 81.9 lakh 
+₹ 2.29 crore 
+Profit ₹ 50 lakh–₹ 1 crore 
+₹ 58.3 lakh 
+₹ 50.5 lakh 
+₹ 2.01 crore 
+₹ 5.20 crore 
+Profit > ₹ 1 crore 
+₹ 1.29 crore 
+₹ 1.08 crore 
+₹ 5.15 crore 
+₹ 15.2 crore
+
+5.30 Losses as a Percentage of Equity Portfolio 
+ 
+The analysis shows a large divergence between cumulative EDS losses and subsequent equity 
+portfolio holdings. Among traders with cumulative EDS losses exceeding ₹ 1 crore during 
+FY22–FY24, the median cumulative loss was approximately ₹ 1.43 crore, while the median 
+equity portfolio at the end of FY26 was only ₹ 138. Similarly, traders with cumulative losses 
+of ₹ 10–50 lakh had a median loss of ₹ 16.2 lakh, against a median FY26 equity portfolio of 
+only ₹ 104. 
+ 
+The contrast is markedly different for traders with cumulative EDS profits. Traders with 
+profits exceeding ₹ 1 crore had a median cumulative profit of ₹ 1.76 crore and a median FY26 
+equity portfolio of ₹ 1.08 crore. Similarly, traders with profits of ₹ 50 lakh–₹ 1 crore had a 
+median cumulative profit of ₹ 66.6 lakh and a median equity portfolio of ₹ 50.5 lakh. 
+ 
+The relationship is also visible in the ratio of cumulative EDS outcome to subsequent equity 
+portfolio. For traders with cumulative losses exceeding ₹ 1 crore, the median loss was over 1 
+lakh times the median FY26 equity portfolio. In contrast, among traders with profits exceeding 
+₹ 1 crore, cumulative profit was about 1.6 times the median FY26 equity portfolio. 
+ 
+Across the categories, higher cumulative EDS profits were associated with substantially larger 
+subsequent equity portfolios, whereas substantial cumulative EDS losses were associated with 
+very small median equity portfolios. This association is particularly pronounced among 
+traders at the higher end of the profit and loss distribution. 
+ 
+These findings should be interpreted as an association rather than a causal relationship. The 
+analysis does not establish that EDS losses reduced traders' overall wealth or that EDS profits 
+resulted in the subsequent equity portfolio holdings. The analysis is limited to the equity 
+portfolio observed at the end of FY26 and does not capture other financial assets, liabilities, 
+income, consumption or transfers.
+
+6. Key Behavioural Patterns Observed 
+1. Higher trading intensity was consistently associated with poorer outcomes — higher 
+turnover, more trading days, and higher turnover relative to portfolio were all associated with 
+higher loss rates and larger losses. 
+2. Trading experience did not improve outcomes; the probability of loss remained high even 
+after several consecutive years of trading. 
+3. Many traders continued trading despite repeated losses — around 90% of traders who lost 
+money in the previous two consecutive years lost again after continuing to trade. 
+4. Lower-income and younger traders generally showed higher trading intensity relative to their 
+cash-market investment, recording substantially higher turnover-to-portfolio ratios and 
+indicating greater speculative activity. 
+5. Trading outcomes depended on the relationship between turnover and capital employed — 
+traders generating high turnover with relatively low capital generally recorded poorer 
+outcomes than those deploying relatively higher capital for similar trading activity. 
+6. Trading experience did not materially improve outcomes. Loss rates remained high even 
+among traders with several consecutive years of participation. 
+7. Trading behaviour exhibited strong persistence. Many traders continued participating despite 
+repeated losses, and losses frequently persisted across successive years. 
+8. Quarterly analysis indicates that losses were not only more frequent than gains, but for most 
+traders, losses during loss-making quarters exceeded gains earned during profitable quarters. 
+9. Subsequent equity accumulation was limited among most loss-making EDS traders. Among 
+approximately 1.10 crore loss-making traders during FY22–FY24, 77% had subsequent equity 
+portfolios below 25% of their cumulative EDS losses, while only 18% had portfolios larger 
+than their cumulative losses. This indicates that, for most loss-making traders, subsequent 
+equity holdings were relatively small compared with the losses previously incurred in 
+derivatives.
+
+7. Concluding Observations 
+1. The study indicates that equity derivatives trading by individual investors is characterized by 
+high trading intensity, particularly in short-duration options contracts, with a large 
+proportion of trading concentrated in contracts nearing expiry. 
+2. Trading activity is predominantly concentrated among relatively young investors, lower-
+income groups and traders with relatively small underlying equity portfolios. These groups 
+also exhibit higher trading intensity relative to their financial resources. 
+3. A significant proportion of traders generate very high derivatives turnover despite deploying 
+relatively small amounts of capital. Trading turnover is often many times larger than both the 
+capital employed and the value of the underlying investment portfolio. 
+4. Across multiple dimensions of trading behaviour—including trading intensity, trading 
+frequency, trading experience and capital deployment—higher trading intensity is generally 
+associated with a higher incidence of losses. 
+5. Although traders deploying larger capital generally exhibit a lower probability of loss, they 
+account for a disproportionately large share of market turnover and incur substantially larger 
+losses when losses occur. 
+6. Options buying remains the dominant trading strategy among individual investors and 
+continues to be associated with significantly weaker outcomes than option selling. 
+7. The study also highlights considerable persistence in trading behaviour. Despite widespread 
+losses, a large proportion of traders continue participating in the derivatives segment, and 
+repeated losses frequently persist across successive years. 
+8. Overall, the findings indicate that investor outcomes in the equity derivatives segment are 
+closely associated with behavioural characteristics—including trading strategy, trading 
+intensity, capital deployment and continued market participation—rather than with trading 
+experience alone. 
+*****

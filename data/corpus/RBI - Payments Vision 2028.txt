@@ -1,0 +1,338 @@
+Preface 
+India’s payments ecosystem has evolved through a calibrated yet adaptive process, 
+guided by successive Payments Vision documents issued by the Reserve Bank of India 
+(RBI) since 2001. Each Vision Document provided direction in tune with the current stage 
+of evolution of the payments landscape while keeping in mind the potential for further 
+development. By focusing on establishment of core settlement infrastructure, 
+strengthening of institutional framework, expansion of digital inclusion, and enabling of 
+innovation at scale, successive Vision Documents have paved the way for India’s 
+emergence as a global leader in digital and real-time payments, while staying true to core 
+values like, ‘Customer-centricity’, ‘Safety-by-design’ and ‘Interoperability’. 
+Payments Vision 2028 recognises that digital payments continue to make inroads into all 
+population segments (a fact objectively captured through RBI’s Digital Payments Index), 
+and the challenge before the ecosystem is no longer one of expansion of reach alone, 
+but of deepening ‘trust’ in payment systems, reinforcing resilience and expanding their 
+global footprint. Anchored in the theme, ‘Shaping India’s Payment Frontier’, this Vision 
+document focuses on user empowerment, safeguards against fraud, efficiency of cross-
+border payment frameworks and promoting ease of doing business. Regulations and 
+supervision of payments systems, while continuing to be risk-based, would be guided by 
+the need for innovation and inclusion. 
+The Payments Vision looks to guide the ecosystem towards an AI-led, data-driven 
+approach to payments. For RBI itself, data, research, and institutional capacity are 
+recognised as strategic assets for informed decision-making. Strengthening analytical 
+capabilities and deepening domestic and international collaboration are recognised as 
+integral to ensuring future readiness. 
+Through its various initiatives, the Vision Document charts a course of action up to 
+December 2028, while retaining the flexibility to respond to technological changes, 
+emerging risks, and evolving user needs. This reflects Reserve Bank’s continued
+
+commitment to responsive and forward-looking stewardship of the payments’ ecosystem. 
+Needless to add, apart from the items listed in the Vision, any other initiative deemed 
+important for the continued growth and development of digital payments in the country 
+would also be pursued. 
+Payments Vision 2028 has been framed through a consultative process. Its realisation, 
+too, would rest on sustained and constructive collaboration among all stakeholders – 
+banks, non-bank payment system operators, fintechs, and customers. Guided by a sense 
+of shared responsibility and public interest, the Vision would ensure that our payment 
+systems remain resilient, inclusive, innovative, and globally admired in the years ahead.
+
+1. Payments Vision documents over the years 
+
+1.1 RBI has been making continued efforts to enhance the efficiency, security, and 
+accessibility of payment systems, fostering a more inclusive and resilient digital payments 
+ecosystem. As a result of this endeavour, India has solidified its position as the global 
+leader in real-time digital payments by processing nearly 50 percent of all global real-time 
+payments. The role of RBI has evolved further from not only being a regulator of the 
+payments sector but also as a catalyst to enable innovation in payments. 
+1.2 Since 2001, RBI has articulated Payments Vision documents that have guided the 
+transformation of India’s payment and settlement ecosystem. Each such document has 
+sought to leverage upon the technological maturity of its time to optimally address the 
+evolving needs of the payments ecosystem, from foundational reforms to global 
+interoperability. Key focus areas and outcomes in the journey from the first vision (2001–
+2004) onwards are highlighted as follows: 
+i. Foundational Phase (Payments Vision 2001-2004) 
+The document laid the foundation for a modern, technology-driven payment 
+infrastructure. At the time, India’s payments were dominated by paper instruments, 
+primarily cheques. The document emphasised consolidation, efficiency, and security, 
+aiming to shift towards electronic modes and centralised settlements. Key milestones 
+included the launch of the Real-Time Gross Settlement (RTGS) system in 2004, the 
+expansion of Electronic Clearing Services (ECS), and the early development of the 
+Cheque Truncation System (CTS). 
+ii. Institutional and Regulatory Phase (Payments Vision 2005-2008) 
+The 2005-2008 Vision document focused on building the institutional and legal 
+infrastructure to support a rapidly evolving payment ecosystem. It led to the creation of 
+the Department of Payment and Settlement Systems (DPSS) within the RBI in 2005, 
+thereby providing a dedicated regulatory and developmental focus. The landmark
+
+Payment and Settlement Systems Act, 2007, and the PSS Regulations, 2008, granted 
+statutory authority to the RBI to regulate and supervise all payment systems. This 
+document also envisaged an umbrella organisation for retail payments, leading to the 
+establishment of the National Payments Corporation of India (NPCI) in 2008. 
+iii. Oversight and Expansion Phase (Payments Vision 2009-2012) 
+Payments Vision Document 2009-2012 pivoted towards operational efficiency, safety, 
+and inclusion. It underscored the need for systems that are safe, secure, efficient, 
+authorised, and accessible, aligning domestic oversight with international standards. 
+During this phase, NEFT and RTGS systems were expanded, electronic transactions 
+gained traction, and the RBI enhanced its supervisory role over Financial Market 
+Infrastructures (FMIs). 
+iv. Inclusion and Standardisation Phase (Payments Vision 2012-2015) 
+The Payments Vision 2012-2015 introduced the explicit goal of achieving a less-cash 
+society, emphasising interoperability, inclusion, and consumer protection. Notable 
+outcomes included the licensing and expansion of Prepaid Payment Instruments (PPIs), 
+groundwork for the Trade Receivables Discounting System (TReDS), Bharat Bill Payment 
+System (BBPS), and acceleration of Aadhaar Enabled Payment Systems (AePS). 
+v. Digital Transformation Phase (Payments Vision 2016-2018) 
+Payments Vision 2018 (covering 2016-2018) coincided with India’s digital payments take-
+off. Its focus was to encourage electronic payments across all sections of society while 
+maintaining safety and resilience. The period witnessed the launch of transformative 
+platforms such as Unified Payments Interface (UPI), under NPCI’s stewardship. 
+vi. Measurable Outcome Phase (Payments Vision 2019-2021) 
+The Payments Vision 2019-2021 introduced a results-oriented framework under the 
+theme “Empowering Exceptional (E)-payment Experience”. It articulated five core
+
+attributes - safety, security, convenience, speed, and affordability and established 
+quantitative targets, including a fourfold increase in digital transactions by 2021. 
+vii. Globalisation and Trust Phase (Payments Vision 2025) 
+The Payments Vision 2025, launched in 2022, reflected a confident, globally integrated 
+digital payments ecosystem. Anchored on the theme “E-Payments for Everyone, 
+Everywhere, Every time (4Es)”, it rested on five goalposts - Integrity, Inclusion, 
+Innovation, Institutionalisation, and Internationalisation. The alternative authentication 
+framework, Master Direction on Payment Aggregators, near real-time Cheque Truncation 
+System, etc., were the key outcomes. 
+1.3 RBI’s Payments Vision documents released over the years thus chronicle a 
+transformative journey from infrastructure building to institutionalisation. Each vision 
+drove and, in turn, evolved with ecosystem-level adjustments. This dynamic and adaptive 
+evolution has made India’s payment systems among the most advanced, inclusive, and 
+resilient in the world while setting the stage for Vision Document 2028 – one that 
+consolidates the gains even as it aims to help the Indian payments space leapfrog into 
+the future.
+
+2. Payments Vision 2028 
+
+2.1 Payments Vision 2028 builds upon the remarkable trajectory of digital payments in 
+India with the core theme – ‘Shaping India’s Payment Frontier’. It underscores the dual 
+imperative of consolidating and strengthening the existing systems / infrastructure, while 
+pioneering the future of payments. 
+2.2 Under the core theme, certain specific initiatives as outlined below have been 
+identified focusing on operational excellence, strategic innovation, and ensuring that the 
+payment infrastructure remains resilient, inclusive, user-friendly, and technologically 
+advanced. 
+a. To promote inclusivity and resilience, a framework for interoperability in TReDS is 
+also proposed to be developed to promote an integrated, efficient, and accessible 
+receivables discounting ecosystem. 
+b. To enhance safety in digital payments, enabling or disabling transactions across digital 
+payment modes via issuer channels shall be explored. A shared responsibility framework 
+with both the customer’s bank (issuer) and the beneficiary’s bank jointly bearing the 
+liability shall be pursued. A review of the design and security features of cheques shall be 
+conducted. Introduction of a Cyber Key Risk Indicators (KRI) framework for non-bank 
+Payment System Operators shall be implemented for enhancing cyber resilience. 
+c. Regarding cross-border payments, a review of the cross-border payments framework 
+shall be conducted to enhance efficiency, and which shall be complemented by publishing 
+dedicated reports on specific aspects. 
+d. For promoting ease of doing business and convenience, the regulatory process for 
+cross-border payment authorisation under the PSS Act, 2007 and FEMA, 1999 shall be 
+streamlined along with examining the case for recognising Small Payment System 
+Providers under a perpetual regulatory sandbox structure. Providing flexibility to 
+customers to switch among payment service providers seamlessly through 
+implementation of a Payments Switching Service (PaSS) shall be examined.
+
+e. To provide a fillip to research pertaining to digital payments, dedicated research and 
+training capacity shall be focused upon apart from providing enhanced access to 
+domestic and cross-border payments data. 
+f. To promote systemic stability and integrity, entities deemed to be playing a critical 
+role in facilitating digital payments shall be brought within the regulatory fold. Introduction 
+of a uniform Domestic Legal Entity Identifier (DLEI) shall be explored. 
+g. Innovation in card payments space shall be encouraged. Introduction of electronic 
+cheques shall be explored. 
+
+2.3 The current Payments Vision document sets the course up to December 2028. It may 
+be noted that while the document provides strategic direction, initiatives not included 
+therein may also be taken up based on evolving needs and opportunities.
+
+3. Specific Initiatives 
+
+3.1 Facility for the remitter to enable / disable transactions on any digital payment 
+mode through issuer channels 
+
+Switch on and switch off facility for domestic and international card transactions is 
+available to customers which has helped customers exercise greater control over their 
+cards. Introduction of a similar facility for all digital payment modes shall be explored. This 
+facility would help bolster consumer confidence and contribute towards controlling frauds 
+in digital payment transactions. 
+
+3.2 Reports on Cross-Border Payments: Domestic trends, global developments, 
+and strategic implications for India’s payment ecosystem 
+
+RBI shall publish Reports on Cross-Border Payments to present a comprehensive 
+analysis of cross-border payments in India covering key metrics such as volumes, 
+transaction costs, transparency, speed of transactions, performance of various channels 
+and corridors, etc. The reports shall track global developments related to legal, regulatory, 
+technological, and process advancements in cross-border payments. Benchmarking 
+India’s progress against global trends, the reports shall also identify areas for 
+improvement and evaluate the implications of international developments on the domestic 
+payment system. 
+
+3.3 Review of cross-border payments ecosystem with an objective to increase 
+efficiency of cross-border payments 
+
+Cross-border payments are vital for India for international trade and remittances. Efficient 
+cross-border payment systems support Indian exporters and importers especially from 
+MSME sector to access global markets enhancing their competitiveness. Similarly,
+
+efficient payment arrangements are critical for reducing the cost of remittance. Cross-
+border payments are inherently complex as they involve multiple participants, hops, time 
+zones, jurisdictions, and regulations. The global agenda, shaped by the G20, also aims 
+to make these payments faster, cheaper, more transparent, and accessible. RBI is 
+actively improving the cross-border payments ecosystem through regulatory liberalisation 
+and technological initiatives. While liberalisation of the regulations governing cross-border 
+transactions has facilitated efficiency, there is scope for further streamlining and 
+liberalisation of the regulations. In view of this, RBI shall envision a cross-border 
+payments framework that is efficient, transparent, resilient, and accessible to a broader 
+range of participants. In pursuit of this, RBI shall undertake a comprehensive review of 
+the existing cross-border payments ecosystem to identify frictions from regulatory, 
+operational, and technological perspective. The review would seek to strengthen India’s 
+cross-border payment landscape, foster innovation, competition, align India with global 
+best practices and technology while accommodating national requirements. 
+
+3.4 Streamline cross-border payment authorisation under PSS Act, 2007 and 
+FEMA, 1999 
+
+In order to facilitate end-to-end cross-border transfer of funds, entities need to seek 
+authorisation under the Payment and Settlement Systems Act, 2007 and an authorised 
+person license under Foreign Exchange Management Act, 1999. Given the potential to 
+gain efficiencies in cross-border payments, introducing a single-window application 
+process shall be examined. This would enhance the ease of doing business for entities 
+in India’s cross-border payments ecosystem, as also promote newer use-cases and 
+innovation in cross-border payments.
+
+3.5 Limiting liability of customers – Shared Responsibility Framework 
+
+The existing Limiting Liability Framework for safeguarding customers from payment 
+frauds places responsibility and liability exclusively on the issuer. To ensure balanced 
+accountability, introducing a shared responsibility framework would be explored under 
+which both the customer’s bank (issuer) and the beneficiary’s bank jointly bear the liability 
+arising from unauthorised digital payment transactions. This approach would incentivise 
+both parties to implement robust fraud detection and prevention measures, and 
+strengthen coordination for timely intervention, thereby enhancing overall consumer 
+protection and trust in digital payments. 
+
+3.6 Recognise Small Payment System Providers – Perpetual Regulatory Sandbox 
+
+Payments’ space being highly dynamic, there is a need to permit innovative solutions to 
+be introduced without directly regulating them from the start, and to consider bringing 
+them within the regulatory fold only if, and when, they reach a specified level of activity, 
+when the activities are deemed to be significant or critical. Thus, the case for recognising 
+a new class of Small Payment System Providers (SPSPs) that would not require to be 
+authorised by RBI before carrying out their activities shall be explored. The aim is to 
+gradually shift toward a tailored regulatory oversight mechanism calibrated to the risk 
+profile of entities based on the nature of activities handled by them. This shall promote 
+ease of doing business while ensuring systemic stability. 
+
+3.7 Develop Payments Research and Training Capacity 
+
+As the global payments landscape rapidly evolves with new and emerging technologies, 
+there is a need to augment research and training capacity covering various aspects of 
+digital payments such as policy making, risk management, fraud prevention, cross border
+
+payments, cyber security, etc. In addition, development of linkages with various central 
+banks, international standard setting bodies, other countries especially from the Global 
+South, as well as with domestic payments ecosystem shall be explored to facilitate 
+knowledge sharing. 
+
+3.8 Framework for interoperability and innovation in TReDS 
+
+Over the years, TReDS has evolved as a critical platform to address liquidity challenges 
+and unlock growth opportunities for MSMEs. There is considerable potential to further 
+enhance operational efficiency through targeted improvements. In this regard, the case 
+for introducing the following shall be explored with the aim of creating a more integrated, 
+efficient, and accessible receivables discounting ecosystem for the MSMEs: 
+i. 
+full interoperability across TReDS platforms to harness efficiencies, competitive 
+spirits, and avoid duplication of efforts; 
+ii. 
+factoring with recourse; and 
+iii. 
+trade receivables discounting of export MSMEs. 
+
+3.9 Cyber Key Risk Indicators (KRI) framework for non-bank Payment System 
+Operators (PSOs) 
+
+With the objective of implementing a consistent, data-driven approach to risk-based IT 
+supervision of payment system operators, a Cyber Key Risk Indicators (KRI) framework 
+for non-bank Payment System Operators (PSOs) shall be developed and implemented. 
+This framework shall assess and monitor robustness in cyber security of such entities on 
+a continuous basis. It shall enable RBI to systematically identify and monitor key risk 
+indicators across the industry, compare the cyber resilience of different entities, track their 
+security posture over time as also provide early warning signals to identify and monitor 
+potential IT and cyber risks.
+
+3.10 Review of design and security features of cheques and explore introduction 
+of electronic cheques 
+
+Building on the existing CTS-2010 standards (which were introduced in 2010), banks 
+have independently implemented additional security features, leading to variations across 
+the system. A comprehensive review of the design and security features of cheques shall 
+be undertaken to enhance uniformity, strengthen fraud prevention, and ensure alignment 
+with emerging processes. The review shall identify and adopt best practices, making them 
+applicable across all cheque instruments. 
+Further, cheques as a payment instrument offer some unique benefits over other payment 
+methods. To leverage the unique benefits of paper-based instruments and the speed and 
+reliability of electronic payments, and cater to new business use cases, introduction of 
+electronic cheques in India shall be explored. 
+
+3.11 Facilitate enhanced access to payments data 
+
+India's digital payments ecosystem has achieved significant growth in recent years. 
+Consequently, the number of payment systems, use-cases of the payment systems, and 
+complexity in the payments data has also increased significantly. Creation of a rich, user-
+friendly database, and enabling it to be queried through Artificial Intelligence (Al) based 
+channels shall be explored. This shall also serve as a single point of access for cross-
+border payments data which shall provide a unified and dynamic view of India's cross-
+border payments ecosystem. The initiative is envisaged to enhance transparency, enable 
+monitoring of efficiency outcomes, and aid in data driven innovation.
+
+3.12 Reimagine card payments in India 
+
+To foster competition, spur innovation, and strengthen resilience, building an open and 
+interoperable card ecosystem shall be explored. The initiative is envisaged to empower 
+cardholders and merchants with choice, introduce secure and smart tokenisation and 
+orchestration, and facilitate transparent pricing that advances customer protection. 
+
+3.13 Payments Switching Service (PaSS) 
+
+Customers face challenges in managing their payment instructions in case their account 
+number changes due to shifting to another bank, merger of banks, etc. To address this, 
+feasibility of implementing a ‘Payments Switching Service’ shall be explored. It is 
+envisaged as a centralised service that would facilitate migration of payment instructions, 
+both incoming and outgoing, from one account to another, thereby enabling customers to 
+change their bank accounts with minimal friction. Using this functionality, customers shall 
+be able to view all payment flows linked to their accounts and initiate either a full or partial 
+switch with appropriate authorisation. 
+The objective is to provide customers with centralised control over their payment 
+instructions, facilitate orderly transitions during systemic changes like bank mergers, and 
+foster healthy competition and service excellence among financial institutions, thereby 
+enhancing customer experience. 
+
+3.14 Bringing entities playing critical role in payments ecosystem within the 
+regulatory ambit 
+
+Rapid developments in payments space have led to several entities playing a critical role 
+in facilitating digital payments. In addition, e-commerce marketplaces and centralised 
+platforms have been assuming significant responsibilities that could have implications on
+
+orderly functioning of payments ecosystem. These aspects shall be examined in detail 
+and, if required, the scope of direct regulations shall be extended to cover such entities. 
+On similar lines, the case for introducing white label solutions in Aadhaar Enabled 
+Payment System (AePS) and bringing such assisted payment providers within the 
+regulatory fold would be explored. 
+
+3.15 Implementing a uniform Domestic Legal Entity Identifier (DLEI) 
+
+A unique identifier for non-individuals that would enable identification of parties to a 
+transaction is crucial for managing risks in the financial system. In this regard, the 
+feasibility of implementing a uniform Domestic Legal Entity Identifier (DLEI) shall be 
+studied. Currently, there exist myriad identifiers in India, each with its own specific 
+purpose and features. The DLEI, if found feasible, could be new or selected from the 
+existing identifiers. 
+
+****

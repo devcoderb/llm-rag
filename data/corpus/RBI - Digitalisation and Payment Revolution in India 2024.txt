@@ -1,0 +1,2758 @@
+DIGITALISATION AND THE PAYMENT 
+REVOLUTION IN INDIA*
+1. Introduction
+III.1 
+Over the last two decades, digitalisation
+has revolutionised the payment landscape,
+transforming 
+the 
+organisational 
+structure,
+business practices and fundamentally the reach
+of the payment services fostering inclusiveness.
+The ease and speed of digital payments have
+made them a preferred choice, bringing in new
+players to the payments market, which hitherto
+was monopolised by the financial sector. From a
+handful of alternate methods of payments such
+as cash, cheques, credit/debit cards and bank
+transfers, currently there are over 300 alternative
+methods of payments worldwide, most of which
+ride on the digitalisation wave (Mauro and Li,
+2021). The push towards a cashless society
+has become synonymous with modernity and
+efficiency.
+product of India’s digital payment ecosystem, 
+introduced in 2016, has emerged as the most 
+preferred choice for payments in India, owing to its 
+transactional ease and accessibility. The reach of 
+India’s payment advancements has transcended 
+national boundaries with the internationalisation 
+of the UPI. Emerging market economies (EMEs), 
+in general, are leading the digital payments 
+revolution as evident in the success of UPI of India, 
+M-PESA of Kenya, PIX of Brazil, and PromptPay
+of Thailand.
+III.3 
+The efficiency gains from harnessing digital
+technologies in payments are leading to significant
+reduction in transaction costs and ease of doing
+business, benefitting consumers, businesses,
+and economies. Along with e-commerce, digital
+payments through the ease and convenience
+of transactions have fostered entrepreneurship.
+Further, digital trails have enabled easy credit
+appraisal resulting in the reduction of information
+asymmetry in the credit market.
+III.4 
+Central banks, being the fulcrum of
+payment architecture, have played a pivotal
+role in this digital payments’ revolution. At the
+same time, advancements in digital payments
+Payment infrastructure has made significant strides in recent years, aided by digital technologies enhancing the 
+ease of payment delivery and reducing the cost of transactions. At the cross-country level, digital payments’ adoption 
+is supported by banking penetration, technological advancements, degree of formalisation of economy and younger 
+cohorts. India has been at the forefront of this payment revolution with UPI transforming the retail payment 
+landscape. India’s payment architecture is influenced by a combination of factors like technological advancements, 
+agents, institutions, and policy interventions. This transformation, while fostering financial inclusion and inclusive 
+growth, can result in new challenges for policy makers.
+III.2 
+India is a leader in development of state-
+of-the-art payment infrastructure and products
+leading to a wider adoption of digital payments
+(Das, 2021). India is a frontrunner in the global
+digital payments revolution and is an inspiration
+for other economies (The Economist, 2023).
+The unified payments interface (UPI), a flagship
+* This chapter has been prepared by a team comprising Rekha Misra, V Dhanya, G V Nadhanael, Madhuresh Kumar, Nandini Jayakumar, 
+Arpita Agarwal and Rigzen Yangdol from Department of Economic and Policy Research; K Vijayakumar, Sachin Sharma and Ankur Patley from 
+Department of Payment and Settlement Systems; Aniket Ranjan from FinTech Department; and Varsha Limbaji from Financial Inclusion 
+and Development Department. Valuable insights provided by Shri P. Vasudevan are gratefully acknowledged.
+
+have significant implications on central bank’s 
+objectives, operations and policy instruments, 
+and can enhance economic growth through 
+the productivity channel on the one hand and 
+alter the price setting behaviour and inflation 
+dynamics on the other. Digitalisation influences 
+the nature, composition, and behaviour of money 
+in the economy, with ramifications for monetary 
+aggregates and monetary policy transmission. 
+Digital payments can foster financial inclusion, 
+financial deepening and instantaneous transfer 
+of funds across financial intermediaries, with 
+implications for financial stability and for the 
+regulatory and supervisory role of central banks. 
+Emerging cybersecurity risks associated with 
+digitalisation of payments also pose challenges. 
+III.5 
+Against 
+this 
+backdrop, 
+this 
+chapter 
+provides a detailed account of the evolution of 
+digital payments and factors that contributed to 
+its rapid growth, the impact of digital payments in 
+various spheres of the economy and implications 
+for central banks and their policies. Section II 
+examines the evolution of digital payments in a 
+cross-country perspective. Section III traces the 
+stages of India’s digital payments trajectory and 
+examines the enabling forces; it also presents 
+insights from a primary survey of merchants 
+and consumers on the awareness, adoption and 
+usage of digital payments. Section IV analyses the 
+impact of digital payments on the various facets of 
+the economy. Section V explores the challenges 
+and way forward. Concluding observations are set 
+out in Section VI. 
+2. Evolution of Digital Payment Systems: A 
+Cross-country Analysis
+2.1. Historical Context
+III.6 
+Payment systems are the lifeline of an 
+economy (Das, 2021). By facilitating exchange 
+of goods and services in an economy, they are 
+imperative for the smooth conduct of economic 
+activities. Payment infrastructure has evolved 
+over time, with its progress mirroring the level of 
+economic development as well as technology. The 
+relationship between the medium of payments 
+and technology has been deeply intertwined, 
+with advancements in technology continuously 
+shaping the nature and functionality of money 
+throughout history. For example, the development 
+of flint blades in the stone age represented a 
+significant technological leap, which also served 
+as a medium of exchange (Sahlins, 2013). As 
+societies progressed into the bronze age, the 
+discovery of metals and the development of 
+metallurgical techniques led to metals assuming 
+roles as currency in diverse forms (Curta, 2021). 
+The emergence of coinage can be attributed 
+more to social innovation than to technological 
+advancement. Tiny 
+pieces 
+of 
+metal 
+were 
+transformed into coins through stamping, with the 
+stamp serving as a guarantee of authenticity. Over 
+time, growing trust and confidence in governmental 
+institutions paved the way for the adoption of 
+paper and fiat currencies, which continue till date, 
+while incorporating stronger security features to 
+increase confidence and to prevent counterfeiting.
+III.7 
+Continuing 
+this 
+tradition, 
+the 
+rapid 
+advancements in information and communication 
+technologies (ICTs) have led to the digitalisation 
+of payments and currency. At the core of this 
+revolution lies a profound philosophical notion that 
+‘money is memory’, and a ‘superLedger’ could 
+facilitate transactions akin to traditional currency. 
+This concept posits that a ledger not only tracks 
+who possesses what, but also who owes and 
+is owed what (Carstens, 2018). Within this 
+superLedger framework, the exchange of money 
+can be seen as being analogous to transfer of 
+data.
+
+III.8 
+While technological advancements have 
+taken place across the globe, countries have 
+embraced different models of digital payments, 
+influenced by their technological readiness as well 
+as the existing financial landscape. The global 
+evolution of retail digital payments system can 
+be broadly categorised into two main types: open 
+and closed loop systems. In open loop systems, 
+payment systems are operated by central banks 
+or other payment system operators, allowing 
+banks, non-bank payment service providers or 
+third-party application providers (TPAPs) to use 
+the system to process and settle payments. These 
+systems link payers and payees without requiring 
+a direct relationship between them. An example of 
+an open loop system is UPI1, where the National 
+Payments Corporation of India (NPCI) owns and 
+operates the payment system infrastructure. 
+The TPAPs develop and maintain user-friendly 
+mobile applications for end-users, collaborating 
+with payment service providers2 (PSPs) that 
+connect to the UPI system. PSPs act as the link 
+between TPAPs and the UPI system, facilitating 
+transactions. Therefore, payers and payees can 
+use different UPI apps and have accounts in 
+different banks but can still transact seamlessly 
+(Chart III.1). Open-loop systems are accepted 
+across multiple merchants and locations, rather 
+than being restricted to a single organisation 
+or group of organisations. Despite multiple 
+participants in a transaction, the UPI enables 
+instant payment on its platform unlike some card 
+networks that operate on open loop systems. 
+III.9 
+In contrast, in a closed loop system, 
+the payment platform is managed by a single 
+entity which is responsible for the payment and 
+settlement of funds. These systems operate 
+without intermediaries, establishing a direct 
+relationship between payer and payee within the 
+payment network3 (Chart III.2). These payment 
+Chart III.1: Open Loop Payment System (UPI’s case)
+Note: UPI utilises a series of requests (request for payment, request for 
+authentication details and request for transaction confirmation) and 
+response messages (response for payment, response for authentication 
+details, response for transaction confirmation) to facilitate secure, real-time 
+transfer of funds.
+Source: India Stack.
+Chart III.2: Closed Loop Payment System
+Source: Verdier, M (2006).
+1 Real-time account-to-account (A2A) payment systems like PIX and card networks are also examples of open-loop payment systems.
+2 PSP in the UPI system is a bank or financial institution that facilitates UPI transactions. They are like the intermediaries between UPI 
+apps (which may be developed by TPAPs or PSPs), the UPI system managed by NPCI, and the banks handling the transactions.
+3 These payment systems are also sometimes referred to as three party systems.
+Remitter
+Bank
+Unified
+Interface
+Payee PSP
+Paye PSP
+r
+Acquiring Channel
+(Mobile App/E-Com)
+ReqPay credit
+RespPay credit
+Beneficiary
+Bank
+Financial
+Non-Financial
+ReqPay debit
+RespPay debit
+ReqPay
+RespPay
+ReqAuthDetails
+RespAuthDetails
+ReqTxnConfirmation
+RespTxnConfirmation
+A
+B
+Customer Node
+P
+Payment System
+B
+Buyer
+Purchase of Goods
+and Services
+S
+Seller
+
+systems have limited reach and are restricted 
+to specific networks or group of merchants, and 
+transactions are processed internally without the 
+need for external financial networks. Examples 
+of closed loop payment systems include Alipay, 
+WeChat Pay4, transit cards, retail specific cards 
+and gift cards. Initially, mobile money services 
+also operated as closed loop systems, restricting 
+money transfers only to registered consumers, 
+and payments only to registered merchants within 
+the system. Yet, over time, these services have 
+evolved, and have now established connections 
+through bilateral integrations to enable domestic 
+interoperability and have subsequently integrated 
+themselves into the broader financial system, 
+expanding their outreach considerably (GSMA, 
+2023).
+2.2. Digital 
+Revolution 
+Across 
+Geographies
+III.10 Retail digital payments, in terms of both 
+volume and value, have recorded significant growth 
+across economies, led by EMEs (Chart III.3). 
+III.11 In both advanced economies (AEs) and 
+EMEs, credit transfers5 accounted for most of the 
+retail digital payments by value (Chart III.4). The 
+value of e-money payments made up only a small 
+share of the total, although it has witnessed strong 
+growth in both groups of economies. 
+4 WeChat Pay is operated by Tencent and Alipay is affiliated with Alibaba.
+5 Credit transfers are payment instruments based on payment orders made for the purpose of placing funds at the disposal of the payee 
+(https://www.bis.org/cpmi/publ/d168.pdf).
+Chart III.3: Cross-country Trends in Retail Digital Payments
+Note: Retail digital payments consist of credit transfers, direct debits, card payments and e-money and other payment modes.
+Source: BIS Red Book Statistics.
+Chart III.4: Relative Importance of Different Forms of 
+Retail Digital Payments, 2022
+Note: Credit transfers, direct debits, card payments and e-money and 
+other payment modes constitute retail digital payments. 
+Source: BIS Red Book Statistics.
+
+III.12 Overall, the adoption of digital payments is 
+growing, especially in those countries where the 
+initial share of digital payments has been low, and 
+currently, this is the dominant mode of payment in 
+major economies (Chart III.5).  
+III.13 In AEs, card-based payment systems, 
+established prior to the internet era, are still widely 
+used (World Bank, 2023).6 While AEs dedicated 
+the past decade to upgrade their bank-based 
+magnetic striped cards with chips, EMEs embarked 
+on a transformative shift in their retail payment 
+landscape. 
+Some 
+EMEs 
+adopted 
+payment 
+systems such as China’s closed-loop wallet 
+system and mobile money models prevalent in 
+Sub-Saharan Africa. Other EMEs, including India, 
+Brazil, Nigeria, Thailand and Malaysia, leveraged 
+their banking systems to create account-to-
+account (A2A) real-time payment (RTP) rails to 
+boost the digitalisation of payments. In major AEs 
+and EMEs, central banks, sovereigns, and bank 
+unions have invested in developing A2A RTP rails, 
+which have taken the lead role in digital payment 
+evolution. Within the A2A RTP schemes, India’s 
+UPI stands out as the leading platform in terms of 
+the absolute number of transactions (Chart III.6). 
+UPI crossed over a 100 billion transactions in 2023. 
+Examples of other A2A RTP are PIX system that is 
+being used by more than 80 per cent of the adult 
+population in Brazil; similarly, more than 80 per 
+cent of the Thai population uses PromptPay. The 
+US Federal Reserve launched its own A2A RTP 
+rail called FedNow service in July 2023 with 35 
+participating financial institutions, which increased 
+to 864 as on June 28, 2024. The penetration levels 
+of the A2A RTP systems in many EMEs are much 
+higher than that of AEs (Chart III.7).
+III.14 In this context, India’s experience is 
+notable. In 2008, India seemed an unlikely 
+candidate for implementing an A2A RTP system, 
+with only 1 in 25 people having formal identity, and 
+around one in four adults holding a bank account 
+(D’Silva et al., 2019). Additionally, mobile and 
+Chart III.5: Retail Digital Payments as Percentage of Total Retail Payments
+Note: Total retail payments include retail digital payments, cheques and bank notes and coins in circulation. In the absence of information on the value of 
+transactions made through bank notes and coins, the outstanding currency and notes in circulation are added to the rest of the instruments to arrive at total 
+retail payments. 
+Source: BIS Red Book Statistics.
+6 The Diners Club card, introduced in 1950, is often credited as the first successful charge card, allowing users to make purchases at 
+participating merchants with the promise of payment to Diners Club later. Following the success of Diners Club, other companies began 
+issuing their own cards (Norman, 2024).
+
+internet penetration were significantly lower than 
+global standards. The JAM trinity - Pradhan Mantri 
+Jan Dhan Yojana (PMJDY), Aadhaar, and Mobile7 
+- launched by government laid the foundation 
+for the rapid and transformative rollout of UPI. 
+The success of UPI has inspired other A2A RTP 
+systems and NPCI is actively collaborating with 
+other countries to help them develop their own 
+systems similar to the UPI.
+III.15 The mobile money model, another variant 
+of digital payment system, has gained prominence 
+in many developing countries, especially in Sub-
+Saharan Africa (Chart III.8). Under this model, 
+a phone with an active connection and a valid 
+government ID would help customers to open a 
+mobile money account. The agents present in 
+remote locations act as ATMs where people can 
+use their services to deposit and withdraw cash 
+Chart III.6: A2A RTP Transactions (2023)
+Chart III.7 - Progress in A2A RTP Payments
+Source: Respective central bank websites; and CEIC.
+Source: Respective central bank websites; and CEIC.
+7 The three components of Jan Dhan, Aadhaar and Mobile (JAM) trinity are i) Pradhan Mantri Jan Dhan Yojana - a government scheme to 
+expand and make available affordable access to financial services to the poor in India, ii) unique identity number, Aadhaar, which is nearly 
+universal today within the country and iii) access to mobile phones.
+
+from their mobile money account. Initially, mobile 
+money’s focus centred on enabling consumers 
+to conduct person-to-person (P2P) payments 
+digitally, eliminating the necessity for bank 
+accounts or wire transfers. As mobile money 
+expanded its scope, it enabled the consumers to 
+pay bills (including utilities), store money, execute 
+person-to-business (P2B) payments, receive 
+payments from businesses (such as wages), and 
+receive government-to-person (G2P) payments 
+(Suri, 
+2017). 
+Globally, 
+the 
+mobile 
+money 
+ecosystem has 315 mobile money services and 
+1.6 billion registered mobile money accounts 
+spread across 102 countries. In 2022, there were 
+17.4 million registered agents with 65 billion 
+annual transactions totalling US$ 1.26 trillion. On 
+Chart III.8: Mobile Money
+Source: Global System for Mobile Communications Association (GSMA).
+b. Registered Agents
+a. Availability of Mobile Money Services
+Number
+East Asia and Pacific
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+Sub-Saharan Africa
+Millions
+East Asia and Pacific
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+Sub-Saharan Africa
+Dec-11
+Dec-12
+Dec-13
+Dec-14
+Dec-15
+Dec-16
+Dec-17
+Dec-18
+Dec-19
+Dec-20
+Dec-21
+Dec-22
+d. Monthly Transactions by Volume
+c. Registered Accounts
+Millions
+East Asia and Pacific
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+Sub-Saharan Africa
+Billions
+East Asia and Pacific
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+Sub-Saharan Africa
+e. Monthly Transactions by Value (USD)
+Billions
+East Asia and Pacific
+Europe and Central Asia
+Latin America and the Caribbean
+Middle East and North Africa
+South Asia
+Sub-Saharan Africa
+Dec-11
+Dec-12
+Dec-13
+Dec-14
+Dec-15
+Dec-16
+Dec-17
+Dec-18
+Dec-19
+Dec-20
+Dec-21
+Dec-22
+Dec-11
+Dec-12
+Dec-13
+Dec-14
+Dec-15
+Dec-16
+Dec-17
+Dec-18
+Dec-19
+Dec-20
+Dec-21
+Dec-22
+Jan-11
+Jan-12
+Jan-13
+Jan-14
+Jan-15
+Jan-16
+Jan-17
+Jan-18
+Jan-19
+Jan-20
+Jan-21
+Jan-22
+
+8 Data Sources: BIS in its Redbook statistics publishes retail payments data which includes credit transfers; direct debits; cheques; card 
+payments and e-money; other payment modes and currency and bank notes in circulation. Credit transfers, direct debits, card payments 
+and e-money and other payment modes are considered to constitute retail digital payments. Data on internet penetration and age 
+demography have been taken from World Telecommunication/ICT Indicators Database and World Bank, respectively. Tax to GDP ratio 
+has been sourced from CEIC database while the classification of countries into AEs and EMEs is from the World Bank.
+average, a mobile money provider was connected 
+to around 18 banks and processed US$ 22 billion 
+of international remittances in 2022 (GSMA, 
+2023). 
+III.16 The adoption of digital payments is 
+supported by banking penetration, technological 
+advancements, the degree of formalisation of the 
+economy and younger cohorts (Box III.I).
+Box III.I 
+Determinants of Adoption of Digital Payment Technology: A Cross-country Analysis
+The adoption of digital payment technologies varies 
+significantly across societies worldwide. Along with the 
+penetration of information and communication technology 
+(ICT), factors such as user attitudes, cultural norms, 
+societal resistance, and institutional trust could condition 
+the adoption of digital payments. Additionally, age 
+demographics emerge as a pivotal factor, with younger 
+generations often at the forefront of embracing new digital 
+tools and platforms (Morris et al., 2005). Moreover, the 
+formalisation of the economy acts as a significant catalyst 
+for the adoption of digital payments. The potential role 
+of the various factors contributing to adaptation of digital 
+payments is examined in a panel framework for 24 countries 
+for the period 2012 to 2022 (equation 1).8 
+DigPayit = β1.IntPenit + β2.Pop65it + β3.BankBrit +
+β4.TaxGdpit+β5.IncLevit + αt + εit 
+(1)
+where the dependent variable is retail digital payments as 
+a percentage of total retail payments of country i at time 
+t. IntPenit represents the percentage of population using 
+internet while Pop65it indicates the share of people above 
+65 years of age in total population. The variables BankBrit 
+and TaxGdpit represent bank branches per lakh adults and 
+tax to GDP ratio, respectively. The tax to GDP ratio is taken 
+as a proxy for the size of formal economy. IncLevit is a 
+dummy variable with zero for developed countries and 1 for 
+developing nations to assess the relative speed of adoption 
+in these groups. αt represents time fixed effects.
+The empirical analysis indicates that digital payments 
+are boosted by internet penetration, formalisation of the 
+economy, availability of bank branches and younger 
+generations. Furthermore, within the sample economies, 
+the developing countries have a higher rate of digital 
+payment adoption than the advanced economies.
+Table 1: Drivers of Digital Payments Adoption- 
+Regression Results
+Dependent Variable: Digital payments as a percentage of total 
+Explanatory variable
+Coefficient
+Percentage of population using internet
+0.215 ***
+(0.056)
+Share of people above 65 years
+-0.102**
+(0.045)
+Tax to GDP ratio
+0.162***
+(.043)
+Dummy emerging economy
+0.144***
+(.049)
+Bank branches per lakh adults
+0.059*
+(0.033)
+Observations
+Number of countries
+Number of developing countries 
+Note: Figures in parentheses indicate standard errors; ***,**,*: indicate 
+significance at 1, 5 and 10 per cent level, respectively. 
+Source: RBI staff estimates.
+Reference:
+Morris, M. G., Venkatesh, V., and Ackerman, P. L. (2005). 
+Gender and Age Differences in Employee Decisions About 
+New Technology: An Extension to the Theory of Planned 
+Behavior. IEEE Transactions on Engineering Management, 
+52(1), 69-84.
+
+3. The Digital Payment Revolution in India
+III.17 India has witnessed a revolution in its 
+digital payments journey, without so realising, to 
+become a leader in the digital payments landscape 
+(Gandhi, 2016; Ramasastri, 2018). Underscored 
+by the Reserve Bank’s commitment to move 
+towards a “less-cash” society, India’s journey to 
+become a global leader in the payments’ space 
+has witnessed many global firsts – a low cost, 
+interoperable, mobile-based acceptance solution 
+like Bharat QR Code; Two Factor Authentication; 
+Aadhaar enabled payment systems (AePS); and 
+the UPI (Gandhi, 2017). This journey began in 
+relative obscurity in the 1980s, and the strong 
+retail payments framework in the country today is 
+comparable to that of any advanced country, and 
+perhaps even surpassing some in terms of the 
+variety and efficiency (Gandhi, 2016; RBI, 2022b). 
+The payments revolution in India offers critical 
+lessons for cooperation between a central bank 
+and private firms in bringing about technological 
+progress (Kearns and Mathew, 2022; D’Silva 
+et al., 2019). Payment systems in India have 
+not only navigated through the fast-evolving 
+technological innovations but also developed into 
+one of the most modern and diverse systems 
+with a whole gamut of bill payments, merchant 
+payments, vendor payments, transit payments, 
+and recurring payments (Das, 2024). The flexibility 
+of interoperability among payment systems has 
+brought in unparalleled ease of transactions while 
+robust customer protection measures have made 
+India’s retail payment system one of the safest in 
+the world (BRICS, 2021). 
+3.1. Evolution of Digital Payments in India
+III.18 The foundation of an efficient digital 
+payment system was laid down in the 1990s when 
+the modernisation of the payment and settlement 
+systems was accorded high priority in the agenda 
+of financial sector reforms to improve the efficiency 
+of financial intermediation and financial system 
+stability. The reform in payment and settlement 
+systems were facilitated by advancements in 
+computerisation and technology. The payment 
+systems evolution in India can be roughly 
+categorised in two distinct waves: a) digitalisation 
+of existing systems to improve efficiency, and b) 
+changes in payment space brought about by the 
+digital revolution (Chart III.9).
+Chart III.9: Evolution of Payment System Landscape in India
+Note: MICR: Magnetic Ink Character Recognition; ATM: Automated Teller Machines; ECS: Electronic Clearing Services; EFT: Electronic Funds Transfer; CFMS: 
+Centralised Funds Management System; INFINET: INdian FInancial NETwork; SFMS: Structured Financial Messaging System; RTGS: Real Time Gross Settlement; 
+NFS: National Financial Switch; NEFT: National Electronic Funds Transfer; CTS: Cheque Truncation System; NECS: National Electronic Clearing Service; IMPS: 
+Immediate Payment Service; NACH: National Automated Clearing House; BBPS: Bharat Bill Payment System, UPI: Unified Payment Interface; BHIM: Bharat 
+Interface for Money; TReDS: Trade Receivables electronic Discounting System; NETC: National Electronic Toll Collection; e-BAAT: electronic Banking Awareness 
+and Training; PIDF: Payment Infrastructure Development Fund; CBDC: Central Bank Digital Currency; ICCW: Interoperable Card-less Cash Withdrawal.
+Source: RBI staff illustration.
+
+3.1.1. Digitalisation of Existing Payment Systems 
+to Improve Efficiency
+III.19 In the 1980s, ICT revolution brought 
+significant changes in operating systems at 
+the bank level, beginning from back-office 
+automation of cheques to the front desk total 
+branch automation. Under changes in the banking 
+methods, in the first phase, a three-pronged 
+approach of consolidation, development and 
+integration was adopted (RBI, 2002). Connectivity 
+of bank branches through networking of computers 
+and inter-connectivity of banks were the earliest 
+objectives for the modernisation of the payment 
+and settlement systems.9 The operationalisation 
+of the INdian FInancial NETwork (INFINET), a 
+Closed User Group, in June 1999, was a major 
+step forward in providing a robust communication 
+network for the exclusive use of banks and financial 
+institutions. Until the 1990s, the major alternative 
+to cash was the cheque clearing system. The 
+switchover from physical currency to paper-
+based payment instruments and to electronic 
+media warranted technological upgradation in 
+clearing arrangements. The evolution of cheque 
+clearing systems progressed from manual to 
+Magnetic Ink Character Recognition (MICR) 
+clearing in the mid-1980s, introducing automation 
+and standardisation. MICR instruments enabled 
+electronic clearing while physically exchanging 
+cheques. The Cheque Truncation System (CTS), 
+introduced in 2008, allowed digital processing of 
+cheques and eliminated the need for their physical 
+movement. Standardised under CTS-2010, with 
+enhanced security features, it replaced MICR 
+completely, starting 2014. To promote efficient 
+cheque processing, the Reserve Bank decided to 
+migrate CTS from an architecture of three regional 
+grids to one national grid. The merger was 
+completed on October 13, 2023, and the merged 
+grid has been named as National Grid Clearing 
+House (NGCH). The merger has improved 
+liquidity and efficiency of the system and enabled 
+rationalisation of cheque clearing infrastructure. 
+After the merger, all cheques presented through 
+the CTS are being processed as local cheques.
+III.20 The introduction of Central Bank Digital 
+Currency (CBDC) on a pilot basis in 2022 is 
+the latest innovation which would entail a ‘more 
+efficient and cheaper currency management 
+system’ (GOI, 2022; RBI, 2022c). Digital currency 
+is expected to complement cash and current 
+payment systems. “Digital Rupee”, is the digital 
+form of India’s currency, the Rupee, and is a legal 
+tender issued by the Reserve Bank of India. It can 
+be held as a store of value or used to carry out 
+transactions. In May 2024, India was among the 
+36 countries where CBDC was in pilot stage.10 
+Based on usage, CBDCs can be classified into 
+wholesale (CBDC-W) and retail (CBDC-R). While 
+wholesale CBDC (CBDC-W) caters to institutional 
+participants of the financial markets, retail 
+CBDC (CBDC-R) is a risk-free digital medium 
+of exchange for the retail consumers. The initial 
+use cases for the pilot of CBDC-R included 
+Person to Person (P2P) and Person to Merchant 
+(P2M) transactions. The pilot has also introduced 
+additional use cases using programmable and 
+offline functionalities. As of June 2024, 50 lakh 
+users and 4.2 lakh merchants were participating 
+in the CBDC retail pilot. 
+3.1.2. Changes in Payment Space brought about 
+by the Digital Revolution
+III.21 In the second wave, significant innovations 
+in the payment and settlement landscape were 
+9 Branch level computerisation and the establishment of connectivity between branches were recommended by the Committee on 
+Computerisation in Banks (1988), chaired by Dr. C. Rangarajan, then Deputy Governor, Reserve Bank of India.
+10 Retrieved from https://www.atlanticcouncil.org/cbdctrack on July 20, 2024.
+
+driven by technology-based solutions. Early 
+initiatives in this regard were the introduction 
+of credit cards and ATM networks in the late 
+1980s. The current wave of innovations in 
+payments system began with the rationalisation 
+of decentralised electronic products like ECS and 
+EFT into centralised pan-India payment solutions 
+like the NACH and NEFT which enabled servicing 
+customers spread throughout the country with 
+settlement at a central location. This phase 
+was facilitated by the adoption of Core Banking 
+Solutions (CBS)/centralised liquidity management 
+solutions in banks which enabled straight-through-
+processing of payments. In 2012, RuPay card 
+was introduced as the first of its kind global card 
+payment network of India with lower transaction 
+fees and wider acceptance at ATMs, Point of Sale 
+devices, and e-commerce platforms across the 
+country. Mass adoption of e-banking and newer 
+delivery channels for the customers – such as 
+internet banking (the primary mode of e-banking 
+in India) and mobile banking – evolved. As internet 
+connectivity and mobile phone penetration surged, 
+payment mechanism shifted from cards and 
+ATM networks to mobile phones as a convenient 
+alternative for small value transactions. 
+III.22 In recent years, new dimensions have 
+been added to the payment systems, such as the 
+Immediate Payment Service (IMPS) and the UPI, 
+which provide instant credit to the beneficiary, 
+and are available round the clock for undertaking 
+fund transfers. The Real Time Gross Settlement 
+(RTGS) has been developed as a Financial 
+Market Infrastructure, which processes large 
+payment transactions. Initiatives like Bharat Bill 
+Payment System (BBPS) and Pre-paid Payment 
+Instruments (PPIs) (which facilitate payment of 
+bills and purchase of goods and services), and 
+the National Electronic Toll Collection (NETC) 
+which allows for electronic toll payments have 
+further 
+enhanced 
+convenience. 
+Innovations 
+like the Bharat Interface for Money (BHIM) 
+App, interoperable QR code, and 24×7×365 of 
+NEFT and RTGS enhanced the convenience of 
+these payment systems and ensured their rapid 
+acceptance. The facilitation of non-bank FinTech 
+firms in the payment ecosystem as PPI issuers 
+offering stored value services to customers, and 
+in payment gateway and aggregation services like 
+Bharat Bill Payment Operating Units (BBPOUs) 
+and TPAPs in the UPI platform have furthered the 
+adoption of digital payments in the country (RBI, 
+2021a). Leveraging increasing mobile density, 
+PSPs, both banks and non-banks, have started 
+services using mobile as an access device as well 
+as an access channel.11
+III.23 The introduction of UPI in 2016 brought 
+twin benefits for mobile banking - convenience 
+of operations for customers, and merchant 
+‘pull’ payments. Prior to this, mobile banking 
+applications were largely operating in silos, 
+particularly for merchant payments and were 
+generally not interoperable across merchants and 
+customers of different banks (Das, 2024). In 2022, 
+the interlinking of RuPay credit cards with the UPI 
+platform offered more convenience to users and 
+expanded the reach of digital payments. 
+III.24 To broaden access to digital payments in 
+areas of low internet connectivity, a pilot scheme 
+was launched in August 2020 to enable small value 
+digital transactions in offline mode. In 2022, the 
+framework was formalised with offline payments 
+allowed using any channel or instrument like 
+cards, wallets and mobile devices in proximity 
+(face-to-face) mode without mandatory Additional 
+Factor of Authentication (AFA). UPI Lite was 
+11 Banks provide mobile banking services through three channels – SMS, Unstructured Supplementary Services Data (USSD) and 
+applications.
+
+introduced in this framework in September 
+2022 as a simplified version of the UPI payment 
+system. Using the same account, payments of up 
+to ₹ 500 can be made without pin authentication, 
+making payments faster and more convenient. 
+In September 2023, UPI Lite X was introduced 
+for offline payments where transactions are 
+carried out using the Near Field Communication 
+(NFC) technology. UPI Tap & Pay, introduced at 
+the same time, allows tapping NFC-enabled QR 
+codes at merchant locations and aids in faster 
+digital transactions.
+3.2. Factors Contributing to Digitalisation of 
+Payments in India
+III.25 The evolution of retail payment landscape 
+in India can be analysed using the innovation 
+systems approach, which was first introduced 
+in the late 1980s as a framework to understand 
+technological innovations at the national level. It 
+has been defined as “the network of institutions 
+in the public and private sectors whose activities 
+and interactions initiate, import, modify and 
+diffuse new technologies” (Freeman, 1987), and 
+“the elements and relationships which interact 
+in the production, diffusion and use of new, and 
+economically useful, knowledge ... and are either 
+located within or rooted inside the borders of a 
+nation state” (Lundvall, 1992). The concept rests 
+on the premise that understanding the interactions 
+among the actors involved in innovation is crucial 
+for enhancing technology performance (OECD, 
+1997). Nations excel in specific industries because 
+their domestic environment is exceptionally 
+forward-looking, dynamic, and challenging (Porter, 
+1998). 
+III.26 Through 
+the 
+lens 
+of 
+the 
+National 
+Innovation 
+Systems 
+(NIS) 
+framework, 
+the 
+payment landscape in India can be seen as 
+influenced by the interaction of various factors 
+including technological advancements, agents, 
+institutions and policy prescription (Chart III.10). 
+The pace and sequencing of payment system 
+Chart III.10: Payment System in India in a National Innovation Systems (NIS) Framework
+Note: TPSPs: Third Party Service Providers; NPCI: National Payments Corporation of India; TReDS: Trade Receivables electronic Discounting System; BBPOUs: 
+Bharat Bill Payment Operating Units; IFTAS: Indian Financial Technology Application Services; IDRBT: Institute for Development and Research in Banking 
+Technology; INFINET: INdian FInancial NETwork; SFMS: Structured Financial Messaging System; ECS: Electronic Clearing Service; NACH: National Automated 
+Clearing House; KYC: Know Your Customer; UPI: Unified Payments Interface; IMPS: Immediate Payment Services; NEFT: National Electronic Funds Transfer 
+RTGS: Real Time Gross Settlement.
+Source: RBI staff illustration.
+Agents
+Technology &
+Infrastructure
+Institutions
+Policy
+• Internet
+• INFINET & SFMS
+• ECS, NACH
+• National Financial Switch (NFS)
+• India Stack -
+,
+Aadhaar
+KYC, UPI
+• IMPS, NEFT, RTGS
+• Consumers
+• TPSPs
+• Commercial Banks
+• Payment System Operators-
+RBI, NPCI, ATM Networks,
+TReDS, BBPOUs
+• IFTAS
+• Direct Benefit Transfer (2013)
+• PM Jan Dhan Yojana (2014)
+• Digital India Mission (2015)
+•
+Act (2016)
+Aadhaar
+• Financial Inclusion Measures
+• RBI
+• Government
+• IDRBT (1996)
+
+reform has been impacted by several factors, 
+viz., (i) the different degrees of computerisation 
+in the financial system; (ii) geographical spread of 
+the banking sector; (iii) the regulatory role of the 
+Reserve Bank in relation to the payment systems; 
+(iv) systemic risks in payment and settlement 
+systems; (v) legal infrastructure; and (vi) impact 
+of payment and settlement system reforms on the 
+conduct of monetary policy (RBI, 2001). 
+III.27 The public sector’s pioneering role in 
+the evolution of payments systems included a 
+four-pronged strategy: treating digital financial 
+infrastructure 
+as 
+a 
+public 
+good, 
+fostering 
+private innovation with open access, ensuring 
+a fair regulatory environment, and empowering 
+individuals through a consensual data-sharing 
+framework. The top-down strategising fostered an 
+open loop digital payments system, which enabled 
+banks to take centre stage in the evolution and 
+integrate themselves in the payment infrastructure. 
+These strategies led to innovative digital platforms 
+that served specific needs like identity verification, 
+payments, and data sharing and collectively form 
+a powerful integrated system known as the Digital 
+Public Infrastructure or the “India Stack” (D’Silva et 
+al., 2019). The multidimensionality of the stack and 
+the open loop system (where settlement happens 
+in the fiat currency), facilitated interoperability and 
+mass adoption, and enhanced financial inclusion.
+III.28 The Reserve Bank is vested with the 
+power to regulate payment and settlement 
+systems in the country under the Payment and 
+Settlement Systems Act, 2007 (PSS Act). The 
+Board for Regulation and Supervision of Payment 
+and Settlement Systems (BPSS), a Committee of 
+the Central Board of the Reserve Bank of India 
+oversees the payment and settlement systems in 
+India. It is instrumental in prescribing policies and 
+setting standards for regulating and supervising 
+all the payment and settlement systems in the 
+country. 
+III.29 The 
+continuous 
+establishment 
+and 
+development of several institutions by the 
+Reserve Bank played an immense role in the 
+evolution and regulation of payment systems. 
+The Institute for Development and Research in 
+Banking Technology (IDRBT) was established in 
+1996 with a focus on sculpting the technological 
+infrastructure of the banking sector. It pioneered 
+vital technological infrastructure systems like the 
+INFINET and the Structured Financial Messaging 
+System (SFMS). The IDRBT also developed the 
+National Financial Switch (NFS) in 2004, which 
+is currently under the NPCI. The NPCI was 
+established in 2008 by the Reserve Bank of India 
+and the Indian Banks’ Association exclusively for 
+promoting payment systems. In 2015, the Indian 
+Financial Technology Application Services (IFTAS) 
+was created as a subsidiary of the Reserve Bank 
+which took over key services like INFINET, SFMS, 
+Indian Banking Community Cloud (IBCC), and 
+Global Interchange for Financial Transactions 
+(GIFT), offering uninterrupted 24x7 IT services to 
+the banking sector, including as a communication 
+backbone, messaging platform, and community 
+cloud. In April 2020, NPCI International Payments 
+Limited (NIPL) was established as a subsidiary 
+dedicated to globalising NPCI’s payment systems, 
+focusing initially on the internationalisation of 
+RuPay and UPI. The IDRBT has expanded its 
+focus to research centres, addressing areas 
+like analytics, cyber security, mobile banking, 
+affordable technologies, cloud computing, and 
+payment systems. The setting up of the Reserve 
+Bank Innovation Hub in March 2022 is another 
+step taken to encourage and nurture financial 
+innovation in a sustainable manner through an 
+institutional set-up. 
+III.30 With institutions in place, the Reserve Bank 
+authorised various agents like Payment System 
+Operators (PSOs) such as NPCI (retail payments 
+organisation), card payment networks, cross-
+
+border inbound money transfers entities, ATM 
+networks, PPI issuers, Instant Money Transfer 
+operators, TReDS platform providers and NPCI 
+Bharat BillPay Limited (NBBL) to operate payment 
+systems in the country (Chart III.11a). Of all the 
+operators, the Reserve Bank and the NPCI are 
+the major ones entrusted with overseeing vital 
+payment systems like RTGS, NEFT and UPI; 
+IMPS and NACH respectively (Chart III.11b).
+III.31 Concurrently, changes in the payment 
+landscape were brought from the perspective of 
+government payments. As noted earlier, the trifecta 
+of JAM trinity revolutionised the retail payment 
+landscape. Bulk and repetitive government benefit 
+and subsidy payments to Aadhaar-seeded bank 
+accounts of identified beneficiaries were facilitated 
+by the Aadhaar Payments Bridge System (APBS). 
+Aadhaar Enabled Payment System, operational 
+since 2011, uses Aadhaar authentication for online 
+transactions and offers cash withdrawal, balance 
+enquiry, and fund transfers. Nearly 352 million 
+RuPay cards have been issued under Jan Dhan 
+Yojana accounts (PMJDY, 2024). Mobile based 
+banking developed as fast payments systems like 
+IMPS and UPI accorded multi-channel access 
+including internet and mobile banking. Amidst 
+this evolution, a universe of Third-Party Service 
+Providers (TPSPs) developed simultaneously, 
+which 
+includes, 
+payment 
+gateways 
+(PGs), 
+payment aggregators (PAs), and TPAPs. These 
+TPSPs play a significant role in furthering public-
+private partnership in the FinTech sphere. 
+III.32 To further expand the digital payment 
+ecosystem in India, the Reserve Bank in 2019 
+introduced the ‘Expanding and Deepening of 
+Digital Payment Ecosystem’ (EDDPE) programme. 
+Under this programme, State Level Bankers’ 
+Committees 
+(SLBCs)/Union 
+Territory 
+Level 
+Bankers’ Committees (UTLBCs) of respective 
+states and union territories (UTs) provide every 
+eligible individual in the identified district with at 
+least one mode of digital payments viz., debit/
+RuPay cards, net banking, mobile banking, 
+UPI, USSD, AePS, to facilitate him/her to make/
+Chart III.11: Payment System Operators and Systems
+Note: In Chart III.11b, the year of authorisation is reported at the end.
+Source: RBI staff illustration.
+
+receive payments digitally in a safe, secure, quick, 
+affordable, and convenient manner. As on March 
+31, 2024, all districts across the country (except 
+two districts from the UT of Andaman and Nicobar 
+Islands) have been identified for the purpose, and 
+179 districts were 100 per cent digitally enabled.
+III.33 The Payments Infrastructure Development 
+Fund (PIDF) operationalised by the Reserve Bank 
+in January 2021 provided a further fillip to the 
+digital payments revolution. The PIDF Scheme, 
+initially implemented for a period of three years 
+was extended further for a period of two years, 
+i.e., up to December 31, 2025. It encourages 
+deployment of payment acceptance infrastructure 
+such as physical Point of Sale (PoS) terminals 
+and Quick Response (QR) codes in tier-3 to tier-6 
+centres, north-eastern states and UTs of Jammu 
+& Kashmir and Ladakh, and beneficiaries of 
+Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi 
+Scheme) and PM Vishwakarma scheme in tier-1 
+and tier-2 centres (Table III.1). The PIDF had a 
+corpus of ₹1,239 crore in May 2024. 
+III.34 Apart from these factors, digital payments 
+were boosted by the demonetisation of banknotes 
+of ₹500 and ₹1000 denominations in 2016. The 
+year-on-year growth in retail electronic payments 
+jumped from around 37 per cent during April to 
+October 2016 to nearly 70 per cent in November 
+and 123 per cent in December 2016. There 
+appears to be a structural break in the volume 
+and value of retail electronic payments, coinciding 
+with the onset of demonetisation (RBI, 2017). The 
+COVID-19 pandemic also hastened the adoption 
+of digital payments in India with consumers and 
+businesses increasingly choosing contactless 
+transactions amidst social distancing norms and 
+lockdowns. Realising the importance of financial 
+literacy in digital payments’ adoption, the Reserve 
+Bank, along with several non-governmental 
+organisations and financial institutions, has 
+initiated various programmes to educate the 
+underserved segments about the benefits of 
+digital payments. The Reserve Bank has been 
+conducting electronic banking awareness and 
+training (e-BAAT) programmes regularly to educate 
+the masses to move their focus of payments from 
+physical presence of money to electronic money 
+payments.
+III.35 Overall, the evolution of the retail payment 
+landscape in India within the context of the NIS 
+reflects a dynamic ecosystem characterised 
+by policy support, technological innovation, 
+stakeholder collaboration, and consumer-driven 
+Table III.1: Payments Infrastructure Development Fund (PIDF)
+(As on May 31, 2024)
+Location
+Physical devices*
+Digital devices**
+Aadhaar enabled 
+biometric devices
+Tier 3 & 4 Centres
+5,15,476
+1,05,70,839
+1,775
+Tier 5 & 6 Centres
+4,00,945
+1,68,59,577
+3,670
+Special Focus Areas 
+(North-eastern States and UTs of J&K and Ladakh)
+1,30,450
+24,45,204
+Tier 1 & 2 Centres 
+(PM SVANidhi and PM Vishwakarma Schemes)
+14,68,901
+Total
+10,47,206
+3,13,44,521
+5,636
+Note: 1. *Physical devices include PoS, mPoS (mobile PoS), GPRS (General Packet Radio Service), PSTN (Public Switched Telephone 
+Network), etc.
+
+2. **Digital devices include inter-operable QR code-based payments such as UPI QR, Bharat QR, etc.
+Source: RBI.
+
+demand. These efforts were a part of a broader 
+strategy to promote financial inclusion, enhance 
+the efficiency of the payment system, and 
+boost the digital economy. Going forward, the 
+Payments Vision Document 2025 (RBI, 2022a) 
+further builds upon the five pillars of integrity, 
+inclusion, 
+innovation, 
+institutionalisation 
+and 
+internationalisation and is indicative of the future 
+evolution of payment systems in India. 
+3.3. Trends in Digital Payments 
+III.36 Payment transactions in India currently 
+comprise bulk payment transfers (RTGS), which 
+include both customer and inter-bank transactions; 
+and retail payment transfers12 (Chart III.12). Except 
+paper-based instruments, all other payments 
+constitute digital transactions. The digital payments 
+system has been developed to offer a bouquet 
+of products to cater to diverse needs. While the 
+UPI has facilitated digital payments to merchants 
+such as retail outlets/vendors across the country, 
+the BBPS has ensured migration of bill payments 
+from cash/cheques to digital mode. Likewise, the 
+NETC system aided migration of toll payments 
+to digital mode, and the NACH facilitated digital 
+direct benefit transfers (DBT). 
+III.37 The transition to digital modes of payment 
+is borne out by the phenomenal growth witnessed 
+across all facets of digital transactions over the 
+past decade. The volume of digital transactions 
+recorded a compound annual growth rate (CAGR) 
+of 52 per cent during 2013-14 to 2023-24 while 
+the value of these transactions exhibited a 12 per 
+cent CAGR (Chart III.13a). The intensity of digital 
+payment usage has shot up multi-fold: the number 
+of transactions per lakh of GDP increased from 
+0.8 in 2005-06 to 56 in 2023-24, and the number 
+of transactions per capita from 0.2 in 2005-06 to 
+12 The classification between retail and non-retail segments is at Payment System/Instrument level and does not per se capture individual 
+transaction values. For instance, NEFT is called as retail payment system, even though it allows for high value transactions. Contrastingly, 
+for RTGS there is a lower limit of value defined, and is classified as wholesale/large value payment system.
+Chart III.12: Payment Systems Landscape in India
+Note: CTS: Cheque Truncation System; NPCI: National Payments Corporation of India; APBS: Aadhaar Payment Bridge System; AePS: Aadhaar enabled Payment 
+System; IMPS: Immediate Payment Services; NACH(Cr): National Automated Clearing House (Credit); NEFT: National Electronic Funds Transfer; UPI: Unified 
+Payments Interface; BHIM: Bharat Interface for Money; NACH(Dr): National Automated Clearing House (Debit); NETC: National Electronic Toll Collection; RTGS: 
+Real Time Gross Settlement.
+Source: RBI staff illustration.
+Card 
+Debit 
+Transfers
+Credit 
+Transfers
+Credit 
+Transfers 
+RTGS
+Prepaid Payment
+Instruments
+Retail Payments
+Payment Systems
+Financial Market
+Infrastructure
+APBS
+BHIM 
+Aadhaar Pay
+Credit Cards
+Cards
+Wallets
+Debit Cards
+AePS
+IMPS
+NACH (Cr)
+NACH (Dr)
+NETC
+NEFT
+UPI
+Paper Based
+Instruments
+Non-Digital
+Others
+CTS (NPCI
+Managed)
+
+114 in 2023-24. The average value of transaction 
+per capita for total digital payments surged from 
+₹0.4 lakhs to ₹16.8 lakhs over the same period 
+(Chart III.13b). 
+III.38 The share of the volume of paper clearing 
+plummeted to 0.4 per cent in 2023-24 in total retail 
+payments from 81.9 per cent in 2005-06. Further, 
+the share of digital retail transactions in total value 
+of retail payments increased to 90.9 per cent 
+in 2023-24 from 1.3 per cent in 2005-06 (Chart 
+III.14a and b). UPI has emerged as the preferred 
+method of retail payments, with a share of 79.6 
+per cent in total volumes of retail payments made 
+in 2023-24 (Chart III.14c). In value terms, NEFT 
+transactions had the highest share (49.4 per cent) 
+in total retail payments in 2023-24, followed by 
+UPI (25.3 per cent share in 2023-24 as compared 
+to only 2.4 per cent in 2018-19) [Chart III.14d]. 
+Within card payments, the usage of credit cards 
+has increased over the years. In 2023-24, credit 
+cards accounted for 61 per cent of total volume 
+and 76 per cent of total value of card payments 
+(Chart III.14e). The integration of functionality 
+of UPI with RuPay credit cards increased credit 
+card usage further in 2023. Consequently, the 
+market share of outstanding RuPay credit cards in 
+circulation also increased from 3 per cent in 2022-
+23 to 10 per cent in 2023-24.13
+III.39 UPI is now the most popular and preferred 
+payment mode in India revolutionising the P2P 
+as well as P2M transactions (Das, 2023a). 
+Apart from being a user-friendly interface and 
+facilitating QR code-based payments, the UPI 
+has evolved to include advanced functionalities 
+such as offline payments through NFC technology 
+(UPI Lite X), payments through feature phones 
+(UPI 123Pay) and AI based conversational 
+payments (hello! UPI) [Chart III.15]. The volume 
+of UPI transactions has increased multi-fold from 
+539 crore in 2018-19 to 13,113 crore in 2023-24 
+and their value from ₹8.8 lakh crore to ₹200 lakh 
+crore during the same period. Currently, UPI is 
+processing close to 45 crore transactions in a day 
+(June 2024). 
+Chart III.13: Intensity of Digital Payments Adoption
+Source: RBI; NSO; UN World Population Prospects; and RBI staff estimates. 
+13 In December 2023, RuPay credit card spending on UPI platform crossed ₹ 5,000 crore - almost 50 per cent of overall RuPay credit card 
+spending.
+Intensity of Digital Payments
+a. Total Digital Payments
+16443
+10000
+12000
+14000
+16000
+18000
+2004-05
+2005-06
+2006-07
+2007-08
+2008-09
+2009-10
+2010-11
+2011-12
+2012-13
+2013-14
+2014-15
+2015-16
+2016-17
+2017-18
+2018-19
+2019-20
+2020-21
+2021-22
+2022-23
+2023-24
+Number in Crore
+Volume (RHS)
+Value
+0.7
+55.9
+0.2
+114.1
+0.4
+16.8
+2004-05
+2005-06
+2006-07
+2007-08
+2008-09
+2009-10
+2010-11
+2011-12
+2012-13
+2013-14
+2014-15
+2015-16
+2016-17
+2017-18
+2018-19
+2019-20
+2020-21
+2021-22
+2022-23
+2023-24
+Number
+Transactions per Lakh of GDP (RHS)
+Transactions per Capita (RHS)
+Per Capita Value of Digital Transactions
+
+3.4. Awareness and Adoption of Digital Payments 
+in India: Evidence from User Survey
+III.42 Even as there has been significant progress 
+in digital payments adoption in India as captured 
+by the broad aggregates discussed above, micro 
+level evaluation from the users’ perspective is 
+crucial to extract important policy lessons regarding 
+the degree of penetration of digital payments as 
+well as gaps, if any, which need focused attention. 
+Accordingly, the Reserve Bank conducted a 
+nationwide survey of merchants and consumers 
+with approximately 90,000 participants from both 
+the rural as well as urban areas in all States and 
+Union Territories (UTs), ensuring a proportionate 
+representation according to population size and 
+geographies in 2022.14 The major survey results 
+are set out below. 
+3.4.1. Merchants
+III.43 As per the survey, familiarity with digital 
+payments is widespread across geographical 
+locations with 88.8 per cent of the merchants being 
+aware of digital payments (the highest in metro 
+areas at 93.4 per cent). About two-third of the 
+survey respondents had tried digital payments at 
+least once.15 The adoption levels were, however, 
+lower than the awareness levels suggesting scope 
+for expanding the usage of digital payments. In 
+metro areas, the percentage of merchants who 
+had adopted digital payments was higher at 75.2 
+per cent, along with higher current usage (Chart 
+III.18). At an all-India level, about one-fifth of 
+the merchants had never used digital payments 
+despite being aware of it, while another 11.2 per 
+cent had never used digital payments because 
+of the lack of awareness. Around 60 per cent of 
+Chart III.17: RBI- Digital Payments Index
+Source: RBI.
+14 The survey’s execution was delegated to National Payments Corporation of India (NPCI), and the field work for the survey was conducted 
+from September 2022 to December 2022.
+15 If the respondent has used digital payments at least once in his/her life time, it is considered as ‘adoption of digital payments’ and if she/
+he continues to use digital payments at the time of survey, it is considered as ‘usage of digital payments’.
+Chart III.18: Merchant Digital Payments – Awareness, 
+Adoption and Usage in 2022
+Source: RBI Survey.
+
+merchants observed an uptick in digital payments 
+usage following the COVID-19 pandemic. This 
+pattern was consistent across different groups, 
+with a notably higher increase among merchants 
+in metro areas.
+3.4.2. Consumers
+III.44 The pattern of digital payment awareness 
+among consumers was like that of merchants, 
+although the awareness levels were somewhat 
+lower. As in the case of merchants, the awareness 
+among metro and urban consumers was higher 
+and the awareness in semi-urban and rural areas 
+did not see a significant drop from the all-India 
+average. The adoption levels among consumers 
+were lower compared to merchants, with only 41.9 
+per cent consumers having used any of the digital 
+payment modes at least once in their lifetime. The 
+adoption of digital payment modes was higher in 
+metros and urban areas. The conversion from 
+awareness to trial was 54.3 per cent, suggesting 
+scope for further penetration.
+III.45 According to the survey, about 36.1 per 
+cent consumers were current users of any of the 
+digital payment modes in India. When compared 
+to 41.9 per cent of users who have tried digital 
+payments at least once, this translates to a 
+conversion rate of 86.1 per cent, implying that 
+most people having once used, continue to use 
+digital payments regularly. This also indicates 
+that efforts towards initiating consumers to digital 
+payments on a trial basis could result in long term 
+adoption. The current usage of digital payments 
+was also found to be higher among metro and 
+urban residents (Chart III.19). Approximately 4 
+in every 10 consumers reported that they started 
+using digital payments post the pandemic. Among 
+the remaining 59.9 per cent who had been using 
+digital payments pre-Covid, 64.7 per cent reported 
+an increase in their usage post-Covid.
+III.46 By age groups, the awareness of digital 
+payments was high among the younger age 
+groups. Adoption and current usage followed 
+similar trends, with the age group 18-30 years 
+using digital payments the most (Chart III.20).
+Chart III.19: Consumer Digital Payments - Awareness, 
+Adoption and Usage in 2022
+Source: RBI Survey.
+Chart III.20: Consumer Digital Payments - by Age Group
+Source: RBI Survey.
+
+III.47 Awareness and usage levels among males 
+were higher than females. While 51.8 per cent of 
+the males had used digital payment mode at least 
+once in their lifetime, the number was 28.7 per 
+cent for females, according to the survey (Chart 
+III.21).
+III.48 Across states, the overall awareness was 
+in the range of 60-93 per cent, with twelve states/
+UTs exhibiting awareness levels equal to or higher 
+than the all-India average (Table III.2). 
+3.4.3. Key Drivers of Adoption of Digital Payments
+III.49 The survey also elucidated information on 
+what facilitated the adoption of digital payments 
+ecosystem from the consumers’ perspective. 
+Ease and convenience were cited as key reasons, 
+with 61.8 per cent consumers quoting the same. 
+Amongst users of digital payments in the country, 
+86.6 per cent respondents did not face any 
+difficulty while using digital payment methods. 
+Among the small set of customers who did face 
+difficulty while using digital payments, server 
+being down/not working was reported as the key 
+issue (59.1 per cent). Other challenges were 
+consumers’ habituality with cash (30.7 per cent) 
+and unacceptability of digital payments (19.7 per 
+cent). 
+4. Impact of Digital Payments
+III.50 Through their fast, convenient, cost-
+effective, and transparent nature, digital payments 
+offer significant advantages to consumers as well 
+as producers – they foster financial inclusion 
+and inclusive growth and boost productivity 
+and incomes. In a panel of 90 economies over 
+2014-19, a one percentage point increase in 
+digital payments use was associated with 0.04 
+percentage point and 0.10 percentage point 
+growth in total factor productivity and GDP per 
+capita, respectively (Aguilar et al., 2024). The 
+study also found that digital payments facilitated 
+greater access to credit and resulted in 0.06 
+percentage point decline in the share of informal 
+Chart III.21: Consumer Digital Payments - by Gender
+Source: RBI Survey.
+Table III.2: Consumer Digital Payments 
+Awareness - by States
+State/UT
+Awareness 
+(per cent)
+State/UT
+Awareness 
+(per cent)
+Andaman Nicobar Islands
+81.6
+Lakshadweep
+84.4
+Andhra Pradesh
+73.5
+Madhya Pradesh
+69.2
+Arunachal Pradesh
+81.4
+Maharashtra
+74.8
+Assam
+75.8
+Manipur
+87.4
+Bihar
+84.4
+Meghalaya
+83.2
+Chandigarh
+73.7
+Mizoram
+80.6
+Chhattisgarh
+60.8
+Nagaland
+91.5
+Dadra and Nagar Haveli
+80.6
+Odisha
+82.7
+Daman and Diu
+92.1
+Puducherry
+78.8
+Delhi
+93.7
+Punjab
+77.2
+Goa
+86.4
+Rajasthan
+77.6
+Gujarat
+75.7
+Sikkim
+83.7
+Haryana
+93.3
+Tamil Nadu
+79.3
+Himachal Pradesh
+77.6
+Telangana
+70.5
+Jammu and Kashmir
+76.6
+Tripura
+66.7
+Jharkhand
+67.4
+Uttar Pradesh
+72.3
+Karnataka
+80.5
+Uttarakhand
+89.9
+Kerala
+85.1
+West Bengal
+78.8
+All India
+77.2
+Source: RBI Survey.
+
+employment. Digital payments enhance the well-
+being of households by reducing the risk from 
+economic shocks; they also facilitate informal-
+risk-sharing networks by facilitating timely transfer 
+of small amounts of money, enabling mitigation of 
+negative shocks, and more efficient investment 
+decisions (Jack and Suri, 2014; Jack and Suri, 
+2011). 
+4.1 Financial Inclusion and Inclusive Growth
+III.51 The emergence of digital payments 
+has quickened the pace of financial inclusion 
+by breaking many of the obstacles faced by 
+traditional financial inclusion channels, like cost, 
+geographical barriers, and information asymmetry 
+(Khera et al., 2022). Digital finance complements 
+traditional finance in areas where formal finance 
+is already engraved and supplements in places 
+where traditional financial modes have limited 
+reach. 
+Inclusive 
+digital 
+financial 
+services, 
+including online accounts, mobile money services, 
+electronic payments, combinations of insurance 
+and credit as well as FinTech applications have 
+the capacity to reach individuals and firms 
+which were hitherto excluded. Digital financial 
+services (DFS), by virtue of being faster, more 
+efficient, and typically cheaper than traditional 
+financial services, are becoming increasingly 
+capable of reaching lower-income households 
+as well as micro, small, and medium enterprises 
+(MSMEs) [Khera, 2023]. The advent of digital 
+innovations and payments has the potential to be 
+an enabler for the next level of financial inclusion 
+where the quality of inclusion takes precedence 
+over just the availability of financial services 
+(Rao, 2022).
+III.52 By widening the reach of financial payments 
+to poor households and micro enterprises, 
+digital payments enhance their opportunities for 
+participating in formal economic activities, fostering 
+growth and bringing down poverty and inequality. 
+Higher access to payment services is associated 
+with a reduction in income inequality, particularly 
+for those at the lower end of the income distribution, 
+and when female financial inclusion is high (Čihák 
+and Sahay, 2020). Additionally, DFS reduce 
+gender gap in financial inclusion by addressing 
+constraints that affect women in particular, such as 
+mobility and time constraints (Khera, 2023). DFS 
+also holds promise for reducing costs, improving 
+speed, security, and transparency, and facilitating 
+more tailored financial services that cater to the 
+disadvantaged and underserved populations 
+(Thomas and Hedrick-Wong, 2019; Pazarbasioglu 
+et al., 2020).
+III.53 Digital payments help in consumption-
+smoothing and increasing savings for households, 
+while helping in stabilising income and increasing 
+sales for firms in the informal sector. In 
+Bangladesh, mobile banking increased urban-
+to-rural remittances; rural households receiving 
+digital payments borrowed less, saved more, and 
+consumed more in the lean season (Lee et al., 
+2021). Based on a study of 400 million mobile 
+money users in India, Patnam and Yao (2020) 
+found that mobile money use increased the 
+resilience of households to shocks by dampening 
+the impact of rainfall shocks on economic activity 
+and household consumption. The study also 
+indicated that firms adopting mobile payments 
+improved their sales after six-months of use, had 
+lower subjective uncertainty and greater sales 
+optimism.
+III.54 India’s 
+financial 
+inclusion 
+initiatives 
+received a fillip when PMJDY was launched in 
+2014 (Chart III.22). The digital technological 
+revolution widened the usability of bank accounts 
+from a traditional deposit or credit account to a 
+payment intermediary. As per the World Bank’s 
+Findex database, 78 per cent of Indian adults 
+(population with 15 years or more of age) had a
+
+bank account in 2021 as compared to 53 per cent 
+in 2014. 
+III.55 The strides in furthering financial inclusion 
+are captured by the Reserve Bank’s Financial 
+Inclusion Index (FI-Index), a comprehensive index 
+incorporating details of banking, investments, 
+insurance, pension as well as the postal sector. 
+The FI-Index, on a scale of 0 to 100, comprises of 
+three broad parameters, viz., access (35 per cent), 
+usage (45 per cent) and quality (20 per cent), with 
+each of these consisting of various dimensions. 
+The index improved to 64.2 in March 2024 from 
+43.4 in March 2017, with growth across all sub-
+indices (Chart III.23). 
+4.2 Improving Credit Assessment and Availability
+III.56 Digital 
+generate 
+real-time 
+data on sellers’ businesses, timing of cash 
+flows, and buyers’ purchasing habits, allowing 
+payment providers to offer credit, savings, wealth 
+management, collections, insurance, and other 
+financial services. Ouyang (2021) found that 
+cashless payment adoption in China increased 
+credit access by 56.3 per cent, and a 1 per cent 
+rise in payment flow increased credit line by 0.4 
+per cent. These effects were found to be more 
+pronounced among individuals with lower levels 
+of education, and the older population. Digital 
+payments also simplify the transaction process, 
+making it faster and more efficient and eliminate 
+manual cash handling and record-keeping. In 
+India, internet adoption by small businesses 
+has increased over the years, though the 
+usage remains low. As per the Annual Survey 
+of Unincorporated Sector Enterprises (ASUSE) 
+2022-23 (October-September), 21.1 per cent 
+of unincorporated establishments used internet 
+for entrepreneurial purposes during the year 
+compared to 4.0 per cent in 2015-1616. A major 
+share of these establishments with internet used 
+internet banking (61.5 per cent) for business 
+purposes during 2022-23. 
+Chart III.22: Deposit Accounts with Commercial Banks
+Source: Financial Access Survey, IMF.
+Chart III.23: Progress in Financial Inclusion (FI Index)
+Note: Figures in parentheses indicate weights (per cent) in FI-Index.
+Source: RBI.
+16 Estimated using microdata of National Sample Survey Office (NSSO) 73rd round - Survey on Unincorporated Non-Agricultural Enterprises 
+(Excluding Construction) - July 2015- June 2016.
+FI-Access (35)
+FI-Usage (45)
+FI-Quality (20)
+FI-Index (RHS)
+Index
+Index
+43.4
+46.0
+49.9
+53.1
+53.9
+56.4
+60.1
+64.2
+2017 2018 2019 2020 2021 2022 2023 2024
+End-March
+
+III.57 Digital payment history enables lenders 
+to gauge cash flow, revenue patterns, and 
+repayment habits of borrowers, enhancing their 
+ability to obtain credit at more favourable lending 
+terms and opportunities for expansion. This 
+data-driven approach bridges the gap that often 
+hampers credit access for smaller businesses. 
+For India, Dubey and Purnanandam (2023) found 
+that digital payments alleviated credit constraints 
+and transaction cost frictions, especially in areas 
+where the presence of conventional banking 
+infrastructure 
+was 
+limited. 
+Digital 
+payment 
+infrastructure 
+helped 
+reduce 
+impediments 
+faced by marginal self-employed households, 
+such as hawkers and small traders; and small 
+entrepreneurs’ borrowing from formal sources 
+of financing increased with digital payments. 
+Additionally, 
+digital 
+help 
+small 
+businesses to innovate and explore new business 
+models such as subscription services, online 
+marketplaces, and digital platforms, enabling 
+them to transcend geographical boundaries and 
+reach a wider customer base both domestically 
+and internationally. 
+4.3 Better Targeting of Government Support 
+Schemes
+III.58 Digital payment systems facilitate a cost-
+effective expansion of government-to-persons 
+social assistance programmes, given their ability 
+to reach far-flung and remote areas (Yawe et al., 
+2022). In India, one of the most significant impacts 
+of digital payments on under-served populations 
+has been through the implementation of DBTs. 
+The Aadhaar Payment Bridge (Digital ID and 
+Digital Payment) allowed the government to make 
+direct transfers of subsidies, wages, and other 
+Table III.3: Gains from DBT and Other Governance Reforms of the Union Government
+(Cumulative savings up to March 2023)
+S. 
+No
+Ministry/ Department
+Scheme 
+Category
+Estimated Savings / 
+Benefits (in ₹ Cr)
+Remarks
+Ministry of Petroleum and Natural 
+Gas
+PAHAL
+73,443
+Elimination of 4.15 crore duplicate, fake/ 
+non-existent, inactive LPG connections. 
+Department of Food and Public 
+Distribution
+PDS
+185,573
+Deletion of 5.04 crore duplicate and fake/ non-existent 
+ration cards.
+Department of Rural Development
+MGNREGS
+42,534
+Deletion of 7.10 lakh fake job cards (2022-23).
+Department of Rural Development
+NSAP
+Deletion of 11.05 lakh duplicate, fake/ non-existent, 
+ineligible beneficiaries.
+Ministry of Minority Affairs
+Scholarship 
+Scheme
+1,917
+Deletion of 30.92 lakh duplicate, fake/ non-existent 
+beneficiaries.
+Department of Social Justice and 
+Empowerment
+Scholarship 
+Scheme
+1,055
+Deletion of 12.28 lakh duplicate, fake/non-existent 
+beneficiaries.
+Ministry of Women and Child 
+Development
+Others
+1,524
+Reduction of 98.8 lakh duplicate, fake/non-existent 
+beneficiaries.
+Department of Fertilizers
+Fertilizer
+18,700
+Reduction of 158.06 lakh metric tonnes of fertilizer sale 
+to retailers.
+Department of Agriculture and 
+Farmers Welfare
+PM-KISAN
+22,106
+Deletion of 2.12 crore ineligible beneficiaries.
+Others
+Others
+1,176
+
+Total
+348,565
+Note: PAHAL: Pratyaksh Hanstantrit Labh; PDS: Public Distribution System; MGNREGS: Mahatma Gandhi National Rural Employment 
+Guarantee Scheme; NSAP: National Social Assistance Programme; PM-KISAN: Pradhan Mantri Kisan Samman Nidhi Yojana.
+Source: Direct Benefit Transfer Mission, Government of India.
+
+benefits into beneficiaries’ bank accounts in an 
+efficient, transparent, and speedy manner, while 
+reducing leakage and corruption. The number of 
+transfers as well as the total amount transferred 
+under DBTs have witnessed a significant rise in 
+recent years (See Chapter I, Chart I.19). DBTs 
+and other governance reforms have led to an 
+estimated savings of ₹3.49 lakh crore till March 
+2023 (Table III.3). During 2023-24, 1006 crore 
+DBT transactions were made by the Central 
+Government amounting to ₹ 6.9 lakh crore.17
+4.4 Impact on Central Banking Operations
+III.59 The 
+rapid 
+pace 
+of 
+technological 
+advancements in digital payments could have 
+a significant bearing on monetary transmission 
+mechanism 
+and 
+central 
+banks’ 
+operational 
+frameworks and instruments. This would require 
+them to adapt their policies and frameworks 
+to navigate the realities of the new financial 
+landscape efficiently and effectively to maintain 
+their key objectives of price and financial stability 
+(BIS, 2020). 
+4.4.1. Money Demand
+III.60 Even as digital payments are growing 
+rapidly, demand for cash still remains generally 
+high. Cash continues to be used as a store of 
+value and a preferred choice during periods 
+of heightened uncertainty, as seen during the 
+COVID-19 pandemic (Ashworth and Goodhart, 
+2021; Awasthy et al., 2022). It is also the 
+dominant mode of payment for certain segments 
+of population, like older people (Khiaonarong 
+and Humphrey, 2022). These developments and 
+country-specific factors are reflected in divergent 
+currency to GDP ratios and trends across the 
+world. For instance, among the major AEs, Japan 
+has the highest currency in circulation (CiC) to 
+GDP ratio, which is even higher than major EMEs 
+(Chart III.24). Sweden’s payments market, on the 
+other hand, has digitalised at a rapid pace, with its 
+CiC to GDP ratio at 1.1 per cent in 2022, among 
+the lowest in the world. 
+III.61 In India, currency/GDP ratio has been 
+broadly range-bound in recent years, with 
+variations due to events such as demonetisation 
+in 2016 (and subsequent remonetisation), a 
+temporary jump in precautionary demand due to 
+uncertainties induced by the COVID-19 pandemic 
+and the withdrawal of ₹2000 banknotes in May 
+2023 (Chart III.25a). CiC growth has recorded 
+some moderation amidst strong expansion in 
+digital payments (Chart III.25b). The negative 
+and statistically significant substitution effect 
+between cash and digital modes can, however, be 
+outweighed by the combination of positive income 
+and precautionary effects depending upon the 
+prevailing circumstances (Awasthy et al., 2022).
+III.62 Digital 
+influence 
+monetary 
+aggregates – both narrow money (M1) by 
+influencing CiC and demand deposits (Columba, 
+2009) and broad money (M3) by affecting levels 
+of saving and deposits (Demirgüç-Kunt et al., 
+2022). Further, as transactions become faster 
+and more seamless in the digital mode, money 
+can change hands faster, thereby affecting the 
+velocity of money. Digital payments can also 
+make it easier to respond to changes in interest 
+rates, with implications for interest rate sensitivity 
+of money and monetary policy transmission (Kahn 
+et al., 2022). In several countries, like the US, 
+Canada, China, Kenya, Singapore, and Sweden, 
+the digitalisation of payments was accompanied 
+by a structural shift and instability in money 
+velocity. The effect was, however, dampened 
+17 As on July 12, 2024.
+
+by other macroeconomic factors. In the US, 
+important innovations in the payment space were 
+accompanied by an increase in income velocity 
+of M1, while a decline of the same was registered 
+in the aftermath of the GFC and the COVID-19 
+pandemic. Canada experienced a similar uptick 
+in money velocity for narrow money, coinciding 
+with the introduction of credit cards. In the case of 
+China, expansion in mobile money around 2002 
+led to an increase in volatility of money velocity 
+(Lukonga, 2023). 
+III.63 In India, in the aftermath of the COVID-19 
+pandemic, M3 growth accelerated transiently, as 
+its largest component, aggregate deposits, grew 
+sharply owing to COVID-19 induced uncertainties 
+and the lack of avenues to spend (Chart III.26). This 
+also led to a sharp drop in the velocity of money 
+(RBI, 2021b). The velocity of money returned to its 
+long run trend in 2022-23 (RBI, 2023).
+III.64 In India, financial innovations (cards and 
+mobile banking, among others) are important 
+determinants of real money balances (Adil et al., 
+Chart III.24: Currency in Circulation (CiC) to GDP Ratios
+Chart III.25: CiC and Digital Payments in India
+Source: BIS Red Book Statistics.
+Note: *Total digital payments.
+Source: RBI.
+a. CiC-GDP Ratio
+b. Growth in CiC and Digital Payments*
+Per cent
+Y-o-y growth in per cent
+12.0
+14.4
+11.9
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+12.0
+14.0
+16.0
+Mar-13
+Sep-13
+Mar-14
+Sep-14
+Mar-15
+Sep-15
+Mar-16
+Sep-16
+Mar-17
+Sep-17
+Mar-18
+Sep-18
+Mar-19
+Sep-19
+Mar-20
+Sep-20
+Mar-21
+Sep-21
+Mar-22
+Sep-22
+Mar-23
+Sep-23
+Mar-24
+Digital payments value
+-60
+-40
+-20
+Mar-18
+Jun-18
+Sep-18
+Dec-18
+Mar-19
+Jun-19
+Sep-19
+Dec-19
+Mar-20
+Jun-20
+Sep-20
+Dec-20
+Mar-21
+Jun-21
+Sep-21
+Dec-21
+Mar-22
+Jun-22
+Sep-22
+Dec-22
+Mar-23
+Jun-23
+Sep-23
+Dec-23
+Mar-24
+
+2020). In China, digital finance impacts stability 
+of money demand differently across monetary 
+aggregates: it leaves M0 unaltered, has no effect 
+on the volatile M1, but disrupts the previously 
+stable M2 (Zhan et al., 2023). In Italy, the diffusion 
+of ATMs and PoS had a negative impact on 
+CiC, but a positive impact on M1, as payment 
+innovations lead to a shift away from cash towards 
+demand deposits (Columba, 2009). In the Indian 
+context, digitalisation appears to reduce money 
+demand (Box III.2).
+4.4.2. Impact of CBDC 
+III.65 CBDCs are being introduced in different 
+economies in pilot mode, including India. While 
+CBDCs offer a range of benefits like reduced 
+dependency on cash, lower currency management 
+cost and reduced settlement risk, these also 
+have implications for financial stability, monetary 
+policy, financial market structure, and cost and 
+availability of credit (RBI, 2022b). Conceptually, 
+CBDCs can induce changes in public’s demand 
+for currency; banking system deposits and credit; 
+retail, wholesale and cross-border payments; and 
+monetary policy implementation and transmission. 
+CBDC can reduce transaction demand in deposits, 
+as it brings down settlement risk, reducing the 
+liquidity needs for settlement of transactions 
+(Sankar, 2021). At the same time, it can also 
+reduce bank deposits affecting the credit creating 
+capacity of commercial banks. As deposits are 
+a cheap and stable source of funding for banks, 
+substitution of bank deposits with CBDCs could 
+impact banks’ overall funding, and ability to lend 
+(Chang et al., 2023). Bank disintermediation due 
+to introduction of CBDCs would depend, inter 
+alia, upon the design features of the CBDC (for 
+example, whether remunerative or not). CBDCs 
+could also impact the commercial bank reserves 
+at the central bank and open market operations. 
+Countries with banking systems dominated by 
+small retail deposits and a high share of non-
+interest-bearing demand deposits could be more 
+vulnerable to deposit disintermediation (Lukonga, 
+2023). The implications of CBDC for central 
+banking operations and monetary policy essentially 
+depend on the way it is designed and its degree of 
+usage. If the CBDCs get a positive remuneration, 
+higher usage and adoption of CBDCs could 
+weaken monetary policy transmission. A reduction 
+in availability, and/or an increase in the cost 
+Chart III.26: India’s Broad Money (M3) and its Components
+Source: RBI.
+Share in per cent
+Y-o-y growth in per cent
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Mar-16
+Jun-16
+Sep-16
+Dec-16
+Mar-17
+Jun-17
+Sep-17
+Dec-17
+Mar-18
+Jun-18
+Sep-18
+Dec-18
+Mar-19
+Jun-19
+Sep-19
+Dec-19
+Mar-20
+Jun-20
+Sep-20
+Dec-20
+Mar-21
+Jun-21
+Sep-21
+Dec-21
+Mar-22
+Jun-22
+Sep-22
+Dec-22
+Mar-23
+Jun-23
+Sep-23
+Dec-23
+Other deposits with RBI
+Time deposits with banks
+M3 growth rate (RHS)
+Demand deposits with banks
+Currency with public
+3 quarter moving average (M3 growth rate (RHS))
+
+Box III.2
+Impact of Digital Payments on Money Demand
+With digitalisation gaining traction, digital payments 
+have emerged as an attractive alternative to cash, with 
+potential implications for demand for money and monetary 
+aggregates. Using quarterly data from June 2013 to 
+March 2023, an Autoregressive Distributed Lag (ARDL) 
+model (Pesaran et al., 2001) is deployed to examine the 
+dynamic relationship between money demand (Broad 
+money M3) and digitalisation in payments. Based on Adil 
+et al. (2020), money demand is postulated to depend upon 
+nominal income (income effect, represented by gross 
+domestic product (GDP) at market price, 10-year G-Sec 
+yield (opportunity cost of holding money balances) and 
+total value of digital payments. Further, to capture wealth/
+substitution effects, stock price (closing values of BSE 
+Sensex) is included in the model. GDP, M3, Sensex and 
+digital payments are seasonally adjusted using X-13 ARIMA 
+filter and log-transformed. The effect of demonetisation and 
+the COVID-19 pandemic are controlled through dummy 
+variables. All variables considered in the regression are 
+either I(0) or I(1), as is the requirement of ARDL model 
+which takes the following general long run form:
+where, LM3 is log of broad money (M3), Xi are the 
+explanatory variables (nominal GDP, 10-year G-Sec yield 
+and value of digital payments). Dt are the dummy variables, 
+as noted above. εt is the white noise error term and p and 
+q are the optimal lag lengths. 
+The corresponding error correction model (ECM) form is 
+given by the following equation:
+where, ∆ is the first difference operator and ECMt–1 is the 
+error correction term which measures the deviations from 
+long-run equilibrium relationship. The Akaike Information 
+Criterion (AIC) suggests an ARDL (4,2,0,1,3) model. 
+The bounds test establishes the existence of a long-run 
+equilibrating relationship between the variables (Table 1).
+The long-run coefficients and the short run dynamics are 
+presented in Table 2. In the long-run, money demand is 
+positively associated with income and negatively with 
+digital payments and G-sec yield. Thus, growth in digital 
+payments can dampen the demand for money. The error 
+correction coefficient is negative and significant, and about 
+14 per cent of any deviation from the long run equilibrium 
+path is corrected within one quarter.
+References:
+Adil, M., Hatekar, N., and Sahoo, P. (2020). The Impact 
+of Financial Innovation on the Money Demand Function: 
+An Empirical Verification in India. Margin-The Journal of 
+Applied Economic Research 14(1).
+Pesaran, M. H., Shin, Y., and Smith, R. J. (2001). Bounds 
+Testing Approaches to the Analysis of Level Relationships. 
+Journal of Applied Econometrics, 16(3), 289-326.
+Table 2: Long-run and short-run ARDL Results
+Dependent variable: Log_M3
+Sample period: June 2013 - March 2023
+ Variable
+Coefficient
+Standard 
+Error
+Long-run equation
+log_Nominal GDP(-1)
+1.25***
+0.26
+log_Digital Payments (-1)
+ -0.33**
+0.13
+G-Sec_Yield
+-0.08**
+0.03
+Sensex (-1)
+-0.10
+0.19
+Constant
+4.66**
+1.92
+ECM term
+Gamma
+-0.14***
+0.02
+Short-run equation
+D(log_M3(-1))
+-0.52***
+0.09
+D(log_M3(-2))
+0.41***
+0.09
+D(log_M3(-3))
+0.23**
+0.09
+D(log_NGDP)
+-0.085*
+0.04
+D(log_NGDP(-1))
+-0.072**
+0.03
+D(log_DIGI_S)
+0.02
+0.02
+D(log_SENSEX)
+0.06***
+0.02
+D(log_SENSEX(-1))
+0.02
+0.02
+D(log_SENSEX(-2))
+-0.07***
+0.02
+Demonetisation Dummy
+-0.04***
+0.00
+Covid-19 Dummy
+-0.03**
+0.01
+Observations
+Adjusted R-squared
+0.73
+Log-likelihood
+154.01
+Note: 1. ***,**,*: indicate significance at 1, 5 and 10 per cent level, 
+respectively.
+
+2. D denotes first difference operator.
+
+3. Data pertains to all digital payments. 
+Source: RBI staff estimates.
+Table 1: Bounds Test Results
+Test Statistic
+Value
+F-statistic
+8.419***
+Note: *** denotes significance at 1 per cent.
+Source: RBI staff estimates.
+
+of credit from the banking sector could impact 
+aggregate demand and supply in the economy 
+and weaken the bank lending channel of monetary 
+policy 
+transmission; 
+alternatively, 
+positively 
+remunerated CBDCs could lead to more effective 
+monetary policy transmission as banks will need to 
+compete for more deposits, and thereby maintain 
+competitive deposit rates. Further, interest bearing 
+CBDCs could transmit monetary policy actions 
+directly to economic agents improving efficacy of 
+transmission (RBI, 2022c). 
+5. Challenges 
+in 
+the 
+Digital 
+Landscape and Way Forward
+III.66 India has made significant strides in digital 
+payments. Small value transactions majorly 
+account for digital payments, and there is immense 
+scope for a further jump in their usage. Ensuring 
+that digital payment systems are accessible and 
+affordable for all segments of society, including 
+those without access to smartphones or the 
+internet, is an ongoing challenge. While many 
+individuals may technically have access to digital 
+financial services, regular and meaningful use 
+could be impeded by barriers like financial literacy, 
+mistrust in digital systems, insufficient network 
+infrastructure, and the complexity or inaccessibility 
+of digital financial products. 
+Financial Literacy
+III.67 Financial literacy (FL) is a precondition for 
+promoting digital financial inclusion. Barriers in FL 
+explain some of the variation in usage of digital 
+financial services and financial inclusion across 
+countries (Sahay et al., 2020). As per the financial 
+literacy and inclusion survey carried out by the 
+National Centre for Financial Education (NCFE) 
+in 2019, only 27 per cent of the respondents 
+had achieved minimum required FL levels.18 
+Furthermore, heterogeneity exists between the 
+components of FL within the socio-economic 
+groups with urban respondents as well as salaried 
+class/retired persons reporting higher level of FL 
+(Jangili et. al., 2023). 
+Digital Divide
+III.68 Although there has been a consistent 
+increase in the availability of digital infrastructure 
+in the country, as of April 2024, internet 
+penetration19 in the country at 55.3 per cent is 
+below the worldwide average of 67.1 per cent.20 
+Moreover, there is geographical and regional 
+divide in the availability: internet subscriptions per 
+100 population in urban areas were more than 2 
+times higher (111.8) compared to rural India (44.2) 
+with an all-India average of 68.2 (TRAI, 2024).
+Among the rural households, only 9.9 per cent 
+have access to a computer, while the proportion 
+is 32.4 per cent among the urban households 
+(NSO, 2019). On the positive side, internet costs 
+in India are among the lowest in the world, with 
+1GB data costing on average US$ 0.17 in 2022.21 
+Tele-density at the all-India level was at 85.2 per 
+18 OECD/INFE (International Network for Financial Education) guidelines were followed, wherein a person is regarded financial literate if 
+he/she has a combined score of at least 15 out of 22 with a minimum of 3 in financial attitude, 6 in financial behaviour and 6 in financial 
+knowledge. If a respondent continues to use digital payments at the time of survey, it is considered as ‘usage of digital payments’.
+19 Percentage of population using the internet.
+20 Retrieved from https://www.meltwater.com/en/resources/digital-2024-april-global-statshot-report on July 24, 2024.
+21 Statista.
+
+cent, with urban areas and rural areas being at 
+133.8 per cent and 58.6 per cent, respectively.22 
+Similarly, in case of digital literacy, wide diversity 
+exists across states (Chart III.27).
+III.69 Improved tele-density in rural areas and 
+increased internet access could contribute to 
+further penetration of digital payments in the 
+country. Service providers can ensure availability 
+through community networks and public WiFi/ 
+internet access points. Innovative solutions, such 
+as NFC-enabled QR codes, could address these 
+concerns related to digital access to some extent 
+and scaling up the infrastructure requirements, 
+particularly in rural areas, would hasten seamless 
+adoption of digital payments in the country.
+Consumer Protection: Concerns Emanating 
+from Digital Payments
+III.70 A pre-requisite for wider use of digital 
+payments is ensuring security of payments. 
+Cybersecurity threats in the digital payments 
+ecosystem not only pose risks to the integrity and 
+availability of payment systems but also undermine 
+consumer trust and financial stability. Key 
+cybersecurity threats in digital payments include 
+phishing, 
+card 
+skimming, 
+man-in-the-middle 
+attacks, malware, ransomware, among others, 
+and a focused arttention is required to ensure 
+that risks arising from such threats are mitigated 
+and customers’ interests are protected. As per 
+the Reserve Bank’s survey regarding awareness 
+and use of digital payments, 94.5 per cent users 
+reported that they have not experienced any 
+fraud. The incidence of an encounter with fraud or 
+attempted fraud was lower in metros (4.1 per cent) 
+relative to semi-urban areas (6.4 per cent). Vishing 
+emerged as the most prevalent method in frauds 
+22 The Indian Telecom Services Performance Indicators, Telecom Regulatory Authority of India, October-December 2023.
+23 The total may add up to more than 100 as same individual can select more than one response.
+or attempted frauds (54.2 per cent), followed 
+by phishing (37.2 per cent), misuse of ‘collect 
+request’ (28.7 per cent), and remote access (25.5 
+per cent).23 Additionally, approximately 11 per cent 
+of digital frauds or fraud attempts involved the 
+use of fake numbers associated with e-wallets or 
+banks. While at the aggregate level, the incidence 
+of fraud is low, digital payments can attract more 
+users by ensuring safer, reliable, and trustworthy 
+digital payment ecosystem.
+III.71 The gamut of cybersecurity threats in 
+digital payments is complex and constantly 
+evolving, requiring a multifaceted approach to 
+risk management. Financial institutions, PSPs, 
+and consumers must collaborate to enhance the 
+security of digital payment systems. Adopting 
+advanced technological solutions, promoting 
+cybersecurity awareness, and adhering to best 
+practices and regulatory standards will ensure 
+that the risks are minimised.
+Chart III.27: Digital Literacy across States and UTs, 
+Rural and Urban Areas Combined
+Note: Percentage here indicates percentage of digitally literate households 
+among total households. Map is for illustrative purpose only.
+Source: Mothkoor and Mumtaz (2021).
+
+Scalability Issues
+III.72 Digital payment solutions need to be scaled 
+up to handle the growing number of transactions 
+without compromising performance or security. 
+Scalability issues can lead to system outages, 
+slow transaction processing, and customer 
+dissatisfaction. As the digital economy continues 
+to expand, the ability to scale efficiently will be 
+a crucial factor for the success and resilience 
+of payment systems worldwide. It will require a 
+combination of technological innovation, strategic 
+planning, and collaboration across the financial 
+ecosystem. By investing in scalable infrastructure, 
+embracing modern architectural approaches, and 
+leveraging new technologies, payment providers 
+can enhance their capacity to support growth, 
+maintain performance, and ensure the security 
+and reliability of digital transactions.
+Dark Patterns
+III.73 As discussed in Chapter I, digital platforms 
+often employ “dark patterns” in their user 
+interfaces - design choices that manipulate users 
+into making decisions that may not be in their 
+best interest, such as subscribing to services they 
+do not need or sharing more personal data than 
+necessary. These practices can undermine trust 
+and raise ethical concerns. These tactics exploit 
+psychological biases and can significantly impact 
+user trust and financial well-being. Some common 
+dark patterns encountered in the realm of digital 
+payments are hidden fees, forced recurring 
+subscriptions, complicated cancellation process, 
+bait and switch24, sneak into basket25, incomplete 
+payment disclosures, and false urgency26. The 
+challenge is to ensure that the payment systems 
+remain one step ahead of the malicious agents 
+and safeguard customers from these threats to 
+retain and strengthen their trust (Rao, 2023).
+III.74 Laws and guidelines protecting consumers 
+from 
+deceptive 
+practices 
+and 
+consumer 
+awareness can go a long way in combating dark 
+patterns. Digital literacy programmes that cater 
+to the specific needs and capabilities of different 
+demographic groups could increase awareness 
+through hands-on training on how to use digital 
+financial services, navigate online platforms, and 
+protect against cyber risks (Swaminathan, 2024).
+6. Concluding Observations
+III.75 Countries 
+have 
+embraced 
+diverse 
+models of digital payment methods, shaped 
+by their technological preparedness, financial 
+environment and demography. Unlike the other 
+major technological advancements where AEs had 
+taken a lead in adaptation and EMEs have had to 
+catch-up, the ongoing digital payment revolution 
+is spearheaded by EMEs. India is heralded as a 
+global leader whose experience holds important 
+policy lessons for other countries. The evolution of 
+India’s digital payments landscape has been driven 
+by concerted efforts to modernise the existing 
+systems as well as bring in new forms of payments 
+in a proactive manner. The Government, the 
+Reserve Bank and other public institutions aided 
+infrastructure building which helped consumers 
+and other agents in adoption as well as ensuring 
+that the growth is inclusive. The intersection 
+24 Promotions or offers that catch a user’s attention may lead them towards initiating a transaction. However, at the last moment, the 
+conditions change, or the offer is no longer available, and users are steered towards making a more expensive purchase.
+25 During the checkout process, additional products or services (such as warranties or donations) are automatically added to the user’s 
+basket. Users may not notice these additions and may inadvertently purchase them.
+26 A countdown shown to nudge users into hasty purchases.
+
+of technology, regulation, and collaboration 
+supplemented innovation by providing a robust 
+feedback loop that expanded financial access and 
+deepened digital infrastructure, making India a 
+global leader in digital payments. 
+III.76 The Reserve Bank’s survey shows that 
+both consumers and merchants exhibit high levels 
+of awareness of digital payments. Certain aspects, 
+however, require policy focus, such as the gap 
+between awareness and adoption rates. The 
+conversion rates for those who have at least once 
+tried digital payments to a regular user is high. This 
+underscores the importance of initiatives aimed 
+at introducing users to digital payments for long-
+term usage. Younger age groups have a definitive 
+advantage over the older cohorts in adopting 
+digital payments. Increasing the awareness levels 
+across the age groups would reduce the risk of 
+vulnerable sections being subject to potential 
+frauds and other cyber malpractices. 
+III.77 India’s experience further shows that 
+digital payments play a pivotal role in promoting 
+financial inclusion by overcoming obstacles 
+such as distance, cost, and accessibility, thereby 
+broadening the availability of formal financial 
+services. Moreover, they facilitate enhanced 
+credit availability and accessibility for businesses, 
+offering several advantages for small enterprises. 
+Through enabling direct transfer of subsidies, 
+wages, and other benefits into recipients’ bank 
+accounts, digital payments have enhanced the 
+efficiency, transparency, and swiftness of such 
+programmes. Finally, innovations in payments 
+systems, including CBDCs, alter the environment 
+in which the central bank operates and could 
+have far reaching implications on monetary policy 
+transmission, its own operational framework and 
+objectives of price and financial stability. 
+III.78 Overall, India stands ready to further 
+harness the benefits of the digital payments 
+revolution, leveraging on a rapidly growing 
+economy, 
+a 
+large 
+and 
+young 
+population, 
+increasing internet and smartphone penetration, 
+and supportive government policies. These factors 
+create a fertile ground for further innovation, 
+investment, and growth in digital payments. India’s 
+rich and successful experience in digital identity 
+and payments offers fine guidance on pathways 
+to improving the lives of the common man (Das, 
+2023b).
+References
+Adil, M., Hatekar, N., and Sahoo, P. (2020). The 
+Impact of Financial Innovation on the Money 
+Demand Function: An Empirical Verification in 
+India. Margin-The Journal of Applied Economic 
+Research, 14(1).
+Aguilar, A., Frost, J., Guerra, R., Kamin, S., and 
+Tombini, A. (2024). Digital Payments, Informality 
+and Economic Growth. BIS Working Papers. No. 
+1196.
+Ashworth, J., and Goodhart, C. A. (2021). The 
+Great Covid Cash Surge – Digitalisation Hasn’t 
+Dented Cash’s Safe Haven Role. Centre for 
+Economic Policy Research Discussion Paper 
+DP16618. 
+Awasthy, S., Misra, R., and Dhal, S. (2022). 
+Cash versus Digital Payment Transactions in 
+India: Decoding the Currency Demand Paradox. 
+Reserve Bank of India Occasional Papers Vol. 43, 
+No. 2: 2022. 
+BIS. (2020). Annual Economic Report. Bank for 
+International Settlements. 
+BRICS. (2021). Digital Financial Inclusion Report.  
+Carstens, A. (2018). Money in the Digital Age: 
+What Role for Central Banks?   Lecture at the
+
+House of Finance, Goethe University,  Frankfurt, 
+February.
+Chang, H., Grinbergii, F., Gornicka, L., Miccoliiv, 
+M., & Tanv, B. J. (2023). Central Bank Digital 
+Currency and Bank Disintermediation in a Portfolio 
+Choice Model. IMF Working Paper WP 23/236.
+Čihák, M., and Sahay, R. (2020). Finance and 
+Inequality. IMF Staff Discussion Note 20/01.
+Columba, 
+F. 
+(2009). 
+Narrow 
+Money 
+and 
+Transaction Technology: New Disaggregated 
+Evidence. Journal of Economics and Business. 
+61(4), 312-325. 
+Curta, F. (2021). Copper and Bronze: The Far-
+reaching Consequences of Metallurgy. 
+Das, S. (2021). Financial Inclusion – Past, Present 
+and Future. Speech Delivered by Governor, RBI at 
+the Economic Times Financial Inclusion Summit, 
+on July 15. 
+Das, S. (2023a). Address at the launch of Mission 
+‘Har Payment Digital’ during Digital Payments 
+Awareness Week (March 6-12, 2023) on March 6, 
+Reserve Bank of India.  
+Das, S. (2023b). G20 for a Better Global Economic 
+Order 
+during 
+India’s 
+Presidency. 
+Speech 
+delivered by Governor, RBI at the 17th K P Hormis 
+Commemorative Lecture, on March 17. 
+Das, S. (2024). Digital Payments Awareness 
+Week celebrations. Address by Governor, RBI at 
+Mumbai on March 4, Reserve Bank of India.  
+Demirgüç-Kunt, A., Klapper, L., Singer, D., and 
+Ansar, S. (2022). The Global Findex Database 
+2021: Financial Inclusion, Digital Payments, and 
+Resilience in the Age of COVID-19, World Bank 
+Group. 
+D’Silva, D., Filková, Z., Packer, F., and Tiwari, 
+S. (2019). The Design of Digital Financial 
+Infrastructure: Lessons from India. BIS Paper, 
+(106). 
+Dubey, T. S., and Purnanandam, A. (2023). Can 
+Cashless Payments Spur Economic Growth? 
+Available at SSRN 4373602. 
+Freeman, C. (1987). Technology Policy and 
+Economic Performance; Lessons From Japan. 
+Frances Printer Publishers. 
+Gandhi, R. (2016). Evolution of Payment Systems 
+in India - or is it a Revolution? Speech delivered 
+by Deputy Governor, RBI at the Banaras Hindu 
+University, Varanasi on October 22. 
+Gandhi, R. (2017). Payment Systems - Next Orbit. 
+Speech delivered by Deputy Governor, RBI at 
+the launch of Bharat QR Code at Hotel Trident, 
+Mumbai on February 20.
+Government of India (GOI). (2022). Union Budget 
+Speech 2022-23. Ministry of Finance.
+GSMA. (2023). The State of the Industry Report 
+on Mobile Money. Global System for Mobile 
+Communications Association. 
+Jack, W., and Suri, T. (2011). Mobile Money: The 
+Economics of M-PESA. NBER Working Paper, 
+16721. 
+Jack, W., and Suri, T. (2014). Risk Sharing and 
+Transaction Costs: Evidence from Kenya’s Mobile 
+Money Revolution. American Economic Review, 
+104(1), 183-223. 
+Jangili, R., Marisetty, S.S.C., and Mood, Y.B. 
+(2023). Financial Literacy in India: Insights from a 
+Field Survey. RBI Bulletin, June.  
+Kahn, C., Singh, M., and Alwazir, J. (2022). Digital 
+Money and Central Bank Operations. IMF Working 
+Paper. WP 22/85. 
+Kearns, J., and Mathew, A. (2022, September). 
+How India’s Central Bank Helped Spur A Digital 
+Payments Boom. Finance & Development. 
+International Monetary Fund, 44-45.
+
+Khera, P., Ng, S., Ogawa, S., and Sahay, R. 
+(2022). Measuring Digital Financial Inclusion in 
+Emerging Market and Developing Economies: A 
+New Index. Asian Economic Policy Review. 17(2), 
+213-230. 
+Khera, P. (2023). Digital Financial Services and 
+Inclusion. In A. Schipke, J. Tarunen, N. Choueiri, 
+and A. M. Gulde, India’s Financial System: Building 
+the Foundation for Strong and Sustainable Growth. 
+International Monetary Fund.
+Khiaonarong, T., and Humphrey, D. (2022). Falling 
+Use of Cash and Demand for Retail Central Bank 
+Digital Currency. IMF Working Paper. WP 22/27.
+Lee, J. N., Morduch, J., Ravindran, S., Shonchoy, 
+A., and Zaman, H. (2021). Poverty and Migration in 
+the Digital Age: Experimental Evidence on Mobile 
+Banking in Bangladesh. American Economic 
+Journal: Applied Economics, 13(1), 38-71. 
+Lukonga, I. (2023). Monetary Policy Implications 
+of Central Bank Digital Currencies: Perspectives 
+on Jurisdictions with Conventional and Islamic 
+Banking Systems. IMF Working Paper WP 23/60.
+Lundvall, 
+B. 
+(1992). 
+National 
+Systems 
+of 
+Innovation: Towards a Theory of Innovation and 
+Interactive Learning. London: Pinter Publishers. 
+Mauro, J., and Li, L. Y. (2021). The Payment 
+Revolution. J.P. Morgan. Retrieved from https://
+www.jpmorgan.com/insights/payments/payment-
+trends/the-payment-revolution.
+Mothkoor, V., and Mumtaz, F. (2021). The Digital 
+Dream: Upskilling India for the Future. Ideas for 
+India.
+National Statistical Office (NSO). (2019). Key 
+Indicators of Household Social Consumption 
+on Education in India. Ministry of Statistics and 
+Programme Implementation.
+Norman, J. (2024). Diners Club, the First Credit 
+Card. Jeremy Norman’s History of Information. 
+Retrieved from http://www.historyofinformation.
+com/detail.php?id=270.
+OECD. (1997). National Innovation Systems. 
+OECD Publications.  
+Ouyang, S. (2021). Cashless Payment and 
+Financial Inclusion. Available at SSRN 3948925.
+Patnam, M., and Yao, W. (2020).  The Real 
+Effects of Mobile Money: Evidence from a Large-
+Scale Fintech Expansion. IMF Working Paper WP 
+20/138.
+Pazarbasioglu, C., Mora, A. G., Uttamchandani, 
+M., Natarajan, H., Feyen, E., and Saal, M. (2020). 
+Digital Financial Services. World Bank, 54, 1-54. 
+Porter, M. E. (1998). The Competitive Advantage 
+of Nations. Palgrave Macmillan. 
+Pradhan Mantri Jan Dhan Yojana (PMJDY).
+(2024). Progress Report. Retrieved from: https://
+pmjdy.gov.in/account
+Ramasastri, A. (2018). Payment Systems in India: 
+A Silent Revolution. Hitachi-Souken Journal, 
+13(1), 36-39. 
+Rao, R. (2022). Inclusive Credit: The Next 
+Milestone. Speech delivered by Deputy Governor, 
+RBI at ASSOCHAM’s 17th Annual Summit & 
+Awards on Banking & Financial Sector Lending, 
+on September 8. 
+Rao, R. (2023). Changing Paradigms in the 
+Financial Landscape. Speech delivered by 
+Deputy Governor, RBI at the Financial Institution 
+Benchmarking and Calibration (FIBAC) 2023 
+Conference, jointly organised by the Federation 
+of Indian Chambers of Commerce and Industry 
+(FICCI) and the Indian Banks’ Association (IBA), 
+Mumbai, on November 23.
+
+Reserve Bank of India (RBI). (2001). Annual 
+Report 2000-01.
+Reserve Bank of India (RBI). (2002). Annual 
+Report 2001-02. 
+Reserve Bank of India (RBI). (2017). Annual 
+Report 2016-17.  
+Reserve Bank of India (RBI). (2021a). Payment 
+and Settlement Systems in India: Journey in the 
+Second Decade of the Millenium 2010-2020, 
+January. 
+Reserve Bank of India (RBI). (2021b). Annual 
+Report 2020-21. 
+Reserve Bank of India (RBI). (2022a). Payment 
+Vision 2025, Department of Payment and 
+Settlement Systems, June. 
+Reserve 
+Bank 
+of 
+India 
+(RBI). 
+(2022b). 
+
+Benchmarking 
+India’s 
+Payment 
+Systems. 
+Department of Payment and Settlement Systems, 
+July. 
+Reserve Bank of India (RBI). (2022c).  Concept 
+Note on Central Bank Digital Currency. FinTech 
+Department, October. 
+Reserve Bank of India (RBI). (2023). Annual 
+Report 2022-23.  
+Sahay, R., von Allmen, U. E., Lahreche, A., Khera, 
+P., Ogawa, S., Bazarbash, M., and Beaton, K. 
+(2020). The Promise of Fintech: Financial Inclusion 
+in the post COVID-19 Era. IMF Departmental 
+Paper 20/09. 
+Sahlins, M. (2013). Stone Age Economics.
+Routledge.
+Sankar, Rabi T. (2021). Central Bank Digital 
+Currency - Is this the Future of Money. Keynote 
+address at the webinar organised by the Vidhi 
+Centre for Legal Policy, Reserve Bank of India. 
+July 22. 
+Suri, T. (2017). Mobile Money. Annual Review of 
+Economics, 9(1), p. 497-520. 
+Swaminathan J. (2024). Charting a Course to 
+Prosperity: The Importance of Financial Literacy. 
+Speech delivered by Deputy Governor, RBI at the 
+Conclave on Financial Literacy, on April 8. 
+Telecom Regulatory Authority of India. (TRAI). 
+(2024). The Indian Telecom Services Performance 
+Indicators: January–March, 2024. New Delhi, 
+India.
+The Economist. (2023). A Digital Payments 
+Revolution in India.
+Thomas, H., and Hedrick-Wong, Y. (2019). How 
+Digital Finance and Fintech Can Improve Financial 
+Inclusion.  In Inclusive Growth: The Global 
+Challenges of Social Inequality and Financial 
+Inclusion. Emerald Publishing Limited (pp. 27-41).
+Verdier, M. (2006). Interchange Fees and 
+Incentives to Invest in the Quality of a Payment 
+Card System. Telecom Paris Economics and 
+Social Sciences Working Paper No. ESS-06-14. 
+World Bank. (2023). Payment Systems Worldwide: 
+A Snapshot. Sixth Global Payment Systems 
+Survey. 
+Yawe, B. L., Ddumba-Ssentamu, J., Nnyanzi, J. 
+B., and Mukisa, I. (2022). Role of Mobile Money 
+and Digital Payments in Financial Inclusion 
+for Sustainable Development Goals in Africa. 
+In Globalization and Sustainability - Recent 
+Advances, New Perspectives and Emerging 
+Issues. IntechOpen. 
+Zhan, M., Wang, L., Zhan, S., and Lu, Y. (2023). 
+Does Digital Finance Change the Stability of 
+Money Demand Function? Evidence from China. 
+Journal of Asian Economics, 88, 101649.

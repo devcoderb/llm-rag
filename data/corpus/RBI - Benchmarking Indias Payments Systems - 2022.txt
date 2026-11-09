@@ -1,0 +1,4101 @@
+Index 
+Executive summary………………………………………………………………………………..……4 
+Topic 
+1. Background……………………………………………………………….……………………..…8 
+2. Past exercise…………………………………………………………………..………………..…8 
+3. Present exercise………………………………………………………………………………...…9 
+4. Data sources……………………………………………………………………..……………... 10 
+5. Countries selected for benchmarking……………………………………………………..……11 
+6. Rating…………………………………………………………………………………….………..11 
+7. Highlights and way forward………………………………………………………….………..…12 
+8. Benchmarking exercise summary…………………………………………………..………….16 
+Appendix: Glossary…………………………………………………………………..…………….…27 
+Annex: Benchmarking assessment…………………………………………………….………..…30 
+A. Regulation……………………………………………………………………………….……..…30 
+1. Laws in place and scope of regulation……………………………………………...…..…30 
+2. Regulation of costs of payment systems…………………………………………… ….…31 
+B. Cash………………………………………………………………………………………… ……32 
+3. Currency in Circulation (CIC) per capita……………………………………….……… …33 
+4. CIC as percent of Gross Domestic Product (GDP) …………………………..…… ……35 
+C. Payment systems transactions…………………………………………………………... ……36 
+
+5. Payment systems transactions volume and growth……………………………….…… 36 
+
+6. Value of payment systems transactions to CIC…………………………………..………37 
+D. Cheques………………………………………………………………………..…………………38 
+
+7. Rate of decline of cheques……………………………………………….…………………38 
+
+8. Share of cheques in payment systems (volume)…………………………………………39 
+
+9. Cheque instrument features…………………………………………………………...……39
+
+E. Debit and credit cards……………………………………………………………………………40 
+
+10. Number of debit and credit cards issued…………………………………………………40 
+
+11. Share of debit and credit card payments in payment systems (volume) ……….……42 
+
+12. Points of Sale (PoS) terminals deployed…………………………………………………43 
+
+13. People per PoS terminal……………………………………………………………..……43 
+
+14. Debit and credit card payments……………………………………………..……………44 
+F. Cash vs debit and credit cards…………………………………………………………….……45 
+
+15. Debit and credit card payments vs CIC……………………………………………..……45 
+G. Cash and Automated Teller Machines (ATMs) ………………………………………………46 
+
+16. ATMs deployed………………………………………………………………………..……46 
+
+17. People per ATM…………………………………………………………………….………48 
+
+18. Cash withdrawal at ATMs per capita…………………………………………...…………49 
+
+19. ATM withdrawal vs CIC………………………………………………………………….…50 
+H. Domestic card networks…………………………………………………………………………51 
+
+20. Presence of domestic card network and its share………………………………………51 
+I. Credit transfers……………………………………………………………………………….…52 
+
+21. Volume and growth of credit transfers……………………………………………………52 
+
+22. Share of credit transfers in payment systems (volume) ……………….………………53 
+J. Large value payments…………………………………………………………….……………54 
+
+23. Real Time Gross Settlement (RTGS)……………………………………………………..54 
+K. Fast payments……………………………………………………………………………..……57 
+
+24. Channels in which fast payments are available…………………………………………57 
+L. Direct debits………………………………………………………………………………..……59 
+
+25. Volume and growth of direct debits…………………………………………….…………59 
+
+26. Share of direct debits in payment systems (volume)……………………………………60 
+M. e-Money…………………………………………………………………………………………61
+
+27. Availability of alternate payment systems……………………………………………..…61 
+
+28. Volume and growth of e-Money…………………………………………………...………63 
+
+29. Share of e-Money in payment systems (volume)…………………………………..……64 
+N. Digital utility payments…………………………………………………………………….……65 
+
+30. Digital payments of utility bills…………………………………………………………..…65 
+
+31. Public mass transportation……………………………………………………………...…66 
+O. Digital infrastructure…………………………………………………………………………..…68 
+
+32. Mobile and broadband subscriptions…………………………………………………..…68 
+P. Government e-Payments……………………………………………………………………..…70 
+Q. Aggregators………………………………………………………………………………………70 
+
+33. Third party payment service providers / payment gateways / payment aggregators…70 
+R. Customer protection and complaint redressal……………………………………………….74 
+
+34. Customer safety and authentication standards……………………………………….…74 
+
+35. Ombudsman……………………………………………………………………………...…76 
+S. Securities settlement and clearing system………………………………………………...…78 
+
+36. Central Counterparty (CCP) ………………………………………………………………78 
+T. Oversight……………………………………………………………………………………...…80 
+
+37. Oversight of payment systems………………………………………………………….…80 
+U. Cross-border personal remittances………………………………………………………….…81 
+
+38. Availability………………………………………………………………………………...…81 
+
+39. Flows……………………………………………………………………………………...…83 
+
+40. Cost……………………………………………………………………………………….…84
+
+Executive summary 
+The payments landscape across the world is developing at a rapid pace with various 
+innovative payment systems and instruments being introduced on a frequent basis. This 
+exercise of benchmarking India’s payment systems aims to assess the progress of India’s 
+payments ecosystem against other major countries as also ascertain the strengths and 
+shortcomings of the Indian payments ecosystem. The exercise also seeks to examine the 
+user preferences for payment systems and instruments vis-a-vis other jurisdictions. Learnings 
+from the exercise are expected to further facilitate improvements in the payments landscape 
+in India. 
+
+2. The pilot exercise for benchmarking India’s payment systems was undertaken in 2019. The 
+exercise was conducted for 21 countries, (including advanced economy countries, Asian 
+economies and BRICS (Brazil, Russia, India, China and South Africa) nations), where 
+payment systems were considered robust, diverse and efficient. The present exercise is a 
+follow-on benchmarking exercise undertaken to examine the present relative position of the 
+benchmarked countries and progress since publication of the last report. 
+
+3. Reserve Bank of India (RBI) has relied on publicly available information and made all 
+reasonable efforts to ensure that the information in the report is accurate. However, any 
+changes in data / information pertaining to jurisdictions covered in the exercise, after the 
+finalisation of the report, may not be reflected herein. 
+
+4. For each indicator, rating has been done considering countries for which data was available 
+and only India has been rated. The rating categories are as follows: 
+a) “Leader”: ranked 1st or 2nd or 3rd; 
+b) “Strong”: in the top half of the countries other than the leaders; 
+c) “Moderate”: in the bottom half of countries other than the bottom 5; and 
+d) “Weak”: in the bottom 5. 
+
+5. The benchmarking has been carried out over a range of 20 areas and 40 indicators as 
+indicated below. A snapshot of India’s position, details of which are in the report, is as follows:
+
+1. Background 
+1.1 The payments ecosystem in India has witnessed rapid development with the availability of 
+multiple payment systems and platforms, payment products and services for different 
+categories of consumers – individuals, firms, corporates, government and other economic 
+agents alike. The payments landscape has expanded with the launch and acceptance of new 
+modes of payment in the retail payment segment, which include (a) mobile phones as a 
+channel for making and receiving payments (mobile payments), (b) internet for making 
+purchases over different types of devices (internet payments), (c) payment cards in ATM / 
+PoS including using contactless technology (card payments and tokenisation), and (d) various 
+systems and platforms for making instant payments and electronic billing. Over the years, 
+payment system features, viz. availability, repetitive payments, contactless payments, offline 
+payments, tokenisation, etc., have been enriched to enhance customer convenience while 
+maintaining confidence in payment systems by ensuring requisite safety, security and 
+efficiency measures. 
+
+1.2 The benchmarking exercise compares the payments ecosystem in India vis-à-vis other 
+jurisdictions to ascertain the position of the payments landscape in India and examine how it 
+fares when compared with other countries. In this context, benchmarking of India’s payment 
+systems was initiated in 2019 and this follow-on exercise is being undertaken to measure the 
+progress since the initial exercise and examine the recent trends in payments, both in India 
+and the world. 
+2. Past exercise 
+2.1 RBI published a report in 2019 on “Benchmarking India’s Payment Systems”, which compared 
+the payments ecosystem in India relative to comparable payment systems and usage trends 
+in other major countries. The exercise covered 21 countries, (including advanced economy 
+countries, Asian economies and BRICS nations) spread across all the continents, where 
+payment systems were considered robust, diverse and efficient. The comparison was 
+undertaken for the year 2017 with CAGR for relevant indicators considered over a period of 5 
+years from 2012 to 2017. 
+
+2.2 The analysis covered 41 indicators over 21 broad areas including regulation, oversight, 
+individual payment system categories, payment instruments, payment infrastructure, utility
+
+payments, government payments, customer protection and grievance redressal, securities 
+settlement and clearing systems and cross-border personal remittances. 
+
+2.3 The exercise provided an understanding of the relative position of systems in India for making 
+and receiving payments and how their usage preferences compare with other countries. It 
+was also a starting point for a meaningful analysis of the efficiency levels of India’s payment 
+systems. 
+3. Present exercise 
+3.1 This is a follow-on benchmarking exercise and aims to measure India’s standing vis-à-vis 
+twenty other countries, as well as the progress since the last exercise, across payment 
+systems and payment instruments. The exercise seeks to provide insights about user 
+preferences and identify strengths and shortcomings of India’s payments ecosystem relative 
+to comparable payment systems in other countries. It, therefore, seeks to (a) arrive at an 
+understanding of the preferences Indians have for making and receiving payments and how 
+these preferences compare with other countries, (b) assess the efficiency of India’s payment 
+systems, and (c) measure the progress in the parameters since the last exercise. 
+
+3.2 The data used for the exercise is for the year 2020 with CAGR for relevant indicators 
+considered over the three-year period since the last benchmarking exercise, viz. from 2017 to 
+2020. (Although the data for 2021 is available for India, the same is not available in public 
+domain for other jurisdictions). 
+
+3.3 A few of the parameters included in the last exercise are based on publications for which, 
+subsequent editions have not been released. Every attempt has been made to retain the 
+parameters as used in the previous exercise using other available data points. However, in 
+cases where data points are not available, the parameters have been excluded from the 
+present benchmarking exercise. 
+
+3.4 India has also started publishing a Digital Payments Index (DPI) to effectively capture the 
+extent of digitisation of payments in the country. The DPI is based on multiple parameters and 
+measures the penetration and deepening of various digital payment modes. While DPI is used 
+to measure the deepening of digital payments across the country, benchmarking facilitates a 
+meaningful comparison with other jurisdictions.
+
+4. Data sources 
+4.1 The data sources considered for the benchmarking exercise are as follows: 
+(a) BIS Red Book ‘country tables’ compiled by the Bank for International Settlements1 
+(BIS) for the years ended 2017 and 2020 
+(b) Worldpay Global Payments Report 20222 
+(c) RBI data 
+(d) World Bank Fast Payments Toolkit3 
+(e) Global Findex Survey, 2017 conducted for World Bank4 
+(f) World Bank – World Development Indicators5 
+(g) Advancing Public Transport Report on Demystifying Ticketing and Payment in Public 
+Transport – November 20206 
+(h) FSB Stage 1 Report on Enhancing cross-border payment arrangements7 
+(i) FSB Consultative Report on Targets for Addressing the Four Challenges of Cross-border 
+Payments8 
+(j) ACI Worldwide – Prime Time for Real-Time Global Payments Report 20229 
+(k) Websites of Central Banks, Ombudsman, etc., of other benchmarked countries10 
+(l) Interchange Fees in Various Countries: Developments and Determinants (Stuart E. Weiner 
+and Julian Wright)11 
+
+1 https://stats.bis.org/statx/toc/CPMI.html 
+2 https://worldpay.globalpaymentsreport.com/en 
+3 https://fastpayments.worldbank.org/ 
+4 https://globalfindex.worldbank.org/ 
+5 https://databank.worldbank.org/source/world-development-indicators 
+6 https://cms.uitp.org/wp/wp-content/uploads/2021/03/Report-Ticketing_NOV2020_update.pdf 
+7 https://www.fsb.org/2020/04/enhancing-cross-border-payments-stage-1-report-to-the-g20/ 
+8 https://www.fsb.org/2021/05/targets-for-addressing-the-four-challenges-of-cross-border-payments-
+consultative-document/ 
+9 https://www.aciworldwide.com/real-time-payments-
+report?utm_source=fintechfinance&utm_medium=display&utm_campaign=fm-2022-bnks-global-prime-time-2022 
+10 https://www.afca.org.au/; https://www.financial-ombudsman.org.uk/; https://www.obsi.ca/; 
+https://acpr.banque-france.fr/en/page-sommaire/about-acpr; https://www.bafin.de/EN/Homepage/; 
+https://www.obssa.co.za; https://finombudsman.ru/; https://www.occ.treas.gov/topics/supervision-and-
+examination/dispute-resolution/consumer-complaints/index-consumer-complaints.html 
+11 https://www.kansascityfed.org/documents/7408/PSCP2005_Weiner-Wright.pdf
+
+(m) Report of the Working Group on Innovations in retail payments 201212 
+(n) The Global Knowledge Partnership on Migration and Development (KNOMAD) – 
+Remittances data13 
+
+4.2 RBI has relied on publicly available information and made all reasonable efforts to ensure that 
+the information in the report is accurate. Further, any changes in data / information pertaining 
+to jurisdictions covered in the exercise, after the finalisation of the report, may not be reflected 
+herein. 
+5. Countries selected for benchmarking 
+5.1 The countries included in this exercise are the same as those selected for the 2019 exercise 
+to ensure consistency. Like the last exercise, the countries include a mix of advanced 
+economies, Asian economies and all the BRICS nations viz. Australia, Brazil, Canada, China, 
+France, Germany, Hong Kong, Indonesia, Italy, Japan, Mexico, Russia, Saudi Arabia, 
+Singapore, South Africa, South Korea, Sweden, Turkey, United Kingdom and the United 
+States of America. European Central Bank (ECB) has been included for the indicators on 
+“Regulation” and “Oversight”. These countries have been chosen not only because they are 
+spread across all continents but also because payment systems in these countries are 
+considered to be robust, diverse and efficient. Further, most of the countries are at the upper 
+end of the income spectrum in terms of World Bank socio-economic indicators. 
+6. Rating 
+6.1 The benchmarking has been done for indicators ranging from regulation of payment systems 
+to payment instruments and infrastructure. For ranking a particular indicator, only those 
+countries have been considered for which data is available for the respective indicator. For 
+each indicator, the rationale for rating, along with the practices followed by leaders, is provided 
+at Annex. The rating 14categories are on similar lines as the rating in the last exercise: 
+
+12 https://www.bis.org/cpmi/publ/d102.pdf 
+13 https://www.knomad.org/data/remittances 
+14 Last exercise rating methodology was as follows: 
+a) “Leader”: ranked 1st or 2nd or 3rd; 
+b) “Strong”: in the top rungs of the countries other than the leaders (4th to 9th);
+
+a) “Leader”: ranked 1st or 2nd or 3rd; 
+b) “Strong”: in the top half of the countries other than the leaders; 
+c) “Moderate”: in the bottom half of countries other than the bottom 5; and 
+d) “Weak”: in the bottom 5. 
+6.2 The rating for an indicator is given without accounting for the correlation with other indicators, 
+if any. The purpose of assigning a ‘rating’ for a parameter / indicator is limited to providing a 
+scale, for understanding India’s relative position amongst the countries covered under this 
+exercise. Further, for some parameters, the relative position and rating thereof indicate 
+consumer preferences (share of different payment categories, cash withdrawals from ATM, 
+etc.) in the benchmarked countries. The parameters / areas for which a jurisdiction may like 
+to initiate action to improve its relative position, would be driven by the strengths and 
+shortcomings of their payments ecosystem, consumer preferences, geo-political realities, etc. 
+Thus, a relatively low ranking in a particular parameter may not be a reason by itself for 
+initiating action. 
+7. Highlights and way forward 
+7.1 The benchmarking exercise compared various aspects of the payments landscape in India 
+with that of other countries and provided insights on consumer preferences for payment 
+instruments / systems vis-à-vis other countries. The selection of parameters was constrained 
+by non-availability of data for certain parameters across jurisdictions since certain initiatives / 
+products / systems may be key for a jurisdiction but may not be implemented across all 
+jurisdictions e.g., use of Quick Response (QR) codes. The exercise captured some of the 
+developments since 2019 and helped highlight areas where India was strong and identify 
+areas where further initiatives / developments were desirable. The key findings from the 
+exercise are summarised below: 
+• 
+The onset of the CoVID pandemic and requirement of social distancing necessitated 
+special measures for unhindered operations of payment systems. Despite the challenges, 
+the payment systems in India continued to demonstrate robust growth during the 
+pandemic. 
+
+c) “Moderate”: ranked in the middle (10th to 15th); and 
+d) “Weak”: in the lowest rungs (16th to 21st).
+
+• 
+Regulation continues to be strong in India with many proactive customer centric initiatives 
+being taken. Guidelines were issued in 2020 to bring payment aggregators also under the 
+regulatory purview. 
+• 
+In India, while the per capita CIC is low, the ratio of CIC to GDP is considerably high. CIC 
+may be a sub-optimal indicator to assess extent of payments; as currency, particularly 
+high denomination notes, are also used as a store of value, especially in times of 
+uncertainty like natural disasters and emergencies like the CoVID pandemic. 
+• 
+India is one of the few countries where the large value RTGS system is available round 
+the clock. 
+• 
+The payment systems / instruments across all segments (except paper clearing, where 
+the endeavour is to bring down cheques) have demonstrated robust growth in India. In 
+terms of share of transactions, Unified Payments Interface (UPI) is the dominant system, 
+contributing 68% of payment systems transactions with over 5.4 billion transactions in 
+March 2022. 
+• 
+India has two fast payment systems, viz. Immediate Payment Service (IMPS) and UPI, 
+facilitating instant funds transfers. Further, the National Electronic Funds Transfer (NEFT) 
+system operated by RBI is available 24x7 and ensures settlement in half hourly batches. 
+• 
+The CoVID pandemic related lockdowns and restrictions on public movement in 2020 had 
+an impact on usage of payment instruments at retail outlets. This may be one of the 
+reasons for the lower growth observed in card payments in India as compared to other 
+payment categories in 2020. Overall, after an initial drop15, digital transactions picked up 
+during the period as the focus was on “no / less” physical contact. 
+• 
+Notwithstanding the significant expansion in the payment acceptance infrastructure in 
+India during the period, the people per PoS terminals remained high at around 300 people. 
+The operationalisation of the Payments Infrastructure Development Fund (PIDF) in 
+January 2021 has enhanced deployment of payment acceptance infrastructure. Further, 
+India has over 150 million digital PoS terminals (QR codes) that facilitate acceptance of 
+digital payments through cards, e-Money and UPI. 
+• 
+RBI published the updated oversight framework for Financial Market Infrastructures (FMIs) 
+and Retail Payment Systems (RPSs)16 incorporating the supervisory framework for 
+payment system entities. It further details the oversight objectives and supervisory 
+
+15 https://rbi.org.in/Scripts/TrendsPSIUserView.aspx?Id=3 
+16 https://rbi.org.in/scripts/Bs_viewcontent.aspx?Id=3864
+
+processes of Reserve Bank as well as the assessment methodology of FMIs and System 
+Wide Important Payment System (SWIPS) under Principles for Financial Market 
+Infrastructures (PFMIs). 
+• 
+Various measures have been put in place in India to ensure security of payment 
+transactions. The incremental measures, since the previous benchmarking exercise, 
+include facility to switch on / off card transactions / usage limits for card transactions, Card 
+on File (CoF) tokenisation, positive pay for cheque transactions, mandating Legal Entity 
+Identifier (LEI) for high value transactions in Centralised Payment Systems (CPS), etc. 
+• 
+The movement towards digital payments in India has been accompanied by a shift towards 
+payment of utility bills through digital modes. This has been facilitated by the Bharat Bill 
+Payment System (BBPS), which on-boarded over 20,000 billers as at the end of March 
+2022. 
+• 
+Payments for ticket purchases in mass transit systems are increasingly being made 
+through digital modes with contactless cards and QR based payments being the preferred 
+modes. 
+• 
+India’s domestic card network – RuPay – dominates the debit card segment as far as card 
+issuance is concerned. However, RuPay is lagging in the credit card segment with below 
+3% share of total cards issued. 
+• 
+Though India has the third largest number of ATMs deployed, India continues to fare 
+poorly with regard to people served per ATM due to its sizeable population. However, this 
+may not be a concern as cash withdrawals in India are also facilitated through other 
+channels such as PoS terminals and micro-ATMs using Aadhaar enabled payment 
+systems (AePS). 
+• 
+India has taken significant measures to enhance cross-border payment arrangements. 
+The 24x7 availability of RTGS can be leveraged for facilitating cross-border transactions. 
+• 
+The interlinkage of India’s fast payment system, viz. UPI, with similar systems in other 
+jurisdictions is being explored to enhance cross-border payment arrangements. The UPI-
+PayNow interface is currently underway with Singapore. Such initiatives are expected to 
+provide an instant and low-cost option for cross-border payments, including remittances. 
+• 
+Various other initiatives are underway in India to ensure outreach of digital payments. A 
+centralised industry-wide 24x7 helpline was set-up to assist users with their queries on 
+digital payments via toll-free number, website, chatbot facility, etc. To facilitate digital 
+transactions in areas with poor or weak internet or telecom connectivity, authorised 
+payment system operators and payment system participants were permitted to enable
+
+small value digital payments in offline mode using any channel or instrument like cards, 
+wallets, mobile devices, etc. To ensure digital enablement of the 400 million feature phone 
+users across the country, UPI system was leveraged to introduce UPI123Pay with four 
+distinct options to initiate digital payments, viz. (a) Interactive Voice Recording, (b) missed 
+call, (c) app-based functionality, and (d) proximity sound - based payments. Further, a 
+recently prescribed framework for geo-tagging of payment touch points will provide precise 
+location of existing payment acceptance infrastructure and facilitate implementation of 
+targeted literacy programmes and intervention strategies to enhance digital payment 
+acceptance infrastructure across the country. These initiatives will ensure further adoption 
+of digital payments and enhancement of the payments ecosystem. 
+Way Forward 
+7.2 India 
+has an efficient payments 
+ecosystem 
+that 
+has 
+been 
+strengthened 
+by 
+operationalising the CPS, comprising RTGS and NEFT, round the clock. RTGS 24x7 has laid 
+the foundation for extension of market hours, which would enhance efficiency of Indian 
+markets and increase payment transactions. Further, expanding the scope of RTGS, to settle 
+transactions in major trade currencies such as USD, Euro, Pound, etc., could be explored to 
+facilitate processing of foreign currency transactions and establish India as a major 
+centre for international financial trades. 
+
+7.3 With global focus on enhancing cross-border payment arrangements, it is essential that India 
+explores further actions in this arena, which would further its relative position and remove 
+frictions in such transactions. These measures could include, building on the UPI-PayNow 
+interface and exploring avenues for interlinking UPI with fast payment systems in other 
+jurisdictions, enhancing / reviewing the prescribed limits for inward remittances using the 
+Money 
+Transfer 
+Service 
+Scheme 
+(MTSS) 
+to improve 
+customer 
+convenience, 
+adopting differential screening requirements for foreign inward remittances in line with 
+the risk-based regime provided in the Financial Action Task Force (FATF) framework, 
+etc. While enhancing cross-border transactions is a focus area, it is essential to ensure safety 
+and security of such transactions. The Additional Factor of Authentication (AFA) mandated for 
+online card transactions in India has reduced payment frauds and enhanced confidence of 
+customers in card transactions. With the evolution of technology and rise in cross-border 
+payments, the possibility of extending AFA requirement to cross-border card transactions 
+undertaken using cards issued in India may be explored.
+
+7.4 From a domestic perspective, the robust payments infrastructure has facilitated 
+considerable growth in Indian economy. The time is opportune to leverage these learnings at 
+a global level. Internationalisation of Indian Rupee will facilitate greater degree of integration 
+of Indian economy with rest of the world, in terms of foreign trade and international capital 
+flows. Along with other global outreach initiatives, this will also help bring down cost of cross-
+border transactions, including remittances, and help in rapid acceptance of Indian Rupee. The 
+inclusion of Indian Rupee as a currency in Continuous Linked Settlement (CLS) could be a 
+step in this direction. The CPSs could also be extended to SAARC member countries to 
+facilitate trade invoicing and settlement in Indian Rupee. Opening of current accounts, both 
+by other central banks with RBI and by RBI with other central banks, to faciliate faster 
+settlements could be another aspect for consideration. 
+8. Benchmarking exercise summary 
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+(A) 
+Regulation 
+Laws in place 
+and scope of 
+regulation 
+The Reserve Bank’s scope of 
+regulation extends to the whole 
+gamut of payment systems and 
+instruments 
+as 
+also 
+services 
+provided by banks and non-banks. 
+India is one of the few countries 
+that has a designated law on 
+payment systems. In order to 
+maintain public confidence in the 
+payment systems, entry and exit of 
+operators is regulated in India, 
+unlike certain other jurisdictions. 
+Strong 
+Strong 
+Regulation of 
+costs 
+of 
+payment 
+systems 
+Processing charges have been 
+waived by RBI on the payment 
+systems it operates, viz. RTGS and 
+NEFT transactions. In addition, 
+with effect from January 1, 2020 
+banks were directed not to levy any 
+charges on NEFT funds transfers 
+initiated online by their savings 
+bank account holders. Further, with 
+effect from January 1, 2020, the 
+Government has directed that 
+Leader 
+Leader
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+Merchant Discount Rate (MDR) 
+shall 
+not 
+be 
+collected 
+for 
+transactions put through UPI and 
+RuPay debit cards. 
+(B) 
+Cash 
+per 
+capita 
+The CIC per capita in India 
+increased from USD 218 in 2017 to 
+USD 288 in 2020. However, CIC 
+per capita in India continues to be 
+considerably lower than most of 
+the countries included in the 
+benchmarking exercise. The CIC 
+per capita is observed to vary 
+significantly among the advanced 
+economies 
+and 
+emerging 
+economies. 
+Strong 
+Leader 
+as 
+percent 
+of 
+GDP 
+The CIC as percent of GDP is 
+observed to be the third highest for 
+India out of the countries included 
+in the benchmarking exercise. CIC 
+in India increased to 14.4% of GDP 
+in 2020 from 10.7% of GDP in 
+2017, consistent with the trend 
+observed across jurisdictions. 
+With the onset of CoVID pandemic, 
+there was a dash for cash across 
+all jurisdictions. Lockdowns were 
+severe in India, as a result of which 
+economic activity slowed down and 
+there was contraction in GDP, 
+relative to other countries. The 
+decline in GDP (denominator) 
+contributed 
+considerably 
+to 
+increase of CIC as percent of GDP 
+for India in 2020. 
+Moderat
+e 
+Weak 
+(C) 
+Payment 
+systems 
+transacti
+ons 
+Payment 
+systems 
+transactions 
+volume 
+and 
+growth 
+The volume of payment systems 
+transactions in India grew strongly 
+at a CAGR of 21% between 2017 
+and 2020, indicating rapid adoption 
+of non-cash payment modes. The 
+CAGR observed in India was 
+second highest amongst countries 
+included in the benchmarking 
+Moderat
+e 
+Volume: 
+Strong; 
+CAGR: 
+Leader
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+exercise, behind only Saudi Arabia 
+(26%). 
+Value 
+of 
+payment 
+systems 
+transactions 
+to CIC 
+The value of payment systems 
+transactions to CIC was one of the 
+lowest in India (44.9) in 2020 as 
+compared 
+to 
+other 
+countries 
+included in the benchmarking 
+exercise. Indonesia, South Africa, 
+Turkey and United Kingdom are 
+the few countries that witnessed a 
+growth in the ratio from 2017 to 
+2020. 
+Moderat
+e 
+Weak 
+(D) 
+Cheques 
+Rate 
+of 
+decline 
+of 
+cheques 
+In India, the volume of cheque 
+payments in 2020 (708 million) was 
+high, 
+as 
+compared 
+to 
+other 
+countries. Cheque-based payment 
+transactions in India declined at a 
+CAGR of 15.4% from 2017 to 2020. 
+Weak 
+Moderate 
+Share 
+of 
+cheques 
+in 
+payment 
+systems 
+(volume) 
+The share of cheque payments in 
+total 
+payment 
+systems 
+transactions in India has reduced 
+to 1.7% in 2020 from 7.5% in 2017. 
+Weak 
+Weak 
+Cheque 
+instrument 
+features 
+In 2021, India brought all bank 
+branches under the image-based 
+Cheque Truncation System (CTS) 
+clearing mechanism ensuring T+1 
+settlement 
+for 
+all 
+instruments 
+across the country. Further, to 
+provide 
+additional 
+security, 
+a 
+mechanism of positive pay was 
+made available for all high value 
+cheques, i.e., above ₹50,000. 
+Leader 
+Leader 
+(E) 
+Debit and 
+credit 
+cards 
+Number 
+of 
+debit 
+and 
+credit 
+cards 
+issued 
+India, with 886 million debit cards 
+at the end of 2020, was behind only 
+China (8178 million) in terms of 
+number of debit cards issued. In 
+terms of number of credit cards 
+issued, India with 60.4 million 
+credit cards, was behind USA, 
+Debit 
+Cards: 
+Leader; 
+Credit 
+Cards: 
+Moderat
+e 
+Debit 
+Cards: 
+Leader; 
+Credit 
+Cards: 
+Strong;
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+China, Brazil, Canada, Korea and 
+Turkey. 
+
+Share 
+of 
+debit 
+and 
+credit 
+card 
+payments in 
+payment 
+systems 
+(volume) 
+In 2020, the share of card 
+payments in total payment systems 
+transactions 
+was 
+the 
+second 
+lowest in India (14.7%), with only 
+Indonesia witnessing a lower share 
+(7.2%). Further, in 2020 India was 
+one of the few countries along with 
+Indonesia, Korea, Sweden, Turkey 
+and United Kingdom to witness a 
+decline in share of card payments 
+as compared to 2017. 
+Weak 
+Weak 
+Points 
+of 
+Sale 
+(PoS) 
+terminals 
+deployed 
+The number of PoS terminals 
+available in India (4.6 million) as at 
+the end of 2020 was higher than 
+the countries considered in the 
+benchmarking exercise with the 
+exception of Brazil (13.4 million) 
+and China (38.3 million). 
+Strong 
+Leader 
+People 
+per 
+PoS terminal 
+India 
+has 
+made 
+significant 
+progress in terms of the absolute 
+number of PoS terminals deployed 
+at the end of 2020. However, in 
+terms of people per PoS terminal 
+deployed, there is scope for 
+improvement 
+with 
+one 
+PoS 
+terminal catering to 296 people as 
+at end 2020. 
+Weak 
+Weak 
+Debit 
+and 
+credit 
+card 
+payments 
+The debit card and credit card 
+payments in India have grown at a 
+respectable rate from 2017 to 2020 
+with a CAGR of 7.3% and 8.5%, 
+respectively. However, in absolute 
+terms, the volume of debit card and 
+credit card payments in India in 
+2020 was considerably lower as 
+compared to other countries. 
+Moderat
+e 
+
+Moderate 
+(F) 
+Cash vs 
+debit and 
+Debit 
+and 
+credit 
+card 
+The value of card payments to CIC 
+for India, at 0.4, was the lowest 
+amongst 
+the 
+benchmarked 
+Weak 
+Weak
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+credit 
+cards 
+payments vs 
+countries, 
+indicating 
+a 
+lower 
+preference for using debit and 
+credit cards. 
+(G) 
+Cash and 
+ATMs 
+ATMs 
+deployed 
+As at the end of 2020, India was 
+next to only China and Russia in 
+terms of the number of ATMs 
+deployed. However, over the 
+period from 2017 to 2020, the 
+ATMs deployed in India increased 
+at a CAGR of 2% as compared to 
+17% in Russia. 
+Leader 
+Leader 
+People 
+per 
+ATM 
+India has the third largest number 
+of ATMs deployed in absolute 
+terms amongst the benchmarked 
+countries. However, it fares poorly 
+when we measure the reach of 
+ATMs; with a single ATM catering 
+to over 5800 people as at end 
+2020. 
+Weak 
+Weak 
+Cash 
+withdrawal at 
+ATMs 
+per 
+capita 
+The cash withdrawals undertaken 
+per person in India in 2020 was 5, 
+which was the lowest amongst the 
+benchmarked countries. This has 
+fallen from 7 cash withdrawals per 
+person in 2017. While this ratio 
+normally indicates lower cash 
+dependency, the reason for a low 
+ratio may be more due to a large 
+population (denominator) having 
+low accessibility due to lesser 
+number of ATMs (numerator). 
+In addition, there is a limit on the 
+number of times cash can be 
+withdrawn from ATMs without any 
+charges, which acts as a deterrent 
+at times. 
+Leader 
+Leader 
+ATM 
+withdrawal vs 
+India has one of the lowest ratios of 
+cash withdrawal at ATM to CIC. 
+This is likely to be the result of low 
+Weak17 
+Leader 
+
+17 In the last exercise the Cash withdrawal to CIC was low and India was ranked weak in the indicator considering low availability of 
+ATMs. However, on a review, considering the focus on shifting towards digital payments, a low ratio of cash withdrawal to CIC is 
+desirable. The rationale for the rating has been modified accordingly.
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+ATM density coupled with low 
+number of ATM transactions per 
+capita. 
+(H) 
+Domestic 
+card 
+networks 
+Presence of 
+domestic 
+card network 
+and its share 
+In 
+India, 
+the 
+domestic 
+card 
+network, RuPay was launched by 
+National Payments Corporation of 
+India (NPCI) in 2012. As at end of 
+January 2022, there were over 651 
+million 
+RuPay 
+debit 
+cards 
+dominating the market with a share 
+of over 65% of total debit cards 
+issued. However, RuPay cards 
+comprise less than 3% share in the 
+credit card segment in India. 
+Moderat
+e 
+Moderate 
+(I) 
+Credit 
+transfers 
+Volume and 
+growth 
+of 
+credit 
+transfers 
+India dominates credit transfers, 
+both in terms of number of 
+transactions in 2020 and CAGR 
+over the 3-year period between 
+2017 and 2020. This can be 
+attributed to the plethora of credit 
+transfer systems available round 
+the clock facilitating immediate 
+funds transfers. 
+Strong 
+Leader 
+
+Share 
+of 
+credit 
+transfers 
+in 
+payment 
+systems 
+(volume) 
+The share of credit transfers in 
+overall 
+payment 
+systems 
+transactions grew from 37.5% in 
+2017 to 68.8% in 2020 and is now 
+the 
+highest 
+amongst 
+the 
+benchmarked countries. 
+Leader 
+Leader 
+(J) 
+Large 
+value 
+payments 
+RTGS 
+In India, the RTGS system, owned 
+and 
+operated 
+by 
+RBI, 
+was 
+introduced 
+in 
+and 
+has 
+undergone various changes over 
+the years. The RTGS system is 
+running round the clock from 
+December 14, 2020; making India 
+one of the few countries in the 
+world to have its large value 
+payment system operating 24x7. 
+Strong 
+Leader 
+(K) 
+Fast 
+payments 
+Channels in 
+which 
+fast 
+India is one of the few countries 
+that has two fast payment systems, 
+viz. IMPS and UPI. The adoption of 
+Strong 
+Leader
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+payments 
+are available 
+instant payments in India has been 
+remarkable, with India dominating 
+the 
+number 
+of 
+transactions 
+undertaken using fast payment 
+systems as compared to other 
+countries 
+for 
+which 
+data 
+is 
+available. 
+In addition, India also has another 
+retail payment system operated by 
+RBI, viz. NEFT, which though not a 
+fast payment system (as it is 
+settled in half-hourly batches), runs 
+24x7, without settlement risk as 
+payment is made to the beneficiary 
+only after the settlement. 
+(L) 
+Direct 
+debits 
+Volume and 
+growth 
+of 
+direct debits 
+Direct debits in India, at a CAGR of 
+38.6% between 2017 and 2020, 
+have registered the fastest growth 
+amongst 
+the 
+benchmarked 
+countries. However, in terms of 
+volume, the direct debits in India 
+are lower than countries like United 
+States 
+of 
+America, 
+Germany, 
+Brazil, United Kingdom, France 
+and South Korea. 
+Weak 
+Volume: 
+Strong; 
+CAGR: 
+Leader 
+Share 
+of 
+direct debits 
+in 
+payment 
+systems 
+(volume) 
+India’s 
+share 
+of 
+direct 
+debit 
+transactions in payment systems 
+was 2.5% in 2020. The change in 
+share of direct debit payments in 
+payment systems is insignificant 
+for most of the benchmarked 
+countries. 
+Weak 
+Moderate 
+(M) 
+e-Money 
+Availability of 
+alternate 
+payment 
+systems 
+As per the Worldpay Global 
+Payments Report 2022, 45% of the 
+online transactions in India are 
+undertaken using digital / mobile 
+wallets 
+(e-Money). 
+In 
+India, 
+alternative 
+forms 
+of 
+payment, 
+facilitated through UPI third-party 
+applications, are predominantly 
+used 
+for 
+online 
+payment 
+transactions. 
+Leader 
+Leader
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+Volume and 
+growth of e-
+Money 
+India fares well in terms of the 
+volume of e-Money transactions 
+with over 4950 million transactions 
+in 2020. The transactions are 
+undertaken 
+using 
+pre-paid 
+payment instruments in the form of 
+cards 
+or 
+wallets 
+issued 
+by 
+approved 
+banks 
+as 
+well 
+as 
+authorised non-bank issuers. 
+Strong 
+Volume: 
+Strong; 
+CAGR: 
+Moderate 
+Share of e-
+Money 
+in 
+payment 
+systems 
+(volume) 
+The share of e-Money payment 
+transactions in India decreased 
+from 22.1% in 2017 to 12.2% in 
+2020 and is substantially lower 
+than other countries, viz. Japan 
+(78.8%), Singapore (60.1%) and 
+Indonesia (36.5%). The fall in the 
+share may also be read with the 
+increase in other modes such as 
+UPI. 
+Leader 
+Strong 
+(N) 
+Digital 
+utility 
+payments 
+Digital 
+payments of 
+utility bills 
+BBPS was introduced in October 
+2017 to offer interoperable and 
+accessible bill payment services to 
+customers using multiple modes 
+and 
+instant 
+confirmation 
+of 
+payment. 
+The 
+system 
+has 
+witnessed remarkable growth in 
+terms of billers and transactions 
+processed. 
+Weak 
+Moderate 
+Public mass 
+transportatio
+n 
+Digital payments are in use to pay 
+for public transportation in most 
+metropolitan cities in India. The 
+metro rails operating across the 
+country employ the use of smart 
+cards that facilitate contactless 
+cash free travel. 
+Weak 
+Moderate 
+(O) 
+Digital 
+infrastruc
+ture 
+Mobile 
+and 
+broadband 
+subscriptions 
+The number of mobile and fixed 
+broadband subscriptions per 100 
+individuals in India was the lowest 
+at 83.6 and 1.6, respectively, in 
+2020. Further, fixed broadband 
+subscriptions increased at a CAGR 
+of 6.3% over the period from 2017 
+Strong 
+Weak
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+to 2020, while mobile subscriptions 
+decreased at an annualised rate of 
+1.4%, during the period. 
+(Q) 
+Aggregat
+ors 
+Third 
+party 
+payment 
+service 
+providers 
+/ 
+payment 
+gateways 
+/ 
+payment 
+aggregators 
+India 
+recently 
+introduced 
+guidelines to regulate the activities 
+of 
+payment 
+aggregators 
+and 
+mandated all existing payment 
+aggregators 
+to 
+apply 
+for 
+authorisation by September 30, 
+2021. In India, the activities of 
+payment 
+gateways 
+are 
+not 
+regulated as they do not handle 
+funds and the regulator only issues 
+recommendatory 
+guidelines 
+on 
+baseline 
+technology 
+for 
+their 
+activities. 
+Further, 
+to 
+enable 
+effective management of risks in 
+outsourcing 
+of 
+activities, 
+a 
+framework was prescribed for 
+outsourcing 
+of 
+payment 
+and 
+settlement related activities of 
+Payment 
+System 
+Operators 
+(PSOs). 
+Moderat
+e 
+Strong 
+(R) 
+Customer 
+protectio
+n and 
+complaint 
+redressal 
+Customer 
+safety 
+and 
+authenticatio
+n standards 
+India has a framework on limiting 
+liability 
+of 
+customers 
+in 
+unauthorised electronic banking 
+transactions. 
+In 
+addition, 
+the 
+regulator has introduced various 
+measures, since the last exercise, 
+to ensure safety of customer 
+transactions, viz. (a) facility to 
+switch on / switch off card 
+transactions, (b) CoF tokenisation, 
+(c) mandating LEI for high value 
+transactions in CPS, (d) positive 
+pay system for high value cheques. 
+Strong 
+Strong 
+Ombudsman 
+RBI in November 2021 launched 
+the 
+Integrated 
+Ombudsman 
+Scheme to make the alternate 
+dispute 
+redressal 
+mechanism 
+simpler and more responsive to the 
+customers of entities regulated by 
+Strong 
+Strong
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+it. The Integrated Ombudsman 
+Scheme combined the following 3 
+schemes 
+(i) the 
+Banking 
+Ombudsman 
+Scheme, 
+2006; 
+(ii) the Ombudsman Scheme for 
+Non-Banking 
+Financial 
+Companies, 2018; and (iii) the 
+Ombudsman Scheme for Digital 
+Transactions, 2019. 
+Further, to ensure a swift, effective 
+and efficient complaint redressal 
+mechanism, 
+an 
+internal 
+ombudsman 
+scheme 
+was 
+introduced for large non-bank PPIs 
+in 2019. 
+(S) 
+Securitie
+s 
+settlemen
+t and 
+clearing 
+system 
+Central 
+Counterparty 
+(CCP) 
+Clearing Corporation of India Ltd 
+(CCIL) operates as a CCP and 
+provides guaranteed clearing and 
+settlement 
+for 
+transactions 
+in 
+money, Government securities, 
+foreign exchange and derivative 
+markets. 
+In 
+a 
+cross-country 
+comparison CCIL fares strongly 
+with 
+regard 
+to 
+governance 
+arrangements 
+in 
+place 
+for 
+managing the organisation and the 
+risk 
+management 
+practices 
+implemented to manage member 
+defaults and other non-default 
+losses. 
+Strong 
+Leader 
+(T) 
+Oversight 
+Oversight of 
+payment 
+systems 
+In 
+India, 
+the 
+Payment 
+and 
+Settlement Systems Act, 2007 
+(PSS Act) has designated and 
+confers upon RBI the right to 
+regulate and supervise payment 
+systems within the country. In 2020 
+RBI 
+introduced 
+an 
+oversight 
+framework for FMIs and RPSs that 
+details the oversight objectives and 
+supervisory processes of RBI as 
+well 
+as 
+the 
+assessment 
+Leader 
+Leader
+
+Area 
+Indicator 
+number 
+Indicator 
+Insights 
+Previous 
+rating 
+Current 
+rating 
+methodology of FMIs and SWIPS 
+under PFMIs. 
+(U) 
+Cross- 
+border 
+personal 
+remittanc
+es 
+Availability 
+In India, the major share of cross-
+border remittances is undertaken 
+through banks. The non-bank 
+players are permitted to facilitate 
+inward remittances only. 
+Weak 
+Moderate 
+Flows 
+India is the leader in terms of 
+personal remittance inflows with 
+11.85% 
+share 
+of 
+the 
+global 
+remittances received by it. In the 
+year 
+2020, 
+India 
+received 
+remittances amounting to over 
+USD 83 billion. 
+Leader 
+Leader 
+Cost 
+The cost of sending remittances to 
+India was lower than that to other 
+benchmarked countries. However, 
+the cost of sending remittances 
+from India was higher than that 
+from Russia and Singapore. It may 
+be noted that it may not be 
+appropriate 
+to 
+compare 
+remittances 
+across 
+countries 
+selected in the 
+benchmarking 
+exercise, as remittances primarily 
+originate 
+from 
+advanced 
+economies and are directed to 
+beneficiaries 
+in 
+emerging 
+economies. 
+Moderat
+e 
+Strong
+
+Appendix 
+Glossary 
+Sr 
+No 
+Term 
+Definition 
+1 Alternate 
+payments 
+Alternate payments are payments using methods other than cash or 
+physical cards linked to card brand networks. 
+2 ATMs 
+Automated Teller Machines (ATMs) are terminals that allow authorised 
+users, typically by using a card, to access a range of services such as 
+cash withdrawals, balance enquiries, transfer of funds and/or 
+acceptance of deposits. 
+3 BigTech 
+BigTech is a term that refers to the most dominant and largest 
+technology companies in their respective sectors. Their products and 
+services are used globally and have become heavily relied upon by 
+businesses and individuals alike. 
+4 BNPL 
+Buy Now Pay Later (BNPL) is a type of short-term financing that allows 
+consumers to make purchases and pay for them at a future date, often 
+interest-free. 
+5 CAGR 
+Compound Annual Growth Rate (CAGR) is the average rate at which 
+value of an indicator moves from one value to another over a period of 
+time. 
+6 Cards 
+Cards are payment instruments based on a unique number that can be 
+used to initiate a payment, cash withdrawal or cash deposit that is 
+processed using / over a card scheme or – for withdrawals and deposits 
+at the ATM – within the network operated by the issuer of the card. For 
+this exercise, cards mean debit and credit cards, unless otherwise 
+stated. 
+7 CIC 
+Currency in Circulation (CIC) is the amount of cash within a country that 
+is physically used to conduct transactions between consumers and 
+businesses rather than stored in a bank, financial institution or central 
+bank. This includes notes in circulation and coins in circulation. 
+8 Cheques 
+Cheques are payment instruments based on written orders from one 
+party (the drawer) to another (the drawee, normally an account holder 
+of a bank) requiring the drawee to pay a specified sum on demand to 
+the drawer or to a third party specified by the drawer. 
+Credit transfers 
+Credit transfers are based on payment orders or possibly sequences 
+of payment orders made for the purpose of placing funds at the disposal 
+of the payee. The funds move from the payer’s institution to the payee’s 
+institution, possibly via several other institutions as intermediaries and 
+/ or one or more payment systems. In India, this consists of RTGS, 
+NEFT, Electronic Clearing Service (ECS) Credit, National Automated 
+Clearing House (NACH) Credit, IMPS and UPI.
+
+Sr 
+No 
+Term 
+Definition 
+10 Digital payments 
+Digital payment is a means of payment which is made through digital 
+modes. In digital payments, payer and payee both use digital modes to 
+send and receive money, respectively. It is also called electronic 
+payment. No hard cash is involved in digital payments. 
+ 11 DBT 
+Direct Benefit Transfer (DBT) aims to transfer subsidies directly to the 
+beneficiaries in their bank accounts. 
+ 12 Direct debits 
+Direct debits are based on pre-authorised debits, possibly recurrent, of 
+the payer’s account by the payee. In India, this comprises of ECS 
+debit18 and NACH debit. 
+13 Domestic 
+card 
+network 
+Card networks facilitate card payments by passing information between 
+acquiring banks and issuing banks (or card issuer). Domestic card 
+network is such a network that is setup for banks within a specific 
+country. In India, RuPay cards of NPCI operates as a Domestic card 
+network. 
+14 e-Money 
+e-Money is prepaid value stored electronically, which represents a 
+liability of the e-Money issuer (a bank, an e-money institution or any 
+other entity authorised or allowed to issue e-Money in the local 
+jurisdiction) and which is denominated in a currency backed by an 
+authority. In India, Prepaid Payment Instruments issued as Wallets and 
+Cards are included in e-Money. 
+15 Fast payments 
+Fast payments are payments in which the transmission of the payment 
+message and the availability of “final” funds to the payee occur in real 
+time or near-real time and on as near to a 24-hour and seven-day 
+(24x7) basis as possible. In India, IMPS and UPI are classified as Fast 
+Payment Systems. 
+16 GDP 
+Gross domestic product (GDP) is the monetary value of all the finished 
+goods and services produced within a country's borders in a specific 
+time period. 
+17 Interchange fee 
+Interchange fee is transaction fee that a merchant must pay whenever 
+a customer uses a credit / debit card to make a purchase from her / his 
+store. The fees are paid to the card-issuing bank to cover handling 
+costs, fraud and bad debt costs and the risk involved in approving the 
+payment. 
+18 MDR 
+Merchant Discount Rate (MDR) is the rate charged to a merchant for 
+payment processing services on debit / credit card transactions. 
+19 Micro ATMs 
+Micro-ATM is a portable device used by a Business Correspondent to 
+connect to his / her bank, authenticate customers and perform 
+transactions, such as, cash deposit, withdrawal and funds transfer. 
+20 NFC 
+Near Field Communication (NFC) is the technology that allows two 
+devices, like a phone and a payment terminal, to talk to each other 
+
+18 ECS was discontinued in January 2020 with the transactions migrated to NACH.
+
+Sr 
+No 
+Term 
+Definition 
+when they are close together. NFC is the technology that enables 
+contactless payments. 
+21 Payment 
+aggregators 
+Payment aggregators are entities that facilitate e-commerce sites and 
+merchants to accept various payment instruments from the customers 
+for completion of their payment obligations without the need for 
+merchants to create a separate payment integration system of their 
+own. 
+22 Payment gateways Payment gateways are entities that provide technology infrastructure 
+to route and facilitate processing of an online payment transaction 
+without any involvement in handling of funds. 
+23 PSO 
+Payment System Operator (PSO) is a legal entity responsible for 
+operating a payment system. 
+24 Payment systems 
+transactions 
+Payment systems transactions include the total transactions 
+undertaken through all payment systems in the country. In India, this 
+includes, (a) paper clearing (CTS, MICR, Non MICR); (b) large value 
+(RTGS); (c) retail electronic clearing (ECS, NACH, NEFT); (d) fast 
+payments (IMPS, UPI); (f) card Payments (credit and debit card) and 
+(g) e-Money (PPI cards and wallets). 
+25 Per capita 
+Per capita is a Latin term that translates into 'by head,' and basically 
+means the 'average per person’. 
+26 PoS 
+Points of Sale (PoS) terminals are devices typically used at a retail 
+location to capture payment information electronically and – in some 
+cases – on paper vouchers. 
+27 PPIs 
+Prepaid Payment Instruments (PPIs) are payment instruments that 
+facilitate purchase of goods and services against the value stored on 
+such instruments. 
+28 Retail payments 
+Retail payments are “everyday” payments – of relatively low value – 
+between private persons, companies, government agencies. For 
+instance, retail payments are made by consumers to retailers or to 
+utility or telecommunication providers. Salary payments, tax payments 
+and social contributions made by businesses also belong to this 
+category. 
+29 RTGS 
+Real Time Gross Settlement (RTGS) is a funds transfer system where 
+money is moved from one bank to another in 'real-time', and on gross 
+basis. RTGS is India’s large value payment system (LVPS) that 
+typically handles large-value and high-priority payments. 
+30 QR 
+Quick Response (QR) Code is type of a two-dimensional bar code 
+consisting of black squares arranged in a square grid on a white 
+background. Imaging devices such as smartphone cameras can be 
+used to read and interpret these codes. QR codes are increasingly 
+being used for making app-based payments for various services.
+
+Annex 
+Benchmarking assessment 
+A. Regulation 
+1. Laws in place and scope of regulation 
+1.1 Key insight: The Reserve Bank’s scope of regulation extends to the whole gamut of payment 
+systems and instruments as also services provided by banks and non-banks. India is one of the 
+few countries that has a designated law on payment systems. In order to maintain public 
+confidence in the payment systems, entry and exit of operators is regulated in India, unlike certain 
+other jurisdictions. 
+1.2 Benchmark rating: Strong 
+1.3 Analysis: A sound and appropriate legal framework is generally considered the basis for an 
+efficient payment system. In India, considering the importance of regulation for the development 
+and orderly functioning of payment systems, the PSS Act was legislated in 2007. The legal basis 
+for regulation of payment systems emanates from Section 3 of the PSS Act, which states that RBI 
+shall be the designated authority for the regulation and supervision of payment systems under 
+this Act. In RBI, a sub-committee of its Central Board is responsible for the general 
+superintendence of the regulation, reflecting the importance accorded to the task. 
+Proactive regulation with safety and customer centric initiatives have been the hallmark of 
+developments in retail payment systems. The activities undertaken by payment aggregators have 
+also been included under the regulatory purview with existing payment aggregators being 
+required to apply for authorisation by September 2021. Payment gateways that provide 
+technology infrastructure and facilitate processing of online payment transactions without 
+handling funds have been issued recommendations for baseline technology and do not require 
+authorisation from the regulator. 
+In recent years, to reduce licensing uncertainties and facilitate long term strategic planning by 
+PSOs, RBI is authorising entities on a perpetual basis, subject to certain conditions. Further, to 
+inculcate discipline and encourage submission of applications by serious players only, the 
+concept of cooling period was introduced where an entity cannot apply for authorisation within 
+one year from the date of revocation / non-renewal / acceptance of voluntary surrender / rejection 
+of application.
+
+2.2 Benchmark rating: Leader 
+2.3 Analysis: While cash is perceived to be ‘free’ by the consumers, it has significant social costs 
+as also the costs of printing, distributing and maintaining currency, which are borne by RBI. 
+RBI has been regulating the cost of payment systems for the end consumers to ensure the 
+availability of e-payments at low costs. Reduction in transaction cost for participants in the 
+ecosystem would serve as a catalyst to onboard additional merchants on to the digital payments’ 
+platform. 
+Regulation of the costs of payment systems requires a fine balance. High costs will discourage 
+consumers / merchants from shifting to digital payments, while low costs may not be remunerative 
+and would discourage investments. RBI’s endeavour is to make the payments space a large-
+volume, low-average-value and low-cost game for sustained presence and continuance. 
+
+Table 2: Interchange fee 
+
+Central Banki 
+Competition Authority / 
+Central bank interaction 
+Region 
+Agency 
+Actions / Rulings 
+Actions / Rulings taken 
+Actions / Rulings 
+pending 
+Asia 
+Pacific 
+Australia 
+Reserve 
+Bank 
+of 
+Australia 
+Payments 
+System 
+Board 
+(establish
+ed by the 
+parliament 
+July 1998) 
+1. MC, Visa, Amex, 
+and 
+Diners 
+Club 
+credit 
+card 
+no-
+surcharge 
+rules 
+eliminated 
+(01/03). 
+2. Bankcard, MC, 
+and 
+Visa 
+lowered 
+credit 
+card 
+interchange fees and 
+began 
+publishing 
+interchange 
+fee 
+levels 
+(10/03). 
+3. 
+Payments 
+between Amex and 
+Diners 
+Club 
+and 
+their bank partners 
+will not be regulated; 
+however, 
+Amex 
+and Diners Club will 
+reword clauses in 
+their 
+merchant 
+agreements 
+and 
+publish 
+average 
+merchant 
+service 
+fees (02/05). 
+1. 
+Proposed 
+lowering EFTPOS 
+PIN 
+debit 
+interchange 
+fees 
+(02/05). 
+2. 
+Proposed 
+lowering 
+Visa 
+signature 
+debit 
+interchange 
+fees 
+(02/05). 
+3. 
+Proposed 
+eliminating 
+Visa 
+credit 
+card-
+signature 
+debit 
+card 
+HAC 
+rule 
+(02/05). 
+4. Bank will review 
+the standards for 
+credit 
+card 
+schemes in 2007 
+(02/05). 
+Conducted joint study, 
+“Debit and Credit Card 
+Schemes in Australia, 
+A study of Interchange 
+Fees 
+and 
+Access,” 
+October 2000. 
+North 
+America 
+Canada 
+Bank 
+of 
+Canada 
+
+Limited interaction.
+
+Central Banki 
+Competition Authority / 
+Central bank interaction 
+Region 
+Agency 
+Actions / Rulings 
+Actions / Rulings taken 
+Actions / Rulings 
+pending 
+Mexico 
+Banco de 
+México 
+
+1. 
+Interchange 
+fees have been 
+reduced due to a 
+concerted 
+effort 
+between Banco de 
+México 
+and 
+the 
+Mexican Bankers 
+Association. 
+2. 
+Banco 
+de 
+México has made 
+the HAC rule more 
+flexible: merchants 
+are 
+allowed 
+to 
+accept only debit, 
+credit, 
+or 
+both 
+cards. 
+3. 
+The 
+no-
+surcharge rule was 
+left intact because 
+discounts 
+are 
+already allowed. 
+Limited interaction. 
+U.S. 
+Federal 
+Reserve 
+
+Limited interaction. 
+Europe 
+EU cross- 
+border 
+European 
+Central 
+Bank 
+
+Some interaction; ECB 
+can play advisory role. 
+Sweden 
+Riksbank 
+
+Limited interaction. 
+U.K. 
+Bank 
+of 
+England 
+
+Limited 
+interaction; 
+Bank of England sits 
+as an observer on joint 
+OFT/ 
+industry 
+task 
+force. 
+Source: Interchange Fees in Various Countries: Developments and Determinants (Stuart E. Weiner and Julian Wright) 
+
+B. Cash 
+3. Currency in Circulation (CIC) per capita 
+3.1 Key insight: The CIC per capita in India increased from USD 218 in 2017 to USD 288 in 
+2020. However, CIC per capita in India continues to be considerably lower than most of the 
+countries included in the benchmarking exercise. The CIC per capita is observed to vary 
+significantly among the advanced economies and emerging economies. 
+3.2 Benchmark rating: Leader 
+India's position: 3 / 18
+
+Table 3: CIC per capita 
+
+3.3 Analysis: CIC per capita provides an indication of the use of cash and hence low levels of 
+CIC per capita imply migration to digital payment modes. However, CIC per capita could also 
+reflect income levels per capita in a country, which is demonstrated by the significant variation in 
+levels of CIC per capita in advanced economies as compared to emerging market economies. 
+CIC per capita is observed to have increased in most of the countries (except Brazil, South Africa, 
+Sweden, and Turkey) in 2020 when compared to 2017. The increase in CIC per capita in 2020 
+could be attributed to the holding of cash by individuals due to the uncertainties being experienced 
+during the challenging times of the CoVID pandemic. 
+High level of CIC does not necessarily indicate the usage of cash for payment transactions, and 
+it can represent the use of currency as a store of value. This is demonstrated by the robust 
+demand observed for higher value denomination of currency across jurisdictions, as depicted in 
+table below. 
+ Table 4: CIC by denomination 
+
+Source: BIS report: CoVid accelerated the digitalisation of payments 
+Note: Denomination-wise currency statistics is not available for the benchmarked countries 
+0.0
+2000.0
+4000.0
+6000.0
+8000.0
+10000.0
+12000.0
+CIC per capita
+USD
+
+4. CIC as percent of GDP 
+4.1 Key insight: The CIC as percent of GDP is observed to be the third highest for India out of 
+the countries included in the benchmarking exercise. CIC in India increased to 14.4% of GDP in 
+2020 from 10.7% of GDP in 2017, consistent with the trend observed across jurisdictions. Only 
+China and Turkey witnessed a decline in the CIC as percent of GDP in 2020 as compared to 
+2017. 
+4.2 Benchmark rating: Weak 
+India's position: 16 / 18 
+
+Table 5: CIC as percent of GDP 
+
+4.3 Analysis: Demand for currency depends upon several macro-economic factors including 
+economic growth, interest rate level and demographic profile of the country. The ratio of CIC as 
+percent of GDP provides an indicator of the dependence of cash in an economy. Cash is, 
+however, used both as a means of payment and store of value. The usage of currency as a store 
+of value gained further significance during the challenging times of the CoVID pandemic. 
+With the onset of CoVID pandemic, there was a dash for cash across all jurisdictions. Lockdowns 
+were severe in India, as a result of which economic activity slowed down and there was 
+contraction in GDP, relative to other countries. The decline in GDP (denominator) contributed 
+considerably to increase in CIC as percent of GDP for India in 2020. 
+Among the benchmarked countries, only Hong Kong (21.3%) and Japan (22.9%) had a higher 
+ratio of CIC as a percentage of GDP as compared to India. A low crime rate, years of ultra-low 
+interest rates and a nationwide network of ATMs have made cash appealing in Japan, giving 
+people few reasons to shift to other modes of payments 
+10.7%
+21.3%
+14.4%
+22.9%
+0.0%
+5.0%
+10.0%
+15.0%
+20.0%
+25.0%
+CIC as percent of GDP
+
+over 40 billion transactions in 2020, with a CAGR of 21% between 2017 and 2020. Payment 
+systems transactions in India grew by 24.4% in 2020 over the previous year. Amongst the 
+benchmarked countries, only Saudi Arabia demonstrated a higher year-on-year growth of 63% in 
+2020. In the journey of migrating from cash to other modes of payment, the year-on-year growth 
+in payment transactions across jurisdictions tends to moderate once significant population has 
+embraced payment systems transactions. 
+In terms of the number of payment systems transactions, Brazil (45 billion), China (341 billion), 
+Russia (56 billion) and United States (184 billion) witnessed higher number of transactions than 
+India in 2020. China’s progress in non-cash payments in recent years has been propelled by 
+Alibaba’s Alipay and Tencent’s WeChat Pay. 
+
+6. Value of payment systems transactions to CIC 
+6.1 Key insight: The value of payment systems transactions to CIC was one of the lowest in 
+India (44.9) in 2020 as compared to other countries included in the benchmarking exercise. 
+Indonesia, South Africa, Turkey and United Kingdom are the few countries that witnessed a 
+growth in the ratio from 2017 to 2020. 
+6.2 Benchmark rating: Weak 
+India’s position: 14 / 16 
+
+Table 8: Payment systems transactions value to CIC 
+
+6.3 Analysis: A higher ratio of value of transactions processed by payment systems to CIC tends 
+to indicate migration of an economy from using cash to payment systems. 
+India stands at 14th position in the benchmarked countries with the total value of payment systems 
+transactions to CIC standing at 44.9 in 2020. United Kingdom is the leader with a ratio of 1262.5 
+in 2020, followed by China and Singapore with 414.7 and 383.5, respectively. 
+68.6
+44.9
+383.5
+267.5
+1262.5
+1,000
+1,500
+Payment systems transactions value to CIC
+
+In India, retail payment systems drive the volume of payment transactions and the large value 
+system, viz. RTGS, takes the major share in terms of value. RTGS also facilitates customer 
+transactions whose individual transaction value is comparable to other retail payment systems; 
+hence, these transactions have been considered as retail payments. The ratio is low for India as 
+retail payments primarily comprise large volume and low value transactions. 
+
+D. Cheques 
+7. Rate of decline of cheques 
+7.1 Key insight: In India, the volume of cheque payments in 2020 (708 million) was high, as 
+compared to other countries. Cheque-based payment transactions in India declined at a CAGR 
+of 15.4% from 2017 to 2020. 
+7.2 Benchmark rating: Moderate 
+India's position: Volume - 16 / 18; CAGR - 12 / 18 
+
+Table 9: Cheque transactions volume 
+
+7.3 Analysis: With migration to digital payments, volume of paper-based transactions is declining 
+across jurisdictions. Majority of the benchmarked countries are close to eliminating the use of 
+cheques, with Australia, Germany, Korea, Saudi Arabia, South Africa and the United Kingdom 
+most successful in reducing usage of cheques. 
+In 2020, volume of cheque payments in India was 708 million. In advanced economies, even 
+though volume of cheque payments is low, value of transactions involving cheques is significantly 
+high. Cheques are mostly used for high value transactions including government payments in 
+708 2
+-15.4%
+-30.7%
+-35%
+-30%
+-25%
+-20%
+-15%
+-10%
+-5%
+0%
+10000
+15000
+20000
+Cheque transactions - volume
+CAGR (RHS)
+million
+
+these countries. Further, in France and USA, people in general have a strong preference towards 
+paper instruments, especially for high value payments and hence usage of cheques is still 
+widespread. 
+
+8. Share of cheques in payment systems (volume) 
+8.1 Key insight: The share of cheque payments in total payment systems transactions in India 
+has reduced to 1.7% in 2020 from 7.5% in 2017. 
+8.2 Benchmark rating: Weak 
+
+India's position: 11 / 15 
+
+Table 10: Cheque transactions share in payment systems 
+
+8.3 Analysis: The reducing share of cheque transactions in the overall payment transactions 
+indicates the adoption of digital payments and migration from paper to digital forms of payments. 
+Although the share of cheque payments in India demonstrated significant reduction and cheques 
+comprised only 1.7% of total payment transactions in 2020, the share of cheques was observed 
+to be high when compared with other countries covered in the benchmarking exercise, except for 
+Canada (2.5%), France (4.9%), Mexico (2.3%) and United States (6.1%). 
+Germany, Saudi Arabia and South Africa are some of the countries that are close to eliminating 
+cheques as a mode of payment. 
+9. Cheque instrument features 
+9.1 Key insight: In 2021, India brought all bank branches under the image-based CTS clearing 
+mechanism ensuring T+1 settlement for all instruments across the country. Further, to provide 
+7.5%
+2.5%
+4.9%
+1.7%
+2.3%
+0.1%
+0.1%
+6.1%
+0.0%
+5.0%
+10.0%
+15.0%
+Cheque transactions - share in payment systems
+
+additional security, a mechanism of positive pay was made available for all high value cheques, 
+i.e., above ₹ 50,000. 
+9.2 Benchmark rating: Leader 
+9.3 Analysis: Globally, most of the countries have a cheque clearing house in place which may 
+entail significant involvement of the central bank as the clearing house operator. Further, cheques 
+are standardised in majority of the jurisdictions with automated cheque processing in place. 
+In India, cheque standard "CTS-2010" prescribes certain mandatory features such as quality of 
+paper, watermark, bank’s logo in invisible ink, void pantograph, etc., and standardisation of field 
+placements on cheques. In addition, certain desirable features have also been suggested for 
+implementation by banks based on their need and risk perception. The implementation of pan-
+India CTS has enhanced operational efficiency in paper-based clearing and made the process of 
+collection and settlement of cheques faster resulting in better customer service. 
+The implementation of risk management practices for cheque processing in countries across the 
+world is still relatively weak. However, the use of cheques is still prevalent for high value 
+transactions in various jurisdictions. To further augment customer safety in high value cheque 
+payments and reduce instances of fraud occurring on account of tampering of cheque leaves, 
+India introduced the concept of positive pay in 2021, which involved a process of reconfirming 
+key details of large value cheques. Under the positive pay mechanism, the issuer of the cheque 
+is required to submit electronically (through SMS, mobile app, internet banking, ATM, etc.) certain 
+minimum details of the cheque (date, name of the beneficiary / payee, amount, etc.) to the drawee 
+bank, which are cross-checked with the presented cheque by CTS. 
+
+E. Debit and credit cards 
+10. Number of debit and credit cards issued 
+10.1 Key insight: India, with 886 million debit cards at the end of 2020, was behind only China 
+(8178 million) in terms of number of debit cards issued. In terms of number of credit cards issued, 
+India with 60.4 million credit cards, was behind Brazil, Canada, China, Korea, Turkey and USA. 
+10.2 Benchmark rating: Debit cards issued – Leader ; Credit cards issued – Strong 
+India's position: Debit cards - 2 / 19 ; CAGR: 15 / 19 
+ Credit cards - 7 / 19 ; CAGR: 5 / 19
+
+commerce, cashback programs and technology. The increase in number of credit cards is also 
+an indication of the expansion of retail borrowers in the ecosystem. In absolute terms, however, 
+the number of credit cards in India are significantly low as compared to China (778 million) and 
+United States (1069 million) as at end December 2020. 
+
+11. Share of debit and credit card payments in payment systems (volume) 
+11.1 Key insight: In 2020, the share of card payments in total payment systems transactions was 
+the second lowest in India (14.7%), with only Indonesia witnessing a lower share (7.2%). Further, 
+in 2020 India was one of the few countries along with Indonesia, Korea, Sweden, Turkey and 
+United Kingdom to witness a decline in share of card payments as compared to 2017. 
+11.2 Benchmark rating: Weak 
+India's Position: 16 / 17 
+
+Table 13: Debit and credit card payments share in payment systems (volume) 
+
+11.3 Analysis: A high share of card payments indicates adoption of credit cards and debit cards 
+as preferred modes of payments. Among the benchmarked countries, card payments dominated 
+payment systems transactions in Canada, Russia, Saudi Arabia and Turkey in volume terms in 
+2020. 
+The share of card transactions in overall payment systems transactions in India decreased from 
+30.6% in 2017 to 14.7% in 2020. The decline in share of card transactions in 2020 can be 
+attributed to, (a) the presence of ubiquitous, interoperable systems facilitating immediate 
+payments such as UPI; and (b) lesser use of cards at PoS terminals due to the restrictions in 
+place on account of the CoVID pandemic. 
+30.6%
+80.9%
+14.7%
+7.2%
+86.2%
+85.2%
+84.7%
+0.0%
+20.0%
+40.0%
+60.0%
+80.0%
+100.0%
+Debit and credit card payments - share in payment systems - volume
+
+12. Points of Sale (PoS) terminals deployed 
+12.1 Key insight: The number of PoS terminals available in India (4.6 million) as at the end of 
+2020 was higher than the countries considered in the benchmarking exercise with the exception 
+of Brazil (13.4 million) and China (38.3 million) 
+12.2 Benchmark rating: Leader 
+India's position: 3 / 17 
+
+Table 14: PoS terminals deployed 
+
+12.3 Analysis: The availability of payment acceptance infrastructure, such as PoS terminals, is 
+essential to facilitate migration to digital payments using credit cards, debit cards and prepaid 
+cards. 
+The number of PoS terminals in India increased from 3.08 million in 2017 to 4.59 million in 2020 
+and has grown at a CAGR of 14%. The cards segment in India has also seen mobility from 
+physical PoS to virtual / digital PoS with the evolution of standardised Bharat QR, used to facilitate 
+merchant payments. Customers can directly scan the Bharat QR code deployed by the merchant 
+to initiate card payments. 
+
+13. People per PoS terminal 
+13.1 Key insight: India has made significant progress in terms of the absolute number of PoS 
+terminals deployed at the end of 2020. However, in terms of people per PoS terminal deployed, 
+there is scope for improvement with one PoS terminal catering to 296 people as at end 2020. 
+13.2 Benchmark rating: Weak 
+
+India's position: 17 / 17 
+3.08
+13.44
+38.33
+4.59
+3.60
+PoS terminals deployed
+number (million)
+
+Table 15: People per PoS terminal 
+
+13.3 Analysis: The availability of payment acceptance infrastructure across the country can be 
+measured by considering the people catered to by a single PoS terminal. In order to ensure 
+deepening of digital payments, it is essential to increase the density of acceptance infrastructure 
+across the country. 
+The number of persons served by a PoS terminal improved from 426 people per PoS terminal in 
+2017 to 296 people per PoS terminal in 2020. However, the figure is still highest amongst the 
+benchmarked countries. To address the supply side issues in acceptance infrastructure and 
+provide fillip to deployment of PoS terminals in the country, RBI operationalised the PIDF in 
+January 2021 with emphasis on enhancing acceptance infrastructure in rural areas. As at end 
+March 2022, 9.1 million and 0.39 million digital and physical payment acceptance devices, 
+respectively, were deployed under the PIDF scheme. 
+Brazil is one of the developing countries with low people per PoS terminal (16). In Brazil, high 
+mobile penetration and large number of SMEs and micro businesses have paved the way for 
+widespread use of mobile PoS / Smart PoS across the country. 
+
+14. Debit and credit card payments 
+14.1 Key insight: The debit card and credit card payments in India have grown at a respectable 
+rate from 2017 to 2020 with a CAGR of 7.3% and 8.5%, respectively. However, in absolute terms, 
+the volume of debit and credit card payments in India in 2020 was considerably low as compared 
+to other countries. 
+14.2 Benchmark rating: Moderate 
+
+India's position: Volume - 11 / 18, CAGR - 11 / 18 
+People per PoS terminal
+
+15.2 Benchmark rating: Weak 
+India's position: 17 / 17 
+
+Table 17: Card payments value vs CIC 
+
+15.3 Analysis: India, Indonesia, and Japan are the countries where the ratio of card payments to 
+CIC was observed to be less than 1. This could be because in India and Indonesia, the volume 
+of card payments is observed to be considerably low, indicating lower preference for cards in 
+payment transactions, which is likely to result in lower value of card payments. In Japan, although 
+alternate payment systems are available, the usage of cash is substantially high. 
+The trends in Indian payment systems indicate that Indians prefer alternate forms of payments as 
+compared to credit and debit cards. 
+G. Cash and Automated Teller Machines (ATMs) 
+16. ATMs deployed 
+16.3 Key insight: As at the end of 2020, India was next to only China and Russia in terms of the 
+number of ATMs deployed. However, over the period from 2017 to 2020, the ATMs deployed in 
+India increased at a CAGR of 2% as compared to 17% in Russia. 
+16.2 Benchmark rating: Leader 
+
+India's position: 3 / 19 
+0.5
+0.4
+0.0
+5.0
+10.0
+15.0
+20.0
+Card payments - value vs CIC
+
+Table 18: ATMs deployed 
+
+16.3 Analysis: ATMs primarily form a part of the cash infrastructure. However, they are 
+increasingly being used to conduct other activities like card to card transfers, bill payments, etc., 
+obviating the need to visit a bank branch and thereby acting as a means of undertaking ‘digital 
+transactions’ albeit at a restricted scale. In India, authorised non-bank entities are also permitted 
+to deploy ATMs, known as White Label ATMs to support proliferation of ATM infrastructure across 
+the country. 
+As at the end of 2020, 233 thousand ATMs were deployed across India, with approximately 11 
+thousand new ATMs deployed between 2017 and 2020. This is significantly lower than the 53 
+thousand and 116 thousand new ATMs deployed by China and Russia, respectively, during the 
+same period. 
+In India, account holders in rural areas often withdraw cash from PoS terminals with Business 
+Correspondents (BCs) and merchants in their neighborhood, which act as “micro-ATMs”. These 
+BCs use AePS, which allows online interoperable transactions at micro-ATMs using Aadhaar 
+based authentication. As at end December 2020, there were close to 356 thousand micro-ATMs 
+deployed in India. 
+In China, customer demand was the main driver of growth in ATMs and the government 
+encourages the deployment of ATMs provision as they attract new cardholders. Further, China 
+has also deployed Interactive Teller Machines (ITM) wherein a video facilitates user interaction 
+with a teller on a screen. ITMs provide convenience for customers similar to an in-branch 
+experience but through a digital screen. 
+ATMs deployed
+number (thousand)
+
+17. People per ATM 
+17.1 Key insight: India has the third largest number of ATMs deployed in absolute terms amongst 
+the benchmarked countries. However, it fares poorly when we measure the reach of ATMs; with 
+a single ATM catering to over 5800 people as at end 2020. 
+17.2 Benchmark rating: Weak 
+India's position: 19 / 19 
+
+Table 19: People per ATM 
+
+17.3 Analysis: The ATM density, i.e., people per ATM is an important indicator representing the 
+availability of ATMs across the country. A high number of people per ATM indicates that the 
+existing ATM infrastructure may not be able to cater to the demands of the population. 
+The ATM density in India has reduced marginally from 5919 in 2017 to 5817 in 2020 and India 
+stands at the bottom when compared with other benchmarked countries. The ATM infrastructure 
+is supplemented by micro-ATMs, which are primarily available to the rural / unbanked population 
+and play a crucial role in facilitating financial inclusion in India. 
+In Sweden, a bellwether of developments in payment systems, cash demand has fallen for the 
+better part of the last decade. Consumers and retailers have been embracing electronic means 
+for payments, and merchants are increasingly reluctant to accept paper money. The number of 
+ATMs deployed are observed to have declined over the years. Hence, a high number of people 
+per ATM may not always be a cause for concern. 
+
+People per ATM
+
+18. Cash withdrawal at ATMs per capita 
+18.1 Key insight: The cash withdrawals undertaken per person in India in 2020 was 5, which 
+was the lowest amongst the benchmarked countries. This has fallen from 7 cash withdrawals per 
+person in 2017. While this ratio normally indicates lower cash dependency, the reason for a low 
+ratio may be more due to a large population (denominator) having low accessibility due to lesser 
+number of ATMs (numerator). 
+In addition, there is a limit on the number of times cash can be withdrawn from ATMs without any 
+charges, which acts as a deterrent at times. 
+
+18.2 Benchmark rating: Leader 
+India's position: 1 / 16 
+
+Table 20: Cash withdrawal at ATMs per capita 
+
+Note: Where the cash withdrawals within the country is not available, total cash withdrawals (within the country and outside) are 
+considered. 
+
+18.3 Analysis: A higher number of cash withdrawals at ATMs per capita indicates higher 
+dependence on cash. However, cash withdrawals are likely to depend on the ATM density as 
+well, and limited availability of ATMs may impact the number of withdrawals. Further, disruptions 
+caused by the Covid pandemic and restrictions in place on public movement have lowered cash 
+withdrawals in most jurisdictions (except Indonesia). 
+In India, apart from the low ATM density, due to limited availability of ATMs to cater to a huge 
+population there is a restriction on the number of free ATM transactions (financial and non-
+financial) per month. This is likely to have resulted in lower per capita cash withdrawals at ATMs. 
+Cash withdrawal at ATMs per capita
+count
+
+In some jurisdictions, cash is still widely used as a means of payment, which would result in higher 
+cash withdrawals per capita. Singapore and Sweden have made significant progress in reducing 
+withdrawals through ATMs. Cash is mainly used for low-value payments in Europe, while cards 
+are used for larger-value payments. 
+
+19. ATM withdrawal vs CIC19 
+19.1 Key insight: India has one of the lowest ratios of cash withdrawal at ATM to CIC. This is 
+likely to be the result of low ATM density coupled with low number of ATM transactions per capita. 
+19.2 Benchmark rating: Leader 
+India's Position: 2 / 13 
+
+Table 21: ATM withdrawals vs CIC 
+
+Note: Where the cash withdrawals within the country is not available, total cash withdrawals (within the country and outside) are 
+considered. 
+
+19.3 Analysis: The ratio of value of cash withdrawals to CIC declined in most countries (except 
+Turkey) in the year 2020. This is likely to be on account of the restrictions in place due to the 
+CoVID pandemic limiting the number of visits to ATMs and hence impacting the overall value of 
+withdrawals. 
+The value of withdrawal from ATMs was same as the amount of CIC for India in 2020. This has 
+dropped from 1.6 times CIC in 2017. 
+
+19 In the last exercise the Cash withdrawal to CIC was low and India was ranked weak in the indicator considering low availability of 
+ATMs. However, on a review, considering the focus on shifting towards digital payments, a low ratio of cash withdrawal to CIC is 
+desirable. The rationale for the rating has been modified accordingly 
+7.9
+8.1
+1.61.0
+5.6
+5.5
+0.0
+2.0
+4.0
+6.0
+8.0
+10.0
+ATMs withdrawals vs CIC
+
+20.3 Analysis: Card payments are one of the primary alternatives to cash and most jurisdictions 
+have their own domestic card network to promote card transactions. The domestic card networks 
+are observed to dominate the share of card usage in China (99%), France (84%), Germany (37%) 
+and Saudi Arabia (45%). In India, there has been a significant growth in the usage of RuPay cards 
+in the recent past. 
+Jurisdictions with a domestic card network are usually observed to promote the usage of domestic 
+cards for transactions and establish tie-ups with international card schemes for international 
+transactions. The domestic card network in India received a fillip from the Central Government’s 
+efforts to support financial inclusion by promoting issuance of Rupay debit cards to Basic Savings 
+Bank Deposit (BSBD) account holders. In addition, to promote its usage, MDR has been waived 
+for RuPay debit cards. 
+NPCI is working on building regional partnerships to enhance the international acceptance of 
+RuPay Cards. NPCI's alliance with international network partners (China Union Pay (CUP), 
+Discover Financial Services (DFS) and Japan Credit Bureau (JCB) has paved the way for 
+international acceptance of RuPay. RuPay co-branded international cards using DFS & JCBI BINs 
+are accepted at over 195 countries. Further, NPCI has entered into arrangements with Bhutan 
+and Singapore to accept RuPay cards without co-branding with other international card schemes. 
+This is expected to promote more demand for RuPay cards by residents, boosting its market 
+share. 
+
+I. Credit transfers 
+21. Volume and growth of credit transfers 
+21.1 Key insight: India dominates credit transfers, both in terms of number of transactions in 
+2020 and CAGR over the 3-year period between 2017 and 2020. This can be attributed to the 
+plethora of credit transfer systems available round the clock facilitating immediate funds transfers. 
+21.2 Benchmark rating: Leader 
+India's position: Volume - 1 / 20; CAGR - 1 / 20
+
+Table 23: Credit transfers volume and growth 
+
+21.3 Analysis: India has witnessed a robust growth in credit transfer volumes between 2017 and 
+2020 compared to the other benchmarked countries. The volume stands at a staggering 27.97 
+billion during the year 2020 which grew at a CAGR of 68% between 2017 and 2020. In India, retail 
+credit transfers are undertaken through NEFT, NACH Credit, IMPS and UPI. 
+The growth in credit transfer payments in India can be attributed to the ‘interoperable payment 
+systems’ which have revolutionised the payments landscape. Interoperability has facilitated use 
+of payments infrastructure by banks and third-party application providers, bringing convenience 
+to the consumers. The credit transfer systems are used for effecting funds transfers to 
+beneficiaries, as an alternative to cash and cards for making payments and also to scan QR codes 
+and undertake merchant payments. 
+
+22. Share of credit transfers in payment systems (volume) 
+22.1 Key insight: The share of credit transfers in overall payment systems transactions grew 
+from 37.5% in 2017 to 68.8% in 2020 and is now the highest amongst the benchmarked countries. 
+22.2 Benchmark rating: Leader 
+India's position: 1 / 20 
+
+13.869
+27.969
+14.494
+68%
+32%
+29%
+-20%
+0%
+20%
+40%
+60%
+80%
+Credit transfers - volume and growth
+CAGR
+Billion
+
+Table 24: Share of credit transfers in payment systems (volume) 
+
+22.3 Analysis: A high share of credit transfers in total payment transactions indicates consumer 
+preference for credit transfer systems over other forms of payment systems (direct debits, paper 
+clearing) and instruments (Cards, e-Money) for making payments. 
+India has a bouquet of retail credit transfer systems (NEFT, IMPS, UPI, AePS, NACH) with many 
+of the systems (NEFT, IMPS, UPI) available round the clock and facilitating real time payments. 
+This has contributed to India emerging as the leader as far as share of credit transfers in 2020 is 
+concerned. Credit transfers are also observed to dominate the payments in Indonesia, with a 56% 
+share in 2020. 
+
+J. Large value payments 
+23. Real Time Gross Settlement (RTGS) 
+23.1 Key insight: In India, the RTGS system, owned and operated by RBI, was introduced in 
+2004 and has undergone various changes over the years. The RTGS system is running round 
+the clock from December 14, 2020; making India one of the few countries in the world to have its 
+large value payment system operating 24x7. 
+23.2 Benchmark rating: Leader 
+Table 25: Large value payment systems (LVPS) 
+Sl 
+No 
+LVPS 
+Settlement 
+Owner 
+Manager 
+Membership 
+Opening 
+Hours 
+Closing Hours 
+Australia 
+RITS 
+ RTGS 
+Central 
+bank (CB) 
+CB 
+Restricted 
+07:30 
+18:30 (Eastern 
+Standard Time) 
+20:30 (Daylight 
+Saving Time 
+Brazil 
+STR 
+RTGS 
+CB 
+CB 
+Open 
+[Any 
+financial 
+institution holding a 
+Reserve Account or 
+06:30 
+18:30 
+38%
+80%
+69%
+56%
+0%
+20%
+40%
+60%
+80%
+100%
+Credit transfers - share in payment systems - volume
+
+Sl 
+No 
+LVPS 
+Settlement 
+Owner 
+Manager 
+Membership 
+Opening 
+Hours 
+Closing Hours 
+United 
+Kingdom 
+CHAPS 
+Sterling 
+RTGS 
+CB 
+CB 
+Restricted 
+06:00 
+18:00 
+
+United 
+States 
+of 
+America 
+Fedwire 
+Funds 
+Service 
+RTGS 
+CB 
+CB 
+Open 
+[Any depository 
+institution, including 
+a US branch or 
+agency of a foreign 
+bank, may maintain 
+an account with a 
+Federal Reserve 
+Bank] 
+21:00 
+18:30 
+Source: Red Book ‘Features of selected payment systems’ compiled by the Bank for International Settlements 
+
+23.3 Analysis: Large value payment systems are systemically important FMIs that are critical 
+elements of a country’s national payment system. RTGS facilitates real time large value funds 
+transfers on a gross settlement basis, which helps reduce credit risk. However, gross settlement 
+is liquidity intensive and requires payment, irrespective of its nature, to be pre-funded to ensure 
+settlement. In view of the significance of RTGS, countries have adopted different criteria for 
+granting access to this system. 
+In most jurisdictions RTGS is owned and operated by the central bank and is used for customer 
+and inter-bank payments. To ensure settlement in central bank money, settlement files of ancillary 
+payment systems are posted to RTGS for final settlement. 
+RTGS operating hours have a significant impact on the economy as the system processes large 
+value corporate transactions. Extension of operating hours of RTGS can facilitate an increase in 
+market timings. Further, extended availability of RTGS can ensure posting of additional settlement 
+cycles for ancillary payment systems and reduce the build-up of settlement, credit, and default 
+risks, thus enhancing the efficiency of payments ecosystem. A wide overlap in operations of 
+RTGS systems across jurisdictions can also be leveraged to integrate payment systems and 
+enhance cross-border payment arrangements. 
+In India, RTGS was made available round the clock from December 14, 2020. This initiative 
+provided increased flexibility for corporates and individuals to undertake payments and ensured 
+posting of additional settlement cycles of ancillary payment systems. 
+In India access to RTGS was earlier permitted to domestically located banks, clearing houses 
+and broker dealers. The membership criteria for RTGS was reviewed in July 2021 and PSOs, viz. 
+prepaid payment instrument Issuers, card networks and white label ATM operators were 
+permitted to participate in RTGS as direct members. Granting access to non-banks helps reduce 
+costs for members, minimise their dependence on banks, reduce time taken for undertaking 
+payments and eliminates uncertainty in finality of payments.
+
+K. Fast payments 
+24. Channels in which fast payments are available 
+24.1 Key insight: India is one of the few countries that has two fast payment systems, viz. IMPS 
+and UPI. The adoption of instant payments in India has been remarkable, with India dominating 
+the number of transactions undertaken using fast payment systems as compared to other 
+countries for which data is available. 
+In addition, India also has another retail payment system operated by RBI, viz. NEFT, which 
+though not a fast payment system (as it is settled in half-hourly batches), runs 24x7, without 
+settlement risk as payment is made to the beneficiary only after the settlement. 
+24.2 Benchmark rating: Leader 
+Table 26: Fast payment systems 
+Sr 
+No 
+Fast 
+ payment 
+system 
+Live 
+Services 
+supported 
+Access 
+channels 
+supported 
+Access to 
+non-
+banks 
+payment 
+service 
+providers 
+Settlement 
+model of 
+system 
+participants 
+Volume 
+(million) 
+[2020] 
+Australia 
+New 
+Payments 
+Platform 
+Australia 
+(NPPA) 
+Merchant 
+payment; 
+bill 
+payment 
+Internet/mobile 
+banking; QR 
+code 
+Indirect 
+Real time 
+gross 
+settlement 
+Brazil 
+SPI 
+
+Real time 
+gross 
+settlement 
+
+China 
+IBPS 
+Bill 
+payment; 
+recurring 
+payment 
+Branch; 
+mobile/internet 
+banking; QR 
+code 
+No 
+Deferred 
+net 
+settlement 
+15624 
+France 
+SCT Inst 
+Merchant 
+payment; 
+bulk/batch 
+payment; 
+bill 
+payment; 
+future 
+dated 
+payment 
+Internet/mobile 
+banking; 
+branch; ATM; 
+QR code 
+Indirect 
+Real time 
+gross 
+settlement 
+
+Hong 
+Kong 
+FPS 
+Merchant 
+payment; 
+bulk / 
+batch 
+payment; 
+bill 
+payment; 
+Internet / 
+mobile 
+banking; QR 
+code 
+Indirect 
+Real time 
+gross 
+settlement
+
+Sr 
+No 
+Fast 
+ payment 
+system 
+Live 
+Services 
+supported 
+Access 
+channels 
+supported 
+Access to 
+non-
+banks 
+payment 
+service 
+providers 
+Settlement 
+model of 
+system 
+participants 
+Volume 
+(million) 
+[2020] 
+request to 
+pay 
+India 
+IMPS 
+P2P 
+payments; 
+foreign 
+inward 
+remittance 
+Internet/ 
+mobile 
+banking, SMS, 
+USSD 
+(NUUP), ATM 
+Indirect 
+Deferred 
+net 
+settlement 
+India 
+UPI 
+Merchant 
+payment; 
+bulk / 
+batch 
+payment; 
+bill 
+payment; 
+request to 
+pay; 
+foreign 
+inward 
+remittance 
+Internet / 
+mobile 
+banking; QR 
+code; NFC; 
+USSD 
+Indirect 
+Deferred 
+net 
+settlement 
+18881 
+Mexico 
+SPEI 
+Merchant 
+payment; 
+bulk/batch 
+payment; 
+request to 
+pay; bill 
+payment 
+Branch; ATM; 
+internet/mobile 
+banking; QR 
+code; NFC 
+Direct 
+Hybrid 
+
+Singapore 
+Fast 
+Merchant 
+payment; 
+bill 
+payment 
+Internet/mobile 
+banking; 
+branch; ATM 
+Yes 
+Deferred 
+net 
+settlement 
+United 
+Kingdom 
+UK Faster 
+Payment 
+Bulk/batch 
+payment; 
+bill 
+payment; 
+standing 
+order; 
+future 
+date 
+payment; 
+single 
+immediate 
+payment 
+Internet/mobile 
+banking; 
+branch; 
+
+Direct 
+Deferred 
+net 
+settlement 
+ Source: World Bank Fast Payments; CPMI Red Book 
+
+24.3 Analysis: Fast payments are payments in which the transmission of the payment message 
+and the availability of “final” funds to the payee occur in real time or near-real time and the systems 
+run as near to a ‘24-hour and seven-day (24x7)’ basis as possible.
+
+The introduction of fast payment systems has led to various innovations and revolutionised the 
+way payments are undertaken. Across jurisdictions, fast payment systems support multiple 
+functionalities such as bill payments, QR based payments, NFC based payments, request to pay, 
+etc. Fast payment systems are also leveraged to provide non-financial services such as account 
+alias services, balance enquiry, payment scheduling, etc. Various jurisdictions are engaged in 
+establishing linkages between their fast payment systems and payment systems in other 
+jurisdictions to facilitate instant cross-border payments. 
+Jurisdictions have followed different approaches to granting access to non-banks to their fast 
+payment systems with some granting direct access (Mexico, Singapore, United Kingdom) and 
+others permitting indirect access (Australia, Europe, India, Hong Kong). Among the benchmarked 
+countries, only IBPS in China did not permit access to non-banks and only the SPEI system in 
+Mexico followed a hybrid settlement model. The settlement method adopted also varied across 
+systems with some following real time gross settlement and others adopting deferred net 
+settlement. 
+Fast payment systems are driving the overall retail payments in India, atleast in terms of volume. 
+Fast payments constituted over 73% of the total retail payment transactions in India in March 
+2022. UPI alone processed 5.4 billion transactions in March 2022 accounting for 64% of the retail 
+payment transactions. The UPI system powers multiple bank accounts into a single mobile 
+application of any participating bank / non-bank Third Party Application Provider (TPAP). Further, 
+at present, there are 20 TPAPs (Google, WhatsApp, Amazon, etc.) partnering with banks to 
+facilitate UPI transactions. 
+L. Direct debits 
+25. Volume and growth of direct debits 
+25.1 Key insight: Direct debits in India, at a CAGR of 38.6% between 2017 and 2020, have 
+registered the fastest growth amongst the benchmarked countries. However, in terms of volume, 
+the direct debits in India are lower than countries like United States of America, Germany, Brazil, 
+United Kingdom, France and South Korea. 
+25.2 Benchmark rating: Volume - Strong; CAGR – Leader 
+India's position: Volume - 8 / 17, CAGR - 1 / 17
+
+Table 28: Share of direct debits in payment systems (volume) 
+
+26.3 Analysis: The share of direct debits was observed to have increased, noticeably, from 2017 
+to 2020 only in France, Korea and Sweden. 
+In India, although the number of direct debit transactions are increasing over the years, the 
+payments landscape is dominated by credit transfer transactions. This explains the considerably 
+low share of direct debit transactions. 
+Direct debit transactions dominate the payments landscape in Germany where the Single Euro 
+Payments Area (SEPA) direct debit is popular. SEPA direct debit is pull-based, wherein 
+merchants can initiate multiple payments on receipt of a mandate from their customer. Payments 
+take place directly between banks and no card networks are involved. SEPA direct debit 
+payments are faster and cheaper for businesses as compared to card-based alternatives. 
+However, the share of direct debits witnessed a drop in Germany from 48.4% in 2017 to 44.6% 
+in 2020. 
+M. e-Money 
+27. Availability of alternate payment systems 
+27.1 Key insight: As per the Worldpay Global Payments Report 2022, 45% of the online 
+transactions in India are undertaken using digital / mobile wallets (e-Money). In India, alternative 
+forms of payment, facilitated through UPI third-party applications, are predominantly used for 
+online payment transactions. 
+27.2 Benchmark rating: Leader 
+18.6%
+48.4%
+2.4%
+6.7%
+6.7%
+19.1%
+44.6%
+2.5%
+7.5%
+8.1%
+0.0%
+10.0%
+20.0%
+30.0%
+40.0%
+50.0%
+60.0%
+Direct debits - share in payment systems - volume
+
+bank PPI issuers also provide the UPI facility in an interoperable manner to their PPI wallet 
+holders. 
+In China, alternate payment methods dominate the payment transactions with over 83% share in 
+online transactions and 54% share in retail store transactions. The dominance of alternate 
+payments in China has been propelled by Alibaba’s Alipay and Tencent’s WeChat Pay. 
+
+28. Volume and growth of e-Money 
+28.1 Key insight: India fares well in terms of the volume of e-Money transactions with over 4950 
+million transactions in 2020. The transactions are undertaken using pre-paid payment instruments 
+in the form of cards or wallets issued by approved banks as well as authorised non-bank issuers. 
+28.2 Benchmark rating: Volume - Strong; Growth – Moderate 
+
+India's position: Volume - 4 / 14, Growth - 7 / 13 
+
+Table 30: Volume and growth of e-Money 
+
+28.3 Analysis: e-Money is prepaid value stored electronically, which represents the liability of the 
+e-Money issuer (a bank, an e-Money institution or any other entity authorised or allowed to issue 
+e-money in the local jurisdiction) and which is denominated in a currency backed by an authority. 
+In India, e-Money comprises of PPIs issued as Wallets and Cards. Security and ease of carrying 
+out a transaction are major factors contributing to the rising usage of digital wallets both by 
+individuals and merchants. 
+In India, to give impetus to small value digital payments, a “small” PPI was introduced in 
+December 2019 with minimum know your customer (KYC) requirement and amount loaded in a 
+13%
+-50%
+0%
+50%
+100%
+150%
+200%
+250%
+300%
+350%
+400%
+10000
+e-Money - volume and growth 
+CAGR
+million
+
+month capped at ₹10,000. Further, in May 2021, the limit for amount outstanding in PPIs with full 
+KYC compliance was enhanced to ₹2,00,000. The introduction of interoperability between PPIs 
+has obviated the need for on-boarding customers separately across various issuers and acquirers 
+and has led to increased access and cost-effectiveness for consumers. 
+The initiatives have resulted in a steady growth in volume of e-Money transactions between 2017 
+and 2020. In 2020, with 4958 million e-Money transactions, India was behind only Japan (8641 
+million), United States of America (7486 million) and Hong Kong (5206 million), out of the 
+benchmarked countries for which data is available. e-Money transactions in India have increased 
+at a CAGR of 13% between 2017 and 2020. 
+Brazil is observed to be the leader in terms of growth, with CAGR of 372%, in volume terms 
+between 2017 and 2020, primarily because of the low transaction volume in 2017 (28 million). 
+The exponential growth of e-Money transactions during the period was majorly led by rising 
+popularity of e-commerce and the population’s familiarity with smartphones. 
+
+29. Share of e-Money in payment systems (volume) 
+29.1 Key insight: The share of e-Money payment transactions in India decreased from 22.1% in 
+2017 to 12.2% in 2020 and is substantially lower than other countries, viz. Japan (78.8%), 
+Singapore (60.1%) and Indonesia (36.5%). The fall in the share may also be read with the 
+increase in other modes such as, UPI. 
+29.2 Benchmark rating: Strong 
+
+India's position: 5 / 13 
+Table 31: Share of e-Money transactions in payment systems (volume) 
+
+22.1%
+10.5%
+12.2%
+36.5%
+78.8%
+0.0%
+20.0%
+40.0%
+60.0%
+80.0%
+100.0%
+e-Money - share in payment systems
+
+29.3 Analysis: Share of e-Money in payment systems transactions in 2020 was 12.2 % for India. 
+While rising availability of mobile infrastructure and interoperability of e-Money instruments has 
+led to growth in e-Money transactions, the dominance of other forms of alternative payments has 
+resulted in a decline in the share of e-Money transactions. 
+Indonesia witnessed the highest percentage increase in share (26%) of e-Money in payment 
+transactions during the period from 2017 to 2020. In Indonesia, a cash driven economy with huge 
+unbanked population and high availability of smartphones, e-wallet transactions have picked up 
+significantly and consumers are moving towards the ease of non-cash options. 
+Singapore’s tech-savvy culture and high smart phone adoption rate has aided use of e-Money 
+methods for low-value day-to-day transactions. 
+
+N. Digital utility payments 
+30. Digital payments of utility bills 
+30.1 Key insights: Bharat Bill Payment System (BBPS) was introduced in October 2017 to offer 
+interoperable and accessible bill payment services to customers using multiple modes and instant 
+confirmation of payment. The system has witnessed remarkable growth in terms of billers and 
+transactions processed. 
+30.2 Benchmark rating: Moderate 
+30.3 Analysis: As per the Global Findex survey 2017 conducted for the World Bank, only 3% of 
+the population in India used the internet to pay utility bills in the year 2017. With the introduction 
+of BBPS it is expected that the ratio would increase as there is a migration of utility bill payments 
+to electronic modes. 
+The RBI has taken initiatives to expand the scope and coverage of BBPS to include all billers that 
+raise recurring bills. This has resulted in over 20,000 billers being onboarded in BBPS as at end 
+March 2022. Apart from digitisation of cash-based bill payments, billers onboarded on BBPS also 
+benefit from the standardised bill payment experience for customers, centralised customer 
+grievance redressal mechanism, prescribed customer convenience fee, etc.
+
+31. Public mass transportation 
+31.1 Key insight: Digital payments are in use to pay for public transportation in most metropolitan 
+cities in India. The metro rails operating across the country employ the use of smart cards that 
+facilitate contactless cash free travel. 
+31.2 Benchmark rating: Moderate 
+31.3 Analysis: Ticketing, which involves payment processing, is the key element of a public 
+transport system. The two main types of ticketing systems are instrument-based ticketing (paper 
+/ card) and account-based ticketing. In an instrument-based ticketing system, the funds, proof of 
+entitlement to travel and any primary records of travel, are held directly on the card / paper. In an 
+account-based system, the proof of entitlement to travel and any records of travel, are held in the 
+back-office with fare calculated and billed after the trip is complete. 
+With the CoVID pandemic, contactless payment options have gained popularity with many public 
+transportation agencies deploying QR codes for ticketing. NFC devices are other options that 
+have been used by consumers to undertake contactless payments for public transportation. 
+
+Table 32: Public mass transport ticketing system 
+
+Public transport ticketing system 
+Australia 
+Sydney, TfNSW: contactless smart card (Opal), stored value, wide area multi-modal 
+system covering Greater Sydney and adjoining urban areas. Features check-in, 
+check-out methodology and a wide range of concessions. Recently added EMV and 
+mobile ticketing to extend the system functionality. 
+Brazil 
+Sao Paulo, SPTRANS: system features a proprietary SAM and Card Scheme, 
+owned by the Transport Authority (SPTRANS), allowing multiple device providers 
+and multiple credit vendors. System allows multiple tariff models with time and 
+modal integration, acting as clearing house for multiple operators. 
+Canada 
+Montreal & Quebec: contactless smart card (Opus) stored value using Calypso 
+standard. Seamless integration across multiple neighboring multimodal transit 
+systems. 
+Vancouver, Translink: multimodal stored value smartcard (Compass) operates 
+seamlessly across regional transit network. Recently, EMV capability was 
+introduced and mobile pay apps were enhanced with features for check-in, check-
+out to transfer and calculate fare zones. 
+China 
+Alipay, Tencent: Local bus services and subway train systems in over 120 chinese 
+cities accept Alipay app’s phone based payments. Customers can pay directly 
+using Alipay, a mobile payment app of internet giant Alibaba, and reach the platform 
+by allowing the electronic gates to scan a QR code on their phones. ApplePay,
+
+Public transport ticketing system 
+JDPay, UnionPay and China Telecom Bestpay, a subsidiary of China Telecom 
+Corp, also provide such services. 
+Germany 
+The Association of German Transport Companies (Verband Deutscher 
+Verkehrsunternehmen [VDV]) and partners from industry and transport operators 
+launched the VDV Core Application (VDV - KA). Ticket-purchasing is embedded in 
+the VDV KA to facilitate the quick and easy launch of mobile phone ticketing. 
+Hong 
+Kong SAR 
+Hong Kong, MTA: (Octopus) one of the first smartcard systems deployed worldwide 
+in 1997, stored value, used for fare collection on multi-modal public transport 
+network and retail sales across Hong Kong. Scheme is accepted by limited number 
+of taxis; new mobile app for drivers will expand usage. Limited use of cards in 
+Macao and Shenzhen. 
+India 
+The Rupay National Common Mobility Card is a contactless card that also has the 
+feature of an offline wallet. It is hence called as debit and prepaid card. The NCMC 
+can be used for making all kinds of payments at transport, parking, grocery, toll and 
+transit. 
+QR code-based ticketing is also widely used for public transport in metro cities 
+across the country. 
+Indonesia 
+Jakarta, Indonesia - Integrated multimodal transit ticketing and fare payment 
+system: launched as One Karcis One Trip (One Ticket One Trip) in 2017. 
+Consumers pay for fares by tapping in and out or scanning a QR code at 
+“integration gates” at bus stops and railway stations on networks operated by MRT 
+Jakarta, LRT Jakarta, Transjakarta and Commuter Line. 
+The second phase is expected to include the addition of a Mobility-as-a-Service 
+(MaaS) platform and the launch of an integrated tariff system. 
+Japan 
+Japan, nationwide: pre-paid e-money contactless smartcard (Suica) for travel and 
+shopping across many regions of Japan, interchangeable with Pasmo which gives 
+access to High Speed Rail network and some taxis. Suica card widely accepted at 
+popular retail outlets. Mobile application available and since 2016 virtualized card 
+on apple devices. 
+Mexico 
+A wide range of fare collection options are used: (a) The BRT uses the prepaid 
+contactless electronic smartcard called Metrobus; (b) The light-rail transit (LRT) 
+uses paper tickets for fare collection and turnstiles for access control; (c) The metro 
+uses both magnetic-stripe single-use tickets and prepaid contactless smart cards; 
+and (d) The suburban rail uses a rechargeable electronic card for fare collection. A 
+multimodal transit fare smart card, Tarjeta DF or Federal District Card, launched by 
+US-based ACS, enables riders to seamlessly transfer from the metro to the BRT. 
+Russia 
+Moscow, MTA: region wide contactless stored value smartcard (Troika) for all 
+modes, various discount schemes for volume usage. Recent addition of mobile 
+ticketing and hanger cards plus use of cards for parking and bicycle hire. 
+A variety of alternative payment methods, including credit card, Pay Pass/Pay 
+Wave, Apple Pay/Samsung Pay/Android Pay, and Yandex Money etc., have been 
+added.
+
+Public transport ticketing system 
+Saudi 
+Arabia 
+Jeddah, Riyadh: Rechargable Smart Card (SAPTCO) used to pay for the buses. 
+Riyadh metro, expected to be inaugurated during 2022, to feature contactless 
+payments. 
+Singapore 
+Singapore, LTA: early adopter of contactless smartcard (Easylink) technology, 
+stored value card system across multiple modes, may also be used as payment 
+card at limited outlets. Tap-in, tapout used for fare calculations. From 2006 
+additional card from NETS added and interoperability achieved for both cards. 
+Mobile applications and EMV technology being deployed. 
+South 
+Africa 
+Cape Town, MyCiTi: contactless top-up using pay wave EMV cards (myconnect) 
+using check-in, check-out for fare calculation. Used across new bus rapid network, 
+plans to integrate with rail network (long term strategy to use cards in other South 
+African cities). 
+South 
+Korea 
+Seoul, T-money: rechargeable smart cards for use on public buses, subways, toll booths 
+and some major retailers in several different metropolitan cities and locations throughout 
+the nation. Mobile T-Money Application also available on Google Play. 
+Post Covid, a face recognition payment system is being tested by T-money that 
+enables passengers to pay their fares without needing to tap a smartphone or 
+card or remove their face mask. 
+Turkey 
+Istanbul, IMM: multi-modal stored value contactless smart card (Istanbulkart). Cash 
+payments are not possible on the transport systems. Use is planned to be extended 
+to payments at municipality owned parking lots and theatres and private taxis. 
+United 
+Kingdom 
+London,TfL: multi-modal contactless stored value smartcard (Oyster) and EMV 
+(more than 50% of users) schemes that cover the Greater London region. Check-
+in and out technology for calculating fares across the network. Features capping, 
+concessions, online and mobile top-ups and payment by mobile payment apps. 
+United 
+States 
+Chicago, CTA system: features cash and contactless stored value smartcard 
+(Ventra); also allows mobile payment apps, supports mobile app and EMV is 
+supported across multimodal network. System features concessions and a variety 
+of period passes. 
+Source: Advancing Public Transport Report on - DEMYSTIFYING TICKETING AND PAYMENT IN PUBLIC 
+TRANSPORT – November 2020 
+
+O. Digital infrastructure 
+32. Mobile and broadband subscriptions 
+32.1 Key insight: The number of mobile and fixed broadband subscriptions per 100 individuals 
+in India was the lowest at 83.6 and 1.6, respectively, in 2020. Further, fixed broadband 
+subscriptions increased at a CAGR of 6.3% over the period from 2017 to 2020, while mobile 
+subscriptions decreased at an annualised rate of 1.4%, during the period. 
+32.2 Benchmark rating: Weak
+
+data for March 2022 reported a tele-density of 130.17% in urban areas as compared to 57.85% 
+in rural areas of the country. Further, some individuals with multiple mobile connections are 
+observed to have switched to a single network impacting the number of connections. The drop in 
+mobile connections may be attributed to the shutdown / merger of mobile cellular operators in the 
+country on the supply side and the impact of the CoVID pandemic on small businesses / migrants 
+on the demand side. Similar decline in mobile connections in 2020, as compared to 2017, is 
+observed in other countries as well (Australia, Brazil, Germany, United Kingdom, Indonesia, Italy 
+and Singapore). 
+In India, there were 1.6 fixed and 52.4 wireless broadband connections per 100 people in 2020. 
+On including wireless broadband connections, there is considerable improvement in India’s 
+performance in the indicator. As per the data published by TRAI for March 2022, fixed broadband 
+connections (27.25 million) account for less than 4% of the total broadband connections (788.3 
+million). Further, efforts are underway by the Bharat Broadband Network Limited to provide high 
+speed digital connectivity to rural India, facilitated through installation of WiFi terminals in gram 
+panchayats and Fiber to the Home (FTTH) connections. 
+P. Government e-Payments 
+This section was drafted based on the Government e-Payments adoption ranking published by 
+Economist Intelligence Unit for the year 2018. There has been no subsequent publication and 
+hence the Government e-payments are not being assessed in this benchmarking exercise. 
+Q. Aggregators 
+33. Third party payment service providers / payment gateways / payment 
+aggregators 
+33.1 Key insight: India recently introduced guidelines to regulate the activities of payment 
+aggregators and mandated all existing payment aggregators to apply for authorisation by 
+September 30, 2021. In India, the activities of payment gateways are not regulated as they do 
+not handle funds and the regulator only issues recommendatory guidelines on baseline 
+technology for their activities. Further, to enable effective management of risks in outsourcing of 
+activities, a framework was prescribed for outsourcing of payment and settlement related activities 
+of PSOs. 
+33.2 Benchmark rating: Strong
+
+33.3 Analysis: Third party payment service providers / payment gateways / payment aggregators 
+are service providers who process the payment transactions of e-commerce merchants. The 
+regulations relating to third party payment service providers / payment gateways / payment 
+aggregators are pertaining to specific areas such as (i) licensing / authorisation, (ii) requirements 
+for operation, (iii) security of online payments, (iv) settlement of funds and (v) customer protection. 
+Direct regulation of third party payment service providers is in place in China, Brazil, Japan and 
+South Korea. However, in countries such as Singapore there is no direct regulation of payment 
+intermediaries. In India, only the activities of payment aggregators are regulated as they involve 
+handling of funds. 
+Table 34: Third party payment service providers / payment gateways / payment aggregators 
+Licensed / 
+Authorised 
+Requirements 
+for operations 
+Security of 
+online payments 
+Settlement of 
+funds 
+Customer 
+protection / 
+grievances 
+Brazil 
+Licensed 
+Minimum 
+capitalization 
+norms 
+& 
+effective 
+risk 
+management 
+policies 
+Laws relating to 
+privacy, consumer 
+protection, 
+transparency, 
+data security and 
+returns apply. 
+No restrictions 
+on settlement. 
+No 
+reserve 
+requirements. 
+Prevailing 
+bankruptcy 
+laws 
+are 
+applicable. 
+Come under 
+the ambit of 
+Consumer 
+protection 
+laws 
+which 
+cover 
+transparency, 
+data security, 
+and returns 
+Canada 
+No 
+
+Required 
+to 
+settle 
+funds 
+within 
+a 
+set 
+period of time. 
+
+China 
+Licensed 
+Minimum 
+requirements for 
+IT 
+facilities, 
+organizational 
+structure, 
+and 
+reserves. Daily 
+transaction 
+limits on third-
+party 
+payment 
+service 
+accounts. 
+Require to allocate 
+about 
+20% 
+of 
+clients' 
+reserve 
+deposits 
+to 
+a 
+designated 
+bank 
+account to prevent 
+aggregators from 
+using 
+clients' 
+money. 
+Requirements on 
+data localization, 
+data 
+protection, 
+and data transfer 
+to be followed. 
+Cannot 
+settle 
+funds from their 
+own 
+bank 
+account. 
+In 
+case 
+of 
+bankruptcy the 
+reserve 
+requirements 
+would kick in. 
+
+Europe 
+Authorised 
+Cannot (a) hold 
+funds, (b) store 
+Require to prove 
+that 
+they 
+have 
+No 
+limitations 
+on settlement.
+
+Licensed / 
+Authorised 
+Requirements 
+for operations 
+Security of 
+online payments 
+Settlement of 
+funds 
+Customer 
+protection / 
+grievances 
+payment 
+data, 
+and (c) modify 
+transaction 
+in 
+anyway. 
+Non-
+discrimination 
+policy 
+to 
+be 
+adhered to. 
+certain 
+minimum 
+security measures 
+in place ensuring 
+safe and secure 
+payments. 
+No 
+reserve 
+requirements. 
+In 
+event 
+of 
+bankruptcy, the 
+prevailing 
+bankruptcy 
+laws 
+are 
+applicable. 
+India 
+Guidelines 
+issued 
+for 
+licencing 
+Payment 
+Aggregators 
+Minimum 
+requirements 
+specified 
+for 
+Capital, 
+Net 
+worth, 
+Governance. 
+PAs 
+need 
+to 
+ensure 
+compliance 
+of 
+infrastructure 
+of 
+merchants 
+to 
+security 
+standards. 
+PAs cannot store 
+payment data or 
+customer 
+card 
+credentials. 
+PAs 
+are 
+required 
+to 
+open 
+escrow 
+accounts. The 
+amount due to 
+merchants 
+is 
+reckoned only 
+after 
+the 
+settlement and 
+credit 
+to 
+the 
+escrow 
+account. 
+
+Indonesia 
+Licensed (if 
+have or plan 
+to have at 
+least 
+300,000 
+active users) 
+Effective 
+and 
+consistent 
+risk 
+management, 
+Information 
+system security 
+standard, 
+Consumer 
+protection 
+measures. 
+Service 
+providers must 
+submit 
+both 
+periodic 
+and 
+incidental 
+reports to Bank 
+of Indonesia. 
+
+Japan 
+Registered 
+Qualifications 
+for 
+directors; 
+vetting process 
+and 
+periodic 
+inspection 
+of 
+Merchant 
+and 
+Consumer. 
+To perform vetting 
+process 
+and 
+periodic 
+inspection 
+to 
+ensure prevention 
+of 
+inappropriate 
+use and leakage 
+of customer data. 
+Should 
+hold 
+funds 
+from 
+Merchant 
+/ 
+Consumer 
+in 
+(a) 
+trust 
+/ 
+escrow 
+in 
+a 
+designated 
+bank account, 
+Should put in 
+place suitable 
+policies, 
+procedures 
+and 
+organizational 
+infrastructure 
+for 
+dealing
+
+Licensed / 
+Authorised 
+Requirements 
+for operations 
+Security of 
+online payments 
+Settlement of 
+funds 
+Customer 
+protection / 
+grievances 
+(b) 
+arrange 
+bank guarantee 
+for the amount 
+of these funds, 
+or (c) deposit 
+the amount of 
+these funds to 
+the designated 
+Government 
+Depository 
+with 
+complaints, 
+claims 
+and 
+disputes from 
+Merchants or 
+Consumers. 
+Singapore 
+Regulated 
+only if they 
+handle 
+settlement 
+funds 
+
+Laws relating to 
+privacy 
+of 
+customer 
+information apply. 
+No restrictions 
+with regard to 
+settlement 
+of 
+funds. 
+The 
+prevailing 
+bankruptcy 
+laws 
+are 
+applied 
+when 
+dealing 
+with 
+bankruptcy 
+cases. 
+Consumer 
+Protection 
+(Fair Trading) 
+Act (CPTFA) 
+is applicable. 
+South Korea 
+Registered 
+Confirming 
+identity of users, 
+error correction, 
+transparency, 
+withdrawal 
+rules, IT audits, 
+and 
+business 
+scope 
+limitations. 
+Law 
+relating 
+to 
+online 
+consumer 
+protection apply. 
+No 
+limitations 
+on settlement. 
+No 
+reserve 
+requirements. 
+Applicable 
+bankruptcy 
+laws 
+are 
+applied. 
+Basic 
+consumer 
+protection 
+provided 
+in 
+Commercial 
+Act 
+United States 
+of America 
+Licensed 
+Transparency 
+and 
+surety 
+bonds, 
+adherence 
+to 
+KYC 
+Data 
+protection 
+Laws 
+are 
+applicable 
+to 
+aggregators. 
+No 
+settlement 
+requirements. 
+State 
+surety 
+bonds 
+would 
+kick in in case 
+of bankruptcy. 
+Subject 
+to 
+Dodd 
+Frank 
+and 
+Federal 
+Trade 
+Commission 
+Act 
+which 
+prohibits 
+unfair 
+and 
+deceptive 
+practices.
+
+R. Customer protection and complaint redressal 
+34. Customer safety and authentication standards 
+34.1 Key insight: India has a framework on limiting liability of customers in unauthorised 
+electronic banking transactions. In addition, the regulator has introduced various measures, since 
+the last exercise, to ensure safety of customer transactions, viz. (a) facility to switch on / switch 
+off card transactions, (b) CoF tokenisation, (c) mandating LEI for high value transactions in CPS, 
+(d) positive pay system for high value cheques. 
+34.2 Benchmark rating: Strong 
+34.3 Analysis: In the e-commerce environment, where transactions are undertaken online, it is 
+essential to validate the identity of a payer while undertaking a transaction. Card payment 
+networks have recognized this need and put in place authentication standards to validate the 
+cardholder during card-not-present e-commerce transactions. 
+Further, there are various security features that can be provided to protect consumers and prevent 
+fraudulent transactions. In India, various initiatives are undertaken to enhance security of card 
+transactions. In 2020, India mandated card issuing banks to provide customers the facility to 
+switch on / off and set / modify transaction limits for all types of transactions domestic and 
+international, at PoS / ATMs / online transactions / contactless transactions, etc. Further, card 
+networks were permitted to provide card tokenisation services to enable card holders to benefit 
+from the security of tokenised card transactions. 
+In addition, to disseminate information about safe digital banking, RBI has been conducting 
+Electronic Banking Awareness and Training (e-BAAT) programmes across the country, actively 
+undertaking digital awareness campaigns in the print and Audio-Visual media, including through 
+the Bank’s flagship programme “RBI Kehta Hai”20. 
+Table 35: Customer safety and authentication standards 
+
+Authenticati
+on Standard 
+Features 
+Worldwide 
+3D Secure 
+3D Secure is based on the communication of XML messages across a 
+secured channel, using the Internet Security Protocol, SSL/TLS. To use 
+a 3D Secure service, the cardholder has to enrol for the service, by 
+associating an authentication value, such as a password, with their 
+
+20 https://rbikehtahai.rbi.org.in/
+
+Authenticati
+on Standard 
+Features 
+payment card. The merchant also has to implement the use of 3D Secure 
+within its site, by installing a Merchant Plug-in (MPI). 
+One of the main selling points of 3D Secure 1.0.2 is that it offers the 
+merchant full liability shift against fraudulent transactions. If a user has to 
+pass through another layer of authentication to authorise a transaction, it 
+is less likely that the card would be used in a fraudulent manner. 
+Worldwide 
+3D Secure 
+2.0 
+The specification of 3D Secure 2.0 has been built to provide support for 
+mobile payments, integration with browsers and mobile apps, risk-based 
+security, multi-factor authentication, and e-Money. The 3DS 2.0 
+authentication process is also complemented by the use of tokens, which 
+are one-time use credit card numbers. 
+To facilitate risk-based authentication by the issuer, 3DS 2.0 captures a 
+varying amount of payer and device information, depending upon market 
+or regional mandates to restrict sending of this information (such as 
+device ID, MAC address, SIM card details, etc.), known as 'rich data'. The 
+information collected, including cardholder and transaction details, is 
+encrypted and sent to the card scheme's directory server where the data 
+is decrypted, validated and then passed on to the card issuer (ACS). 
+Based on this rich data, the issuer conducts a risk assessment in order 
+to make a decision as to whether the person performing the online 
+transaction is authorised to use the payment card. 
+Implementation of 3D Secure 2.0 is being supported through the EMVCo 
+community and in collaboration with the PCI Security Standards Council 
+(PCI SSC), who will be using the new specification as part of its 
+information security requirements framework. 
+Worldwide 
+EMVCo 
+It is a consortium comprising American Express, Discover, JCB, 
+Mastercard, UnionPay and 
+Visa. 
+EMVCo 
+facilitates worldwide 
+interoperability and acceptance of secure payment transactions within the 
+payment industry. It also manages EMV, a technical standard for smart 
+payment cards introduced in 1994 by EuroPay, Mastercard, and Visa, 
+with the goal of reducing physical card fraud. 
+India 
+PaySecure 
+The PaySecure authentication measures are set up during card 
+registration for the service and are “rules” based. The rules set the level 
+of authentication required. For online transactions under a certain value, 
+the payer will be required to authenticate using the two-factor 
+authentication method, in the form of an image and a passphrase, 
+followed by the card's PIN. For transactions over a certain limit, prior to 
+entering the card's PIN, cardholders will be required to enter a one-time 
+password (OTP) that is sent to their registered mobile number or email 
+address or device. An anti-phishing mechanism is also available, allowing 
+the user to check their last three online purchases during the transaction. 
+In addition, NPCI, as a business and technical associate of EMVCo, is 
+able to participate in EMVCo working groups for the creation, 
+development, promotion and implementation of international standards, 
+including the design and development of the 3D Secure 2.0 protocol. 
+China 
+UnionPay 
+Online 
+UnionPay provides two cardholder authentication systems for the 
+domestic market, SecurePay and ExpressPay. When payers are
+
+Authenticati
+on Standard 
+Features 
+Payments 
+(UPOP) 
+registered for SecurePay, they are redirected to the issuing bank's site to 
+authenticate themselves using the OTP sent to their mobile number. 
+ExpressPay authentication is performed at the merchant site and also 
+involves the use of an OTP sent to the payer's mobile number. For the 
+international market, UnionPay cards operate in the same way as 
+standard cards in the payment systems of their co-brands. 
+Russia 
+MIR 
+The MIR card, which utilises a flavour of 3DS 1.0.2 compatible with Visa's 
+standard for cardholder authentication, was released by the Russian 
+Central Bank's subsidiary, NSPK, to combat sanctions imposed by 
+Europe and the USA, and prevent any other external economic or political 
+factors from influencing the in-country processing of card payments. 
+Europe 
+PSD2 
+Directive 
+PSD2 allows for a more risk-based approach to payment authentication, 
+whilst ensuring that strong authentication is used as de facto for online 
+payments. The ultimate goal is to reduce fraud, whilst also offering better 
+levels of usability. 
+
+35. Ombudsman 
+35.1 Key insight: RBI in November 2021 launched the Integrated Ombudsman Scheme to make 
+the alternate dispute redressal mechanism simpler and more responsive to the customers of 
+entities regulated by it. The Integrated Ombudsman Scheme combined the following 3 schemes 
+(i) the Banking Ombudsman Scheme, 2006; (ii) the Ombudsman Scheme for Non-Banking 
+Financial Companies, 2018; and (iii) the Ombudsman Scheme for Digital Transactions, 2019. 
+Further, to ensure a swift, effective and efficient complaint redressal mechanism, an internal 
+ombudsman scheme was introduced for large non-bank PPIs in 2019. 
+35.2 Benchmark rating: Strong 
+35.3 Analysis: Jurisdictions should ensure that consumers have access to grievance redressal 
+mechanisms that are accessible, affordable, independent, fair, accountable, timely and efficient. 
+An Ombudsman not only helps to redress the individual wrongs faced by consumers without 
+exhorbitant legal costs but also acts as a feedback mechanism, which helps to inform the 
+regulatory measures. 
+The Ombudsman Scheme for Digital Transactions in India has facilitated the redressal of 
+complaints pertaining to digital transactions undertaken by customers of a Payment System 
+Participant viz. any person other than a bank offering payment services / operating payment 
+systems. It is an expeditious and cost-free apex level mechanism for resolution of complaints 
+regarding digital transactions. These activities are now covered under the Integrated Ombudsman 
+Scheme.
+
+Table 36: Ombudsman schemes 
+
+Sl No 
+Organisation 
+Established 
+Powers 
+Australia 
+Australian 
+Financial 
+Complaints 
+Authority (AFCA) 
+Operates as a Not-for-Profit Company. The 
+Treasury Law Amendment (Putting Consumers 
+First – Establishment of the Australian 
+Financial Complaints Authority) Act 2018 
+(AFCA Act) authorizes AFCA and outlines its 
+jurisdiction and powers. AFCA is not a 
+regulator 
+but 
+acts 
+as 
+an 
+independent 
+Ombudsman. It considers complaints related to 
+banking, insurance, investments and financial 
+advice. 
+United 
+Kingdom 
+Financial 
+Ombudsman 
+Service 
+Financial Ombudsman Service has statutory 
+backing by way of Financial Services and 
+Markets Act, 2000. It considers complaints 
+related to most financial services – banking, 
+insurance, pensions, savings and investments, 
+cards, money transfers, etc. 
+Canada 
+Ombudsman 
+for 
+Banking 
+Services 
+and Investments 
+Initially operated as a Banking Ombudsman. In 
+2002 mutual funds and investments were also 
+added to the ambit of operations. The 
+recommendations of the Ombudsman are not 
+binding on the firms. 
+France 
+- 
+
+ACPR (Prudential Control and Resolution 
+Authority) has no jurisdiction for dispute 
+resolution. In cases of unsatisfactory response 
+of the banker / insurer or any other intermediary 
+in case of a dispute, the ACPR suggests 
+mediators / courts for dispute resolution. 
+Germany 
+BaFin 
+(Federal 
+Financial 
+Supervisory 
+Authority) 
+Supervisor / Regulator for Banking, Insurance 
+and Securities industries. 
+South 
+Africa 
+Ombudsman 
+for 
+Banking Services 
+Independent ombudsman who can issue 
+binding determination. 
+United 
+States of 
+America 
+Customer 
+Assistance Group 
+(Comptroller 
+of 
+Currency) 
+Helps to ensure fair access and equal 
+treatment. Assists customers with questions 
+and complaints, provides advisories to help 
+consumers understand rights, banking rules 
+and risks. The Comptroller of Currency is an 
+independent bureau of the Department of 
+Treasury. 
+Russia 
+Financial 
+Ombudsman 
+Service 
+Set up by Bank of Russia in 2018 and has 
+statutory backing (Federal Law of June 4, 
+2018). The Ombudsman covers various 
+financial institutions including insurance, credit 
+institutions, pawn shops, pension funds, etc.
+
+A comparison of similar schemes across countries shows that India is one of the few countries 
+where the entire gamut of digital payment transactions is covered under the Ombudsman scheme. 
+The Ombudsman schemes in other countries do not appear to focus on digital payment 
+transactions. The Ombudsman in many jurisdictions is funded by industry participants, which does 
+not engender trust among the consumers. Further, in some jurisdictions such as Canada the 
+Ombudsman does not have the power to issue binding directions. 
+In addition, to build customer confidence in the payment systems and safeguard the interest of 
+the consumers, RBI mandated large non-bank PPI issuers to put in place an Internal Ombudsman 
+Scheme. The scheme was intended to ensure that majority of the complaints of customers are 
+redressed at the level of the PSO itself by an authority placed at the highest level of the PSOs 
+grievance redressal mechanism. 
+
+S. Securities settlement and clearing system 
+36. Central Counterparty (CCP) 
+Although there are multiple CCPs operating in India, for the purpose of this study, we focus on 
+the operations of the CCP regulated by RBI, i.e., CCIL. 
+36.1 Key insight: 
+CCIL operates as a CCP and provides guaranteed clearing and settlement for transactions in 
+money, Government securities, foreign exchange and derivative markets. In a cross-country 
+comparison CCIL fares strongly with regard to governance arrangements in place for managing 
+the organisation and the risk management practices implemented to manage member defaults 
+and other non-default losses. 
+36.2 Benchmark rating: Leader 
+36.3 Analysis: CCPs are critical FMIs that provide guaranteed settlement services in the markets 
+served by them and mitigate counterparty risk for the participants, thereby reducing systemic risk. 
+It is essential to ensure CCPs function in an efficient and effective manner while ensuring 
+appropriate governance. Further, CCPs should have sufficient networth to cover potential general 
+business losses and to enable them to provide services as a going concern. RBI has prescribed 
+Directions for CCPs laying out: (i) directions on governance of domestic CCPs; (ii) directions on
+
+net worth requirements and ownership of CCPs; and (iii) directions for recognition of foreign 
+CCPs. 
+CCPs handle high value transactions and any failure can result in wider systemic implications. It 
+is hence essential for CCPs to have appropriate risk management practices in place. In the case 
+of CCIL, participant credit exposures are covered through multilateral netting, DvP / PvP 
+settlements and margin collection. Market risk is managed by using margining models for all 
+products. Initial margin is collected to cover potential future exposures while intra-day and end of 
+day MTM margin is collected to cover current exposures. CCIL undertakes back-testing of 
+margining models and stress testing daily to assess adequacy of resources and procedures are 
+in place to call for additional default fund contributions based on the stress test results. 
+As per the PFMIs, CCIL is subject to Cover 1 requirements for all market segments as it does not 
+operate as systemically important payment system in multiple jurisdictions and products cleared 
+are not of complex risk profile. However, CCIL has implemented Cover 2 requirement for its 
+derivatives segments - forex forward and rupee derivative segments. 
+Losses due to participant defaults are handled by pre-funded resources comprising member 
+contributed default fund and CCIL’s contribution from its Settlement Reserve Fund (SRF). CCIL’s 
+skin in the game for each segment is set at 25 % of the default fund contribution but not less than 
+the highest individual member contribution for the segment, which is higher than most other 
+CCPs. CCIL’s total skin in the game across all segments is capped at the balance in the SRF. 
+Further, a Contingency Reserve Fund (CRF) has been put in place by CCIL to take care of losses 
+arising out of non-default events. 
+Table 37: Default fund scenario in selected CCPs 
+
+Sr. No. 
+Jurisdiction 
+CCP Name 
+SITG/DF Ratio* (per cent) 
+1. France 
+LCH SA 
+ 0.65 
+2. United Kingdom 
+LCH 
+ 1.01 
+3. United States of America 
+OCC 
+ 1.36 
+4. Germany 
+Eurex Clearing 
+ 2.61 
+5. United States of America 
+CME 
+ 3.33 
+6. Sweden 
+NASDAQ 
+10.87 
+7. India 
+25.00 
+8. China 
+Shanghai Clearing House 
+28.59 
+9. Singapore 
+SGX DC 
+41.75 
+*In cases where resources are segregated by CCP at clearing service level or by currency, the resources are aggregated 
+for determining the ratio. 
+Source: CCIL, CCP’s Public Quantitative disclosures
+
+T. Oversight 
+37. Oversight of payment systems 
+37.1 Key insight: In India, the Payment and Settlement Systems Act, 2007 has designated and 
+confers upon RBI the right to regulate and supervise payment systems within the country. In 2020, 
+RBI published the updated oversight framework for FMIs and RPSs that details the oversight 
+objectives and supervisory processes of RBI as well as the assessment methodology of FMIs and 
+SWIPS under PFMIs. 
+37.2 Benchmark rating: Leader 
+37.3 Analysis: Oversight of payment and settlement systems is a central bank function whereby 
+the objectives of safety and efficiency are promoted by monitoring existing and planned systems, 
+assessing them against these objectives and, where necessary, inducing change. 
+In India, the three key ways in which oversight activity is carried out are through (i) monitoring 
+existing and planned systems; (ii) assessment of the FMIs and RPSs against the oversight 
+objectives; and (iii) inducing change for improvements, where necessary. 
+In India, the off-site surveillance and monitoring of FMIs and authorised RPSs is conducted by 
+way of various tools, such as (a) submission of prescribed data / information by the regulated 
+entities, (b) fraud monitoring / system of alerts, (c) regular meetings with authorised PSOs, (d) 
+market intelligence, and (e) oversight reports and surveys. Further, onsite inspection / audit 
+complements the offsite monitoring and surveillance mechanism put in place for the FMIs / RPSs. 
+The onsite inspection activity is based on the risk profile of the entity derived from the annual self-
+assessment carried out by the entity and the information furnished by the entity and market 
+intelligence, if any. FMIs and RPSs are subjected to periodic onsite inspection as determined by 
+RBI from time to time. 
+Table 38: Oversight tools 
+
+Tools available 
+Explicit 
+Implicit
+* 
+Monitoring 
+Dialogue 
+& moral 
+suasion 
+Producing 
+and 
+publishing 
+statistics 
+and / or 
+payment 
+system 
+reports 
+Issuing 
+regulations 
+Imposi
+ng 
+sanctio
+ns 
+On-site 
+inspect
+ions 
+Australia 
+Y 
+
+Y 
+Y 
+Y 
+Y
+
+role undertaking cross-border transfers on behalf of their clients using either their internal systems 
+or by accessing cross-border banking networks. 
+There are various payment systems that facilitate cross-border transactions, either in single 
+currency or multiple currencies. The Directo e Mexico system facilitates remittances from USA to 
+Mexico by linking the Federal Reserve’s Automated Clearing House with the Mexican RTGS 
+system with Bank of Mexico undertaking the FX conversion. The Gulf Cooperative Council RTGS 
+system was implemented for facilitating transactions within the 6 Gulf region countries with 
+payments in local currency. 
+Further, initiatives have been undertaken to interlink fast payment systems operating across 
+jurisdictions to facilitate cross-border payments and remittances. The interlinking of Singapore’s 
+PayNow and Thailand’s PromptPay real-time retail payment system is one such example. On 
+similar lines, the interlinkage of Singapore’s PayNow with India’s UPI is underway and is expected 
+to go-live in the second half of 2022. 
+In India, various initiatives have been undertaken to facilitate cross-border payments, especially 
+personal remittances. To help Nepali migrant workers send remittances back home, the Indo 
+Nepal Remittance Scheme was introduced that used NEFT to facilitate one-way transfer of funds 
+from India to Nepal in partnership with State Bank of India (SBI). The Money Transfer Service 
+Scheme (MTSS) is available through a tie-up between reputed money transfer companies abroad 
+known as Overseas Principal and agents in India where the service is connected to digital and / 
+or mobile platform enabling customers to undertake cross-border remittances. 
+Further, RBI, in collaboration with the Government and NPCI is reaching out to jurisdictions to 
+ensure global outreach of the UPI systems to facilitate cross-border transactions, including 
+remittances. The linkages between fast payment systems across jurisdictions can enhance cross-
+border payment arrangements and ensure faster remittances. RBI also selected cross-border 
+payments as the second cohort under the Regulatory Sandbox initiative to spur innovations 
+capable of recasting the cross-border payments landscape by leveraging new technologies to 
+meet the needs of a low cost, secure, convenient and transparent system in a faster manner. 
+Finally, with RBI operated CPSs, viz. RTGS and NEFT operating round the clock, the required 
+infrastructure is available which can be leveraged to interface with similar systems in other 
+jurisdictions to facilitate cross-border payments, including remittances.
+
+observed to be higher than both foreign direct investment and official development assistance to 
+such countries. 
+In terms of remittance inflows, India is the leader with USD 83.1 billion, (share 11.79% of global 
+remittance inflows) followed by China, with USD 59.5 billion, (share 8.43%) and Mexico, with USD 
+42.8 billion (share 6.08%). 
+Due to the CoVID pandemic, remittance inflows declined in the year 2020 across most of the 
+countries (except Brazil, Hong Kong, Japan, Korea, Mexico) as compared to the previous year. 
+Remittance inflows to India, however, remained resilient and declined by only 0.2% in the year 
+2020. 
+
+40. Cost 
+40.1 Key insight: The cost of sending remittances to India was lower than that to other 
+benchmarked countries. However, the cost of sending remittances from India was higher than 
+that from Russia and Singapore. It may be noted that, it may not be appropriate to compare 
+remittances across countries selected in the benchmarking exercise, as remittances primarily 
+originate from advanced economies and are directed to beneficiaries in emerging economies. 
+40.2 Benchmark rating: Strong 
+40.3 Analysis: The Financial Stability Board (FSB) stage 1 report on enhancing cross-border 
+payments identified high cost as one of the major challenges in existing cross-border payment 
+arrangements. The report highlighted the demand side impact of high transaction fees on 
+individuals and small businesses, which may discourage cross-border payments. Further, from a 
+supply side perspective various costs are involved such as operational cost, regulatory 
+compliance cost, network cost, correspondent cost, FX cost, liquidity cost, AML / CFT related 
+costs, etc. 
+Remittance cost is influenced by various parameters like destination, method of transfer, 
+payments infrastructure, remittance value, competition, and prevailing regulations in the remitting 
+and receiving country. Further, the remittance cost varies across corridors, depending on 
+exchange rate margins, service provider fees, origination (online or branch), instrument and 
+intermediaries involved. 
+The subsequent FSB consultative report on Targets for Addressing the Four Challenges of Cross-
+Border Payments, proposed a target for cost of remittances. The report reaffirmed the United 
+Nations Sustainable Development Goals target that the global average cost of sending a

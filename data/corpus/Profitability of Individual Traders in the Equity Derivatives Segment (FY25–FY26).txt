@@ -1,0 +1,3712 @@
+Acknowledgment 
+
+The author gratefully acknowledges the valuable guidance, institutional 
+support, and motivation provided by Shri Tuhin Kanta Pandey, Chairman, 
+SEBI; Shri K.V.R. Murty, Whole Time Member, SEBI; Shri Shashi Kumar 
+Valsakumar, Executive Director, SEBI and Shri Sunil Kadam, Former 
+Executive Director, SEBI. 
+
+The authors gratefully acknowledge the support of the selected Stock Brokers, 
+National Stock Exchange (NSE), BSE, NSE Clearing Limited (NCL), and BSE 
+Clearing Limited (BSECL). Special thanks are due to the SEBI ITD Team and 
+Mr. Ankit Kumar (Assistant Manager, SEBI, ITD) for their prompt assistance 
+in providing critical data. We also extend our gratitude to the officials of the 
+Market Regulation Department, Mr. Darshil Bhatt (Deputy General Manager, 
+SEBI, MRD) and Mr. Harshad Patil (Asst. General Manager, SEBI, MRD) for 
+their valuable insights and suggestions. Special thanks to Mr. Shubham 
+Sharma (Young Professional, SEBI, DEPA) for providing research assistance to 
+the authors.
+
+TABLE OF CONTENTS 
+TABLE OF CONTENTS ...................................................................................................................... 3 
+EXECUTIVE SUMMARY .................................................................................................................... 5 
+1. INTRODUCTION ........................................................................................................................ 9 
+2. OBJECTIVES OF THE STUDY ................................................................................................. 11 
+3. LITERATURE REVIEW ............................................................................................................. 12 
+4. DATA COLLECTION AND OVERVIEW .............................................................................. 14 
+5. METHODOLOGY ...................................................................................................................... 16 
+6. DATA ANALYSIS AND FINDINGS ...................................................................................... 19 
+SECTION 1: GROWTH IN EQUITY DERIVATIVES SUBSEGMENTS ...................................... 19 
+6.1. Trend in Equity Derivatives Turnover ................................................................................... 19 
+6.2. Unique Traders in the Equity Derivatives Segment ............................................................... 23 
+6.3. Segment-wise Unique Traders in the Equity Derivatives Segment (Quarterly) .................... 24 
+6.4. Share of Individual Traders in Equity Derivatives Turnover ................................................. 25 
+6.5. Composition of Futures and Options Segment Turnover – For Individuals .......................... 26 
+6.6. Growth in New Entrants and Exiting Traders ........................................................................ 27 
+6.7. Trend in Demat Account Opening for Derivatives Traders ................................................... 29 
+SECTION 2: IMPACT OF THE NOVEMBER 2024 MEASURES: Q3 FY25 ................................ 30 
+6.8 Changes in the Number of Participants .................................................................................... 30 
+6.9 Changes in the Average Turnover Per Trader .......................................................................... 31 
+6.10 Average Daily Turnover in Index Options ............................................................................. 31 
+6.11 Expiry vs Non-Expiry Trends in Average Daily Turnover (ADT) ........................................ 32 
+SECTION 3: GROWTH IN WEEKLY AND ‘0DTE’ CONTRACTS IN EDS .............................. 35 
+6.12 Share of Weekly Expiries ..................................................................................................... 35 
+6.13. Share of 0DTE (Zero Days-To-Expiry) Options ................................................................. 35 
+6.14. Impact of Regulatory Measures on Weekly Expiry Trading ............................................... 37 
+SECTION 4: PROFITABILITY ACROSS INVESTOR CATEGORIES ......................................... 38 
+6.15. Investor Category-wise Profit and Loss (FY25-FY26 Combined) ...................................... 38 
+6.16. Investor Category-wise Profit and Loss (Yearly Trends) .................................................... 39 
+6.17. Investor Category-wise Profit and Loss (Futures versus Options) ...................................... 39 
+6.18. Investor Category-wise Profit and Loss (Algorithmic versus Non-Algorithmic Trading) .. 40 
+SECTION 5: MARKET PARTICIPATION CONCENTRATION ................................................ 42 
+6.19. Turnover Concentration among Proprietary Traders ........................................................... 42 
+6.20. Turnover Concentration among Foreign Portfolio Investors ............................................... 43 
+6.21. Concentration of Profits and Losses .................................................................................... 43 
+SECTION 6: PROFITABILITY OF INDIVIDUAL TRADERS (RETAIL) .................................... 45 
+6.22. Participation and Turnover of Individual Traders (Yearly Trends) ..................................... 45 
+6.23. Profitability and Losses of Individual Traders (Yearly Trends) .......................................... 46
+
+6.24. Profitability and Losses of Individual Traders (Product-wise) ............................................ 49 
+6.25. Profit-Makers vs Loss-Makers ............................................................................................. 52 
+6.26. Profitability and Losses of Individual Traders (FY25–FY26 Combined) ........................... 53 
+6.27. Distribution of Profits and Losses in EDS (Combined FY25–FY26) .................................. 54 
+6.28. Distribution of Profits and Losses in EDS (Yearly Trend) .................................................. 56 
+SECTION 7: RETAIL PROFITABILITY – CATEGORY-WISE TRENDS .................................... 58 
+6.29. Product Preference ............................................................................................................... 58 
+6.30. Product-wise Profitability Trends (FY25–FY26) ................................................................ 58 
+6.31. Turnover-wise Trends in the Options Segment ................................................................... 60 
+6.32. New Entrants versus Regular Traders .................................................................................. 62 
+6.33. Trading Activity-wise Trends in the Options Segment ........................................................ 63 
+6.34. Relationship between Market Performance and Trader Outcomes ...................................... 64 
+6.35. Transaction Costs ................................................................................................................. 65 
+6.36. Impact of Transaction Costs on Profitability ....................................................................... 66 
+6.37. Rising Share of STT in Transaction Costs ........................................................................... 67 
+SECTION 8: RETAIL PROFITABILITY – DEMOGRAPHIC TRENDS ...................................... 68 
+6.38. Age-wise Trends .................................................................................................................. 68 
+6.39. Gender-wise Trends ............................................................................................................. 70 
+6.40. Income-wise Trends ............................................................................................................. 71 
+6.41. City-wise Trends .................................................................................................................. 73 
+6.42. State-wise Trends ................................................................................................................. 73 
+SECTION 9: DERIVATIVES TRADING AND EQUITY HOLDINGS/ PORTFOLIO ............... 75 
+6.43. Distribution of Equity Portfolios of EDS traders ................................................................. 75 
+6.44. Derivatives Trading by Small-Portfolio Traders .................................................................. 75 
+6.45. Portfolio-wise Profitability .................................................................................................. 76 
+6.46. Portfolio-wise - Trading Intensity ........................................................................................ 76 
+6.47. Portfolio-wise - Probability of Loss ..................................................................................... 77 
+6.48. Concentration of Risk: Portfolio Size and Turnover ............................................................ 78 
+7. CONCLUDING OBSERVATIONS .......................................................................................... 80 
+8. ANNEXURES ............................................................................................................................. 81 
+9. REFERENCES ............................................................................................................................. 91
+
+EXECUTIVE SUMMARY 
+Participation in Equity Derivatives Segment 
+• 
+Active individual1 traders in the Equity Derivatives Segment (EDS) declined 18% year-on-
+year, from 106.2 lakh in FY25 to 87.5 lakh in FY26, the first year-on-year decline in the 
+trader base since FY16. 
+• 
+The decline in participation was more pronounced among smaller traders with annual 
+turnover below ₹10,000. 
+• 
+New trader entries into the EDS fell by ~40% year-on-year to 20.8 lakh in FY26, down from 
+34.3 lakh in FY25 and well below the FY24 peak of 43.1 lakh. 
+• 
+The pace of exits accelerated in FY26. Nearly 46 lakh traders who participated in EDS in 
+FY25 did not trade in FY26, up from 26 lakh traders exit in FY25, representing an increase 
+of about 76%. 
+
+Turnover in Equity Derivatives Segment 
+• 
+Growth in the equity derivatives segment moderated in FY26, with notional turnover 
+increasing by 4.2%, compared with 20.4% growth in FY25. 
+• 
+The moderation reflected both a contraction in Futures and a slowdown in Options 
+growth. Futures activity declined by 15%, while Options premium turnover grew by 7%, 
+resulting in lower overall expansion in EDS activity. 
+• 
+The pace of growth in Options has decelerated significantly over recent years, from 73% 
+in FY23 to 31% in FY24, 14% in FY25, and 7% in FY26. 
+• 
+Within segments, Index Options continued to drive Options growth (+9%), while both 
+Index Futures (-16%) and Stock Futures (-15%) declined; Stock Options also contracted (-
+10%). 
+
+Individual Category Profits and Losses (FY26) 
+• 
+Aggregate net losses declined 18% to ₹91,685 crore in FY26, from a revised ₹1.12 lakh crore 
+in FY25 (revised2). 
+• 
+Despite lower aggregate losses, the average loss per person increased marginally by 2%, 
+from ₹1.13 lakh to ₹1.17 lakh, indicating that while fewer individuals traded, those who 
+did lost more on average. 
+• 
+The share of loss-making individuals declined 3.2 percentage points, to 87.7% in FY26 
+from 90.9% in FY25. Loss-maker incidence remained substantially higher in options 
+(87.7%) than in futures (66.0%), consistent with options' outsized share of overall losses. 
+• 
+The average loss among loss-makers was ₹1.47 lakh, compared with an average profit of 
+₹1.22 lakh among profit-makers, indicating that the average loss was 21% higher than the 
+average profit. 
+
+1 Individual Traders include both retail and HNI traders, and comprise resident individuals, Hindu Undivided Families 
+(HUFs), Non-Resident Indians (NRIs), sole proprietorships, Individual investors under PMs. 
+2 FY25 net loss figure has been revised due to expansion of broker sample from 13 to 15
+
+• 
+While the number of loss-makers declined in FY26, losses continued to be concentrated, 
+with about 23% of traders accounting for nearly 90% of total losses. 
+• 
+Options trading accounted for 92% of aggregate individual losses. 
+
+Global Evidence on Derivatives Trading Outcomes 
+• 
+The high incidence of retail losses observed in India is consistent with global evidence, 
+with around two-thirds to nine in ten retail participants in several derivatives and 
+leveraged-product markets incurring losses. 
+
+Major Category-wise P&L Pattern3 
+• 
+In FY26, Proprietary traders continued to record the highest gross trading profit4 at about 
+₹44,000 crore, followed by FPIs (₹14,000 crore), Corporates (₹8,000 crore), Mutual Funds 
+(₹3,000 crore) and Partnership Firms/LLPs (₹3,000 crore). The gross trading loss of 
+Individual traders narrowed to about ₹72,000 crore. 
+• 
+However, the gross trading profits of most non-individual categories declined in FY26, 
+with the decline particularly pronounced among FPIs (55%), Mutual Funds (54%), 
+Partnership Firms/LLPs (38%) and Corporates (22%); proprietary traders recorded a 
+relatively modest decline of 3%. At the same time, the gross trading loss of individual 
+traders declined by 26%, from about ₹98,000 crore in FY25 to ₹72,000 crore in FY26. 
+• 
+99% of profits for FPIs and Proprietary traders were made by “Algo entities”5. 
+• 
+Profitability among proprietary traders remained highly concentrated. In FY26, the top 10 
+entities earned about 75% of the PROP category's gross profits, broadly reflecting their 
+dominant share of trading activity (85% in options and 65% in futures). 
+
+Product Preference 
+• 
+Options dominate retail participation. 99.3% of individuals in EDS traded options at least 
+once and 93% traded only options, while just 6.6% traded futures and under 1% traded 
+only futures. 
+• 
+The percentage share of EDS traders, who traded Futures at least once during a year, has 
+come down to 6.6% in FY26 from 10.6% in FY22. 
+
+Demographics 
+• 
+Age: Young investors continue to dominate participation in the equity derivatives 
+segment. Traders below 30 years of age accounted for 43% of all individual traders in 
+
+3. This analysis is based on the entire population of EDS traders (106.30 lakh in FY25 and 87.71 lakh in FY26). Further, the 
+P&L represent only squared off gross P&L (i.e not adjusted for transaction costs and not considering the open positions at the 
+end of FY26). 
+4 Gross trading profits means trading profits before accounting for transaction costs 
+5 Algo entities are considered as those entities, who have done at least one trade in a year using algorithmic order.
+
+FY26, up from 31% in FY22. This cohort also showed a higher incidence of losses, 89% of 
+traders below 30 were loss-makers in FY26, compared with 81% among traders above 60. 
+
+• 
+Income6: About three-fourths of individual derivatives traders fell in the below-₹5 lakh 
+annual income category. In FY26, this group accounted for 43% of turnover but 53% of 
+aggregate losses, a share of losses ten percentage points higher than their share of trading 
+activity. Loss incidence was also higher within this cohort: 88% of below-₹5 lakh traders 
+were loss-makers in FY26, versus 81% among traders with income above ₹1 crore. 
+
+• 
+Geography: Derivatives trading has expanded well beyond the top-30 (T30) cities. 
+Beyond-30 (B30) investors made up about two-thirds of individual traders and nearly half 
+of derivatives turnover in FY26, even though this segment accounts for only about one-
+fourth of individual mutual fund assets, pointing to markedly higher derivatives risk 
+appetite relative to their broader investment behaviour. 
+
+Weekly Expiries and ‘0DTE’7 Options 
+• 
+Trading in Index Options remained concentrated in contracts nearing expiry. In FY25, 70% 
+of turnover occurred on the expiry day itself (‘0DTE’), 80% within one day of expiry 
+(‘1DTE’), and 98% within one week of expiry (‘7DTE’). Following the introduction of 
+measures by SEBI, these proportions moderated to 59%, 75% and 97%, respectively, in 
+FY26, indicating a modest shift away from very near-expiry contracts. 
+• 
+Longer-dated contracts accounted for only a negligible share of trading, with just 3% of 
+turnover occurring in contracts having more than seven days to expiry, and only 1% in 
+contracts with more than ten days to expiry. 
+
+Transaction Costs (TC) 
+• 
+Despite a 5% decline in premium derivatives turnover in FY26, aggregate transaction costs 
+remained broadly unchanged. Individual traders incurred transaction costs of about 
+₹25,000 crore in each of FY25 and FY26. 
+• 
+The amount of STT paid by Individuals in EDS increased by 35% from ₹4,920 Crore in 
+FY25 to ₹6,645 in FY26. 
+• 
+Over FY22–FY26, cumulative transaction costs amounted to about ₹1 lakh crore, with 
+brokerage accounting for nearly half of the total. 
+• 
+Over FY22–FY26, Individuals paid total STT amount of more than ₹18,500 crore, nearly 
+20% of total transaction cost. The composition of transaction costs has shifted towards 
+statutory levies. STT collections from individual traders in EDS increased more than five-
+fold during FY22–FY26, raising STT's share of total transaction costs from 13% to 27%, 
+while the share of brokerage declined from 52% to 44%. 
+
+6 Income – Indicates declared Income. Findings in this section based on 55% of Individuals traders sample in FY26, due to 
+limited availability of data. 
+7 0DTE (Zero Days-to-Expiry): Options contracts traded on their expiry date, with no remaining days to maturity
+
+Equity Portfolio8 of Derivatives Traders: 
+• 
+Out of 122.6 lakh EDS traders in FY25-FY26, about 43 lakh traders (35%) had no 
+underlying equity portfolio at the end of FY26, indicating participation in derivatives 
+without any cash equity holdings. 
+• 
+Around 95 lakh EDS traders (78%) had equity portfolios below ₹1 lakh. Despite 
+contributing only 51% of turnover, they accounted for 70% of total losses during FY25–
+FY26. 
+• 
+Traders with portfolios below ₹1 lakh and turnover above ₹1 crore represented 13% of 
+traders, but accounted for 52% of aggregate losses, indicating that losses were 
+disproportionately concentrated in this segment. 
+• 
+The incidence of losses declined consistently with portfolio size, suggesting that traders 
+with larger equity portfolios experienced comparatively lower loss rates. 
+
+Participation (Pre and Post-November 2024 Measures in EDS) 
+• 
+The November 2024 measures were followed by a significant but differentiated decline in 
+retail participation, with the reduction more pronounced in index options than in other 
+product segments. The analysis, however, does not establish a causal relationship. 
+• 
+Between Q2 and Q4 FY25, options participation declined by 25.8%, compared with 16.7% 
+for futures. Within these segments, index options declined by 26.8%, while stock futures 
+and stock options declined by 10.4% and 9.4%, respectively. 
+• 
+The decline in participation was accompanied by higher trading intensity among the 
+remaining index-derivatives traders. Average turnover per trader increased by 12% in 
+index options and 20% in index futures, despite the fall in participation. This suggests that 
+the decline was relatively more pronounced among smaller or less-active traders, while 
+more active traders continued to account for a substantial share of activity. 
+
+Turnover in Index Options (Pre and Post-November 2024 Measures in EDS) 
+• 
+Initial contraction followed by recovery in premium turnover: Following the 
+implementation of SEBI’s November 2024 measures, average premium ADT declined by 
+17% from about ₹66,000 crore during Apr–Nov 2024 to ₹55,000 crore during Dec 2024–Mar 
+2025. Turnover subsequently recovered by +8% to about ₹59,000 crore during first half of 
+FY26 (Apr-Sept 2025) and further increased strongly by +38% to around ₹82,000 crore 
+during second half of FY26 (Oct 2025–Mar 2026). Thus, the data indicates an initial 
+contraction in premium turnover following the measures, followed by a gradual and 
+eventually strong recovery. 
+
+8 Equity Holdings/ Equity Portfolio means market value of equity shares and equity oriented mutual funds in demat form.
+
+1. INTRODUCTION 
+India's equity derivatives market has grown steadily since index futures were introduced in 
+June 2000, followed later by index options, stock futures and stock options. Over the past two 
+decades, it has become one of the largest derivatives markets in the world by trading volume, 
+serving a wide range of participants including domestic institutions, proprietary trading 
+firms, foreign portfolio investors (FPIs), corporates and individual investors. Along with its 
+core role in price discovery and risk transfer, the segment has also seen a sharp rise in retail 
+participation for speculative trading. 
+
+Rapid Growth in Retail Participation 
+The structure of the equity derivatives market changed considerably between FY21 and FY25. 
+A long bull run in the cash market, the rise of mobile-first trading platforms, lower transaction 
+costs, and easier access to financial markets together drove a sharp rise in retail participation. 
+During this period, exchanges introduced weekly expiry contracts on several indices and cut 
+contract lot sizes, lowering the capital needed to trade. By FY24, weekly expiries were 
+available on different indices on almost every trading day, creating what came to be known 
+as the "everyday expiry" cycle. Trading increasingly shifted towards very short-duration 
+index options, especially contracts expiring on the same day (0DTE), leading to a sharp rise in 
+speculative activity. 
+The number of active individual traders in the segment nearly doubled between FY22 and 
+FY25. Over the same period, aggregate losses incurred by individual traders also rose 
+significantly, showing that growing participation came with rising financial risk. 
+
+Regulatory Developments 
+Against this backdrop, SEBI introduced a set of measures during FY25 to strengthen risk 
+management in the equity derivatives segment. These were rolled out in phases between 
+November 2024 and April 2025, and included: 
+a) restricting weekly derivative contracts to one index per exchange; 
+b) increasing the minimum contract size; 
+c) requiring upfront collection of options premium from buyers; 
+d) withdrawing calendar spread benefits on expiry day; and 
+e) introducing additional Extreme Loss Margin (ELM) requirements for short options 
+positions on expiry day. 
+Separately, the Government of India increased the Securities Transaction Tax (STT) on equity 
+derivatives with effect from October 1, 2024. 
+These measures aimed to curb excessive speculation, strengthen market integrity and improve 
+investor protection, while preserving the core role of the derivatives market.
+
+Need for the Present Study 
+Given these changes in market structure, the rapid growth in retail participation, and the new 
+regulatory measures, it is necessary to reassess trading outcomes in the equity derivatives 
+segment. 
+This study examines trading activity, participation by individuals, profitability and investor 
+characteristics across different categories of market participants during FY25 and FY26. It 
+focuses mainly on individual traders, who make up the large majority of participants in the 
+segment. The study also compares outcomes with earlier years and looks at whether the recent 
+regulatory measures have changed trading behaviour, market activity and investor outcomes. 
+Unlike the earlier studies, this report goes beyond profit and loss. It also looks at how trading 
+outcomes relate to behavioural and demographic factors such as trading activity, portfolio 
+size, age, gender and location, to give a fuller picture of participation in India's equity 
+derivatives market.
+
+2. OBJECTIVES OF THE STUDY 
+This study builds on SEBI's earlier work on the profitability of individual traders in the equity 
+derivatives segment (EDS): 
+a) "Profits and Losses in the Equity Derivatives Segment (FY19–FY22)" published in 
+January 2023 (link) 
+b) "Analysis of Profits and Losses in the Equity Derivatives Segment (FY22–FY24)" 
+published in September 2024 (link) 
+c) “Comparative study of growth in Equity Derivatives Segment vis-à- vis Cash 
+Market after recent measures” published in July 2025 (link) 
+
+These earlier studies found that most individual traders consistently lost money in the equity 
+derivatives segment. During FY22–FY24 alone, individual traders lost more than ₹1.8 lakh 
+crore in aggregate, with about 93% of traders making losses after transaction costs. These 
+findings pointed to the need for continued monitoring of trading outcomes and behaviour in 
+this fast-growing segment. 
+
+The objectives of this study are to: 
+a) Study the profitability of different categories of investors in the equity derivatives 
+segment, with a particular focus on individual traders; 
+b) Examine trends in trading activity, participation and profitability across different 
+products viz. Futures and Options, investor categories and demographic segments; 
+c) Assess value of equity portfolio for the equity derivatives traders; 
+d) Study the relationship between trading outcomes and equity portfolio size; 
+e) Assess changes in market structure, including product preferences, expiry-day 
+trading, concentration of trading activity and the mix of investors; and 
+f) Evaluate the impact of the regulatory measures introduced by SEBI and the 
+Government of India during FY25–FY26 on trading behaviour and investor outcomes.
+
+3. LITERATURE REVIEW 
+Retail Outcomes in Derivatives and Leveraged Products – Global Evidence 
+
+International evidence indicates that retail investors frequently incur losses when trading 
+derivatives and other leveraged products. This finding is not limited to a particular country 
+or market. Studies using transaction-level data, as well as regulatory reviews of retail 
+accounts, have reported high loss rates among retail participants in futures, options, contract 
+for differences (CFDs) and foreign-exchange products. 
+
+Brazil - The evidence is particularly strong for short-term and leveraged trading. In Brazil, 
+Chague, De-Losso and Giovannetti (2020) followed individuals who started day trading 
+equity-index futures. Among those who continued trading for more than 300 days, 97% 
+incurred a net loss. Only 1.1% earned more than the Brazilian minimum wage from day 
+trading. The study also found that longer participation did not improve outcomes. 
+
+South Korea - Similar findings have been reported in Asian futures markets. In the KOSPI 200 
+futures market, Choe and Eom (2009) found that only about 25% of retail day traders were 
+profitable net of fees, implying a loss rate of approximately 75%. Ryu (2012), using 
+transaction-level data from the KOSPI 200 futures market, also found that individual day 
+traders incurred substantial losses and that more frequent and intensive trading was 
+associated with poorer outcomes. 
+
+Taiwan - Evidence from Taiwan points in the same direction. Kuo and Lin (2013) examined 
+3,470 individual day traders in the Taiwan futures market. The traders incurred an average 
+loss of NT$61,500 after transaction costs during the study period. The study also found that 
+greater experience did not translate into superior trading skills or lower losses. 
+
+United States - Evidence from the United States is also consistent with these findings. Jordan 
+and Diltz (2003), studying US day traders, found that about 67% traders lost money, with 
+only around 20% being more than marginally profitable. 
+
+Europe - Regulatory evidence from leveraged retail products provides a similar picture. 
+ESMA's review of retail CFD markets across European jurisdictions found that 74–89% of 
+retail CFD accounts typically lost money, with average losses ranging from €1,600 to €29,000. 
+(ESMA) In France, the AMF found that more than 89% of retail investors lost money in CFD 
+and forex trading over a four-year period, with an average loss of approximately €10,900 per 
+client. 
+
+UK - The UK FCA similarly found high rates of retail losses in CFDs. An earlier FCA analysis 
+found that 82% of clients lost money, and subsequent regulatory intervention required firms
+
+to disclose the proportion of retail accounts that lose money. The FCA continues to describe 
+CFDs as complex, leveraged derivatives with a high risk of rapid losses. 
+
+Australia - More recent evidence from Australia shows that the pattern has persisted. ASIC 
+reported that 68% of retail CFD investors lost money in FY2024, with total losses exceeding 
+A$458 million, including A$73 million in fees. ASIC describes CFDs as complex, leveraged 
+products in which relatively small price movements can result in substantial losses. (ASIC) 
+US regulatory data on retail forex accounts also show that losses are widespread. The CFTC 
+requires registered retail foreign-exchange dealers to disclose the proportion of profitable and 
+unprofitable accounts each quarter. The CFTC notes that about two out of three retail forex 
+accounts lose money in a typical quarter, although the exact proportion varies across firms 
+and periods. 
+
+Taken together, the international evidence shows a consistent pattern of poor outcomes 
+among retail participants in short-term and leveraged derivatives trading. Loss rates vary 
+across products, countries, time periods and methodologies, and therefore should not be 
+interpreted as directly comparable measures. Nevertheless, the evidence from both academic 
+studies and securities-market regulators indicates that a majority of retail participants have 
+historically incurred losses in several major derivatives and leveraged-product markets. 
+
+This broader international evidence provides useful context for the findings of the present 
+study. The high incidence of losses observed among Indian individual traders in equity 
+derivatives is therefore consistent with patterns documented across several other markets, 
+particularly where retail participation is concentrated in short-term, leveraged and 
+speculative trading. 
+
+Table 1: Retail Loss Outcomes in Derivatives and Leveraged Products 
+Jurisdiction 
+Product 
+Loss rate 
+Source / study 
+European Union 
+CFDs 
+74–89% 
+ESMA (2018) 
+France 
+CFDs / Forex 
+89% 
+AMF (2014) 
+United Kingdom 
+CFDs 
+~82% 
+FCA (2016) 
+Australia 
+CFDs 
+~68% 
+ASIC, Report 828 (2026) 
+United States 
+Retail Forex 
+~67% 
+CFTC quarterly disclosures 
+Brazil 
+Equity-index futures 
+97%* 
+Chague, De-Losso & Giovannetti 
+(2020) 
+South Korea 
+KOSPI 200 futures 
+~75% 
+Choe & Eom (2009); Ryu (2012) 
+Taiwan 
+Futures 
+`>50% 
+Kuo & Lin (2013) 
+United States 
+Day trading 
+~67% 
+Jordan & Diltz (2003) 
+* Among traders who continued day trading for more than 300 days.
+
+4. DATA COLLECTION AND OVERVIEW 
+This study draws on the following datasets. 
+3.1. Exchange-level population data 
+• 
+The first dataset contains category-wise aggregate data from the National Stock 
+Exchange (NSE) and Bombay Stock Exchange (BSE), covering the entire equity 
+derivatives market. It is used to study market-wide trends in turnover, participation, 
+open interest and profitability across investor categories. 
+• 
+Unless otherwise specified, all tables and figures in Sections 1 to 4 are based on 
+aggregate daily/monthly data collected from BSE, NSE and SEBI database. 
+• 
+Source - BSE, NSE, SEBI 
+• 
+Coverage – entire population of traders 
+• 
+Period – FY25 and FY26 (profit and loss data); FY22-FY26 (market trends) 
+• 
+Frequency – Daily (expiry data), Monthly (market trends), Annual (profit and loss 
+data) 
+3.2. Individual trader-level profit and loss data 
+• 
+The second dataset contains client-level information from the top 15 brokers, ranked 
+by their turnover in the equity derivatives segment during FY22-FY24. It includes 
+realised trading profit and loss, transaction costs, turnover, trading frequency, and 
+demographic details such as age, gender, pincode and city. 
+• 
+Unless otherwise specified, all tables and figures in Sections 5 to 9 are based on Client-
+level data collected from a sample of the top 15 Stock Brokers, KYC and aggregate data 
+from SEBI, and PAN level data from Clearing Corporations. 
+• 
+Source – Top 15 brokers selected for earlier SEBI study (published in September 2024) 
+• 
+Coverage – about 90% of total population 
+• 
+Period – FY25 and FY26 (profit and loss data) 
+• 
+Frequency – Quarterly 
+• 
+The sample covers approximately 90% of all individual traders and about three-
+fourths of individual turnover in the equity derivatives segment, making it broadly 
+representative of retail participation. 
+
+Table 2: Sample Coverage – Top 15 Brokers by Individual Trader Turnover 
+Year 
+No of Individual Investors in EDS (in lakh) 
+Sample 
+Actual 
+% of Total 
+FY22 
+42.74 
+51.35 
+FY23 
+58.35 
+66.96 
+FY24 
+86.26 
+95.75 
+FY25 
+98.10 
+106.30 
+FY26 
+78.60 
+87.71
+
+3.3. Individual trader-level holding dataset and KYC dataset 
+• 
+The equity portfolio is calculated as the market value of all listed equity and equity-
+oriented mutual fund holdings, at the end of FY25 and FY26, using depository 
+holdings data on those two dates. 
+• 
+Demographic details, and other KYC details also obtained from SEBI dataset 
+• 
+Source – SEBI database (based on holding data from NSDL and CDSL) 
+• 
+Coverage – 1.23 crore investors, who traded during FY25-FY26 
+• 
+Period – March 31, 2025 and March 31, 2026 (holding data) 
+• 
+Frequency – Annual 
+
+3.4. Computations by SEBI 
+• 
+These datasets are linked together using each investor's unique PAN 
+• 
+SEBI has computed all totals, aggregates, proportions, averages, ratios and other 
+derived figures using this granular data. 
+
+3.5. Assumptions for Section 4 – Gross Profits and Losses of all categories 
+• 
+Source data collected from BSE and NSE; aggregated by SEBI 
+• 
+Profit/loss has been computed for all contracts expiring during April 01, 2024 to March 
+31, 2026. 
+• 
+Stocks affected by corporate actions such as bonus issues, consolidations, splits, 
+mergers or acquisitions have been excluded from the profit/loss calculation. 
+• 
+A client has been classified as an Algo client if even one trade of the client was 
+executed through an algo terminal. 
+• 
+The algo classification is based on the 13th digit of the CTCL ID (Computer-to-
+Computer Link ID) that trading members report when placing an order. Exchanges 
+have relied on this reporting to provide the data. 
+• 
+In certain client categories, particularly individuals, trades flagged as algo may also 
+include auto square-off triggers at the Trading Member level, as such triggers may 
+carry an algo flag in the CTCL ID. 
+• 
+Proprietary trades have been identified where the Trading Member Code is the same 
+as the Client Code. 
+• 
+Individual clients have been identified based on PANs where the 4th character is “P” 
+or “H”. For other clients, categorisation is based on the Unique Client Code (UCC) 
+category mapped by Trading Members in the Exchange UCC system. 
+• 
+UCC categorisation has been considered consistent with the methodology used in 
+SEBI's September 2024 study.
+
+5. METHODOLOGY 
+• 
+This study is based on transaction-level and client-level data from stock exchanges and a 
+sample of leading brokers, combined with holding and KYC data from the SEBI database 
+and clearing data from Clearing Corporations. Together, these datasets are used to 
+examine trading activity, profitability, trading behaviour, demographic characteristics 
+and equity holdings of participants in the equity derivatives segment (EDS). 
+• 
+The study has two parts. The first uses aggregate exchange-level data covering all 
+investors trading in the equity derivatives segment of NSE and BSE. This is used to study 
+market-wide trends in turnover, participation, product preferences, trading concentration 
+across investor categories, algorithmic trading, and the impact of the regulatory measures 
+introduced during FY25-FY26. 
+• 
+The second part is based on client-level data from the top 15 brokers, ranked by their share 
+of individual investor turnover in the equity derivatives segment of NSE during FY24. 
+This sample covers around 90% of individual traders and 80-85% of individual turnover 
+in India's equity derivatives segment, giving a representative view of retail trading 
+behaviour. The analysis covers individual investors - resident individuals, HUFs and NRIs 
+- and excludes proprietary trading firms, institutional investors, corporates and other non-
+individual entities. 
+• 
+Client-level records from brokers, exchanges, SEBI and the Clearing Corporation were 
+combined using PAN as the common identifier to build a single analytical database. 
+Trading profit and loss, transaction costs, turnover, demographic details (age, gender, 
+location), cash equity portfolio, trading history and cash-market activity were all analysed 
+together to understand investor behaviour from multiple angles. 
+• 
+For each individual, realised profit and loss was calculated after adjusting for transaction 
+costs. Where relevant, profitability was analysed separately for futures and options, and 
+across different periods - annually from FY22 to FY26, and combined for FY22-FY24 and 
+FY25-FY26. Aggregate profit/loss, average profit/loss per trader, and the share of profit-
+making and loss-making traders were calculated for each investor segment. 
+• 
+To better understand behavioural patterns, traders were grouped into categories based 
+on: 
+* trading turnover, 
+* equity portfolio size, 
+* trading frequency, 
+* trading experience, 
+* product preference (futures/options), 
+* age, gender, city and state, 
+* new versus regular traders, and 
+* historical trading performance.
+
+• 
+The study mainly uses descriptive statistics - distributions, averages, percentages, ratios, 
+concentration measures and trend analysis. It looks both across trader categories at a point 
+in time and over time, to see how trading outcomes evolve. Where relevant, it also 
+compares periods before and after the regulatory measures introduced during FY25-FY26. 
+• 
+The findings in this report are intended to provide factual evidence on participation 
+patterns, profitability, trading behaviour and market structure in the equity derivatives 
+segment. The analysis is descriptive and does not establish cause-and-effect relationships 
+between investor characteristics, regulatory measures and trading outcomes. 
+
+Data Fields and Sub-Categories Used in the Analysis 
+The categorical variables used in this report are as follows, 
+
+Table 3: Data Fields and Sub-Categories Used in the Analysis 
+Sl. 
+No. 
+Data Fields/ Parameters 
+Sub-category 
+Product Category 
+Index Options, Stock Options, Index Futures, Stock Futures 
+Age 
+<30, 30-40, 40-50, 50-60, >60 (years) 
+Income 
+<5 Lakh, 5-10L, 10-25L, 25-50L, 50-100L, >100L 
+Gender 
+Male/ Female 
+Tier_Cities 
+Tier I, Tier II, Tier III * 
+a) 
+Tier I (The following 7 cities considered - Bangalore, Delhi, Chennai, 
+Hyderabad, Mumbai, Pune, Kolkata). 
+b) 
+Tier II (The following 20 cities considered - Amritsar, Bhopal, 
+Bhubaneswar, Chandigarh, Faridabad, Ghaziabad, Jamshedpur, 
+Jaipur, Kochi, Lucknow, Nagpur, Patna, Raipur, Surat, 
+Visakhapatnam, Agra, Ajmer, Kanpur, Mysuru, Srinagar), 
+c) Tier III (The following 19 cities considered - Etawah, Roorkee, 
+Rajahmundry, Bhatinda, Hajipur, Rohtak, Hosur, Gandhinagar, 
+Junagadh, Udaipur, Salem, Jhansi, Madurai, Meerut, Mathura, 
+Bikaner, Cuttack, Vijayawada, Nashik). 
+T30_B30_Cities 
+Top 30 Cities (T30), Beyond 30 Cities (B30) 
+a) Top 30 cities classification is as per the pin code mapping provided 
+by AMFI. 
+b) Beyond 30 Cities, all other cities, towns and villages City Names are 
+mapped using Pincodes 
+State 
+State / UT Names as per the PIN Code directory available at 
+https://data.gov.in/ and mapped using Pincodes 
+Gross Turnover 
+Notional Turnover for Futures; Premium Turnover for Options 
+Gross Profit/ Loss 
+Realized profit or loss, on the squared off equity derivatives positions during 
+the quarter 
+a) 
+Exclude positions involving physical delivery
+
+Sl. 
+No. 
+Data Fields/ Parameters 
+Sub-category 
+b) Exclude positions not squared off during the period (i.e. excluding 
+outstanding open positions) 
+Net Profit / Loss 
+Gross Profit or Loss – Transaction Costs; (Trading Profit / Loss after adjusting 
+for the transaction costs; 
+Pincodes 
+PIN Codes correspondence address (as per the latest KYC) 
+
+Notes* - A pin code mapping has been done for these cities as per the information available in https://data.gov.in/ in order 
+to maintain consistency across all the brokers. 
+
+• 
+Client-set: Individual Clients (which includes HUF and NRIs; excludes Proprietary 
+traders, institutions, partnership firms etc.) 
+
+ Table 4: Investor Category Definitions 
+Category 
+Major Investor Categories 
+Proprietary (PROP) Traders 
+Trading Member, who itself trade in EDS in its own account; 
+It also includes global participants who operate in the capacity of 
+“Trading Member – Proprietary” in India and are owned by foreign 
+entities 
+Foreign Portfolio Investors (FPIs) 
+FPI-all categories, FVCI, QFI, etc. 
+Mutual Funds 
+Mutual Funds 
+Domestic Institutional Investors 
+(DIIs) 
+Banks, NBFC, Insurance Companies, AIFs, Domestic Financial 
+Institutions, etc. 
+Corporate 
+Body corporates and trusts, all entities other than DIIs and Prop 
+Trading Firms 
+Partnership / LLP firm 
+Partnership Firm, Limited Liability Partnership Firm 
+Individuals 
+Individuals (both Retail and HNI), Hindu Undivided Family (HUF), 
+Non-Resident Indian (NRI), Sole Proprietorship, and Individuals 
+trading through Portfolio Management Services (PMS) 
+• 
+Open positions at the end of the period are excluded. Where one leg of a trade falls inside 
+the study period and the other falls outside it, the treatment is clarified below: 
+▪ 
+Example 1: Period: FY 2025-26; Consider Contract-A with expiry in April 2025. 
+Contract-A purchased & sold during March 2025 - will not be considered 
+Contract-A purchased during March 2025, sold during April 2026/ settled on 
+expiry - will be considered. 
+▪ 
+Example 2: Period: FY 2025-26; Consider Contract-B with expiry in April 2026. 
+Contract-B purchased & sold during March 2026 - will be considered 
+Contract-B purchased during March 2026, sold during April 2026/ settled on expiry 
+- will not be considered.
+
+6. DATA ANALYSIS AND FINDINGS 
+SECTION 1: GROWTH IN EQUITY DERIVATIVES SUBSEGMENTS 
+6.1. Trend in Equity Derivatives Turnover 
+Notional Turnover in EDS: 
+• Over the last ten years, notional turnover in India's Equity Derivatives Segment (EDS) 
+has risen sharply from ₹692 lakh crore in FY16 to ₹1,10,418 lakh crore in FY26. Growth 
+was strongest between FY21 and FY24, with annual increases of 97%, 159%, 119% and 
+128% in successive years. 
+• However, growth in the EDS has moderated in the last couple of years. After rising 20.4% 
+in FY25, notional turnover grew by only 4.2% in FY26 - well below the exceptionally high 
+growth rates seen in earlier years. 
+Chart 1: Notional Turnover in EDS of India 
+
+Note: Both Futures and Options turnover is based on notional turnover, Data is combined for both BSE and NSE 
+
+• The equity derivatives segment has grown substantially faster than the cash segment 
+over the last decade. In FY16, derivatives turnover was about 14 times the cash market 
+turnover; by FY26, this ratio had increased to 394 times. Although the ratio has 
+moderated from its peak of 405 times in FY24, it remains at a historically elevated level. 
+As explained in subsequent sections, the ratio of notional turnover in EDS to cash market 
+appears steep, primarily due to trading activity in short tenure index options, a sub-
+segment within EDS that has shown maximum growth over the years. In terms of traded 
+turnover, the annual turnover in EDS, during the aforesaid period, is broadly in the range 
+of 2 times to 3 times of turnover in cash market. 
+1,650
+2,376
+3,448
+6,787
+17,613
+38,566
+87,956
+105,916
+110,418
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+FY16
+FY17
+FY18
+FY19
+FY20
+FY21
+FY22
+FY23
+FY24
+FY25
+FY26
+Notional Turnover (₹ Lakh Crore)
+
+• The rise in derivatives is mainly driven by the Index derivatives. Their share in the total 
+equity derivatives turnover, in the notional terms, rose from 77% in FY16 to 99% in FY26, 
+and has stayed at 98-99% every year since FY23. The share of traded turnover of index 
+derivatives as percentage of overall traded turnover in EDS rose from 24% in FY22 to 
+43% in FY26. 
+Chart 2: Growth in Derivatives / Index Derivatives Share 
+Ratio of Derivatives to Cash Turnover 
+(times) 
+Share of Index Derivatives in Total EDS 
+Turnover (%) 
+
+Note: Both Futures and Options turnover is based on notional turnover, Data is combined for both BSE and NSE. In terms 
+of traded turnover, the ratio of derivatives to cash turnover is broadly in the range of 2 to 3. 
+
+Premium Turnover in EDS: 
+• The moderation in EDS activity in FY26 reflected slower growth in Options as well as a 
+decline in Futures. Futures turnover declined by 15% in FY26, after increasing by 41% in 
+FY25, while Options premium turnover grew by 7%, significantly slower than the 14% 
+growth in FY25 and the higher growth recorded in earlier years. 
+• The relative resilience of Options, however, continued to shape the overall EDS activity. 
+While Futures activity contracted in FY26, Options premium turnover continued to 
+increase, albeit at a more moderate pace. 
+• Overall, the EDS remained substantially larger than in earlier years, but the pace of 
+expansion moderated in FY26, with both segments contributing to the slowdown in 
+activity. 
+
+13.9
+77%
+99%
+FY16
+FY17
+FY18
+FY19
+FY20
+FY21
+FY22
+FY23
+FY24
+FY25
+FY26
+
+Table 5: Growth in Turnover in the Equity Derivatives Segment, FY22–FY26 
+Year 
+Futures 
+Options 
+Total 
+Notional 
+Turnover (₹ 
+Lakh Crore) 
+YoY 
+Growth 
+Premium 
+Turnover (₹ 
+Lakh Crore) 
+YoY 
+Growth 
+Traded 
+Turnover 
+(₹ Lakh Crore) 
+YoY 
+Growth 
+FY22 
+- 
+- 
+- 
+FY23 
+-3% 
+73% 
+11% 
+FY24 
+15% 
+31% 
+20% 
+FY25 
+41% 
+14% 
+32% 
+FY26 
+-15% 
+7% 
+-9% 
+Note: Data represent premium turnover for Options and notional turnover for Futures, Combined for NSE and BSE. 
+Segment-wise Growth in EDS: 
+• The segment wise data points to a continued structural shift towards index-based 
+derivatives, although the pace and direction varied across segments. 
+• Index Futures activity declined by 16% in FY26, following a 19% increase in FY25. In 
+contrast, Stock Futures declined by 15% in FY26, after a much stronger 47% increase in 
+FY25. Thus, both Futures segments contracted in FY26, with Index Futures remaining 
+the larger component of the Futures segment. 
+• Index Options continued to grow, increasing by 9% in FY26, although the growth 
+moderated from 11% in FY25 and much higher rates in FY23–FY24. 
+• Stock Options declined by 10% in FY26, mirroring a 10% decline recorded in FY23 and 
+reversing the 44% growth observed in FY25. This decline indicates that individual equity 
+options performance diverged from the 9% expansion seen in the Index Options during 
+FY26. 
+• Index Options continued to dominate the Options segment, accounting for 91% of 
+Options activity in FY26, marginally higher than 89% share in FY25. The share of Index 
+Futures in the Futures segment declined to 19% in FY26 from 33% in FY23. 
+Table 6: Trends in Activity across EDS Sub-segments, FY23–FY26 
+Year 
+YoY Growth Rate (%) 
+% Share 
+Index 
+Futures 
+Stock 
+Futures 
+Index 
+Options 
+Stock 
+Options 
+Index Futures 
+in the Futures 
+Segment 
+Index Options in 
+the Options 
+Segment 
+FY23 
+13% 
+-9% 
+87% 
+-10% 
+33% 
+92% 
+FY24 
+-22% 
+33% 
+30% 
+47% 
+23% 
+91% 
+FY25 
+19% 
+47% 
+11% 
+44% 
+19% 
+89% 
+FY26 
+-16% 
+-15% 
+9% 
+-10% 
+19% 
+91% 
+Note: Data represent premium turnover for Options and notional turnover for Futures, Combined for NSE and BSE.
+
+Segment-wise Growth in EDS (Quarterly): 
+• The equity derivatives market continued to grow in FY26, though growth slowed 
+significantly after the regulatory and tax changes introduced during the year. Index 
+Options remained the main driver of market activity. 
+• Following the increase in Securities Transaction Tax (STT) from 01 October 2024 for 
+Futures and Options contacts and SEBI's measures from 20 November 2024, mainly 
+intended to address heightened activity in index options on expiry day, the turnover fell 
+across all derivatives sub-segments. In Q4 FY26, Index Options turnover fell about 15% 
+year-on-year, while Stock Futures, Index Futures and Stock Options each fell by around 
+30%. 
+• The impact varied by product. Index Options held up far better than other segments: 
+despite the regulatory measures, Q4 FY26 turnover in Index Options was still about six 
+times its FY22 level (roughly 495% higher), while Index Futures turnover was only about 
+5% above FY22 levels. This confirms that the long-term growth of India's derivatives 
+market has been driven overwhelmingly by Index Options. 
+• In other words, the regulatory measures slowed growth but did not reverse the shift 
+towards Index Options. Trading activity fell across products, but Index Options kept its 
+dominant share. 
+Chart 3: Growth in Turnover in EDS Sub-Segments 
+
+Note: Futures turnover is based on notional turnover, while Options turnover is based on premium turnover. Values are 
+indexed to FY22 Q1 = 100 for comparability. Data is combined for both BSE and NSE 
+Turnover Index (FY22Q1 = 100)
+FUTIDX
+FUTSTK
+OPTIDX
+OPTSTK
+* SEBI measures in EDS (single weekly 
+expiry per exchange, increase in the lot size 
+of index derivatives, etc.) 
+* STT Increase on Futures and Options
+Stock Options
+Index Futures
+Stock Futures
+Index Options
+
+6.2. Unique Traders in the Equity Derivatives Segment 
+• The number of individual traders participating in the equity derivatives segment 
+increased substantially over the past decade, rising from around 7 lakh in FY15 to over 
+1 crore in FY25. The expansion accelerated markedly after FY21, resulting in a significant 
+broadening of retail participation in the segment. 
+• FY26 marked the first annual reversal in this long-term expansion. The number of active 
+individual traders declined by about 18% year-on-year to around 88 lakh, from over 1 
+crore in FY25. The decline indicates a significant moderation in retail participation 
+following several years of rapid expansion. 
+• The moderation, however, did not reverse the structural expansion in participation. The 
+FY26 trader base remained more than twelve times the FY15 level, indicating that 
+participation in equity derivatives continues to be substantially higher than its pre-FY21 
+levels. 
+• The annual decline was concentrated primarily in options participation, which accounts 
+for the overwhelming majority of individual EDS traders. Futures participation 
+remained much smaller in absolute terms, although the decline in index futures 
+participation was particularly pronounced. 
+• Importantly, the FY26 decline appears to have been a partial retrenchment rather than a 
+complete reversal of the post-FY21 expansion. 
+Chart 4: Trend in Number of Active Individual Traders in the EDS (in Lakh) 
+
+Note: Represent unique traders in EDS, aggregated across BSE and NSE 
+
+7.3
+7.2
+7.2
+9.3
+11.5
+13.8
+26.3
+51.4
+67.0
+95.6
+106.2
+87.5
+96%
+-18%
+-40%
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+0.0
+20.0
+40.0
+60.0
+80.0
+100.0
+120.0
+FY15
+FY16
+FY17
+FY18
+FY19
+FY20
+FY21
+FY22
+FY23
+FY24
+FY25
+FY26
+Growth rate (%)
+Traders in Lakh
+Total EDS Traders
+Growth Rate (%)
+
+6.3. Segment-wise Unique Traders in the Equity Derivatives Segment (Quarterly) 
+Futures vs Options: 
+• Quarterly participation increased more than threefold from 22.1 lakh unique traders in 
+Q1 FY22 to a peak of 68.5 lakh in Q1 FY25, reflecting the rapid expansion of retail 
+participation in equity derivatives following FY21. 
+• Participation began to moderate during FY25, with total unique traders declining from 
+68.5 lakh in Q1 FY25 to 67.5 lakh in Q2, 61.7 lakh in Q3 and 50.4 lakh in Q4. Thus, the 
+decline accelerated during the second half of FY25, with quarterly participation falling 
+by about 26% between Q2 and Q4 FY25. 
+• The decline was driven predominantly by options participation. Options traders fell 
+from 67.5 lakh in Q1 FY25 to 49.3 lakh in Q4 FY25, a decline of about 27%. Futures 
+participation was much smaller and relatively more stable in aggregate, although index 
+futures recorded a significant decline. 
+Chart 5: Trend in Number of Active Traders in the EDS (in Lakh) (Quarterly, Segment-wise) 
+
+Note: Represent unique traders in EDS, aggregated across BSE and NSE 
+
+Index Options, Index Futures, Stock Futures, Stock Options: 
+• Index Options: Participation increased strongly from FY22 Q1, reaching a peak in FY25 
+Q1 of about 3.3 times the FY22 Q1 level. Despite the subsequent correction, participation 
+in FY26 Q4 remained about 2.6 times the FY22 Q1 level, indicating that the long-term 
+expansion remained substantial. 
+3.2
+4.8
+4.2
+4.0
+Number of Traders (in Lakh)
+All investors
+Futures
+Options
+* SEBI measures in EDS (single 
+weekly expiry per exchange, 
+increase in the lot size of index 
+derivatives, etc.) 
+* STT Increase on Futures and 
+Options
+
+• Stock Options: Participation increased to a peak of about 95% above the FY22 Q1 level. 
+Despite the subsequent correction, FY26 Q4 participation remained about 80% higher 
+than FY22 Q1, indicating a relatively limited decline from the peak. 
+• Stock Futures: Participation rose to a peak of about 58% above the FY22 Q1 level and, 
+after a moderate correction, remained about 39% above the FY22 Q1 level in FY26 Q4. 
+• Index Futures: Participation initially increased, reaching a peak of about 38% above the 
+FY22 Q1 level, but subsequently declined sharply. By FY26 Q4, participation was about 
+10% below the FY22 Q1 level, making index futures the only product to fall below its 
+FY22 Q1 participation level and the product showing the most persistent contraction. 
+Chart 6: Unique Traders in EDS Sub-Segments 
+
+Note: Represent unique traders in EDS, aggregated across BSE and NSE 
+
+6.4. Share of Individual Traders in Equity Derivatives Turnover 
+• 
+Retail participation is increasingly concentrated in Index Options. Individuals' share of 
+turnover was highest in Index Options (38%), followed by Index Futures (30%), Stock 
+Options (26%) and Stock Futures (13%). 
+• 
+Index Options was the only sub-segment where the retail share of turnover increased over 
+the study period - from 33% in Q1 FY22 to a peak of 40% in Q3 FY26, before easing slightly 
+to 38% in Q4 FY26. 
+• 
+In every other product, the individual share of turnover declined. Stock Futures saw the 
+biggest fall, from 21% to 13%, while Stock Options fell from 33% to 26% and Index Futures 
+from 32% to 30%. 
+Unique Traders Index (FY22:Q1 = 100)
+FUTIDX
+FUTSTK
+OPTIDX
+OPTSTK
+* SEBI measures in EDS (single 
+weekly expiry per exchange, increase 
+in the lot size of index derivatives,
+etc.) 
+* STT Increase on Futures and 
+Options
+Stock Futures
+Index Futures
+Stock Options
+Index Options
+
+• 
+This shows that the rapid growth in retail participation has come almost entirely from 
+Index Options, not from the derivatives market as a whole. 
+Chart 7: Individual Share of Turnover, by EDS Sub-Segment 
+
+6.5. Composition of Futures and Options Segment Turnover – For Individuals 
+• Within the options segment, trading shifted markedly towards index-based instruments. 
+The share of index options in options turnover rose from 81% in Q1 FY22 to 94% in Q4 
+FY26, while the share of stock options fell from 19% to 6%. 
+• The futures segment stayed broadly stable over the same period. The share of index futures 
+turnover eased slightly from 37% to 36%, while stock futures edged up from 63% to 64% - 
+little change in trader preference within futures. 
+Chart 8: Composition of Futures and Options Segment Turnover for Individual Investors 
+Futures Segment 
+Options Segment 
+
+Note: Percentage shares are computed using premium turnover for Options and notional turnover for Futures. 
+Turnover figures relate to Individual investors only. 
+Individual share of turnover (%)
+FUTIDX
+FUTSTK
+OPTIDX
+OPTSTK
+37%
+63%
+Index 
+Futures
+36%
+Stock 
+Futures
+64%
+FY22:Q1
+FY26:Q4
+81%
+19%
+Index 
+Options
+94%
+Stock Options
+6%
+FY22:Q1
+FY26:Q4
+Q1 
+FY22 
+Q1 
+FY22 
+Q1 
+FY22
+Q1 
+FY22 
+Q4 
+FY26 
+Q4 
+FY26
+Q4 
+FY26 
+Q4 
+FY26
+
+6.6. Growth in New Entrants and Exiting Traders 
+• Over the past 11 years (FY16–FY26), around 2 crore unique investors traded in the 
+equity derivatives segment. 
+• Of these, nearly 87%, about 1.73 crore investors, entered the equity derivatives market 
+during the post-COVID period (FY21–FY26). 
+• The number of new (first-time) traders entering the segment peaked at 43.1 lakh in FY24 
+and has fallen in each of the two years since, to 34.3 lakh in FY25 and 20.8 lakh in FY26, 
+a decline of about 39% in FY26 alone. 
+• Traders exiting the segment have risen significantly over the same period. The number 
+of exits grew from 4.2 lakh in FY22 to 45.7 lakh in FY26, more than tenfold, and the exit 
+rate, measured as a share of the previous year's trader base, rose from 16% to 43% over 
+the same period. 
+Chart 9: New Entrants and Exiting Traders in the Equity Derivatives Segment 
+
+• Taken together, new entrants and exits produced a negative net addition to the trader 
+base in FY26, the first such reversal in the period studied. Net addition (new traders 
+minus exited traders) was positive in every year from FY16 to FY25, including FY25 itself 
+(+8.2 lakh), before turning to −24.9 lakh in FY26. 
+• The decline in new entrants and the rise in exits have moved together since FY24, rather 
+than FY26 being an isolated year: exits grew 33% in FY24 and 79% in FY25, ahead of the 
+76% growth recorded in FY26. 
+2.9
+2.7
+3.9
+4.6
+5.3
+14.8
+30.1
+29.6
+43.1
+34.3
+20.8
+1.7
+1.6
+1.2
+1.6
+2.4
+4.2
+10.9
+14.6
+45.7
+FY16
+FY17
+FY18
+FY19
+FY20
+FY21
+FY22
+FY23
+FY24
+FY25
+FY26
+Traders in Lakh
+New Traders
+Exited Traders
+
+6.7. Trend in Demat Account Opening for Derivatives Traders 
+• An analysis of 1.67 crore individual EDS traders indicates a significant shift in market 
+demographics, with the post-COVID period witnessing a sharp surge in investors 
+opening their first-ever demat and trading accounts. 
+• The post-pandemic period was the principal driver of new market entry: about 72% of 
+all EDS traders opened their first demat and trading account during this period. 
+• Over the last six years following the pandemic, more than 1.20 crore unique individual 
+investors who had newly opened demat and trading accounts went on to participate in 
+the EDS market. 
+• However, the pace of such fresh account-based entry into EDS moderated in FY26. The 
+number of investors opening their first demat and trading account and trading EDS for 
+the first time declined to 4.7 lakh, compared with 12.8 lakh in FY25 and 35.3 lakh in FY22. 
+These first-time entrants accounted for only 6% of FY26 EDS traders and 2.8% of the total 
+active trader base. 
+Chart 12: First (Oldest) Demat Account Opened by EDS Traders 
+
+Note: Based on a sample of 1.67 crore traders who traded in EDS during FY22–FY26, Data shows year in which currently 
+active EDS traders first opened a demat account, in lakh traders 
+
+21.9
+2.6
+3.1
+5.5
+5.4
+8.0
+23.0
+35.3
+20.6
+24.1
+12.8
+4.7
+Traders ( Lakh)
+
+SECTION 2: IMPACT OF THE REGULATORY MEASURES: Q3 FY25 
+On October 01, 2024, SEBI stipulated several measures to address heightened activity in index 
+options on expiry day for increased investor protection and market stability. Amongst them 
+following three measures were made effective from November 20, 2024. 
+a) Weekly expiry restricted to just 1 index per exchange 
+b) Minimum contract value of derivatives contracts increased to ₹15-20 lakh 
+c) Extreme Loss Margin on short options increased by 2 percentage points on expiry 
+days 
+6.8 Changes in the Number of Participants 
+• Participation declined during Q3 FY25, with the decline more pronounced in options 
+than in futures, particularly in index options. This is consistent with an immediate 
+decline in ‘0DTE’ contracts turnover in the Index Options segment following the 
+rationalisation of weekly index expiries. However, the decline cannot be attributed solely 
+to the regulatory measures, as participation had already begun moderating before their 
+implementation. 
+• The decline became more pronounced post SEBI measures. Between Q2 FY25 and Q4 
+FY25, the number of unique EDS traders declined by 25.4%. The decline was 
+concentrated in options, where participation fell by 25.8%, while index options declined 
+by 26.8%. In comparison, futures participation declined by 16.7%, with stock futures and 
+stock options declining by 10.4% and 9.4%, respectively. 
+• The pattern suggests that the measures were followed by a significant but differentiated 
+impact in retail participation, with the impact more pronounced in index options than 
+in the other product segments. The findings, however, should be interpreted as an 
+association in timing rather than evidence of causation. 
+Table 7: Segment-wise Active Unique Traders (Number in Lakh) 
+Product 
+Q2 FY25 
+Q4 FY25 
+Change 
+% Change 
+All EDS traders 
+67.50 
+50.37 
+−17.13 
+−25.4% 
+Futures 
+5.03 
+4.19 
+−0.84 
+−16.7% 
+Options 
+66.38 
+49.27 
+−17.11 
+−25.8% 
+Index Futures (IF) 
+2.58 
+1.83 
+−0.75 
+−29.0% 
+Index Options (IO) 
+63.70 
+46.31 
+−17.09 
+−26.8% 
+Stock Futures (SF) 
+3.75 
+3.36 
+−0.39 
+−10.4% 
+Stock Options (SO) 
+1.96 
+1.78 
+−0.18 
+−9.4%
+
+6.9 Changes in the Average Turnover Per Trader 
+• The decline in the number of participants between Q2 and Q4 FY25 was accompanied by 
+an increase in average trading intensity among the remaining index-derivatives 
+participants, particularly in index options and index futures. 
+• Options: traders declined substantially (decline by 26%) between Q2 and Q4 FY25, but 
+average turnover per options trader increased 10.8%. This suggests that the small size 
+traders left and remaining traders, who were active, became more active in Q4 FY25. 
+• Index Options: participation fell 26.8%, while average turnover per trader increased 
+12.3%. 
+• Index Futures: participation fell 29%, but average turnover per trader increased 20.0%. 
+• Stock Futures: both participation and average turnover declined, with average turnover 
+falling 15.8%. 
+• Overall Futures: average turnover declined only 7.3%, despite the fall in participation. 
+Table 8: Segment-wise Average Turnover per Trader (Amount in ₹ Crore) 
+Product 
+Q2 FY25 
+Q4 FY25 
+% Change 
+Futures 
+ 51.41 
+ 47.64 
+−7.3% 
+Options 
+ 1.42 
+ 1.58 
+11% 
+Index Futures (IF) 
+ 17.86 
+ 21.43 
+20% 
+Index Options (IO) 
+ 1.32 
+ 1.48 
+12% 
+Stock Futures (SF) 
+ 56.60 
+ 47.67 
+−15.8% 
+Stock Options (SO) 
+ 0.54 
+ 0.52 
+−3.8% 
+
+6.10 Average Daily Turnover in Index Options 
+• Average Daily Turnover in the Index Options, across NSE and BSE, declined by 17.4% 
+following the November 2024 measures, from ₹65,935 crore in the pre-policy period to 
+₹54,771 crore during December 2024–March 2025. It remained relatively subdued during 
+the subsequent adjustment period, before recovering strongly by 38% to ₹81,696 crore 
+during October 2025–March 2026. 
+• Overall, the data indicates a three-stage pattern of initial contraction, prolonged 
+adjustment and subsequent recovery in ADT.
+
+Table 9: Average Daily Turnover in the Index Options (Amount in ₹ Crore) 
+Phase 
+Period 
+Average ADT 
+(₹ crore) 
+Change vs. 
+Previous Phase 
+Pre-Policy Phase 
+Apr–Nov 2024 
+ 65,935 
+- 
+Initial contraction 
+Dec 2024–Mar 2025 
+ 54,771 
+−17.4% 
+Adjustment Phase 
+Apr–Sep 2025 
+ 59,237 
++8% 
+Subsequent recovery 
+Oct 2025–Mar 2026 
+ 81,696 
++38% 
+
+• The monthly data shows, ADT declined after the implementation of the November 2024 
+measures, falling from ₹63,371 crore in November 2024 to a low of ₹49,870 crore in July 
+2025, a decline of about 21%. Thereafter, ADT recovered steadily, reaching ₹1,18,474 
+crore by March 2026, about 87% above the November 2024 level. 
+• By March 2026, ADT had increased to ₹1,18,474 crore, representing an increase of about 
+103% over April 2024. Thus, while the measures were followed by an initial decline, the 
+later increase in premium ADT more than offset the earlier contraction. 
+Chart 13: Average Daily Turnover in the Index Options 
+
+Note: Data combined for NSE and BSE 
+
+6.11 Expiry vs Non-Expiry Trends in Average Daily Turnover (ADT) 
+• Following the implementation of SEBI’s November 2024 measures and the October 2024 
+increase in STT, premium turnover showed a differentiated pattern across the two 
+exchanges. In the immediate post-policy period (December 2024–March 2025), NSE 
+58,444 
+63,371 
+49,870 
+118,474 
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+Apr/2024
+May/2024
+Jun/2024
+Jul/2024
+Aug/2024
+Sep/2024
+Oct/2024
+Nov/2024
+Dec/2024
+Jan/2025
+Feb/2025
+Mar/2025
+Apr/2025
+May/2025
+Jun/2025
+Jul/2025
+Aug/2025
+Sep/2025
+Oct/2025
+Nov/2025
+Dec/2025
+Jan/2026
+Feb/2026
+Mar/2026
+ADT (Rs Crore)
+* SEBI measures in EDS (single weekly 
+expiry per exchange, increase in the lot size 
+of index derivatives, etc.) 
+* STT Increase on Futures and Options
+-17%
++138%
+
+recorded a decline in both expiry-day and non-expiry-day premium turnover, while BSE 
+recorded an increase in both. 
+• NSE premium Average Daily Turnover (ADT) declined by 25.6% on expiry days, from 
+₹64,181 crore to ₹47,761 crore, and by 29.0% on non-expiry days, from ₹60,048 crore to 
+₹42,659 crore. Expiry-day ADT reached a low of ₹39,717 crore in February 2025 before 
+recovering in subsequent months, indicating that the initial decline extended beyond 
+expiry-day activity. 
+• BSE premium turnover increased in both categories, although the increase was 
+substantially larger on non-expiry days. Expiry-day ADT increased by 15.2%, from 
+₹22,271 crore to ₹25,648 crore, while non-expiry-day ADT increased by 528.4%, from 
+₹1,101 crore to ₹6,917 crore. Consequently, the earlier concentration of BSE activity on 
+expiry days declined substantially. 
+• The concentration of premium turnover around expiry days evolved differently across 
+the two exchanges. On NSE, the expiry-to-non-expiry ADT ratio increased from 1.1x in 
+the pre-policy period to 1.6x in the recent period (October 2025–March 2026). On BSE, 
+the ratio declined from 20.2x to 3.4x, as non-expiry-day activity increased substantially 
+faster than expiry-day activity. 
+• By the recent period (October 2025-March 2026), NSE expiry-day premium ADT had 
+recovered to ₹79,802 crore, above the pre-policy average, while non-expiry-day ADT 
+remained lower at ₹50,760 crore. BSE also recorded higher premium turnover in both 
+categories, with expiry-day ADT at ₹53,357 crore and non-expiry-day ADT at ₹15,667 
+crore. Thus, premium turnover recovered across both exchanges, although the pattern of 
+recovery differed between expiry and non-expiry days. 
+Table 10: Average Daily Turnover on Expiry Days vs Non-Expiry Days (₹ Crore) 
+Metric 
+Pre-Policy 
+(Apr–Oct 2024) 
+Immediate Post-Policy 
+(Dec 2024–Mar 2025) 
+Recent 
+(Oct 2025–Mar 2026) 
+NSE expiry-day premium 
+ADT 
+64,181 
+47,761 (−25.6%) 
+79,802 (+60.0%) 
+NSE non-expiry-day 
+premium ADT 
+60,048 
+42,659 (−29.0%) 
+50,760 (+84.0%) 
+BSE expiry-day premium 
+ADT 
+22,271 
+25,648 (+15.2%) 
+53,357 (+48.1%) 
+BSE non-expiry-day 
+premium ADT 
+1,101 
+6,917 (+528.4%) 
+15,667 (+44.2%) 
+NSE expiry / non-expiry 
+1.1x 
+1.1x 
+1.6x 
+BSE expiry / non-expiry 
+20.2x 
+3.7x 
+3.4x
+
+SECTION 3: GROWTH IN WEEKLY AND ‘0DTE’ CONTRACTS IN EDS 
+6.12 Share of Weekly Expiries 
+• 
+Before November 2024, index options trading was concentrated mainly in weekly expiry 
+contracts. Because index derivatives on NSE and BSE expired on different weekdays, the 
+market effectively had expiry events on almost every trading day. 
+• 
+From 20 November 2024, SEBI limited each exchange to offering weekly derivative 
+contracts on only one index, cutting the number of weekly expiry events in the market. 
+• 
+The share of weekly expiry contracts in total index options turnover fell from about 98% 
+in October 2024 to around 82% in December 2024 after the change, then gradually 
+recovered to around 97% over the following months. 
+• 
+This recovery, despite fewer weekly expiry events, shows that trading stayed 
+concentrated in short-tenor contracts and simply shifted to the remaining weekly 
+expiries. 
+• 
+As of March 2026, around 97% of index options turnover was in contracts with seven days 
+or less to expiry, compared with only about 14% for stock options - showing that the 
+preference for short-dated contracts is largely specific to index options. 
+Chart 16: % Share of Weekly Expiries in the Options Segment 
+
+Note: Data aggregated across BSE and NSE; IO means Index Options; SO means Stock Options 
+
+6.13. Share of ‘0DTE’ (Zero Days-To-Expiry) Options 
+• 
+‘0DTE’ (Zero Days-to-Expiry) options are contracts traded on the day they expire. With 
+only a few hours of life left, their prices are highly sensitive to movements in the index - 
+98%
+98%
+82%
+IO, 97%
+15%
+15%
+11%
+SO; 14%
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+04/2024
+07/2024
+10/2024
+01/2025
+04/2025
+07/2025
+10/2025
+01/2026
+IO
+SO
+
+making 
+them 
+the 
+shortest-ten 
+or options contracts available. 
+• 
+Trading has become increasingly concentrated in contracts close to expiry. The share of 
+‘0DTE’ contracts in total index options turnover rose from 38% in FY22 to 70% in FY25, 
+then eased to 59% in FY26. 
+• 
+Trading within one day of expiry (‘1 DTE’ or less) accounted for 56% of turnover in FY22, 
+rose to 80% in FY25, and eased to 75% in FY26. In other words, three out of every four 
+index options trades in FY26 happened on the expiry day or the day before. 
+• 
+Even with the FY26 moderation in 0DTE activity, trading stayed highly concentrated in 
+short-tenor contracts: about 82% of turnover occurred within three days of expiry, around 
+90% within four days, and 97% within one week. 
+• 
+Over the study period, turnover has shifted markedly towards shorter maturities. The 
+share of ‘0DTE’ trading rose 21 percentage points between FY22 and FY26, while the share 
+of trading within one week of expiry stayed above 95% throughout - showing that the 
+rise in activity has been concentrated in contracts expiring within a few days, not in 
+longer-dated ones. 
+• 
+Longer-dated contracts remain a very small part of trading. In FY26, only about 3% of 
+turnover was in contracts with more than seven days to expiry, and just 1% in contracts 
+with more than ten days to expiry - underlining how concentrated trading is in very short-
+tenor index options. 
+• 
+Near-expiry options need a relatively small premium outlay, but their prices are highly 
+sensitive to small moves in the underlying index as expiry nears. As a result, even a small 
+index move can cause a large percentage change in the option's price - a feature that 
+makes ‘0DTE’ and 1DTE contracts especially attractive for short-term trading.
+
+SECTION 4: PROFITABILITY ACROSS INVESTOR CATEGORIES 
+This section covers the entire population of traders in the equity derivatives segment of BSE 
+and NSE combined- 106.3 lakh in FY25 and 87.7 lakh in FY26. The profit-and-loss figures are 
+squared-off gross realised P&L, i.e. realised trading profit or loss before transaction costs, and 
+exclude positions still open at the end of FY26. 
+6.15. Investor Category-wise Profit and Loss (FY25-FY26 Combined) 
+• Over FY25–FY26, Proprietary (PROP) traders earned the highest gross profit - more than 
+₹90,400 crore - followed by Foreign Portfolio Investors (FPIs) at about ₹45,000 crore, 
+Corporates at about ₹14,200 crore, Mutual Funds at about ₹8,200 crore, and 
+Partnership/LLP firms at about ₹7,700 crore. 
+• Individual traders were the only major category to record an aggregate loss. During FY25-
+FY26, individual traders together incurred gross losses of about ₹1.70 lakh crore in the 
+equity derivatives segment. 
+• Derivatives trading is largely a zero-sum activity before transaction costs, so one 
+participant's loss broadly corresponds to another's gain. The aggregate losses of individual 
+traders were broadly matched by the aggregate profits of corporate and institutional 
+participants. 
+Chart 18: Category-wise Gross P&L in EDS during FY25–FY26 Combined (₹Crore) 
+
+Note: 1) DII excludes Mutual Funds. 2) Prop Traders category also includes global participants who operate in the 
+capacity of “Trading Member – Proprietary” in India and are owned by foreign entities 3) Corporates include Body 
+Corporates and Trusts, 4) Clients means Individuals. 
+Source: BSE and NSE. 
+
+90,437
+44,980
+14,242
+8,208
+7,690
+4,242
+-170,125
+PROP
+FPI
+Coporates
+Mutual 
+Funds
+Partnership 
+Firm / 
+LLP
+Others
+P&L Rs Crore
+Individuals
+
+6.16. Investor Category-wise Profit and Loss (Yearly Trends) 
+• 
+In FY26, Proprietary traders continued to record the highest gross trading profit9 at about 
+₹44,000 crore, followed by FPIs (₹14,000 crore), Corporates (₹8,000 crore), Mutual Funds 
+(₹3,000 crore) and Partnership Firms/LLPs (₹3,000 crore). The gross trading loss of 
+Individual traders declined to about ₹72,000 crore. 
+• 
+The gross trading profits of most non-individual categories declined in FY26, with the 
+decline particularly pronounced among FPIs (55%), Mutual Funds (54%), Partnership 
+Firms/LLPs (38%) and Corporates (22%); proprietary traders recorded a relatively modest 
+decline of 3%. At the same time, the gross trading loss of individual traders declined by 
+26%, from about ₹98,000 crore in FY25 to ₹72,000 crore in FY26. 
+
+Chart 19: Gross P&L in the Equity Derivatives Segment (₹ Crore) 
+
+Note: 1) DII excludes Mutual Funds. 2) Prop Traders category also includes global participants who operate in the 
+capacity of “Trading Member – Proprietary” in India and are owned by foreign entities 3) Corporates include Body 
+Corporates and Trusts, 4) Clients means Individuals. 
+Source: BSE and NSE. 
+
+6.17. Investor Category-wise Profit and Loss (Futures versus Options) 
+• Institutional profit comes almost entirely from options. PROP traders earned about 98% 
+of their FY26 gross profit from options, and FPIs about 77%. On the other side, more than 
+
+9 Gross profit means trading profits before accounting for transaction costs 
+45,955
+31,085
+10,392
+5,613
+4,737
+-97,882
+44,483
+13,896
+8,092
+2,595
+2,953
+-72,243
+Prop Traders
+FPI
+Corporates
+Mutual Funds
+Partnership 
+Firm/ LLP
+DII*
+FY25
+FY26
+Individuals
+
+Chart 20: Gross P&L in EDS for FY25–FY26, Algo vs Non-Algo Entities (₹ crore) 
+
+Note: Algo entities are those that placed at least one algorithmic order in the year. Some Individual Traders are counted as 
+algo entities where the broker squared off their position using an algorithm. Source: BSE and NSE. 
+• 
+Although, the individual participation declined by about 18% in FY26 to around 88 lakh, 
+the number of Institutional Algo entities continued to grow. 
+• 
+The number of algorithmic trading entities at NSE increased steadily across FPIs, 
+proprietary trading entities and DIIs during FY24–FY26. FPI algo entities rose by 22% from 
+306 to 372, proprietary algo entities by 16% from 279 to 323, and DII algo entities more 
+than doubled from 33 to 69. 
+Chart 21: Growth in Algo Trading Entities in EDS at NSE
+
+Note: Algo entities at NSE. Source: NSE. 
+
+89,452
+44,689
+10,825
+8,208
+7,260
+-51,728
+3,417
+-38
+-118,396
+PROP
+FPI
+Corporates
+Mutual Funds
+Partnership 
+Firm / LLP
+Algo
+Non-Algo
+Individuals
+FPI
+Prop Traders
+FY24
+FY25
+FY26
+
+SECTION 5: MARKET PARTICIPATION CONCENTRATION 
+For the purpose of this analysis, the Top 5, Top 10 and Top 20 entities are identified based on 
+their ranking by gross premium turnover in the equity derivatives segment (EDS). Turnover 
+from both futures and options is combined, and the data is aggregated across NSE and BSE. 
+6.19. Turnover Concentration among Proprietary Traders 
+• 
+Proprietary (PROP) trading desks are the main liquidity providers in India's equity 
+derivatives segment, accounting for about 60% of total turnover, compared with about 
+7% for Foreign Portfolio Investors (FPIs). Within the PROP category, trading activity is 
+concentrated among a small number of firms. 
+• 
+This concentration is sharpest in options trading. In Index Options, the top five PROP 
+entities account for 62% of PROP turnover, the top ten for 85%, and the top twenty for 
+90%. Stock Options show a similar pattern: the top five account for 53%, and the top ten 
+and top twenty for 85% and 89% respectively. 
+• 
+Concentration is lower in futures but remains substantial. In Index Futures, the top five 
+PROP entities account for 29% of turnover and the top twenty for 65%. Stock Futures are 
+more concentrated, with the top five accounting for 45% and the top twenty for 74% of 
+turnover. 
+ Table 12: Turnover Concentration Among Proprietary Traders in EDS – FY26 
+Turnover Rank 
+IF 
+SF 
+IO 
+SO 
+Top 5 
+29% 
+45% 
+62% 
+53% 
+Top 10 
+40% 
+63% 
+85% 
+85% 
+Top 20 
+65% 
+74% 
+90% 
+89% 
+Notes: IF- Index Futures, SF- Stock Futures, IO – Index Options, SO – Stock Options 
+Source: NSE, BSE, SEBI Computations. 
+• The data show that liquidity in this segment is supported by a relatively small number 
+of highly active proprietary trading firms. Their presence contributes to tighter bid-ask 
+spreads, continuous quote availability and efficient price discovery, particularly in 
+options. 
+• This concentration of activity is significant: fewer than ten entities account for around 
+85% of proprietary options turnover, indicating a high degree of liquidity-provider 
+concentration in this segment. 
+• This means that liquidity provision in the options segment relies on a relatively small set 
+of large proprietary trading firms. 
+• Options liquidity is therefore closely tied to the continued participation of these few large 
+firms in the market.
+
+6.20. Turnover Concentration among Foreign Portfolio Investors 
+• Although FPIs account for only about 7% of total EDS turnover, they consistently hold 
+around one-quarter to one-third of daily open interest. This combination of low turnover 
+and high open interest indicates that FPIs mainly use derivatives for portfolio hedging 
+and medium-term positioning, rather than high-frequency or intraday trading. 
+• Turnover concentration among FPIs varies significantly across products. In Index 
+Futures and Stock Futures, the top twenty FPIs account for 71% and 67% of turnover, 
+respectively, in FY26. 
+• Stock Options show an unusual concentration pattern. The top five FPIs account for only 
+4% of turnover, but the top ten account for 85% - meaning almost the entire jump comes 
+from the 6th to 10th ranked entities. This points to activity being concentrated in a small 
+cluster of large participants rather than spread across the FPI universe. 
+• In contrast, Index Options turnover is considerably less concentrated, with the top 
+twenty FPIs accounting for only about 20% of total FPI turnover, indicating relatively 
+broader participation within the FPI segment. 
+Table 13: Turnover Concentration Among FPIs in EDS – FY26 
+Turnover Rank 
+IF 
+SF 
+IO 
+SO 
+Top 5 
+32% 
+29% 
+5% 
+4% 
+Top 10 
+52% 
+44% 
+17% 
+85% 
+Top 20 
+71% 
+67% 
+20% 
+86% 
+Notes: IF- Index futures, SF- Stock Futures, IO – Index Options, SO – Stock Options 
+Source: NSE, BSE, SEBI Computations. 
+
+6.21. Concentration of Profits and Losses 
+• Profit is concentrated even more than turnover. The top 10 PROP traders - 2.3% of the 
+category - earned ₹33,124 crore, or 74.5% of the category's total gross profit of ₹44,483 
+crore. This roughly tracks their share of trading volume: as noted above, the top entities 
+account for about 85% of options and 65% of futures activity. 
+• A similar pattern appears among FPIs. The top 10 FPIs - 1.4% of active FPIs - earned 
+₹6,852 crore, or 49.3% of the category's total profit of ₹13,896 crore. 
+• The Client (Individual) category is the mirror image of this pattern: even its highest-
+turnover traders did not earn in aggregate, with the top 20 clients posting a small net 
+loss. The gap between institutional, algorithm-driven desks and individual participants 
+is stark and consistent.
+
+SECTION 6: PROFITABILITY OF INDIVIDUAL TRADERS (RETAIL) 
+From this section onward, the analysis is based on a sample of individual traders from the top 
+15 brokers, covering about 90% of all traders in the EDS, and is limited to individual traders. 
+The Individual Traders category comprises Individuals, HUFs, NRIs, PMS investors and sole 
+proprietorships. Unless stated otherwise, figures cover FY25–FY26. Unless stated otherwise, 
+Profits means Net Profit after adjusting for transaction costs. 
+6.22. Participation and Turnover of Individual Traders (Yearly Trends) 
+• 
+Between FY22 and FY25, individual participation in the equity derivatives segment grew 
+rapidly - active traders rose from 42.7 lakh to 98.1 lakh, and gross turnover nearly doubled. 
+FY26 marked the first reversal of this trend, with both participation and trading activity 
+declining. 
+• 
+In FY26, the number of active individual traders fell by about 20%, from 98.1 lakh to 78.6 
+lakh, while gross turnover fell by only about 5%. This much smaller fall in turnover shows 
+that trading activity stayed concentrated among the traders who continued to participate, 
+especially higher-turnover traders. 
+• 
+The mix of derivatives trading also changed. Futures turnover by individual traders 
+shrank by about 20% in FY26, after strong growth in earlier years, while options turnover 
+kept growing, by about 16%, though slower than the 30% growth in FY25. As a result, 
+options strengthened their already dominant position, while futures accounted for a 
+progressively smaller share of overall trading activity. 
+• 
+This divergence suggests that the FY26 slowdown mainly reflected lower participation in 
+directional futures trading, while speculative activity in options stayed resilient despite 
+the regulatory changes introduced during the year. 
+Chart 22: Growth in Turnover of Individuals in Futures and Options Segment 
+
+Note: Trend in turnover for the 90% sample of Individuals; For the Options, premium turnover is considered 
+-6%
+79%
+8%
+30%
+31%
+14%
+-20%
+16%
+-40%
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+Futures Turnover
+Options Turnover
+YoY growth in turnover (%)
+FY23 FY24 FY25 FY26
+FY23 FY24 FY25 FY26
+
+Turnover Category-wise Trends 
+• 
+The fall in participation was driven mainly by small and relatively new participants. 
+Traders with annual turnover below ₹1 lakh fell by about 32%, from around 36 lakh to 25 
+lakh, accounting for most of the overall reduction in the trader base. 
+• 
+The sharpest decline was among the smallest traders. Traders with annual turnover below 
+₹10,000 fell by 37%, and those in the ₹10,000-₹1 lakh category fell by 26%. Turnover in 
+these segments fell in roughly the same proportion, showing that many small participants 
+either cut back signifcantly or left the market. 
+• 
+Participation among higher-turnover traders, in contrast, held up well. The number of 
+traders with annual turnover of ₹1-10 crore rose by about 1%, and those above ₹10 crore 
+rose by around 3%, despite a 5% fall in turnover in that category. This suggests the FY26 
+slowdown was driven by smaller retail participants pulling back, rather than a broad-
+based slowdown across the market. 
+• 
+As a result, the market shifted further towards experienced, high-turnover traders. 
+Although the overall number of participants declined, trading activity became relatively 
+more concentrated among larger and more active traders. 
+Chart 23: Growth in Number of Traders and Turnover (by Turnover Bucket) 
+
+Note: Trend in turnover for the 90% sample of Individuals; For the Options, premium turnover is considered 
+
+6.23. Profitability and Losses of Individual Traders (Yearly Trends) 
+Amount of Losses 
+• 
+Aggregate net losses of individual traders fell by about 18% in FY26, from ₹1,11,788 crore 
+in FY25 to ₹91,685 crore - the first decline in aggregate losses during the study period 
+-37%
+-26%
+-23%
+-10%
+1%
+3%
+-33%
+-26%
+-21%
+-7%
+3%
+-5%
+Less than 10K
+10K-1L
+1L-10L
+10L-1CR
+1CR-10CR
+>10CR
+EDS Turnover Bucket
+Growth of Investors
+Growth in Turnvoer
+Turnover growth: 
+-5% overall
+Investors growth:
+-20% overall
+
+(FY22-FY26). Losses, however, remained well above earlier years and continued to be 
+concentrated mainly in the Index Options segment. 
+• 
+Despite the FY26 decline, cumulative losses remained significant. Over the five years from 
+FY22 to FY26, individual traders incurred aggregate net losses of about ₹3.85 lakh crore in 
+the equity derivatives segment. 
+• 
+The decline in aggregate losses came alongside a 20% fall in the number of active traders 
+and an overall moderation in trading activity in FY26. However, losses fell proportionately 
+less than participation did, showing that losses remained substantial among the traders 
+who stayed active. 
+Chart 24: Aggregate Net Losses of Individual Traders in EDS (FY22–FY26) 
+
+Note: The analysis covers approximately 90% of individual traders. Assuming the remaining traders have similar loss 
+characteristics, losses for the full population may be estimated at approximately 1.11 times the losses reported here. 
+
+Proportion of Loss-Makers (Overall) 
+• 
+The proportion of individual traders incurring net losses in the equity derivatives segment 
+fell to 87.7% in FY26, from 90.9% in FY25 and 91.1% in FY24. Even so, nearly nine out of 
+ten individual traders continued to incur losses. 
+• 
+On a gross basis (before transaction costs), 82.1% of traders made losses in FY26. The rise 
+in the loss-maker share from 82.1% (gross) to 87.7% (net) shows the real impact of 
+transaction costs, which pushed some traders with small gross profits into net losses. 
+• 
+The loss-maker proportion remained consistently high throughout the study period - 
+around 90% for four consecutive years, before declining modestly in FY26. 
+• 
+This FY26 improvement should be read with caution. The year also saw a 20% drop in the 
+number of active traders, so a lower loss-maker share does not necessarily mean trading 
+outcomes have genuinely improved. 
+40,824
+65,747
+74,812
+111,788
+91,685
+20000
+40000
+60000
+80000
+100000
+120000
+FY22
+FY23
+FY24
+FY25
+FY26
+Aggregate net losses (₹ Crore)
+
+Average Per Person Losses 
+Although fewer individual traders traded in FY26, the average net loss per trader rose by 
+about 2.4%, from ₹1.14 lakh in FY25 to ₹1.17 lakh in FY26. Compared with FY22, the average 
+loss has risen by nearly 16% - the financial impact on loss-making traders has continued to 
+grow despite lower aggregate losses. 
+Chart 27: Average Net Loss Per Individual EDS Trader 
+
+6.24. Profitability and Losses of Individual Traders (Product-wise) 
+Number of Traders 
+• 
+Index Options had the largest trader base, but participation declined by 21%, from 94.7 
+lakh in FY25 to 74.8 lakh in FY26. Index Futures recorded the largest proportional 
+decline of 36%, from 4.0 lakh to 2.55 lakh. 
+• 
+Stock Options and Stock Futures saw relatively smaller declines of about 9% each, 
+indicating that the reduction in participation was more pronounced in index products, 
+particularly Index Futures. 
+
+0.96
+1.13
+0.87
+1.14
+1.17
+0.2
+0.4
+0.6
+0.8
+1.2
+1.4
+FY22
+FY23
+FY24
+FY25
+FY26
+Average net loss per trader (₹ Lakh)
+
+6.25. Profit-Makers vs Loss-Makers 
+Average Loss Per Person 
+• 
+Average losses were higher than average profits in every year during FY22–FY26. In 
+FY26, the average loss of a loss-maker was ₹1.47 lakh, compared with an average profit 
+of ₹1.22 lakh, a difference of about 21%. 
+• 
+FY26 recorded the highest average profit per trader and highest average loss during 
+the period. Average profit increased by about 22% from ₹1.00 lakh in FY25 to ₹1.22 
+lakh in FY26, while average loss increased by about 11% from ₹1.32 lakh to ₹1.47 lakh. 
+• 
+The gap between average profits and losses was highest in FY23, when the average 
+loss was about 86% higher than the average profit. The gap narrowed considerably 
+thereafter, but losses continued to exceed profits. 
+
+Chart 32: Average Per Person Profit/Loss (Profit-Makers vs Loss-Makers) in ₹ 
+
+Transaction Costs as a Share of Gross Profits/Losses 
+• 
+Transaction costs (TC) constituted a higher share of gross losses for loss-makers 
+than of gross profits for profit-makers in FY26. Transaction costs accounted for 35% 
+of gross losses of loss-makers, compared with 21% of gross profits of profit-makers. 
+• 
+The transaction-cost burden on loss-makers increased significantly in recent years, 
+rising from 27% in FY24 to 44% in FY25, before moderating to 35% in FY26. In 
+comparison, the ratio for profit-makers remained relatively stable at 18–23% during 
+FY24–FY26. 
+104,519 
+77,152 
+102,900 
+100,138 
+121,853 
+129,975 
+143,223 
+120,469 
+132,288 
+147,132 
+20,000
+40,000
+60,000
+80,000
+100,000
+120,000
+140,000
+160,000
+FY22
+FY23
+FY24
+FY25
+FY26
+Avg Profit of Profit-Makers
+Avg Loss of Loss-Makers
+
+• 
+Thus, transaction costs have a relatively greater impact on loss-makers, reducing a 
+larger proportion of their gross losses compared with the share of gross profits 
+absorbed from profit-makers. 
+
+Chart 33: Transaction Cost (as % of Gross Profit or Gross Loss) 
+
+6.26. Profitability and Losses of Individual Traders (FY25–FY26 Combined) 
+• During FY25-FY26, about 1.226 crore (122.6 lakh) unique individuals traded in the equity 
+derivatives segment at least once, compared with 1.132 crore (113.2 lakh) during FY22-
+FY24. Equity derivatives trading has become a mass-retail activity, involving more than 
+one crore individual participants over a two-year period. 
+• Aggregate net losses of individual traders during FY25-FY26 amounted to ₹2.03 lakh crore, 
+exceeding the ₹1.81 lakh crore incurred during the preceding three-year period (FY22-
+FY24). In other words, individual traders lost more in two years than they had in the 
+previous three years combined. 
+• Losses remained the dominant outcome. During FY25-FY26, 91.0% of individual traders 
+(111.6 lakh) incurred net losses, compared with 92.7% (105.1 lakh) during FY22-FY24. While 
+the proportion of loss-makers fell slightly, the absolute number of loss-making traders rose 
+by more than 6 lakh. 
+• The rise in aggregate losses was driven mainly by the larger number of traders incurring 
+losses, rather than by higher losses per trader. The average loss per loss-maker stayed 
+broadly unchanged at about ₹1.97 lakh, while the number of loss-makers rose significantly. 
+23%
+31%
+22%
+18%
+21%
+21%
+25%
+27%
+44%
+35%
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+FY22
+FY23
+FY24
+FY25
+FY26
+TC (as % of gross profits) for Profit-Makers
+TC (as % of gross losses) for Loss-Makers
+
+• Although the proportion of loss-makers fell modestly, aggregate losses rose because a 
+larger number of individual traders participated in the market and incurred losses. 
+
+Table 15: Profit-Makers vs Loss-Makers - FY25–FY26 vs FY22–FY24 
+Category 
+No. of Traders (Lakh) 
+Net P&L (₹ Cr) 
+Avg. P&L Per Person (₹) 
+Profit-Makers 
+8.1 
+11.1 
+25,020 
+16,211 
+3,08,889 
+1,46,451 
+Loss-Makers 
+105.1 
+111.6 
+-2,06,404 
+-2,19,684 
+-1,96,388 
+-1,96,931 
+Overall 
+113.2 
+122.6 
+-1,81,384 
+-2,03,473 
+-1,60,233 
+-1,65,935 
+
+• Profitability weakened even among the relatively small group of successful traders. 
+Although the number of profit-makers rose from 8.1 lakh to 11.1 lakh, their aggregate 
+profits fell from ₹25,020 crore to ₹16,211 crore, cutting the average profit per profit-maker 
+by more than half, from ₹3.09 lakh to ₹1.46 lakh. 
+• In contrast, the average loss per loss-maker stayed almost unchanged, at around ₹1.97 lakh 
+across both periods. So, the deterioration in overall outcomes came about because more 
+individuals incurred losses, while profitable traders earned substantially smaller profits. 
+• Overall, the average net loss per trader rose from ₹1.60 lakh during FY22-FY24 to ₹1.66 lakh 
+during FY25-FY26 - showing that despite a small improvement in the proportion of 
+profitable traders, financial outcomes for individual participants continued to worsen. 
+
+6.27. Distribution of Profits and Losses in EDS (Combined FY25–FY26) 
+• Losses remained highly concentrated among a relatively small group of traders with very 
+large losses. Around 4.4 lakh traders (about 3.5% of all traders) each incurred losses 
+exceeding ₹10 lakh during FY25-FY26, averaging about ₹30 lakh per person. Within this 
+group, about 14,000 traders lost more than ₹1 crore each, averaging about ₹2.2 crore per 
+trader. 
+• Losses at the upper end became larger despite the shorter observation period. The 13,900 
+traders with the largest losses lost more than ₹2.2 crore on average during FY25-FY26, 
+compared with about ₹2 crore per person over the three-year period FY22-FY24. 
+• Large profits remained rare. Only about 1.1% of traders earned profits exceeding ₹1 lakh 
+during FY25-FY26, virtually unchanged from FY22-FY24.
+
+Chart 34: Distribution of Traders and Profit/Loss by P&L Slab (FY25–FY26) 
+No. of Traders in EDS 
+Net Profit/Loss (₹'000 crore) 
+
+• The distribution of outcomes was strongly skewed towards losses across every profit-and-
+loss slab. Loss-makers outnumbered profit-makers in every category, from small gains and 
+losses to the largest profit and loss brackets. 
+• The imbalance was sharpest among traders with meaningful trading outcomes. In the ₹1 
+lakh-₹1 crore P&L range, there were more than 20 loss-makers for every profit-maker - 
+sustained trading was far more likely to result in significant losses than significant profits. 
+• Even among traders with very large outcomes, losses substantially outnumbered profits. 
+For every trader earning more than ₹1 crore, more than seven traders lost ₹1 crore or more. 
+At the highest end (above ₹10 crore), the ratio remained around 4:1 - extremely large profits 
+were considerably less common than extremely large losses. 
+Table 16: Ratio of Loss-Makers to Profit-Makers by P&L Slab (FY25–FY26) 
+Amount of Profit / Loss 
+Loss-Makers 
+Profit-Makers 
+Ratio (Loss : Profit) 
+More than ₹10 Cr 
+4 : 1 
+₹1 Cr – ₹10 Cr 
+13,663 
+1,842 
+7 : 1 
+₹10 Lakh – ₹1 Cr 
+4,23,918 
+24,319 
+17 : 1 
+₹1 Lakh – ₹10 Lakh 
+23,33,259 
+1,10,816 
+21 : 1 
+₹10,000 – ₹1 Lakh 
+37,88,462 
+2,64,119 
+14 : 1 
+Up to ₹10,000 
+45,96,039 
+7,05,546 
+7 : 1 
+
+13.7 K
+4.2 Lakh
+23.3 Lakh
+37.9 Lakh
+46 Lakh
+7.1 Lakh
+2.6 Lakh
+1.1 Lakh
+24.3 K
+1.8 K
+Loss(>10CR)
+Loss(1CR_10CR)
+Loss(10L_1CR)
+Loss(1L_10L)
+Loss(10K_1L)
+Loss(Upto_10K)
+Profit(Upto_10K)
+Profit(10K_1L)
+Profit(1L_10L)
+Profit(10L_1CR)
+Profit(1CR_10CR)
+Profit(>10CR)
+-4.9
+-26.0
+-98.2
+-74.7
+-14.6
+-1.3
+0.2
+0.9
+3.5
+6.4
+4.0
+1.2
+Loss(>10CR)
+Loss(1CR_10CR)
+Loss(10L_1CR)
+Loss(1L_10L)
+Loss(10K_1L)
+Loss(Upto_10K)
+Profit(Upto_10K)
+Profit(10K_1L)
+Profit(1L_10L)
+Profit(10L_1CR)
+Profit(1CR_10CR)
+Profit(>10CR)
+
+6.28. Distribution of Profits and Losses in EDS (Yearly Trend) 
+Number of Traders 
+• 15.80 lakh traders (22.9% of all traders) incurred losses exceeding ₹1 lakh in FY26, 
+compared with 18.30 lakh (20.5%) in FY25. Thus, while the number declined, the proportion 
+of traders with losses above ₹1 lakh increased. 
+• Traders incurring losses exceeding ₹10 lakh declined from 2.19 lakh in FY25 to 1.88 lakh in 
+FY26, although their share of all traders increased from 2.46% to 2.73%. 
+• 59.3% of all traders incurred losses exceeding ₹10,000 in FY26, compared with 55.2% in 
+FY25, indicating a shift towards higher loss levels among loss-makers. 
+Table 17: Distribution of Loss-Makers (Yearly Trend) 
+Category 
+Number of Traders 
+Percentage Share of Traders 
+FY25 
+FY26 
+FY25 
+FY26 
+Loss > ₹10 Cr 
+Loss > ₹1 Cr 
+5,482 
+4,783 
+Loss > ₹10 L 
+2,19,491 
+1,88,189 
+Loss > ₹1 L 
+18,30,191 
+15,79,899 
+Loss > ₹10K 
+49,24,476 
+40,89,201 
+All Loss- Makers 
+89,17,247 
+68,95,008 
+
+Amount of losses 
+• Losses remained highly concentrated. In FY26, traders with losses exceeding ₹1 lakh 
+accounted for 89.9% of total losses, while representing only 22.9% of all traders. 
+• Traders with losses exceeding ₹10 lakh represented only 2.7% of all traders but accounted 
+for 49.1% of total losses, highlighting the concentration of losses among a small group of 
+traders. 
+• Conversely, approximately 77% of traders incurred losses of up to ₹1 lakh but accounted 
+for only about 10% of total losses.
+
+Table 18: Distribution of Losses (Yearly Trend) 
+Category 
+Amount of Losses (in ₹ Crore) 
+Percentage Share of Losses 
+FY25 
+FY26 
+FY25 
+FY26 
+Loss > ₹10 Cr 
+2,060 
+1,660 
+Loss > ₹1 Cr 
+12,428 
+10,782 
+Loss > ₹10 L 
+59,191 
+50,889 
+Loss > ₹1 L 
+1,08,073 
+93,202 
+Loss > ₹10K 
+1,19,794 
+1,02,860 
+All Loss- Makers 
+1,20,929 
+1,03,700 
+Note: Figures are cumulative 
+Average Per Person Profits/ losses 
+• For traders with losses up to ₹1 lakh, the average loss (₹38,489) was about 10% higher than 
+the average profit (₹35,041) of profit-makers in the corresponding category. 
+• The difference was more pronounced for losses up to ₹10,000, where the average loss was 
+27.5% higher than the average profit. For higher loss categories, average profits were 
+generally higher than average losses, except for traders with losses exceeding ₹10 crore. 
+Table 19: Distribution of Average Profits and Losses (Yearly Trend) 
+Magnitude of Profit/ Loss 
+Average Loss of Loss-
+Makers 
+(Amt. in ₹) 
+Average Profit of Profit-
+Makers 
+(Amt. in ₹) 
+% Difference 
+(Avg Loss / Avg 
+Profit - 1) 
+>₹10CR 
+23,38,70,081 
+21,75,39,789 
+₹1CR_₹10CR 
+1,93,57,495 
+2,15,69,570 
+-10.26% 
+₹10L_₹1CR 
+21,86,800 
+24,67,240 
+-11.37% 
+₹1L_₹10L 
+3,04,037 
+3,04,682 
+-0.21% 
+₹10K_₹1L 
+38,489 
+35,041 
+Upto_₹10K 
+2,992 
+2,347 
+Note: positive percentage difference in the last column indicates Average Losses were greater than Average Profits. 
+• Detailed data on distribution of profit and loss-makers is provided in the Annexures: Table 
+46 and Table 47.
+
+SECTION 7: RETAIL PROFITABILITY – CATEGORY-WISE TRENDS 
+6.29. Product Preference 
+• 99.0% of EDS traders traded Options at least once in FY26, highlighting the continued 
+dominance of Options in individual participation. 
+• 93.4% of EDS traders traded only Options, while 5.6% traded both Futures and Options 
+and 1.0% traded only Futures. 
+• The share of EDS traders who traded Futures at least once declined marginally to 6.6% 
+in FY26 from 6.7% in FY25, remaining well below the 10.6% recorded in FY22. 
+Chart 35: Product Preference of EDS Traders 
+Number of Traders trading Futures and 
+Options (in Lakh) 
+Percentage of EDS Traders Trading Futures 
+
+6.30. Product-wise Profitability Trends (FY25–FY26) 
+• Options overwhelmingly dominate individual participation in the equity derivatives 
+segment. During FY25-FY26, 99.3% of the 122.6 lakh individual traders traded options, 
+and the segment accounted for 91.6% of the aggregate net losses incurred by individuals. 
+• Loss incidence was substantially higher in options than in futures. About 91.0% of 
+options traders incurred net losses, compared with 68.4% of futures traders - the typical 
+options trader faced a much higher chance of losing money. 
+• Although only 8.67 lakh traders participated in futures, compared with 121.7 lakh in 
+options, the average loss per trader was about 29% higher in futures (₹1.97 lakh) than in 
+options (₹1.53 lakh), reflecting the larger average position sizes typically taken by 
+futures traders. 
+4.55 
+4.86 
+5.10 
+6.53 
+5.20 
+42.20 
+57.80 
+85.70 
+97.30 
+77.81 
+ -
+FY22
+FY23
+FY24
+FY25
+FY26
+Futures
+Options
+FY22
+FY23
+FY24
+FY25
+FY26
+
+Table 20: Individual Trader Profitability – Futures vs Options (FY25–FY26) 
+Product 
+Traders 
+(Lakh) 
+Loss-Makers 
+(Lakh) 
+% Loss-
+Makers 
+Net P&L (₹ 
+Cr) 
+Avg. P&L Per 
+Person (₹) 
+Futures 
+8.67 
+5.93 
+-17,090 
+-1,97,111 
+Options 
+121.70 
+(99.3%) 
+110.71 
+(99.3%) 
+-1,86,384 
+(91.6%) 
+-1,53,150 
+All Traders 
+122.62 
+111.55 
+-2,03,473 
+-1,65,933 
+Note: Figures in parentheses show percentage share of the total. 
+
+Profitability (Only Futures vs Only Options) 
+• Separating traders by product usage gives a clearer picture of trading outcomes. About 
+93% of all traders traded only options, by far the dominant category. These traders 
+accounted for ₹1.44 lakh crore of losses, representing 71% of all losses incurred by 
+individual traders during FY25-FY26. 
+• Only-futures traders formed less than 1% of all traders (0.75%), the smallest participant 
+group. They also recorded the lowest proportion of loss-makers (67.3%) - nearly one-
+third of pure futures traders remained profitable, a substantially better outcome than for 
+options traders. 
+• Traders who used both futures and options recorded the highest average loss per trader, 
+at ₹7.30 lakh, more than five times the average loss of pure options traders. Although 
+they made up only 6.3% of all traders, they accounted for about 28% of total losses, 
+reflecting substantially larger trading exposure. 
+• Overall, 111.6 lakh of the 122.6 lakh individual traders (91.0%) incurred net losses during 
+FY25-FY26, while only 9.0% earned a net profit. 
+
+Table 21: Profitability of Traders by Product Participation (FY25–FY26) 
+Product 
+Traders 
+(Lakh) 
+Loss-Makers 
+(Lakh) 
+% Loss-
+Makers 
+Net P&L 
+(₹ Cr) 
+Avg. P&L Per 
+Person (₹) 
+Only Futures 
+0.92 
+0.62 
+-2,704 
+-2,94,425 
+Only Options 
+113.95 
+104.36 
+-1,44,159 
+-1,26,508 
+Futures and 
+Options both 
+7.75 
+6.58 
+-56,610 
+-7,30,165 
+Total 
+122.62 
+111.55 
+-2,03,473 
+-1,65,933
+
+6.31. Turnover-wise Trends in the Options Segment 
+• Trading activity and losses are highly concentrated among high-turnover traders. Large-
+turnover traders (annual derivatives turnover above ₹1 crore) accounted for only 20% of 
+traders, but generated 96% of total turnover and 82% of aggregate net losses. 
+• Medium-turnover traders (₹1 lakh-₹1 crore) formed the largest segment, accounting for 
+49% of traders, 37% of turnover, and 17% of total losses. 
+• In contrast, small-turnover traders (below ₹1 lakh annually) made up 31% of traders but 
+generated only 0.03% of turnover and less than 1% of total losses, reflecting very limited 
+trading activity. 
+• The chance of incurring losses increased with trading turnover. The proportion of loss-
+making traders rose from 86.4% among small-turnover traders to 87.8% among medium-
+turnover traders and 89.7% among large-turnover traders. 
+• Although large-turnover traders made up only one-fifth of the trader base, they 
+accounted for nearly the same proportion of loss-makers (20%) but a far larger share of 
+losses (82%). This shows that higher turnover mainly increases the size of losses, rather 
+than just the chance of a loss. 
+Table 22: Turnover-wise Trends in the EDS 
+Category 
+Traders 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net P&L 
+(₹ Crore) 
+Total 
+Portfolio 
+(₹ Crore) 
+Total 
+Turnover 
+(₹ Crore) 
+Loss 
+Makers 
+(%) 
+Small-Turnover 
+(turnover < ₹1 lakh annually) 
+24.55 
+21.21 
+-662 
+59,691 
+5,997 
+Medium-Turnover 
+(₹1 lakh–₹1 crore annually) 
+38.53 
+33.82 
+-15,420 
+1,46,791 
+8,37,610 
+Large-Turnover 
+(> ₹1 crore annually) 
+15.51 
+13.92 
+-75,603 
+2,86,828 
+1,94,02,657 
+Total 
+78.60 
+68.95 
+-91,685 
+4,93,310 
+2,02,46,264 
+Small-turnover Traders ( < ₹1 lakh turnover) 
+• Nearly 25 lakh traders (31% of all the EDS traders in FY26) had recorded total 
+derivatives turnover of less than ₹1 lakh in FY26. 
+• Small-turnover traders continued to account for a negligible share of aggregate losses in 
+FY26. Although this segment (small-turnover traders) recorded losses of ₹662 crore, its 
+contribution to total losses was only 0.7%, reflecting relatively limited trading activity. 
+• The average per-person loss for small-turnover traders was also modest at around 
+₹2,700. 
+• Further, the proportion of loss-making traders in this segment, at 86.4%, was relatively 
+lower compared to other turnover categories in FY26.
+
+Chart 36: Small-Turnover Traders (One-third of the total EDS traders) 
+% Contribution to Losses 
+Loss Makers (% of Traders) 
+
+Note: Small-Turnover – turnover below ₹1 lakh; Medium-Turnover – turnover of ₹1 lakh to ₹1 crore; and Large-Turnover – 
+turnover above ₹1 crore. 
+
+Average Profitability and Trading Intensity 
+• Average losses increased significantly with the turnover. The average net loss per trader 
+rose from ₹2,695 for small-turnover traders to ₹40,019 for medium-turnover traders and 
+₹4.87 lakh for large-turnover traders. 
+• Trading intensity also increased significantly with turnover. Large-turnover traders held 
+an average equity portfolio of ₹18.5 lakh but generated average annual derivatives 
+turnover of ₹12.5 crore - about 68 times their portfolio value. 
+• By comparison, medium-turnover traders generated turnover equivalent to 5.7 times 
+their portfolio value, while small-turnover traders traded only about 0.1 times their 
+portfolio value. 
+• Average losses increased much faster than trading intensity. Compared with medium-
+turnover traders, large-turnover traders generated about 12 times higher turnover per 
+trader but incurred more than 12 times higher average losses - increased trading activity 
+translated into disproportionately larger losses. 
+• Overall, the data show a clear relationship between trading intensity and financial 
+outcomes. As turnover increases, traders take on substantially larger exposures relative 
+to their portfolio size, face higher average losses, and have a higher chance of incurring 
+losses. 
+
+20%
+79%
+17%
+82%
+Small 
+Turnover
+Medium 
+Turnover
+Large 
+Turnover
+Small
+Turnover
+Medium
+Turnover
+Large
+Turnover
+
+Table 23: Average Profitability and Trading Intensity - Turnover-wise 
+Category 
+Avg. Profit 
+(₹) 
+Avg. Portfolio 
+(₹) 
+Avg. Turnover 
+(₹) 
+Trading Activity 
+/ Portfolio (x) 
+Small-Turnover 
+-2,695 
+2,43,094 
+24,424 
+0.10 
+Medium-Turnover 
+-40,019 
+3,80,947 
+21,73,732 
+5.71 
+Large-Turnover 
+-4,87,499 
+18,49,502 
+12,51,10,791 
+67.65 
+All Traders 
+-1,16,654 
+6,27,651 
+2,57,59,877 
+41.04 
+Note: Small-Turnover – turnover below ₹1 lakh; Medium-Turnover – turnover of ₹1 lakh to ₹1 crore; and Large-
+Turnover – turnover above ₹1 crore. 
+
+6.32. New Entrants versus Regular Traders 
+• For this analysis, traders are classified based on their prior participation in the equity 
+derivatives segment. 
+• New traders are those trading in the segment for the first time since FY22. A trader 
+is classified as new in the first year in which positive gross turnover is recorded 
+during the study period. 
+• Regular traders are those who had traded in any previous year since FY22 and 
+continued to trade in the relevant year. 
+• Regular traders accounted for most trading activity and losses in both FY25 and FY26. In 
+FY26, they made up 75% of all traders but accounted for 92% of total turnover and 88% 
+of total net losses. In FY25, regular traders made up 64% of all traders and accounted for 
+84% of total turnover and 80% of total net losses. 
+• Participation by new traders fell significantly in FY26, from 35.01 lakh in FY25 to 19.44 
+lakh. As a result, their share of the total trader base fell from 36% to 25%. Their share of 
+total turnover also fell from 16% to 8%, and their share of total net losses fell from 20% 
+to 12%. 
+• The incidence of losses was similar for both new and regular traders. In FY26, 87.81% of 
+new traders and 87.69% of regular traders incurred net losses. In FY25, around 91% of 
+traders in both categories incurred net losses. So prior trading experience did not appear 
+to materially affect the likelihood of incurring losses. 
+• The average loss per trader, however, was substantially higher for regular traders. In 
+FY26, the average net loss per regular trader was ₹1,35,716, compared to ₹58,620 for a 
+new trader. A similar pattern was seen in FY25, with average losses of ₹1,41,384 for 
+regular traders and ₹64,348 for new traders. 
+• Regular traders also had substantially higher trading exposure relative to their portfolio 
+value. In FY26, their average turnover was about 45.7 times their portfolio value,
+
+compared to 19.2 times for new traders. In FY25, the corresponding ratios were around 
+50 times and 21 times. The higher average losses among regular traders came alongside 
+significantly higher trading exposure relative to their underlying portfolios. 
+
+Table 24: New Entrants vs Regular Traders (Trading Activity and Loss Outcomes) 
+Year 
+Categor
+y 
+Trader
+s 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net P&L 
+(₹ Crore) 
+Total 
+Portfolio 
+(₹ Lakh 
+Crore) 
+Total 
+Turnover 
+(₹ Lakh 
+Crore) 
+Loss 
+Makers 
+(%) 
+Avg Per 
+Person 
+Loss (₹) 
+Turnove
+r / 
+Portfoli
+o 
+FY25 
+New 
+Trader 
+35.01 
+31.88 
+-22,528 
+1.57 
+33.13 
+-64,348 
+21.07 
+
+Regular 
+Trader 
+63.14 
+57.3 
+-89,270 
+3.60 
+179.71 
+-1,41,384 
+49.95 
+
+Total 
+98.15 
+89.18 
+-1,11,798 
+5.17 
+212.84 
+-1,13,906 
+41.2 
+FY26 
+New 
+Trader 
+19.44 
+17.07 
+-11,396 
+0.37 
+16.79 
+-58,620 
+19.22 
+
+Regular 
+Trader 
+59.16 
+51.88 
+-80,290 
+4.06 
+185.68 
+-1,35,716 
+45.74 
+
+Total 
+78.6 
+68.95 
+-91,685 
+4.42 
+202.46 
+-1,16,648 
+41.0 
+
+6.33. Trading Activity-wise Trends in the Options Segment 
+• 
+For this section, traders are grouped by their total options turnover over the two years 
+FY25-FY26, ranging from very low-volume traders (below ₹10,000) to very high-volume 
+traders (above ₹10 crore). 
+• 
+Excluding the below-₹10,000 turnover category, the proportion of loss-making traders 
+increased steadily with turnover, from around 86% for traders with turnover between 
+₹10,000 and ₹1 lakh to about 95% for traders with turnover exceeding ₹10 crore. 
+• 
+This positive link between trading turnover and the chance of incurring losses held 
+throughout the study period. Traders with higher options turnover consistently showed 
+higher loss rates than traders with lower turnover. 
+• 
+Traders with cumulative turnover below ₹10,000 were an exception, with a loss-maker 
+ratio of about 93%, higher than several intermediate turnover categories. This category 
+represents a very small volume of trading activity and does not follow the overall 
+relationship between turnover and loss incidence. 
+• 
+Between the two study periods, the proportion of loss-makers fell for the lower-turnover 
+categories but rose for the highest-turnover categories. For example, the loss-maker ratio 
+for the ₹10,000-₹1 lakh turnover group fell from about 88% to 86%, while the ratio for 
+traders with turnover above ₹10 crore rose from about 93% to 95%.
+
+• 
+The reduction in loss incidence was therefore concentrated among lower-turnover 
+traders. Traders with the highest turnover, in contrast, continued to show the highest 
+chance of incurring losses. 
+Chart 37: Correlation Between Trading Turnover and Probability of Loss 
+
+6.34. Relationship between Market Performance and Trader Outcomes 
+• 
+Individual traders' outcomes in the futures segment broadly tracked market movements, 
+pointing to a net-long trading bias. In quarters when the Nifty generated positive returns, 
+individuals as a group recorded net profits in futures. For example, in Q1 FY25 (Nifty 
++7%) and Q1 FY26 (+9%), they earned net profits of ₹3,741 crore and ₹2,051 crore, 
+respectively. 
+• 
+Conversely, individuals incurred losses in futures during declining markets. The largest 
+quarterly loss, ₹8,081 crore, occurred in Q4 FY26, when the Nifty fell by about 15%. Losses 
+were also recorded in other negative-return quarters, such as Q3 FY25 and Q2 FY26. 
+• 
+The losses during market declines were substantially larger than the profits earned 
+during comparable market rallies. This suggests that while retail traders generally benefit 
+from rising markets, they remain significantly exposed to downside moves because of 
+their predominantly long futures positions. 
+• 
+The options segment showed a different pattern. Individual traders incurred net losses in 
+almost every quarter, regardless of market direction. Even during the strong market rally 
+in Q1 FY26, when the Nifty gained about 9%, net losses in options only narrowed to 
+₹18,878 crore rather than turning into profits. 
+• 
+This shows that market direction largely determines outcomes in futures, whereas 
+options losses are largely independent of market direction - reflecting the short-tenor, 
+Less than 10K
+10K-1L
+1L-10L
+10L-1CR
+1CR-10CR
+>10CR
+Loss-makers (%)
+FY22-FY24
+FY25-FY26
+
+speculative nature of much of the trading in that segment, which results in persistent 
+losses regardless of whether the market rises or falls. Detailed Table on quarterly Profit 
+and Loss is provided in Annexures. 
+Chart 38: Quarterly P&L of Individual Traders in Futures vs Nifty Index Returns 
+
+6.35. Transaction Costs 
+• 
+Individual traders incurred transaction costs of about ₹24,800 crore each in FY25 and 
+FY26, compared with about ₹22,500 crore in FY24. Although total equity derivatives 
+turnover fell by around 5% in FY26, aggregate transaction costs stayed broadly 
+unchanged, as the rise in STT largely offset the fall in brokerage and exchange transaction 
+charges. 
+• 
+The average transaction cost per trader rose from ₹26,027 in FY25 to ₹31,628 in FY26, 
+reflecting higher transaction costs per active trader. 
+• 
+The composition of transaction costs changed significantly in FY26. Brokerage charges 
+fell by about 9% and exchange transaction charges fell by about 6%, consistent with lower 
+trading turnover. Securities Transaction Tax (STT), however, rose by about 35% following 
+the revision in STT rates from 1 October 2024. 
+• 
+In FY26, brokerage remained the largest component of transaction costs at 44%, followed 
+by STT (27%), exchange transaction charges (16%), GST (11%), stamp duty (1%) and SEBI 
+fees (1%). Statutory levies (STT, GST, stamp duty and SEBI fees) together accounted for 
+about 40% of total transaction costs. 
+• 
+Over the five years from FY22 to FY26, total transaction costs paid by individual traders 
+amounted to approximately ₹1 lakh crore, with brokerage accounting for almost half of 
+that. 
+3,741
+-622
+-7,692
+-4,755
+2,051
+-2,483
+-8,081
+-20.0%
+-15.0%
+-10.0%
+-5.0%
+-10,000
+-8,000
+-6,000
+-4,000
+-2,000
+2,000
+4,000
+6,000
+FY25Q1
+FY25Q2
+FY25Q3
+FY25Q4
+FY26Q1
+FY26Q2
+FY26Q3
+FY26Q4
+Nifty Returns (%)
+Net P&L (₹ Crore)
+P&L of Individual Traders in Futures
+Nifty Returns
+
+Chart 39: Trends in Transaction Cost of Individual Traders in EDS 
+Trends in Transaction Costs 
+(Amt in ₹ Crore) 
+Break up of Transaction Cost – FY26 
+
+Note: The transaction costs presented correspond to approximately 80% of the turnover of nearly 90% of individual 
+traders. Assuming similar transaction-cost characteristics for the remaining turnover, total transaction costs may be 
+approximately 1.25 times the amount shown. 
+• 
+Transaction costs (TC) constituted a higher share of gross losses for loss-makers 
+than of gross profits for profit-makers in FY26. Transaction costs accounted for 35% 
+of gross losses of loss-makers, compared with 21% of gross profits of profit-makers. 
+• 
+Refer Section 6.25: Profit-Makers vs Loss-Makers of this report for more details on 
+Transaction Costs. 
+
+6.36. Impact of Transaction Costs on Profitability 
+• 
+Transaction costs materially affected the final profitability of individual traders. A 
+sizeable share of traders who would have remained profitable on a gross basis became 
+net loss-makers after accounting for brokerage, exchange charges, statutory levies and 
+other transaction costs. 
+• 
+In FY25, about 5.3 lakh traders who had earned gross trading profits became net loss-
+makers after transaction costs were deducted. In FY26, the corresponding number was 
+4.4 lakh traders. 
+• 
+This shows that transaction costs altered the trading outcome for approximately 5-6% of 
+all net loss-makers in each year. While most loss-makers incurred trading losses even 
+before costs, transaction costs pushed several lakh additional traders into net losses. 
+
+9,924
+16,982
+22,451
+24,827
+24,859
+FY22
+FY23
+FY24
+FY25
+FY26
+Brokerage; 
+ExchangeFee; 
+STT; 
+GST; 
+StampDu
+ty; 1.3%
+SEBI Fee;
+
+Table 25: Impact of Transaction Cost on Profitability 
+Year 
+Gross Loss-makers 
+(Lakh) 
+Net Loss-makers 
+(Lakh) 
+Additional Net Loss-makers Due to 
+Transaction Costs (Lakh) 
+FY25 
+89.2 
+83.9 
+5.3 
+FY26 
+68.9 
+64.5 
+4.4 
+
+6.37. Rising Share of STT in Transaction Costs 
+
+• 
+STT collections from individual traders rose more than five-fold over the five-year 
+period, from ₹1,291 crore in FY22 to ₹6,645 crore in FY26. As a result, STT's share of total 
+transaction costs rose from 13% in FY22 to 27% in FY26. 
+• 
+Over the same period, the share of brokerage charges in total transaction costs fell from 
+52% in FY22 to 44% in FY26. Despite this decline, brokerage remained the single largest 
+component of transaction costs. 
+• 
+The composition of transaction costs shifted steadily over the study period. The 
+combined share of brokerage and exchange transaction charges fell from about 65% in 
+FY22 to about 60% in FY26, while the share of STT nearly doubled, from 13% to 27%. 
+This shows that statutory levies accounted for a growing share of total transaction costs 
+incurred by individual traders. 
+
+Chart 40: Composition of Transaction Costs in EDS 
+
+Note: TC means Transaction Costs 
+
+FY22
+FY23
+FY24
+FY25
+FY26
+Share of total transaction cost (%)
+Share of Brokerage Charges in TC
+Share of STT in TC
+
+SECTION 8: RETAIL PROFITABILITY – DEMOGRAPHIC TRENDS 
+6.38. Age-wise Trends 
+• The equity derivatives segment is dominated by younger traders. In FY26, traders below 
+40 years accounted for about 78% of all traders, while traders above 50 years accounted 
+for only about 7%. 
+• Traders below 30 years formed the largest age group, with 32.83 lakh traders (43%), up 
+from 31% in FY22. The 30-40 years age group was the second largest, with 26.86 lakh 
+traders (35%). Nearly four out of every five traders in the segment, therefore, were below 
+40 years of age. 
+• The proportion of loss-making traders remained high across all age groups. In FY26, 
+88.55% of traders below 30 years and 88.05% of traders aged 30-40 years incurred losses. 
+Although the proportion of loss-makers declined with age, it stayed above 80% even for 
+traders above 60 years. 
+Chart 41: Age-wise Participation and Loss Rates 
+Participation by Age 
+Loss Makers (% of Traders) 
+
+Age and Amount of Losses 
+• Traders below 40 years together accounted for 78% of all traders and 63% of total losses. 
+Within this group, traders aged 30-40 years accounted for the largest share of losses, at 
+₹36,642 crore (41%), while traders below 30 years accounted for ₹19,287 crore (22%). 
+• Average loss per trader increased with age. It was ₹58,749 for traders below 30 years, 
+rising to ₹1,36,418 for traders aged 30-40 years and ₹1,82,616 for those aged 40-50 years. 
+The highest average loss was among traders aged 50-60 years (₹2,20,682), followed by 
+traders above 60 years (₹2,17,826). 
+30.6
+34.7
+42.8
+45.0
+42.9
+42.4
+40.4
+35.1
+34.7
+35.1
+17.5
+16.4
+13.9
+13.7
+14.7
+5.9
+5.3
+4.3
+4.4
+4.9
+3.6
+3.1
+2.3
+2.2
+2.5
+FY22
+FY23
+FY24
+FY25
+FY26
+Less than 30
+30-40
+40-50
+50-60
+>60
+<30
+30-40
+40-50
+50-60
+>60
+
+• Trading intensity, measured as turnover relative to equity portfolio value, declined with 
+age. Overall, traders generated turnover equivalent to 42.5 times their equity portfolio 
+value. This ratio was highest for traders below 30 years (93 times), followed by the 30-40 
+years group (73 times), and fell progressively to about 20 times for traders aged 50 years 
+and above. Younger traders, therefore, traded much more intensively relative to the size 
+of their equity portfolios. 
+• Younger traders accounted for a disproportionately higher share of trading activity 
+relative to their portfolio holdings. Traders below 40 years held only 29% of the 
+aggregate equity portfolio value but generated 53% of total derivatives turnover. Traders 
+aged 50 years and above, in contrast, held 46% of the aggregate portfolio value but 
+contributed only 22% of total turnover. 
+
+Table 26: Age-wise Trading Activity and Loss Outcomes (FY26) 
+Category 
+Traders 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net 
+P&L (₹ 
+Crore) 
+Total 
+Portfolio (₹ 
+Crore) 
+Total 
+Turnover (₹ 
+Lakh Crore) 
+Loss 
+Makers 
+(%) 
+Avg Per 
+Person 
+Loss (₹) 
+Turnover 
+/ Portfolio 
+<30 
+32.83 
+29.07 
+-19,287 
+35,076 
+32.61 
+-58,749 
+92.97 
+30-40 
+26.86 
+23.65 
+-36,642 
+94,649 
+69.10 
+-1,36,418 
+73.01 
+40-50 
+11.23 
+9.86 
+-20,508 
+1,13,474 
+48.25 
+-1,82,616 
+42.52 
+50-60 
+3.74 
+3.19 
+-8,253 
+1,20,820 
+24.66 
+-2,20,682 
+20.41 
+>60 
+1.89 
+1.53 
+-4,117 
+86,016 
+16.72 
+-2,17,826 
+19.44 
+Total 
+76.55 
+67.3 
+-88,807 
+4,50,035 
+191.34 
+-1,16,012 
+42.5 
+Note: The number of traders considered for this section is 76.55 lakh, out of 78.60 lakh. As the age data for about 2 lakh 
+traders was not available 
+
+Age and Portfolio Size 
+• Equity derivatives participation was concentrated among younger traders with 
+relatively small equity portfolios. Traders below 40 years with equity portfolios of up to 
+₹5 lakh accounted for 55.63 lakh traders, about 72% of all traders in the segment. 
+• This group also accounted for a significant share of aggregate losses. Traders below 40 
+years with equity portfolios up to ₹5 lakh incurred losses of ₹47,614 crore, about 54% of 
+total losses. 
+• Within the low-portfolio category, traders aged 30-40 years incurred higher losses than 
+traders below 30 years despite being fewer in number. The 30-40 years group (24.03 lakh 
+traders) accounted for ₹30,273 crore of losses, compared with ₹17,341 crore for traders 
+below 30 years (31.60 lakh traders) - pointing to higher average losses among low-
+portfolio traders in the 30-40 years age group.
+
+• The chance of incurring losses remained high across all age groups for traders with 
+smaller equity portfolios. Around 89-91% of traders with portfolios below ₹1 lakh 
+incurred losses, and this share fell progressively as portfolio size increased. Even among 
+traders with portfolios between ₹10 lakh and ₹1 crore, around 72-77% incurred losses 
+across age groups. 
+• The incidence of losses was lowest among traders with equity portfolios above ₹1 crore, 
+where the proportion of loss-makers ranged from 50% for traders below 30 years to 
+around 64-67% for older age groups. This category, however, represented only a very 
+small share of the overall trader population. 
+• The related cross-tabulated data is provided in the Annexure. 
+
+6.39. Gender-wise Trends 
+• Women's participation in the equity derivatives segment has increased steadily over the 
+last three years. Their share of the total trader base rose from 13.7% in FY24 to 17.1% in 
+FY26. 
+• In FY26, women accounted for 17% of all traders, 21% of the aggregate equity portfolio 
+value and 21% of total derivatives turnover. Their share of total losses was 17%, broadly 
+in line with their level of participation. 
+• The proportion of loss-making traders was lower among women than men. In FY26, 
+84.73% of women traders incurred losses, compared with 88.56% of male traders. 
+• The average loss per trader was similar across genders: ₹1,16,117 for women, compared 
+with ₹1,15,995 for men. 
+• Trading intensity, measured by turnover relative to equity portfolio value, was nearly 
+identical across genders. The turnover-to-portfolio ratio was about 42.5 times for both 
+women and men, indicating comparable trading activity relative to the size of their 
+equity portfolios.
+
+Category 
+Traders 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net 
+P&L 
+(₹ 
+Crore) 
+Total 
+Portfolio 
+(₹ Crore) 
+Total 
+Turnover 
+(₹ Lakh 
+Crore) 
+Loss 
+Makers 
+(%) 
+Avg Per 
+Person 
+Loss (₹) 
+Turnover 
+/ 
+Portfolio 
+>100L 
+0.16 
+0.13 
+-813 
+35,732 
+ 4.94 
+-5,08,149 
+13.82 
+Total 
+43.54 
+37.92 
+-61,607 
+298,916 
+149.02 
+-1,16,012 
+49.85 
+Note: Of the 78.6 lakh total traders in FY26, income data was available for only 43.54 lakh traders; accordingly, the analysis 
+in this section is based on this subset. 
+6.41. City-wise Trends 
+• Derivatives trading has spread rapidly into smaller cities. Traders from beyond the top-
+30 cities (B30) made up 67% of the trader base in FY26, contributing 47% of turnover and 
+58.0% of losses. By comparison, only 27% of individual mutual-fund assets come from 
+B30 locations - showing that the shift towards derivatives outside the big cities is far 
+stronger than the shift towards mutual funds. 
+• Average loss per person was higher in the top-30 cities (₹1.49 lakh) than in B30 cities 
+(₹1.01 lakh), against an overall average of ₹1.17 lakh - reflecting larger trading positions 
+in the metros and a larger number of participants outside them. 
+Table 29: T30 vs B30 Cities - Trading Activity and Loss Outcomes (FY26) 
+Category 
+Traders 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net 
+P&L 
+(₹ 
+Crore) 
+Total 
+Portfolio 
+(₹ Crore) 
+Total 
+Turnover 
+(₹ Lakh 
+Crore) 
+Loss 
+Makers 
+(%) 
+Avg Per 
+Person 
+Loss (₹) 
+Turnover 
+/ 
+Portfolio 
+B30 
+52.85 
+46.85 
+-53,419 
+1,40,886 
+-1,01,076 
+71.54 
+T30 
+25.72 
+22.12 
+-38,267 
+3,52,421 
+-1,48,782 
+28.85 
+Total 
+78.57 
+68.97 
+-91,685 
+4,93,307 
+202.46 
+-1,16,693 
+41.0 
+
+6.42. State-wise Trends 
+• Losses are geographically concentrated in a few large states. Maharashtra, Gujarat and 
+Uttar Pradesh together account for about 44% of traders and about 41% of total net losses. 
+The top five loss-contributing states - Maharashtra, Gujarat, Uttar Pradesh, Karnataka 
+and Tamil Nadu - account for about 55% of total losses, showing that aggregate losses 
+are concentrated in the major participation centres. 
+• Maharashtra is the single largest contributor across most parameters: 14.95 lakh traders, 
+net losses of about ₹17,036 crore, a portfolio of about ₹1.63 lakh crore, and turnover of 
+about ₹43.93 lakh crore - or about 20% of traders, 19% of losses, 36% of portfolio, and 
+23% of turnover in the dataset.
+
+• Loss-making is broad-based across states, not limited to a few regions. In every identified 
+state, more than 85% of traders incurred losses. The loss-maker ratio was particularly 
+high in Assam (90.48%), Bihar (89.54%), Jammu & Kashmir (89.47%), Jharkhand (89.36%) 
+and Chhattisgarh (89.11%) - showing that high loss incidence is a nationwide pattern in 
+EDS trading. 
+• Some states show much higher loss per trader despite having moderate trader counts. 
+Telangana recorded the highest average loss per trader, at about ₹1.83 lakh, followed by 
+Tamil Nadu (₹1.67 lakh), Karnataka (₹1.63 lakh), Andhra Pradesh (₹1.53 lakh) and Delhi 
+(₹1.45 lakh). Southern states together account for about 19% of traders but about 26% of 
+total losses, pointing to higher loss intensity in these states. 
+• Trading activity is very high relative to portfolio size in several states with smaller 
+portfolios. Andhra Pradesh recorded turnover of about 101 times portfolio value, 
+followed by Odisha (100 times), North Eastern States (93 times), Bihar (92 times), Jammu 
+& Kashmir (83 times) and Assam (80 times), compared with the overall ratio of about 
+42.5 times. In these states, EDS trading activity is disproportionately high relative to the 
+equity portfolio base. (Detailed data is given in the Annexure.) 
+Chart 44: State-wise EDS Trader Distribution and Average Net Loss Per Trader (FY25–FY26) 
+
+• 
+Detailed data and charts on state-wise trends on profitability and participation trends 
+in provided in Annexures at Table 45: State-wise Trends in the Profitability in EDS 
+(FY26), Chart 48: State-wise Participation by Individuals in EDS (FY25-FY26); 
+Chart 49: State-wise Aggregate Losses by Individuals in EDS (FY25-FY26); 
+Chart 50: State-wise Average Per Person Losses by Individuals in EDS (FY25-
+FY26). 
+
+14.95
+9.86
+9.05
+4.96
+4.18
+3.97
+3.92
+3.76
+3.71
+2.98
+2.73
+2.58
+2.37
+2.09
+1.57
+1.35
+1.1 
+1.1 
+0.9 
+1.1 
+1.6 
+0.9 
+0.8 
+0.9 
+1.7 
+1.5 
+1.4 
+1.5 
+1.8 
+1.1 
+1.3 
+1.2 
+ -
+ 0.2
+ 0.4
+ 0.6
+ 0.8
+ 1.0
+ 1.2
+ 1.4
+ 1.6
+ 1.8
+ 2.0
+Avg Per Person Loss in Lakh
+EDS Traders (in Lakh)
+Traders (Lakh)
+Avg Per Person Loss in Lakh
+
+SECTION 9: DERIVATIVES TRADING AND EQUITY HOLDINGS/ PORTFOLIO 
+6.43. Distribution of Equity Portfolios of EDS traders 
+• 
+At the end of March 2026, 35% of traders (42.8 lakh) had no underlying equity portfolio 
+at all - they took part in derivatives without any cash equity holdings. Equity portfolio is 
+computed as total of equity and equity oriented Mutual Funds holdings of EDS traders 
+in the demat form as of 31st March 2026. 
+• 
+A further 37% of traders (45.1 lakh) held equity portfolios of less than ₹50,000. Together, 
+these two groups accounted for 72% of all derivatives traders (87.9 lakh). 
+• 
+Overall, 95% of traders (116 lakh) had equity portfolios below ₹10 lakh, while only about 
+5% had portfolios above ₹10 lakh. 
+• 
+Traders with portfolios above ₹10 crore made up a negligible share of the trader base - 
+the equity derivatives segment is overwhelmingly retail-driven. 
+
+Chart 45: Equity Portfolio Distribution of EDS Traders 
+
+Note: Equity portfolio means total of equity and equity oriented Mutual Funds holdings in the demat form as of 31st 
+March 2026; Data covers 1.22 crore unique traders, who traded in EDS during FY25-FY26 
+
+6.44. Derivatives Trading by Small-Portfolio Traders 
+• 
+Traders with equity portfolios below ₹1 lakh (small-portfolio traders) accounted for 95.3 
+lakh traders (78%), while holding only about 1% of the total equity portfolio value. 
+• 
+Despite their limited cash equity holdings, these small-portfolio traders contributed 
+about 51% of total derivatives turnover and about 70% of aggregate losses during FY25-
+FY26. 
+• 
+While traders with portfolios below ₹1 lakh accounted for 78% of traders, those with 
+Zero Portfolio
+<50K Portfolio
+50K-1L Portfolio
+1L-10L Portfolio
+10L-50L
+50L-1CR
+1CR-10CR
+>10CR
+
+portfolios above ₹1 lakh held nearly 99% of the total equity portfolio but contributed only 
+about 30% of total losses - highlighting how disproportionately losses are concentrated 
+among traders with limited equity holdings. 
+• 
+This shows that derivatives participation among small-portfolio traders is largely 
+disconnected from ownership of the underlying securities, and is therefore more 
+consistent with speculative trading than with hedging. 
+
+6.45. Portfolio-wise Profitability 
+• 
+Trading outcomes improved steadily with portfolio size. 
+• 
+Small-portfolio traders accounted for 76% of traders but only 1% of total portfolio value. 
+Despite this, they contributed 65% of aggregate losses. 
+• 
+Medium-portfolio traders accounted for 23% of traders and 31% of losses, while large-
+portfolio traders accounted for only 1% of traders and 4% of losses, despite holding 64% 
+of total portfolio value. 
+• 
+The proportion of loss-makers declined with portfolio size, from 89.7% among small-
+portfolio traders to 82.0% among medium-portfolio traders and 62.9% among large-
+portfolio traders. 
+Table 30: Portfolio-wise Trading Activity and Loss Outcomes (FY26) 
+Category 
+Traders 
+(Lakh) 
+Loss 
+Makers 
+(Lakh) 
+Net 
+P&L (₹ 
+Crore) 
+Total 
+Portfolio 
+(₹ Crore) 
+Total 
+Turnover (₹ 
+Crore) 
+Loss 
+Makers 
+(%) 
+Small-Portfolio 
+(Portfolio < ₹1 lakh) 
+59.61 
+53.50 
+-59,654 
+6,128 
+1,02,02,860 
+Medium-Portfolio 
+(Portfolio between ₹1 lakh - 
+₹10 lakh) 
+18.43 
+15.10 
+-28,020 
+1,71,069 
+74,51,600 
+Large-Portfolio 
+(Portfolio >₹1 Crore) 
+0.56 
+0.35 
+-4,012 
+3,16,112 
+25,91,804 
+Total 
+78.60 
+68.95 
+-91,685 
+4,93,310 
+2,02,46,264 
+
+6.46. Portfolio-wise - Trading Intensity 
+• 
+Derivatives trading activity substantially exceeded underlying portfolio value across all 
+categories. Overall, traders generated derivatives turnover equivalent to about 41 times 
+their equity portfolio. 
+• 
+The gap was widest for small-portfolio traders. Their average equity portfolio was only 
+about ₹10,000, while average derivatives turnover exceeded ₹1.7 crore - about 1,665 times 
+their portfolio value.
+
+• 
+Trading intensity declined significantly with portfolio size. The average turnover-to-
+portfolio ratio fell from 1,665 times for small-portfolio traders to 44 times for medium-
+portfolio traders and 8 times for large-portfolio traders. 
+• 
+Although average losses increased with portfolio size in absolute terms, trading intensity 
+relative to available capital declined significantly as portfolio size increased. 
+Table 31: Average Profitability and Trading Intensity - Portfolio-wise 
+Category 
+Avg. Profit (₹) 
+Avg. 
+Portfolio (₹) 
+Avg. Turnover 
+(₹) 
+Trading 
+Activity / 
+Portfolio (x) 
+Small-Portfolio 
+-1,00,073 
+10,280 
+1,71,15,978 
+1,664.93 
+Medium-Portfolio 
+-1,52,049 
+9,28,311 
+4,04,36,313 
+43.56 
+Large-Portfolio 
+-7,19,029 
+5,66,52,992 
+46,44,97,597 
+8.20 
+All Traders 
+-1,16,654 
+6,27,651 
+2,57,59,877 
+41.04 
+Note: Small-Portfolio – portfolio below ₹1 lakh; Medium-Portfolio – portfolio of ₹1 lakh to ₹10 lakh; and 
+Large-Portfolio – portfolio above ₹1 crore. 
+
+6.47. Portfolio-wise - Probability of Loss 
+• 
+The chance of incurring losses declined consistently as the size of the equity portfolio 
+increased. 
+• 
+Traders with no equity holdings or portfolios below ₹50,000 recorded the highest loss rate 
+(93%). 
+• 
+The loss rate declined steadily with higher portfolio size - to 88% for portfolios of ₹1-10 
+lakh, 72% for portfolios of ₹50 lakh-₹1 crore, and 58% for portfolios above ₹10 crore. 
+• 
+This inverse relationship suggests that traders with larger equity portfolios experienced 
+materially better trading outcomes. 
+• 
+The decline in loss rates is consistent across all portfolio categories, with no reversal at 
+higher portfolio levels - a strong inverse relationship between equity portfolio size and 
+the chance of incurring losses.
+
+Chart 46: Proportion of Loss-Makers by Equity Portfolio Size 
+
+6.48. Concentration of Risk: Portfolio Size and Turnover 
+• 
+Combining portfolio size with trading intensity shows where losses are concentrated. 
+• 
+Small-portfolio traders with high turnover accounted for only 13% of all traders but 
+contributed 52% of total losses, making them the single largest contributor to aggregate 
+losses in the equity derivatives segment. 
+• 
+Large-portfolio traders, irrespective of turnover category, together contributed only 
+about 4% of aggregate losses. 
+• 
+Within every turnover category, traders with larger portfolios recorded lower loss rates 
+than traders with smaller portfolios. For example, among high-turnover traders, the loss 
+rate fell from 93% for small portfolios to 64% for large portfolios. 
+• 
+Trading intensity also varied significantly by portfolio size. Among high-turnover 
+traders, turnover reached over 10,000 times the underlying portfolio for small-portfolio 
+traders, compared with only about 12 times for large-portfolio traders. 
+• 
+These findings show that the combination of small underlying portfolios and very high 
+trading activity accounted for a disproportionate share of losses in the equity derivatives 
+segment. 
+
+Loss-makers (% of traders)
+
+Chart 47: Portfolio vs Trading Activity 
+
+Note: 1) Turnover categories: Small-Turnover – turnover below ₹1 lakh; Medium-Turnover – turnover of ₹1 lakh to ₹1 
+crore; and Large-Turnover – turnover above ₹1 crore. 2) Portfolio Categories: Small-Portfolio – portfolio below ₹1 lakh; 
+Medium-Portfolio – portfolio of ₹1 lakh to ₹10 lakh; and Large-Portfolio – portfolio above ₹1 crore.
+
+7. CONCLUDING OBSERVATIONS 
+1. International evidence consistently indicates that retail investors globally incur losses 
+when trading derivatives and other leveraged products. Across jurisdictions, both 
+transaction-level academic studies and regulatory analyses of retail accounts report high 
+loss rates among individual participants in futures, options, CFDs, and foreign-exchange 
+markets. 
+2. Like in many other jurisdictions, losses remain the dominant outcome for individual 
+traders in EDS in India. Around 91% of individual traders incurred net losses during 
+FY25-FY26, and cumulative net losses exceeded ₹2 lakh crore over the two-year period, 
+despite the moderation seen in FY26. 
+3. Despite the recent moderation in participation, retail traders continued to remain the 
+dominant participant group in the equity derivatives segment. More than 1.2 crore unique 
+individuals traded in EDS during FY25–FY26, with participation increasingly extending 
+beyond metropolitan centres and involving a growing number of younger and first-time 
+traders. 
+4. Options trading accounts for the overwhelming majority of losses. Almost all individual 
+traders participated in options, and more than 90% of aggregate losses arose from the 
+options segment, particularly Index Options. 
+5. Trading activity is concentrated in ultra-short-term contracts. Nearly all Index Options 
+turnover occurs within one week of expiry, with a large share on the expiry day itself or 
+the day before - showing that trading is predominantly short-term and speculative. 
+6. Risk-taking is concentrated among traders with limited equity holdings. A large 
+majority of traders held very small or nil equity portfolios, yet these traders accounted for 
+a disproportionate share of losses while trading derivatives at multiples of their 
+underlying portfolios. 
+7. Recent regulatory measures moderated participation but did not fundamentally alter 
+trading behaviour. FY26 saw a decline in the number of traders, particularly among 
+smaller participants, and a reduction in expiry-day concentration. Trading activity, 
+however, continued to remain overwhelmingly concentrated in short-dated Index 
+Options. 
+8. Participation and turnover had differentiated impact following the November 2024 
+measures. Individual participation declined substantially, particularly in Index Options 
+(−26.8%) and Index Futures (−29.0%) between Q2 and Q4 FY25, while premium ADT 
+initially contracted but subsequently recovered and exceeded pre-policy levels. This 
+divergence suggests that lower participation was accompanied by higher trading intensity 
+among remaining participants, while aggregate premium turnover recovered over time.
+
+9. REFERENCES 
+AMF. (2014). Study of the Results of Individuals Trading Forex and CFDs in France. Autorité des marchés 
+financiers, France. AMF publication 
+ASIC. (2026). Report 828: Risky Business: Driving Change in CFD Issuers’ Distribution Practices. Australian 
+Securities and Investments Commission. 
+Chague, F., De-Losso, R., & Giovannetti, B. (2020). “Day Trading for a Living?” Brazilian Review of 
+Finance, 18(2), 1–24. Paper 
+Choe, H., & Eom, Y. (2009). “The Disposition Effect and Investment Performance in the Futures 
+Market.” Journal of Futures Markets, 29(6), 496–522. Journal article 
+CFTC. Retail Foreign Exchange Transactions – Quarterly Profitability Disclosures. Commodity Futures 
+Trading Commission, United States. CFTC retail forex information 
+ESMA. (2018). Measures relating to contracts for differences and binary options. European Securities and 
+Markets Authority. ESMA publication 
+FCA. (2016). CP16/40: Enhancing conduct of business rules for firms providing contract for difference products 
+to retail clients. Financial Conduct Authority, United Kingdom. FCA consultation 
+Jordan, D. J., & Diltz, J. D. (2003). “The Profitability of Day Traders.” Financial Analysts Journal, 
+59(6). Article 
+Kuo, W.Y., & Lin, T.C. (2013). “Overconfident Individual Day Traders: Evidence from the Taiwan 
+Futures 
+Market.” Journal 
+of 
+Banking 
+& 
+Finance, 
+37(9), 
+3548–
+3561. https://doi.org/10.1016/j.jbankfin.2013.04.036. 
+Ryu, D. (2012). “The Profitability of Day Trading: An Empirical Study Using High-Quality 
+Data.” Investment Analysts Journal, 41(75), 43–54. https://doi.org/10.1080/10293523.2012.11082543 
+
+**********

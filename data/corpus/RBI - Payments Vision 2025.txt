@@ -1,0 +1,780 @@
+1. Foreword 
+
+1.1 
+Payment systems foster economic development and financial stability as well as 
+support financial inclusion. Ensuring safe, secure, reliable, accessible, affordable and 
+efficient payment systems has been one of the important strategic objectives and goals of 
+the Reserve Bank of India (RBI). Towards the pursuit of these objectives, India has 
+developed one of the most modern payment systems in the world, be they large value, retail 
+or fast. The past decade has witnessed the blossoming of quite a few payment systems, all 
+for the convenience of common man with enhanced level of confidence through various 
+safety and security measures. The role of RBI has transformed from being a regulator, 
+operator and facilitator to creator of an environment for the structured development of the 
+payments ecosystem in India. Payments Vision documents of RBI have been providing the 
+strategic direction and implementation plan for this development since 2001. 
+
+1.2 
+The dynamic and accelerated development of the payments ecosystem in India, 
+facilitated by increased adoption of technology and innovation, has established the country 
+as a force to reckon with in the global payments space, in terms of not only growth in digital 
+payments but also availability of a bouquet of safe, secure, innovative and efficient payment 
+systems. Over 26 crore digital payment transactions are processed daily by our payment 
+systems, of which Unified Payments Interface (UPI) system itself processes more than two-
+thirds. 
+
+1.3 
+Induced by the CoVID pandemic, the industry and society in general have been 
+undergoing a major behavioral transformation towards making / accepting / facilitating digital 
+payments, though the goal of covering every citizen through complete migration remains 
+afar. BigTech and FinTech companies are actively expanding their scope of business from 
+initial onboarding of customers for facilitating payment transactions to becoming participants 
+of payment systems and thereafter providing a host of financial services. Further, data 
+generated across economic sectors / regions, especially those concerning financial sector,
+
+is being largely viewed and recognised as the new business energy source and accordingly, 
+there are regulations in place / envisaged for data protection and privacy. As is common 
+knowledge by now, India has mandated local storage of payments data and is also in the 
+process of legislating its own data protection law. 
+
+1.4 
+Steps have been initiated to digitally enable all mobile phone users (both smart phone 
+and feature phone users) as well as securing offline and online card transactions and the 
+transactions involving standing instructions by the users; further work needs to be 
+undertaken for their effective implementation. Efforts have also been initiated towards 
+bringing critical payment intermediaries into the formal regulated / supervised framework. 
+The directions issued for Payment Aggregators (PAs) are a step in this direction. Initiatives 
+are also on to up the payments acceptance infrastructure. 
+
+1.5 
+These activities have brought new challenges to the fore in terms of onboarding and 
+retaining of customers into the digital payments fold by the stakeholders; providing low or 
+no cost payment options to users, merchants included; fulfilling the demand of all 
+stakeholders in terms of speed, efficiency and availability of payment services every time 
+and from / to everywhere; facilitating availability of customer friendly dispute resolution and 
+grievance redressal mechanisms; providing protection for mitigating the risks of losses on 
+account of frauds, putting in place safe practices for protection of personal data, etc. The 
+requirement for ensuring information security in a trusted environment in the payment 
+industry cannot be undermined. 
+
+1.6 
+The current Vision document builds on the Payments Vision 2019-21 document and 
+outlines the thought process for the period up to December 2025. It needs to be appreciated 
+that initiatives would also emerge from evolving situation and may not necessarily be 
+constrained by what the Payments Vision documents. For instance, recent developments 
+in terms of (a) establishment of Reserve Bank Innovation Hub; (b) framework for security of 
+card transactions like switch on / off facility; (c) guidelines on limiting customer liability in 
+case of unauthorised transactions using Prepaid Payment Instruments (PPIs); (d) enabling
+
+Online Dispute Resolution (ODR) for digital payments; (e) review of scope and coverage of 
+system audit of Payment System Operators (PSOs); (f) streamlining of Quick Response 
+(QR) code infrastructure; (g) perpetual validity for Certificate of Authorisation of PSOs; (h) 
+construction of RBI Digital Payments Index (DPI); etc., were in addition to the remit from the 
+Payments Vision 2019-21 document. 
+
+1.7 
+Customer centricity is always paramount in every initiative of the Reserve Bank with 
+multiple efforts in this direction; and this increases with growing customer confidence. And 
+every initiative has been acknowledged, accepted and appreciated by increase in user 
+onboarding and transaction volumes. 
+
+1.8 
+India is the world’s largest recipient of in-bound remittances. Enhanced interest 
+evinced by major countries across the globe in India’s UPI could accelerate growth in trade 
+and commerce with partnering countries while reducing speed and cost of remittances. With 
+India outbound tourists exploding, proliferation of India’s payment products abroad would 
+provide seamless experience to Indian travelers. 
+
+1.9 
+As we embark upon the journey of realising Payments Vision 2025, the steps taken 
+so far towards enhanced outreach, customer centricity, cyber security and digital deepening 
+would be further consolidated and built upon through the five pillars of integrity, inclusion, 
+innovation, institutionalisation and internationalisation. These measures are expected to 
+propel our payment systems further and surpass their potential at the national and 
+international levels. Payments Vision 2025 leverages India’s efforts and builds on the focus 
+of G-20 to enhance cross-border payments by addressing the four key challenges of cost, 
+speed, access and transparency. Given the dynamic space of payment systems in the 
+financial services space, efforts shall be conditioned by developments and readiness of the 
+ecosystem to accept and further these initiatives.
+
+2. Achievements of Payments Vision 2019-21 
+2.1 
+The Payments Vision 2021 had envisaged to empower every Indian with access to 
+a bouquet of e-payment options that is safe, secure, convenient, quick and affordable, and 
+had set four goalposts of Competition, Cost, Convenience and Confidence with 36 specific 
+action points and 12 expected outcomes. 
+
+2.2 
+These goalposts have been accomplished through the following initiatives – 
+(i) 
+Creation of regulatory sandbox, opening access of Centralised Payment Systems 
+(CPS) to non-bank PSOs, facilitation of small value digital payments in offline mode, 
+‘on tap’ authorisation for payment systems, internationalisation of domestic 
+payment systems, feature phone-based payment services, framework for self-
+regulatory organisation for payment systems, etc. (Competition). 
+
+(ii) Waiver of charges levied by RBI for transactions processed in the Real Time Gross 
+Settlement (RTGS) and National Electronic Funds Transfer (NEFT) systems, waiver 
+of charges for savings bank account customers for online transactions in NEFT, 
+review of Automated Teller Machine (ATM) interchange fee and customer charges, 
+implementation of Payments Infrastructure Development Fund (PIDF) Scheme; 
+increasing Legal Entity Identifier (LEI) usage for large value cross-border and 
+domestic payments, framework for regulation of PAs, etc. (Cost). 
+
+(iii) Availability of NEFT, RTGS and National Automated Clearing House (NACH) on 
+24x7x365 basis, harmonisation of Turn-Around-Time (TAT) for resolution and 
+compensation in respect of failed transactions, e-mandates for recurring 
+transactions using cards / PPIs / UPI, relaxation of Additional Factor of 
+Authentication (AFA) requirements for small value card present transactions, 
+increase in limits for contactless transactions, setting up a 24x7 helpline for digital 
+payment services, etc. (Convenience).
+
+(iv) Framework for regulating Payment Aggregators (PAs), e-mandates for recurring 
+transactions, tokenisation of card transactions and Card-on-File Tokenisation 
+(CoFT), setting up of Centralised Payments Fraud Information Registry (CPFIR), 
+geo-tagging of payment system touch points, framework for outsourcing of payment 
+and settlement-related activities by PSOs, etc. (Confidence). 
+
+2.3 
+JAM (Jan Dhan, Aadhaar and Mobile) trinity, which is a fusion of sovereign initiatives 
+in the form of Jan Dhan and Aadhaar, along with low-cost mobile and data have been key 
+enablers for the growth and steep trajectory of digital payments in the country. Given that 
+there are more than 131 crore Aadhaar card holders, there has been facilitation of the fold 
+of digital payments by Direct Benefit Transfers (Government to Person or G2P payments) 
+through the Aadhaar Payment Bridge System (APBS). This has also resulted in significant 
+growth in Aadhaar-enabled Payment System (AePS) through the Business Correspondent 
+assisted model for facilitating digital payments using micro-ATMs. The increase in mobile 
+phone consumer base with about 114 crore mobile users (TRAI, February 2022), of which 
+about 84 crore (Statista, 2021) have smart phones, has facilitated digital payments through 
+technology driven platforms for mobile banking (banks), mobile wallets (dominance of 
+private entities) and USSD based payments as well as UPI based payments (through 
+UPI123Pay) for feature phone users. 
+
+2.4 
+Adoption of digital payments was growing before onset of CoVID pandemic, but the 
+steps taken by Reserve Bank along with additional thrust provided by the pandemic have 
+accelerated the shift, leading to a dramatic increase in contactless and online payments. 
+For all organisations that rely on or are in the payments ecosystem, effective digital 
+payments strategy and operations are fundamental. The contactless nature of the digital 
+modes – enabled by innovative technologies and regulatory flexibility – has given crores of 
+Indians a choice to practice social distancing while making payments. Another significant 
+trend is the entry of small businesses into digital payments. Data shows an increase of more 
+than 500% in merchants accepting digital modes of payments during the half-year ended 
+September 2021 as compared to half-year ended March 2019; in case of UPI alone, there
+
+is an increase of more than 1200% over the same period. There has also been a significant 
+rise in deployment of payment touch points driven by the implementation of PIDF. 
+
+2.5 
+Digital payments are not simply about technology. For consumers, adoption of digital 
+payment depends upon their lifestyle and how comfortable they are transacting digitally / 
+online. The data shows that there has been increase in unique users of mobile banking and 
+internet banking by 99% and 18%, respectively, between March 2019 and September 2021. 
+
+2.6 
+Total digital payments have increased by 216% and 10% in terms of volume and 
+value, respectively, for the month of March 2022 when compared to March 2019. On the 
+other hand, usage of paper instruments has come down significantly during the same 
+period, with its share in total retail payments registering a decline from 3.83% to 0.88% in 
+terms of volume and from 19.62% to 11.47% in terms of value. Of the digital payments, UPI, 
+IMPS and PPI transactions registered CAGR of 104%, 39% and 13% respectively during 
+the vision period. However, debit card transactions at PoS decreased by CAGR of 3.7%, 
+mainly due to the lockdown restrictions imposed during the pandemic. 
+
+2.7 
+It is also seen that the user experience has changed with the use of debit cards for 
+payments than for cash withdrawals, online transactions competing favourably with offline 
+(or card present), and small or large value transactions being undertaken through digital 
+means.
+
+3. Payments Vision 2025 
+Core Theme 
+
+E-Payments for Everyone, Everywhere, Everytime (4 Es) 
+
+Vision – Provide every user with Safe, Secure, Fast, Convenient, 
+Accessible, and Affordable e-payment options (6 Attributes) 
+
+3.1 
+The journey of payment systems in India has been phenomenal in the recent couple 
+of years. The Payments Vision 2025 promises to further elevate our payment systems 
+towards a realm of empowering users with affordable payment options accessible anytime 
+and anywhere with convenience. As this journey towards less-cash and less-card society 
+unfolds, concomitant expansion in the basket of digital payment options with credence and 
+confidence would ensure sustenance of Reserve Bank’s approach of facilitating users with 
+a seamless digital payment experience. This will also reinforce India’s position as the global 
+leader in digital payments domain. Considering the current geo-political developments 
+across the world, the Payments Vision 2025 document also seeks to address the potential 
+risks arising out of any adverse situation that may arise. 
+
+3.2 
+The Payments Vision 2025 document is presented across the five anchor goalposts 
+of Integrity, Inclusion, Innovation, Institutionalisation and Internationalisation. Resilience to 
+operational and security concerns would continue to be at the heart to withstand and recover 
+from the evolving threat landscape. Integrity of payment systems shall be non-negotiable 
+for buttressing customer confidence. With the change / shift in customer behaviour towards 
+embracing digital and touchless modes of payments, partly due to the CoVID, there is a 
+spike of 50% in mobile banking users, indicating inclusion of first-time users into the digital 
+fold. The challenge to make this an irreversible shift, eventually seeking convenient and 
+tailored payment solutions, would be pursued.
+
+3.3 
+Inclusion would be promoted through collection and publication of disaggregated 
+payment data leading to policy enhancements, where required; customer awareness 
+transcending geographies, participant members and customer segments; identifying spatial 
+penetration of digital payment acceptance infrastructure across states / districts; reviewing 
+the scope of PIDF Scheme, etc. To further spur innovation, UPI like system for cards and 
+an enabling framework for Internet of Things (IoT) based payments would be explored. 
+
+3.4 
+It is also considered opportune to showcase India’s achievements at the international 
+fora. Increased involvement in discussions of global standard-setting bodies, including 
+interlinkage with fast payment systems of other jurisdictions with focus on adjoining 
+corridors, will be furthered; this could also be expected to improve trade and commerce and 
+reduce cost and time for remittances. Higher adoption of digital payments and associated 
+less-cash outcome is expected to reduce costs associated with usage of cash or near-cash 
+substitutes. This would enhance the share of digital payments to GDP and contribute 
+towards improved transparency in transactions. 
+
+3.5 
+A snapshot of the specific initiatives, including discussions on different dimensions, 
+that are planned as part of Payments Vision 2025 document is tabulated below.
+
+(para 4.1.10) 
+payment systems 
+data 
+(para 4.2.10) 
+Study creation 
+of 
+Digital 
+Payments 
+Protection 
+Fund (DPPF) 
+(para 4.1.11) 
+Make 
+payment 
+systems 
+more 
+inclusive 
+
+(para 4.2.11) 
+
+Undertake 
+evaluation 
+of 
+charges 
+for 
+all 
+payment systems 
+(para 4.2.12) 
+
+Coordinate 
+migration 
+of 
+government 
+receipts 
+and 
+payments to digital 
+mode 
+(para 4.2.13) 
+
+3.6 
+Various initiatives proposed under the above five goalposts shall have the following 
+ten expected outcomes during the Vision period: 
+i. 
+Volume of cheque-based payments to be less than 0.25% of the total retail payments; 
+ii. 
+More than 3x increase in number of digital payment transactions; 
+iii. 
+UPI to register average annualised growth of 50% and IMPS / NEFT at 20%; 
+iv. 
+Increase of payment transaction turnover vis-à-vis GDP to 8; 
+v. 
+Increase in debit card transactions at PoS by 20%; 
+vi. 
+Debit card usage to surpass credit cards in terms of value; 
+vii. 
+Increase in PPI transactions by 150%; 
+viii. 
+Card acceptance infrastructure to increase to 250 lakh; 
+ix. 
+Increase of registered customer base for mobile based transactions by 50% CAGR; 
+and 
+x. 
+Reduction in Cash in Circulation (CIC) as a percentage of GDP.
+
+4. Specific Initiatives 
+
+4.1 INTEGRITY 
+
+4.1.1 WEAVE IN ALTERNATIVE AUTHENTICATION MECHANISM(S) FOR DIGITAL 
+PAYMENT TRANSACTIONS 
+
+AFA or 2FA has generally been prescribed by Reserve Bank for all payment transactions. 
+Though the form factor of AFA has not been specified, SMS based OTP has become a go-
+to AFA. Considering emerging concerns with OTP-based authentication in terms of 
+increasing cases of phishing / vishing / smishing modes for divulgence of customer 
+confidential details, alternate risk-based authentication mechanisms leveraging behavioral 
+biometrics, location / historical payments, digital tokens, in-app notifications, etc., shall be 
+explored. 
+
+4.1.2 BROADEN SCOPE, USAGE AND RELEVANCE OF LEI IN ALL PAYMENT 
+ACTIVITIES 
+
+Encouraging the use of LEI in payment systems facilitates faster tracking of payments, 
+unique identification of parties involved, ensures greater precision and transparency and 
+helps in the adoption of a single identity for an entity across multiple applications. Aspects 
+of speed and transparency, enumerated in G20 Roadmap for enhancing cross-border 
+payments, shall also thereby get addressed. The use of LEI in areas like sanctions 
+screening, Know Your Customer (KYC), corporate invoice reconciliation, fraud detection, 
+etc. shall be explored. 
+
+4.1.3 EXPAND INTER-OPERABILITY TO CONTACTLESS TRANSIT CARD PAYMENTS 
+IN OFFLINE MODE 
+
+Contactless payments in offline mode were permitted with the launch of National Common 
+Mobility Card (NCMC). The feature of tap-and-go offline payment was initially permitted for 
+transit payments, considering the requirement of fast check out time for transit payments
+
+and it was later in January 2022 extended to retail payments. The standards for NCMC, 
+developed by NPCI, made use of the qSPARC specifications for contactless payments. The 
+possibility of interoperability for contactless transit card payments in offline mode shall be 
+explored to facilitate seamless travel with a single payment instrument usable across 
+different transit operators. 
+
+4.1.4 ENHANCE SCALABILITY AND RESILIENCE OF PAYMENT SYSTEMS 
+
+4.1.4.1 Reserve Bank has issued directions for Central Counterparties (CCPs) in October 
+2018 and June 2019 regarding governance, net-worth requirements, ownership and 
+recognised Foreign CCPs. RBI shall undertake a comprehensive review of these directions 
+so that the governance standards, including appointment, reappointment, fit and proper 
+criteria of directors, are aligned at par with banks. Efforts shall be made to consolidate all 
+instructions issued to CCPs. 
+
+4.1.4.2 Settlement of various payment systems in central bank money is undertaken in both 
+e-Kuber (the core accounting system of the RBI) and RTGS, ensuring mitigation of 
+settlement risk. To facilitate efficient liquidity management for members, RBI shall explore 
+developing a system of liquidity bridge for seamless transfer of funds from one system to 
+another automatically without intervention of members. 
+
+4.1.4.3 NEFT system is available round the clock throughout the year. NEFT is presently 
+operated in batches at half-hourly intervals throughout the day. To further reduce the 
+settlement risk as also to improve efficiency by making the payments near-real time, the 
+frequency of batches in NEFT shall be reviewed and increased. 
+
+4.1.5 LEVERAGE ODR SYSTEM FOR FRAUD MONITORING AND REPORTING 
+
+The Master Direction on Digital Payment Security Controls dated February 18, 2021, issued 
+by Reserve Bank, mandated the Regulated Entities (REs) to provide a mechanism on their 
+mobile and internet banking application for customers to identify / mark a transaction as
+
+fraudulent for seamless and immediate notification to the issuer RE. On such notification, 
+the REs may endeavour to build the capability for seamless / instant reporting of fraudulent 
+transactions to the corresponding beneficiary / counterparty’s RE. Implementation of this 
+instruction requires a central agency to facilitate such routing of messages to the beneficiary 
+REs. Till the time this feature is built in as part of CPFIR, the feasibility of leveraging ODR 
+system for the same shall be examined. 
+
+4.1.6 PROVIDE ENHANCEMENTS TO CPFIR 
+
+4.1.6.1 The CPFIR has been set-up and operational since March 2020. Scheduled 
+Commercial Banks and non-bank PPI Issuers use the CPFIR for reporting payment frauds. 
+Access to Urban Co-operative Banks and RRBs shall be examined. Further, enhancements 
+to the CPFIR in terms of creating negative database of fraudulent beneficiaries, analysing 
+modus operandi of fraudsters, publishing reports on trends in payment frauds, etc., shall be 
+considered. 
+
+4.1.6.2 To leverage on the payment frauds reported in CPFIR, it is essential to move 
+towards real / near real-time reporting of payment frauds and put in place an integrated 
+platform for all stakeholders (payment system operators and participants – banks and non-
+banks, law enforcement agencies, etc.) to share information and initiate necessary 
+corrective action to prevent frauds. The Reserve Bank shall engage with the industry and 
+Government to examine the feasibility of integrating CPFIR with other fraud reporting 
+solutions to ensure that a single comprehensive platform is made available for real-time 
+reporting and resolution of payment frauds in the country. 
+
+4.1.7 PROVIDE PAYEE NAME LOOK-UP FOR FUND TRANSFERS 
+
+Presently, the fund transfer payment systems, i.e. RTGS, NEFT, IMPS and UPI provide for 
+a system of positive confirmation whereby the sender is also intimated about the credit to 
+the beneficiary. Of these, only UPI has a facility for the payer to check and confirm the name 
+of the account holder being paid before making the payment. Over a period, there are
+
+complaints about credit to unintended beneficiary due to inadvertent wrong account number 
+entry. Hence, introduction of payee name look-up, a service for checking the beneficiary’s 
+actual name shall be explored for other funds transfer systems such as RTGS, NEFT, IMPS, 
+etc. 
+
+4.1.8 INCREASE PROPORTIONATE OVERSIGHT OF PSOs 
+
+The card networks and cross-border money transfer (in-bound service) operators are 
+presently supervised through submission of off-site returns. Requirement of on-site 
+inspection of such entities shall be explored and, to start with, the need for an onsite visit 
+shall be examined encompassing interaction with the executives of the entities as well as 
+the overseas regulators. 
+
+4.1.9 INCLUDE ASSESSMENT OF RTGS AND NEFT UNDER PFMIs 
+
+RBI has adopted the PFMIs, published jointly by the Committee on Payments and Market 
+Infrastructures (CPMI) and the International Organisation of Securities Commissions, 
+through its policy document “Regulation and Supervision of FMIs regulated by RBI”. 
+Accordingly, all RBI authorised payment systems declared as systemically important 
+payment system / system wide important payment system and Securities Settlement 
+Systems, CCPs, Central Securities Depositories and Trade Repositories are expected to 
+comply with the PFMI standards. The assessment of RTGS and NEFT, owned and operated 
+by RBI, shall be carried out periodically under the PFMI standards and published. 
+
+4.1.10 EXPLORE LOCAL PROCESSING OF PAYMENT TRANSACTIONS 
+
+Presently guidelines are in place for domestic storage of payments data. Banks and non-
+bank PSOs are allowed to process payment transactions abroad subject to certain 
+conditions. Keeping in view the emerging geo-political risks, options shall be explored to 
+ring-fence domestic payment systems, including the need to mandate domestic processing 
+of payment transactions.
+
+4.1.11 STUDY CREATION OF DIGITAL PAYMENTS PROTECTION FUND (DPPF) 
+
+With the growing adoption of digital payment modes, there is rise in digital payment frauds. 
+Inspite of the efforts of stakeholders, recovery rate of defrauded amounts is not very 
+encouraging. With an aim to provide a security cover to defrauded customers / issuers of 
+payment instruments, a study on scope / feasibility of creation of DPPF shall be undertaken. 
+
+4.2 INCLUSION 
+
+4.2.1 ENABLE GEO-TAGGING OF DIGITAL PAYMENT INFRASTRUCTURE AND 
+TRANSACTIONS 
+
+A framework for geo-tagging of payment system touch points has been prescribed and 
+Reserve Bank has commenced collection of location information, including geo-coordinates, 
+of payment acceptance infrastructure across the country. To measure the extent of digital 
+payment penetration across various states / districts / areas within the country and 
+undertake targeted interventions as well as to enhance fraud monitoring and dispute 
+resolution by PSOs and participants, RBI shall examine the desirability and feasibility of 
+geo-tagging of payment transactions keeping in view the customer privacy concerns. 
+
+4.2.2 REVISIT GUIDELINES FOR PPIs INCLUDING CLOSED SYSTEM PPIs 
+
+PPI have always been an evolving area and there are multiple players involved with a variety 
+of business models that issue and operate PPIs – for usage within a closed group of 
+merchants or open for wide usage. A PPI could be viewed as a payment instrument intended 
+to shift customer preference from cash to digital. While the digital payment transactions 
+using PPIs is growing, RBI shall continue to develop a conducive framework for long term 
+growth of PPIs with enhanced security of transactions. A comprehensive review of the 
+different types of PPIs including timeline for full-KYC PPIs, definition of closed system PPIs, 
+and the related aspects, shall be undertaken.
+
+4.2.3 CONSIDER FRAMEWORK FOR REGULATION OF ALL SIGNIFICANT 
+INTERMEDIARIES IN PAYMENTS ECOSYSTEM 
+
+Innovation in payment processing and fund transfers have seen the rise of intermediaries 
+that facilitate payments between payers and recipients. They eliminate many frictions and 
+provide value added services to the participants of payment industry. Uniformity in 
+implementation of user onboarding processes and transparency in operations of such 
+intermediaries is found wanting. At present, RBI has issued instructions for regulating the 
+activities of online PAs, while providing baseline technology-related recommendations to 
+Payment Gateways (PGs). The need to bring all significant payment intermediaries, 
+including offline PAs, under direct regulation of RBI shall be considered. 
+
+4.2.4 BRING IN ENHANCEMENTS TO CTS, INCLUDING ONE NATION ONE GRID 
+CLEARING AND SETTLEMENT PERSPECTIVE 
+
+4.2.4.1 To promote efficient cheque processing, measures shall be taken to migrate from 
+the current architecture of three regional grids to ‘One Nation, One Grid’. This is also 
+expected to improve cost effectiveness and make the related regulations simpler. 
+
+4.2.4.2 The current approach of batch processing of presentation and return sessions for 
+clearing and settlement of cheques shall be migrated to ‘on-realisation-settlement’ model, 
+wherein the processing shall be continuous. This is expected to reduce the settlement risk, 
+provide larger time window for the banks to present the instruments and enable faster 
+realisation of funds for the customers. 
+
+4.2.5 EXTEND INTERNAL OMBUDSMAN SCHEME TO ALL PSOs 
+
+As a part of confidence building measure and safeguarding the interests of customers, the 
+Internal Ombudsman Scheme was institutionalised in 2019 for the large non-bank PPI 
+Issuers having more than one crore outstanding PPIs in terms of numbers. The Scheme 
+provides for a swift, efficient and effective complaint redressal mechanism within the entity 
+itself by an independent authority placed at the apex level in the entity’s grievance redressal
+
+mechanism so as to minimise the need for the customers to approach other fora for 
+redressal. With the positive experience gained so far, measures shall be taken to bring all 
+the authorised PSOs under this Scheme. 
+
+4.2.6 SUPPORT INCREASE IN MARKET TRADING AND SETTLEMENT HOURS 
+
+The money market and capital market currently operate at fixed hours. However, the RTGS 
+and NEFT payment systems which enable settlements in these markets, operate on a 24x7 
+basis. With a view to leverage the availability of payment systems on 24x7x365 basis, 
+extension of trading hours of these markets to enable longer market availability for trading 
+and settlement shall be facilitated, in conjunction with the concerned market departments of 
+the Reserve Bank. This shall enhance efficiency and further price discovery in these 
+markets. 
+
+4.2.7 UPSCALE CUSTOMER OUTREACH AND AWARENESS ACTIVITIES 
+
+Reserve Bank has been actively taking measures to enhance customer awareness through 
+its electronic-Banking Awareness And Training (eBAAT) programmes and organising 
+campaigns on safe use of digital payment modes through various media channels. Of late, 
+cyber-crimes related to payments have been on a rise, calling for stepping up of the 
+customer awareness campaigns. The existing e-BAAT programmes shall be ramped up to 
+promote awareness using all possible traditional channels at bank branch level and other 
+channels including social media. The training approach shall be shifted from passive and 
+mass communication to customised and user specific delivery channel. The scope of public 
+awareness campaigns under the “RBI Says” tag shall be widened to cover different payment 
+systems and their effectiveness shall be gauged through the outcomes of customer surveys 
+conducted on a periodic basis. 
+
+4.2.8 REVISIT SCOPE AND USEFULNESS OF PIDF SCHEME 
+
+Currently, PIDF Scheme subsidises deployment of PoS infrastructure (physical and digital 
+modes) in tier-3 to tier-6 centres and north-eastern states of the country. Beneficiaries of
+
+PM Street Vendor’s AtmaNirbhar Nidhi (PM SVANidhi Scheme) in tier-1 and tier-2 centres 
+are also covered. Post the successful roll-out of geo-tagging of payment system touch 
+points, scope of the Scheme shall further be reviewed for continuation and, if necessary, to 
+cover more regions and merchant categories for targeted expansion of acceptance 
+infrastructure. 
+
+4.2.9 ATTEMPT REGULATION OF BIGTECHS AND FINTECHS IN PAYMENTS SPACE 
+
+BigTechs and FinTechs play an invigorating role in onboarding new users and customising 
+payment experience. Given their increasingly dominant role in payments ecosystem, a 
+discussion paper on the need for proportionate regulation by the Reserve Bank 
+encompassing domestic incorporation, reporting, data use, etc., shall be published. 
+
+4.2.10 CONTINUE ENDEAVOUR TO COLLECT AND PUBLISH GRANULAR, 
+DISAGGREGATED PAYMENT SYSTEMS DATA 
+
+The Reserve Bank publishes granular data on payment system indicators covering payment 
+transactions, usage of different channels for undertaking payments and availability of 
+payment acceptance infrastructure. Not only is payment systems data disseminated daily 
+but the lag in publishing of granular data on a monthly / quarterly basis has also been largely 
+brought down. To encourage research and facilitate analysis of in-depth trends in payments 
+as well as assess the extent of financial inclusion across the country, collection and 
+publication of disaggregated data on payment systems shall be facilitated. 
+
+4.2.11 MAKE PAYMENT SYSTEMS MORE INCLUSIVE 
+
+The Reserve Bank has been at the forefront of expanding the reach of digital payments to 
+different strata of population. Differently-abled persons, including those with visual 
+impairments, might be facing issues while transacting digitally. To help obviate the 
+difficulties faced by them, the Reserve Bank shall examine the feasibility of implementing
+
+suitable policy initiatives, including standardisation of most used icons, text-to-voice 
+features, etc. 
+
+4.2.12 UNDERTAKE EVALUATION OF CHARGES FOR ALL PAYMENT SYSTEMS 
+
+Providing digital payment services entail costs, which are borne by one or more of the 
+payment system participants (switching fees, interchange fees, etc.) or are passed on to the 
+merchant (Merchant Discount Rate) or the customer (customer charges). While collecting 
+charges from the merchants and / or customers may be required for viability of digital 
+payments, care needs to be taken to ensure that they are reasonable and do not deter 
+digital payments adoption. A comprehensive review of all aspects related to charges 
+involved in various channels of digital payments shall be undertaken. 
+
+4.2.13 CO-ORDINATE MIGRATION OF GOVERNMENT RECEIPTS AND PAYMENTS 
+TO DIGITAL MODE 
+
+The APBS operated by NPCI has been helping the Government(s) and Government 
+agencies in successfully channelising the Government subsidies to the intended 
+beneficiaries as part of the Direct Benefit Transfer Scheme. The APBS links the Government 
+Departments and their sponsor banks on one side and beneficiary banks and beneficiaries 
+on the other. To migrate all the government receipts and payments to digital mode, Reserve 
+Bank shall coordinate with the central and state governments to integrate their payment 
+platforms with the Reserve Bank’s eKuber. 
+
+4.3 INNOVATION 
+
+4.3.1 FACILITATE FRAMEWORK FOR IOT AND CONTEXT-BASED PAYMENTS 
+
+IoT devices are increasingly becoming a part of, as well as revolutionising, the payments 
+landscape. An IoT enabled payment system could help consumers pay for a range of goods 
+and services through connected devices beyond just phones or tablets. With a view to 
+promoting growth of this segment and at the same time protect customer interests, an
+
+enabling framework on IoT-based payments covering aspects of data security, 
+authentication, identity validation, etc. shall be facilitated. 
+
+4.3.2 MIGRATE ALL RBI OPERATED PAYMENT SYSTEM MESSAGES TO ISO 20022 
+STANDARD 
+
+Messages provide a common set of rules for exchanging critical information for a payment 
+transaction to take place. Payment System Operators across the world have embarked on 
+a journey to implement ISO 20022. This standard brings significant benefits – enables 
+straight-through processing with less need for manual intervention, allows switching 
+between payment systems and re-routing of messages which could reduce the impact of 
+outages on users, provides richer data enabling better compliance and regulation as well 
+as making it easier for businesses to detect fraud and help target financial crime, facilitates 
+better analytics and more efficient reconciliation, promotes international harmonisation 
+supporting cross-border payments, etc. To unlock these benefits and ensure greater 
+interoperability including with systems of other jurisdictions, steps shall be taken to migrate 
+all the RBI-operated payment messaging systems to ISO 20022 standard. 
+
+4.3.3 LINK CREDIT CARDS AND CREDIT COMPONENTS OF BANKING PRODUCTS 
+TO UPI 
+
+UPI transactions have been growing by leaps and bounds at the cost of other retail 
+payments, especially card transactions. One of the reasons for its popularity is the 
+convenience and seamless experience it offers to users. Currently, a UPI user can only link 
+the bank account (savings / current account) and the debit card to the UPI Virtual Payment 
+Address (VPA). To offer more avenues and greater convenience to users in making 
+payments through UPI platform, feasibility of linkage of credit cards and credit components 
+of banking products to UPI shall be explored.
+
+4.3.4 CREATE PAYMENT SYSTEM FOR PROCESSING ONLINE MERCHANT 
+PAYMENTS USING INTERNET / MOBILE BANKING 
+
+All merchant payment transactions done using internet / mobile banking are presently 
+processed through payment gateways / payment aggregators. As this practice entails 
+delays in merchant settlements, a framework shall be introduced such that all these 
+transactions are also processed through a payment system. 
+
+4.3.5 ORGANISE PAYMENT INNOVATION CONTESTS AND HACKATHONS 
+
+Innovation is making payments increasingly convenient, instantaneous and ubiquitous. In 
+the wake of success of the RBI’s first global hackathon – “HARBINGER 2021 – Innovation 
+for Transformation”, efforts shall be continued towards organising national / international 
+payment hackathons, competitions and conferences to foster innovation and exchange of 
+ideas. 
+
+4.3.6 REVIEW NEED FOR MULTIPLE PAYMENT IDENTIFIERS 
+
+Funds transfer through RTGS, NEFT and IMPS requires the beneficiary bank account 
+number and Indian Financial System Code (IFSC) as identifiers. As bank account numbers 
+in each bank are unique, funds transfer could be facilitated without the IFSC of the 
+beneficiary branch. The need for IFSC to make funds transfer shall be reviewed and 
+alternative options with suitable provision for collecting beneficiary bank details shall be 
+explored to make funds transfer simpler and hassle-free for customers. 
+
+4.3.7 EXPLORE GUIDELINES ON PAYMENTS INVOLVING BNPL SERVICES 
+
+BNPL services have developed into a new payment mode alongside the existing payment 
+modes like cards, UPI, and net banking. This channel, facilitated by a few payment 
+aggregators, leverages the existing nodal account (escrow account after authorisation) to 
+route payments between BNPL customer and a merchant. This novel method shall be
+
+examined, and issuance of appropriate guidelines on payments involving BNPL shall be 
+explored. 
+
+4.4 INSTITUTIONALISATION 
+
+4.4.1 COMPREHENSIVE REVIEW OF LEGISLATIVE ASPECTS OF PAYMENT AND 
+SETTLEMENT SYSTEMS ACT PROVISIONS AND REGULATIONS 
+
+India is one of the few countries with a specific payment systems legislation. Considering 
+the importance of development and orderly functioning of payment systems, the PSS Act 
+was legislated in 2007 when the digital payments ecosystem in India was nascent. 
+Considering the emerging requirements of the highly dynamic and fast evolving payment 
+ecosystem, both domestic and cross-border, Reserve Bank shall endeavour to 
+comprehensively review the PSS Act and the corresponding Regulations. 
+
+4.4.2 CONSTITUTE PAYMENTS ADVISORY COUNCIL (PAC) TO ASSIST BPSS 
+
+To assist the BPSS, a PAC with experts representing consumer groups, payments 
+technology, legal, bankers, fintechs / start-ups, data analysts, etc., shall be constituted. The 
+composition of the PAC shall be reviewed periodically and suitably modified to maintain its 
+relevance. 
+
+4.4.3 OPERATIONALISE NATIONAL CARD SWITCH FOR CARD TRANSACTIONS AT 
+PoS AND RESULTANT SETTLEMENTS 
+
+All ATM transactions are primarily processed through the National Financial Switch (NFS). 
+Presently, while card transactions at ATMs are processed through either the NFS or ATM 
+networks or the concerned card networks, card transactions at PoS terminals are processed 
+only through the concerned card network. To promote competition and thereby bring in more 
+efficiency and innovation in processing of such transactions, the possibility of implementing 
+a National Card Switch to process card transactions at PoS terminals and the resultant 
+settlements shall be examined.
+
+4.4.4 ACTIVE ENGAGEMENT AND INVOLVEMENT IN INTERNATIONAL FORA 
+(DISCUSSIONS OF STANDARD-SETTING BODIES) 
+
+Reserve Bank also represents India in various international standard setting bodies, viz. 
+Financial Stability Board (FSB), CPMI, etc. relevant to payment systems and actively 
+participates in working groups, task forces, etc. constituted with the aim to enhance the 
+payments ecosystem. With India’s G20 presidency in 2023, RBI shall continue its active 
+participation in such fora and play a leadership role in transforming the payments ecosystem 
+across the globe. 
+
+4.5 INTERNATIONALISATION 
+
+4.5.1 GLOBAL OUTREACH OF RTGS, NEFT, UPI AND RUPAY CARDS 
+
+4.5.1.1 The potential of UPI has been recognised world over by numerous authorities. 
+Reserve Bank shall actively support the global outreach initiatives to expand the footprint of 
+domestic payment systems by collaborating with relevant stakeholders (e.g. Central Banks, 
+BIS, World Bank, other institutions, etc.). 
+
+4.5.1.2 The RTGS system presently settles domestic fund transfer transactions on gross 
+basis. The system which runs on ISO 20022 standard, customised to suit domestic 
+requirements, shall be streamlined with the internationally accepted standard for cross-
+border fund transfers. The feasibility of expanding RTGS to settle transactions in major trade 
+currencies such as USD, Pound, Euro, etc., shall be explored through bi-lateral or multi-
+lateral arrangements. The arrangements could be expected to provide real time proceeds 
+in foreign currencies to traders and establishing the country as a major centre for 
+international financial trades. 
+
+4.5.1.3 In order to access the Reserve Bank operated CPS, an entity is required to maintain 
+a current account and a settlement account with RBI. To facilitate payments to and from 
+other jurisdictions through CPS, the feasibility of other central banks maintaining current 
+account and settlement accounts with RBI in INR (₹) shall be explored. Similarly, RBI shall
+
+examine maintaining accounts with other central banks for the purpose of facilitating direct 
+remittances in foreign currencies. This could be expected to increase acceptance of INR in 
+other jurisdictions and making cross-border transactions cost effective and timely. 
+
+4.5.1.4 The Indo-Nepal Remittance Facility Scheme was launched by the RBI in May 2008 
+for cross-border remittances from India to Nepal, using the NEFT system. To boost trade 
+payments between the two countries, as also to facilitate person-to-person remittances 
+electronically to Nepal, ceiling per transaction was increased from ₹ 50,000 to ₹ 2 lakh and 
+the cap of 12 remittances in a year per remitter was removed. Efforts shall be undertaken 
+to extend such remittance facilities to other countries depending on feasibility. 
+
+4.5.2 EXPAND SFMS AND INFINET FRAMEWORKS ACROSS JURISDICTIONS 
+
+The Indian Financial Network (INFINET) is a membership-only Closed User Group network 
+that comprises the RBI, CPS member banks and financial institutions. It provides financial 
+messaging services through its Member Interface application to all RTGS participants. 
+Backed by the communication medium of INFINET, SFMS is the Indian standard for 
+domestic financial messaging for centralised payment systems, viz. NEFT and RTGS, which 
+supports ISO 20022 standard message format for payment systems. The feasibility of 
+providing membership / technology of INFINET to other jurisdictions shall be explored. 
+Further, it shall be explored to expand the framework of SFMS to provide a domestic 
+payment system platform to other jurisdictions. This could be expected to provide faster, 
+convenient and cost-effective direct payment channels with other jurisdictions. 
+
+4.5.3 2FA FOR CROSS-BORDER CARD TRANSACTIONS 
+
+AFA has been a predominant factor in safeguarding domestic payments and giving 
+confidence to users in digital payments. To give a similar experience and increase safety of 
+international transactions done using cards issued in India, implementing AFA for cross-
+border transactions shall be explored.
+
+4.5.4 SEEK INCLUSION OF INR IN CONTINUOUS LINKED SETTLEMENT (CLS) 
+
+CLS is an initiative, with settlement in Payment versus Payment (PvP) mode, to address 
+the Herstatt risk associated with the settlement of foreign exchange trades. CLS provides 
+protection for cross-currency settlement in 18 currencies. In India, CCIL participates in CLS 
+as a third-party member acting as an aggregator of trades for its member banks. 
+Internationalisation of domestic currency is gaining importance in recent times with many 
+countries pursuing efforts in this direction. With excellent FMIs already in place and 
+deepening of forex and financial markets, a mechanism for international INR settlement 
+through CLS Bank would help increase global acceptance of INR. RBI shall initiate dialogue 
+for including INR as a currency in CLS. 
+
+4.5.5 
+BRING 
+FURTHER 
+EFFICIENCIES 
+IN 
+PAYMENT 
+PROCESSING 
+AND 
+SETTLEMENTS ON INTRODUCTION OF CBDCs – DOMESTIC AND CROSS-BORDER 
+
+CBDC has been gaining much traction with 86% of the central banks globally reviewing its 
+feasibility for cross-border transactions as well as for internal benefits (2021 BIS Survey). 
+CBDC is also an area of interest for G20 under its priority initiative to enhance cross-border 
+payments. Reserve Bank is working towards introduction of CBDC in India. Various use 
+cases shall be studied and explored to bring in further efficiencies in domestic and cross-
+border payment processing and settlement using CBDCs.
