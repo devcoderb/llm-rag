@@ -27,6 +27,7 @@
 # ---------------------------------------------------------------------------
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VOLUME_ROOT="${VOLUME_ROOT:-/home/group157}"
 VENV_DIR="${VENV_DIR:-$VOLUME_ROOT/venv-rag}"
 KERNEL_NAME="rag-venv"
@@ -107,6 +108,6 @@ echo "==========================================="
 echo " Setup complete"
 echo "==========================================="
 echo "NEXT STEPS"
-echo "  1. Verify : $PY kubeflow/check_env.py"
+echo "  1. Verify (optional): $PY $SCRIPT_DIR/check_env.py"
 echo "  2. In the notebook: Kernel -> Change Kernel -> \"$KERNEL_DISPLAY\""
-echo "If the kernel is missing after a pod restart, just re-run this script."
+echo "If the kernel is missing after a pod restart, just re-run: bash $SCRIPT_DIR/setup_env.sh"
