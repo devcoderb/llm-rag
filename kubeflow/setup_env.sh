@@ -12,10 +12,11 @@
 # WHAT IT DOES
 #   - Creates $VOLUME_ROOT/venv-rag with --system-site-packages, so it inherits the
 #     image's working torch + CUDA (no ~3 GB GPU wheel download).
-#   - Installs ONLY what the RAG notebook needs, from kubeflow/requirements.txt (the same file
-#     check_env.py verifies against, so the two cannot drift). Same pins as 1A plus rank_bm25.
-#     Dropped versus 1A (not used by 2B): trl, datasets, evaluate, wandb, matplotlib, seaborn,
-#     sentencepiece, protobuf.
+#   - Installs ONLY the packages the RAG notebook uses directly, from kubeflow/requirements.txt (the
+#     same file check_env.py verifies against, so the two cannot drift). Their own dependencies
+#     (tokenizers, safetensors, huggingface_hub, scikit-learn, tqdm, ...) come in automatically.
+#     Dropped versus 1A: trl, datasets, evaluate, wandb, matplotlib, seaborn, sentencepiece,
+#     protobuf, ipywidgets, and the explicit pins of transitive packages.
 #   - Registers the kernel and saves the exact versions next to the venv.
 #
 # Idempotent: later runs are fast and mainly re-register the kernel (the venv

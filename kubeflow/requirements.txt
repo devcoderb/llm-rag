@@ -1,27 +1,15 @@
-# Single source of truth for the Assignment 2B environment.
-# Read by kubeflow/setup_env.sh (pip install -r) and by kubeflow/check_env.py (version checks).
-# Pins are the ones that worked in Assignment 1A. torch/CUDA are inherited from the Kubeflow image, not listed here.
+# Assignment 2B: only the packages the notebook uses directly. Everything else it needs
+# (tokenizers, safetensors, huggingface_hub, scikit-learn, tqdm, ...) is pulled in by these at
+# compatible versions. torch/CUDA come from the Kubeflow image.
+# Read by kubeflow/setup_env.sh (pip install -r) and kubeflow/check_env.py (version checks).
 
-# Model loading
-transformers==4.46.3
-tokenizers==0.20.3
-accelerate==1.1.1
-safetensors==0.4.5
-huggingface_hub==0.26.2
-
-# 1A generator: 4-bit CPT model + LoRA adapter
-peft==0.13.2
-bitsandbytes==0.44.1
-
-# Retrieval: BGE embedder and cross-encoder reranker, vector index, keyword search
-sentence-transformers==3.3.1
-faiss-cpu==1.9.0
-rank_bm25==0.2.2
-
-# Tables, progress bars, kernel (scikit-learn is required by sentence-transformers)
-scikit-learn==1.5.2
-pandas==2.2.3
-numpy>=2.0,<3
-tqdm==4.67.0
-ipywidgets==8.1.5
-ipykernel
+transformers==4.46.3            # generation and judge models; tokenizers for token counting
+accelerate==1.1.1               # required by transformers for GPU placement and 4-bit loading
+peft==0.13.2                    # attach the 1A LoRA adapter to the CPT model
+bitsandbytes==0.44.1            # 4-bit loading of the CPT model, as in 1A
+sentence-transformers==3.3.1    # BGE embedder (Part A) and cross-encoder reranker (Part C)
+faiss-cpu==1.9.0                # vector index (A1)
+rank_bm25==0.2.2                # BM25 keyword search (Part B)
+numpy>=2.0,<3                   # same ABI as the image's scipy
+pandas==2.2.3                   # result tables
+ipykernel                       # registers the Jupyter kernel
