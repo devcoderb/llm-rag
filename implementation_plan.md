@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-09):** Stages 0–3 approved. Stage 3 executed comparison reviewed (`d86ccaa`, progress-text update `5aa1192`): choose 400 tokens, hit@3 7/10 versus 2/10, 4,065 final chunks. See `review-stage3.md` for saved-artifact verification and gap diagnostics to complete during Stage 4 setup. Next: Stage 4 / Part B only.
+**Review status (2026-11-09):** Stages 0–4 approved. Stage 4 executed code/results reviewed at `4268274`; Dense chosen (hit@1 40%, hit@3 70%, latency 5.47 ms). Stage 3 hash/gap follow-ups completed. See `review-stage4.md`. Next: Stage 5 / Part C reranking only; baseline hit@1 is 40%.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
