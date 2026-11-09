@@ -5,7 +5,7 @@ kubeflow/check_env.py  (Assignment 2B)
 Verifies the RAG environment created by kubeflow/setup_env.sh. The expected versions are read from
 kubeflow/requirements.txt, the same file setup_env.sh installs from, so the two cannot drift apart.
 
-    /home/group157/venv-rag/bin/python llm-rag/kubeflow/check_env.py
+    python llm-rag/kubeflow/check_env.py        (re-launches itself with the venv's python if needed)
 
 GPU checks are informational: Stages 0 to 5 run on CPU, only Stages 6 and 7 need a GPU.
 Exits 0 when every required check passes, 1 otherwise.
@@ -145,7 +145,19 @@ def check_gpu():
         print(f"  GPU check error: {e}")
 
 
+def reexec_in_venv():
+    # Running with the wrong interpreter (e.g. the base conda python) reports every package as missing.
+    # If the RAG venv exists and we are not in it, restart this script with the venv's python.
+    venv_python = VENV_DIR / "bin" / "python"
+    already = Path(sys.prefix).resolve() == VENV_DIR.resolve()
+    if venv_python.exists() and not already and not os.environ.get("CHECK_NO_REEXEC"):
+        print(f"Not running in the RAG venv; restarting with {venv_python}", flush=True)
+        os.environ["CHECK_NO_REEXEC"] = "1"      # prevent a loop
+        os.execv(str(venv_python), [str(venv_python), str(Path(__file__).resolve()), *sys.argv[1:]])
+
+
 def main():
+    reexec_in_venv()
     print("=" * 60)
     print(" Assignment 2B environment verification")
     print("=" * 60)
