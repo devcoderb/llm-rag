@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-09):** Stages 0 and 1 approved. Stage 1 executed outputs and frozen queries reviewed at commit `1d74918`; independent membership, source-span/offset and hash checks pass. See `review-stage1.md`. Next: Stage 2 dense-search implementation only. Keep notebook explanations concise, factual and specific to assignment sections; avoid first-person narration.
+**Review status (2026-11-09):** Stages 0–2 approved. Stage 2 code and saved Kubeflow outputs reviewed at commit `db6603e`: normalized BGE/FAISS search and fixture checks pass; frozen queries unchanged. See `review-stage2.md`. Next: Stage 3 chunk-size comparison and final-corpus A1 facts only.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
