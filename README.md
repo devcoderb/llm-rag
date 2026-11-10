@@ -11,7 +11,6 @@ Two extra items sit outside the graded flow and are kept separate on purpose:
 | Path | Content |
 |---|---|
 | `audit/Group157-Assignment-2b-judge-audit.ipynb` | executed cells of the earlier judge attempts and the original judge run, with their saved outputs (summarised in the appendix of D2) |
-| `notice-board-audit/` | read-only audit of the 1A instruction dataset against additional notice-board rules, with its unresolved gaps (`REPORT.md`, `audit.py`, `audit_results.json`) |
 
 ## Re-running the notebook and getting the model artifacts
 
@@ -76,5 +75,4 @@ To add a package, add it to `kubeflow/requirements.txt` with a short comment, re
 | `eval/` | frozen ten-question set |
 | `kubeflow/` | `setup_env.sh`, `check_env.py`, `requirements.txt` (the direct dependencies, single source of pins), `migrate_stage7_names.sh` (operator) |
 | `audit/` | judge audit notebook (separate from the graded flow) |
-| `notice-board-audit/` | read-only dataset audit and its report (separate from the assignment results) |
 | `assignment_2b_outputs/` | generated at run time on the volume (not in git); Stage 7 files are in `stage7/final/` and `stage7/audit/` |
