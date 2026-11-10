@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-10):** Stages 0–7 approved. Final Stage7 reporting/save fixes verified in executed `036de44` (7F exec77): payload matches, four-file manifest resolves/hashes correctly, and actual Observations disclose judge errors/limits without changing raw counts. See `review-stage7.md`. Next: deferred notice-board read-only audit, then Stage8 packaging; no more Stage7 model or save reruns required.
+**Review status (2026-11-10):** Stages 0–7 approved; corrected notice-board read-only audit approved after independent reproduction and baseline data/adapter/frozen-query hash checks. Audit gaps remain documented; no data remediation or retraining authorized. Next: Stage8 packaging, queued cosmetics/reference-safe filename cleanup, final notebook/HTML checks and TA artifact-acquisition instructions. Minor audit wording: independent sample is12train+3eval, not15train.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
