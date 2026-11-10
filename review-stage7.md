@@ -94,3 +94,14 @@ The manifest writer also emits only f.name. MANUAL_PATH is stage7/manual_spotche
 Sonnet: preserve all existing records. Choose one actual final manifest path; create/update it even when final JSON already exists; validate all referenced files and hashes. Check existing final JSON's model/revision, prompts, answers, labels/summary/spot-check against the current run, not just the raw verdict strings. Fail clearly if mismatched. This is a save/integrity fix only: run7F and reporting updates, not inference. Archive the legacy manifest or explain its role without claiming a nonexistent new file was verified.
 
 Next: these two small corrections, then Stage7 reporting/save recheck. Notice-board audit follows Stage7 approval; packaging after that. Stages0–6 remain unchanged and approved.
+
+
+## Final reporting/save approval — 036de44, 2026-11-10
+
+**Stage 7 APPROVED.** Both outstanding reporting/save corrections are complete. Inspected b37279d code and actual PV execution saved in036de44 (7F execution77); source/ID sequence is unchanged from b37279d. No error output; final payload matches current run, and stage7_final_manifest.sha256 is created and verified from its own folder with4 file hashes, including ../manual_spotcheck.json. Legacy names-only manifest is explicitly historical. Existing final JSON remains unchanged after validation. This is verified saved PV output, not a claim that the reviewer independently mounted the PV or hashed an unavailable attachment.
+
+Observations now show judge-reported6/2/2 and7/10 supported,1/3 manual agreement, calibration9/12, Q07 correctness/abstention contradiction, Q01 support inconsistency,2quote issues and Q06/Q08 disagreements. Raw labels/counts and original Phi answers remain unchanged. Judge reliability is explicitly limited; approval confirms assignment evidence and honest analysis, not judge-label accuracy. The frozen query hash remains valid.
+
+Final calibration detail stays available in saved code/output/audit artifacts but is outside the four-file final-run manifest; include its saved record with the submission evidence if packaging it. No further calibration/model runs are needed. Minor wording: citation validity was deliberately checked separately by code; distinguish that from the judge’s hallucinated reference to nonexistent chunk5 rather than suggesting the rubric required it to grade citation format.
+
+Next: deferred read-only notice-board compliance audit, without modifying historical training data/model/frozen RAG inputs; then Stage8 packaging and final notebook/HTML checks. No further Stage7 inference or save rerun requested.
