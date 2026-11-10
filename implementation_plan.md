@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-09):** Stages 0–6 required runs/evidence approved. Presentation re-review of `b2aac74`/`9411623` confirms unchanged code/outputs; both commits already on origin/main. Preserve Stage 6 strict-compliance failures for D2; no generation rerun required. Next: Stage 7 with IBM Granite 3.0 8B Instruct as judge candidate, subject to actual load/context/format checks. Small interpretation-wording corrections are listed in `review-stage6.md`.
+**Review status (2026-11-10):** Stages 0–6 remain approved. Stage 7 executed `df35c1b` reviewed; changes requested before Stage 8. Judge passes formatting but fails semantic calibration and misreads actual answers; original manual Q07/Q10 support labels conflict with the rubric (operator acknowledged mistake). Correct Q06 candidate-pool explanation. See `review-stage7.md`; preserve original runs and saved Phi answers.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
