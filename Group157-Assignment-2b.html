@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Group157-Assignment-2b</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Notebook</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7332,12 +7332,7 @@ a.anchor-link {
     if (!diagrams.length) {
       return;
     }
-    const mermaid = (await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.10.0/mermaid.esm.min.mjs")).default;
-    const elkUrl = "https://cdnjs.cloudflare.com/ajax/libs/mermaid-layout-elk/0.1.9/mermaid-layout-elk.esm.min.mjs";
-    if(elkUrl) {
-      const elkLayouts = (await import(elkUrl)).default;
-      mermaid.registerLayoutLoaders(elkLayouts);
-    }
+    const mermaid = (await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.7.0/mermaid.esm.min.mjs")).default;
     const parser = new DOMParser();
 
     mermaid.initialize({
@@ -7434,8 +7429,7 @@ a.anchor-link {
      * Post-process to ensure mermaid diagrams contain only valid SVG and XHTML.
      */
     function cleanMermaidSvg(svg) {
-      svg = svg.replace(RE_VOID_ELEMENT, replaceVoidElement);
-      return `${SVG_XML_HEADER}${svg}`;
+      return svg.replace(RE_VOID_ELEMENT, replaceVoidElement);
     }
 
 
@@ -7461,285 +7455,6 @@ a.anchor-link {
       }
       return `<${tag} ${rest}>`;
     }
-
-
-  /**
-   * Named HTML entities with their decimal equivalent codes.
-   *
-   * @see https://www.w3.org/TR/WD-html40-970708/sgml/entities.html
-   * */
-  const HTML_ENTITIES = `<!ENTITY Aacute "&#193;">
-<!ENTITY aacute "&#225;">
-<!ENTITY Acirc "&#194;">
-<!ENTITY acirc "&#226;">
-<!ENTITY acute "&#180;">
-<!ENTITY AElig "&#198;">
-<!ENTITY aelig "&#230;">
-<!ENTITY Agrave "&#192;">
-<!ENTITY agrave "&#224;">
-<!ENTITY alefsym "&#8501;">
-<!ENTITY Alpha "&#913;">
-<!ENTITY alpha "&#945;">
-<!ENTITY amp "&#38;">
-<!ENTITY and "&#8869;">
-<!ENTITY ang "&#8736;">
-<!ENTITY Aring "&#197;">
-<!ENTITY aring "&#229;">
-<!ENTITY asymp "&#8776;">
-<!ENTITY Atilde "&#195;">
-<!ENTITY atilde "&#227;">
-<!ENTITY Auml "&#196;">
-<!ENTITY auml "&#228;">
-<!ENTITY bdquo "&#8222;">
-<!ENTITY Beta "&#914;">
-<!ENTITY beta "&#946;">
-<!ENTITY brvbar "&#166;">
-<!ENTITY bull "&#8226;">
-<!ENTITY cap "&#8745;">
-<!ENTITY Ccedil "&#199;">
-<!ENTITY ccedil "&#231;">
-<!ENTITY cedil "&#184;">
-<!ENTITY cent "&#162;">
-<!ENTITY Chi "&#935;">
-<!ENTITY chi "&#967;">
-<!ENTITY circ "&#710;">
-<!ENTITY clubs "&#9827;">
-<!ENTITY cong "&#8773;">
-<!ENTITY copy "&#169;">
-<!ENTITY crarr "&#8629;">
-<!ENTITY cup "&#8746;">
-<!ENTITY curren "&#164;">
-<!ENTITY dagger "&#8224;">
-<!ENTITY Dagger "&#8225;">
-<!ENTITY darr "&#8595;">
-<!ENTITY dArr "&#8659;">
-<!ENTITY deg "&#176;">
-<!ENTITY Delta "&#916;">
-<!ENTITY delta "&#948;">
-<!ENTITY diams "&#9830;">
-<!ENTITY divide "&#247;">
-<!ENTITY Eacute "&#201;">
-<!ENTITY eacute "&#233;">
-<!ENTITY Ecirc "&#202;">
-<!ENTITY ecirc "&#234;">
-<!ENTITY Egrave "&#200;">
-<!ENTITY egrave "&#232;">
-<!ENTITY empty "&#8709;">
-<!ENTITY emsp "&#8195;">
-<!ENTITY ensp "&#8194;">
-<!ENTITY epsilon "&#949;">
-<!ENTITY Epsilon "&#917;">
-<!ENTITY equiv "&#8801;">
-<!ENTITY Eta "&#919;">
-<!ENTITY eta "&#951;">
-<!ENTITY ETH "&#208;">
-<!ENTITY eth "&#240;">
-<!ENTITY Euml "&#203;">
-<!ENTITY euml "&#235;">
-<!ENTITY exist "&#8707;">
-<!ENTITY fnof "&#402;">
-<!ENTITY forall "&#8704;">
-<!ENTITY frac12 "&#189;">
-<!ENTITY frac14 "&#188;">
-<!ENTITY frac34 "&#190;">
-<!ENTITY frasl "&#8260;">
-<!ENTITY Gamma "&#915;">
-<!ENTITY gamma "&#947;">
-<!ENTITY ge "&#8805;">
-<!ENTITY gt "&#62;">
-<!ENTITY harr "&#8596;">
-<!ENTITY hArr "&#8660;">
-<!ENTITY hearts "&#9829;">
-<!ENTITY hellip "&#8230;">
-<!ENTITY Iacute "&#205;">
-<!ENTITY iacute "&#237;">
-<!ENTITY Icirc "&#206;">
-<!ENTITY icirc "&#238;">
-<!ENTITY iexcl "&#161;">
-<!ENTITY Igrave "&#204;">
-<!ENTITY igrave "&#236;">
-<!ENTITY image "&#8465;">
-<!ENTITY infin "&#8734;">
-<!ENTITY int "&#8747;">
-<!ENTITY Iota "&#921;">
-<!ENTITY iota "&#953;">
-<!ENTITY iquest "&#191;">
-<!ENTITY isin "&#8712;">
-<!ENTITY Iuml "&#207;">
-<!ENTITY iuml "&#239;">
-<!ENTITY Kappa "&#922;">
-<!ENTITY kappa "&#954;">
-<!ENTITY Lambda "&#923;">
-<!ENTITY lambda "&#955;">
-<!ENTITY lang "&#9001;">
-<!ENTITY laquo "&#171;">
-<!ENTITY larr "&#8592;">
-<!ENTITY lArr "&#8656;">
-<!ENTITY lceil "&#8968;">
-<!ENTITY ldquo "&#8220;">
-<!ENTITY le "&#8804;">
-<!ENTITY lfloor "&#8970;">
-<!ENTITY lowast "&#8727;">
-<!ENTITY loz "&#9674;">
-<!ENTITY lrm "&#8206;">
-<!ENTITY lsaquo "&#8249;">
-<!ENTITY lsquo "&#8216;">
-<!ENTITY lt "&#60;">
-<!ENTITY macr "&#175;">
-<!ENTITY mdash "&#8212;">
-<!ENTITY micro "&#181;">
-<!ENTITY middot "&#183;">
-<!ENTITY minus "&#8722;">
-<!ENTITY Mu "&#924;">
-<!ENTITY mu "&#956;">
-<!ENTITY nabla "&#8711;">
-<!ENTITY nbsp "&#160;">
-<!ENTITY ndash "&#8211;">
-<!ENTITY ne "&#8800;">
-<!ENTITY ni "&#8715;">
-<!ENTITY not "&#172;">
-<!ENTITY notin "&#8713;">
-<!ENTITY nsub "&#8836;">
-<!ENTITY Ntilde "&#209;">
-<!ENTITY ntilde "&#241;">
-<!ENTITY Nu "&#925;">
-<!ENTITY nu "&#957;">
-<!ENTITY Oacute "&#211;">
-<!ENTITY oacute "&#243;">
-<!ENTITY Ocirc "&#212;">
-<!ENTITY ocirc "&#244;">
-<!ENTITY OElig "&#338;">
-<!ENTITY oelig "&#339;">
-<!ENTITY Ograve "&#210;">
-<!ENTITY ograve "&#242;">
-<!ENTITY oline "&#8254;">
-<!ENTITY Omega "&#937;">
-<!ENTITY omega "&#969;">
-<!ENTITY Omicron "&#927;">
-<!ENTITY omicron "&#959;">
-<!ENTITY oplus "&#8853;">
-<!ENTITY or "&#8870;">
-<!ENTITY ordf "&#170;">
-<!ENTITY ordm "&#186;">
-<!ENTITY Oslash "&#216;">
-<!ENTITY oslash "&#248;">
-<!ENTITY Otilde "&#213;">
-<!ENTITY otilde "&#245;">
-<!ENTITY otimes "&#8855;">
-<!ENTITY Ouml "&#214;">
-<!ENTITY ouml "&#246;">
-<!ENTITY para "&#182;">
-<!ENTITY part "&#8706;">
-<!ENTITY permil "&#8240;">
-<!ENTITY perp "&#8869;">
-<!ENTITY Phi "&#934;">
-<!ENTITY phi "&#966;">
-<!ENTITY Pi "&#928;">
-<!ENTITY pi "&#960;">
-<!ENTITY piv "&#982;">
-<!ENTITY plusmn "&#177;">
-<!ENTITY pound "&#163;">
-<!ENTITY prime "&#8242;">
-<!ENTITY Prime "&#8243;">
-<!ENTITY prod "&#8719;">
-<!ENTITY prop "&#8733;">
-<!ENTITY Psi "&#936;">
-<!ENTITY psi "&#968;">
-<!ENTITY quot "&#34;">
-<!ENTITY radic "&#8730;">
-<!ENTITY rang "&#9002;">
-<!ENTITY raquo "&#187;">
-<!ENTITY rarr "&#8594;">
-<!ENTITY rArr "&#8658;">
-<!ENTITY rceil "&#8969;">
-<!ENTITY rdquo "&#8221;">
-<!ENTITY real "&#8476;">
-<!ENTITY reg "&#174;">
-<!ENTITY rfloor "&#8971;">
-<!ENTITY Rho "&#929;">
-<!ENTITY rho "&#961;">
-<!ENTITY rlm "&#8207;">
-<!ENTITY rsaquo "&#8250;">
-<!ENTITY rsquo "&#8217;">
-<!ENTITY sbquo "&#8218;">
-<!ENTITY Scaron "&#352;">
-<!ENTITY scaron "&#353;">
-<!ENTITY sdot "&#8901;">
-<!ENTITY sect "&#167;">
-<!ENTITY shy "&#173;">
-<!ENTITY Sigma "&#931;">
-<!ENTITY sigma "&#963;">
-<!ENTITY sigmaf "&#962;">
-<!ENTITY sim "&#8764;">
-<!ENTITY spades "&#9824;">
-<!ENTITY sub "&#8834;">
-<!ENTITY sube "&#8838;">
-<!ENTITY sum "&#8721;">
-<!ENTITY sup "&#8835;">
-<!ENTITY sup1 "&#185;">
-<!ENTITY sup2 "&#178;">
-<!ENTITY sup3 "&#179;">
-<!ENTITY supe "&#8839;">
-<!ENTITY szlig "&#223;">
-<!ENTITY Tau "&#932;">
-<!ENTITY tau "&#964;">
-<!ENTITY there4 "&#8756;">
-<!ENTITY Theta "&#920;">
-<!ENTITY theta "&#952;">
-<!ENTITY thetasym "&#977;">
-<!ENTITY thinsp "&#8201;">
-<!ENTITY THORN "&#222;">
-<!ENTITY thorn "&#254;">
-<!ENTITY tilde "&#732;">
-<!ENTITY times "&#215;">
-<!ENTITY trade "&#8482;">
-<!ENTITY Uacute "&#218;">
-<!ENTITY uacute "&#250;">
-<!ENTITY uarr "&#8593;">
-<!ENTITY uArr "&#8657;">
-<!ENTITY Ucirc "&#219;">
-<!ENTITY ucirc "&#251;">
-<!ENTITY Ugrave "&#217;">
-<!ENTITY ugrave "&#249;">
-<!ENTITY uml "&#168;">
-<!ENTITY upsih "&#978;">
-<!ENTITY Upsilon "&#933;">
-<!ENTITY upsilon "&#965;">
-<!ENTITY Uuml "&#220;">
-<!ENTITY uuml "&#252;">
-<!ENTITY weierp "&#8472;">
-<!ENTITY Xi "&#926;">
-<!ENTITY xi "&#958;">
-<!ENTITY Yacute "&#221;">
-<!ENTITY yacute "&#253;">
-<!ENTITY yen "&#165;">
-<!ENTITY Yuml "&#376;">
-<!ENTITY yuml "&#255;">
-<!ENTITY Zeta "&#918;">
-<!ENTITY zeta "&#950;">
-<!ENTITY zwj "&#8205;">
-<!ENTITY zwnj "&#8204;">`.replace(/\n/g, ' ');
-
-  /**
-   * A reasonably strict xml declaration.
-   */
-  const XML_DECL = '<?xml version="1.0" standalone="no"?>';
-
-  /**
-   * The beginning of the XML doctype declaration.
-   */
-  const DOCTYPE_START = `<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [`;
-
-  /**
-   * The end of the XML docype declaration.
-   */
-  const DOCTYPE_END = ']>';
-
-  /**
-   * A full header for an SVG XML document.
-   */
-  const SVG_XML_HEADER = `${XML_DECL}
-    ${DOCTYPE_START}${HTML_ENTITIES}${DOCTYPE_END}`;
 
     void Promise.all([...diagrams].map(renderOneMarmaid));
   });
@@ -7804,7 +7519,48 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="AIMLC-ZG5536---Large-Language-Models-for-Generative-AI">AIMLC ZG5536 - Large Language Models for Generative AI<a class="anchor-link" href="#AIMLC-ZG5536---Large-Language-Models-for-Generative-AI">¶</a></h1><h4 id="Assignment-2B---RAG-Pipeline-(Group-157)">Assignment 2B - RAG Pipeline (Group 157)<a class="anchor-link" href="#Assignment-2B---RAG-Pipeline-(Group-157)">¶</a></h4><p><strong>Domain:</strong> Indian Financial Markets and Digital Payments (RBI / SEBI documents)</p>
 <p>This notebook builds a small, complete RAG system on the Assignment 1A corpus: choose a chunk size, compare dense / BM25 / hybrid search, rerank, then generate grounded answers and check them with an LLM judge.</p>
-<p><strong>Working method:</strong> one stage at a time. Each stage is explained, run by the operator, and verified before the next one is added.</p>
+<p><strong>Working method:</strong> One stage at a time. Each stage is explained, run by the user, and verified before the next one.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=576b7124-560a-4bd6-ba31-953f2c1d957f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h4 id="Student-Details">Student Details<a class="anchor-link" href="#Student-Details">¶</a></h4><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>BITS ID</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pradeep Anand C</td>
+<td>2025ae05886</td>
+<td>2025ae05886@wilp.bits-pilani.ac.in</td>
+</tr>
+<tr>
+<td>Dron Adhikari</td>
+<td>2025ae05184</td>
+<td>2025ae05184@wilp.bits-pilani.ac.in</td>
+</tr>
+<tr>
+<td>Pravallika Donthala</td>
+<td>2025ae05181</td>
+<td>2025ae05181@wilp.bits-pilani.ac.in</td>
+</tr>
+<tr>
+<td>B Devchandraaj</td>
+<td>2025ae05469</td>
+<td>2025ae05469@wilp.bits-pilani.ac.in</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -7862,38 +7618,39 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="How-1A-connects-to-2B">How 1A connects to 2B<a class="anchor-link" href="#How-1A-connects-to-2B">¶</a></h2><table>
+<h3 id="How-Assignment-1A-connects-to-Assignment-2B">How Assignment 1A connects to Assignment 2B<a class="anchor-link" href="#How-Assignment-1A-connects-to-Assignment-2B">¶</a></h3><table>
 <thead>
 <tr>
-<th>Step</th>
-<th>What changes</th>
-<th>What it does <strong>not</strong> do</th>
+<th>Method</th>
+<th>Purpose</th>
+<th>Role in this assignment</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>CPT</strong> (continued pretraining)</td>
-<td>All weights keep learning next-token prediction on the finance corpus, so the model's word predictions fit the domain</td>
-<td>It does not teach question/answer behaviour</td>
+<td><strong>Continued pretraining (CPT)</strong></td>
+<td>Adapt the model to finance terminology and writing patterns through next-token prediction</td>
+<td>In 1A, the model’s weights were updated using the cleaned finance corpus</td>
 </tr>
 <tr>
-<td><strong>Instruction SFT</strong></td>
-<td>Trains on question→answer pairs so the model answers briefly in the expected style</td>
-<td>It does not give the model access to documents at answer time</td>
+<td><strong>Supervised fine-tuning (SFT)</strong></td>
+<td>Teach the model to respond to instructions using question–answer examples</td>
+<td>In 1A, finance Q/A pairs were used to train answer-generation behaviour</td>
 </tr>
 <tr>
 <td><strong>LoRA / QLoRA</strong></td>
-<td>Trains small low-rank adapter matrices while the base weights stay frozen; QLoRA also stores the frozen base in 4-bit</td>
-<td>It is a cheaper way to do SFT, not a different goal</td>
+<td>Reduce fine-tuning costs by training small adapters while keeping the base weights frozen</td>
+<td>In 1A, QLoRA trained adapters on the CPT model loaded in 4-bit precision</td>
 </tr>
 <tr>
-<td><strong>RAG</strong> (this assignment)</td>
-<td>At question time, retrieve relevant passages and put them in the prompt so the answer can be grounded in text</td>
-<td>It retrains nothing</td>
+<td><strong>Retrieval-augmented generation (RAG)</strong></td>
+<td>Supply relevant document passages when answering a question</td>
+<td>In 2B, the system retrieves and reranks passages, then asks the generator to answer from them and cite its sources</td>
 </tr>
 </tbody>
 </table>
-<p>A lower perplexity in 1A shows the model predicts domain text better. It does <strong>not</strong> show that the model answers questions correctly or stays faithful to supplied passages. Part D tests that directly.</p>
+<p>Assignment 1A adapted the model to finance text and instruction-following. Assignment 2B adds source passages to the prompt during inference, without further training.</p>
+<p>Lower perplexity in 1A indicates better prediction of held-out finance text. Part D of 2B separately evaluates whether generated answers are correct and supported by the retrieved passages.</p>
 </div>
 </div>
 </div>
@@ -7904,7 +7661,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Notebook-map:-assignment-sections-%E2%86%92-stages">Notebook map: assignment sections → stages<a class="anchor-link" href="#Notebook-map:-assignment-sections-%E2%86%92-stages">¶</a></h2><p>Every section below has four labelled blocks: <strong>1 Task brief → 2 Code → 3 Execution output → 4 Observations</strong>. Blocks 2 and 3 are the stage code cells with their saved outputs. Stage IDs (0A, 3C, 6D, ...) are kept as secondary references.</p>
+<h2 id="Notebook-map:-assignment-sections-and-stages">Notebook map: assignment sections and stages<a class="anchor-link" href="#Notebook-map:-assignment-sections-and-stages">¶</a></h2><p>Each section presents the task brief, code, saved execution output and observations. Stage IDs (0A, 3C, 6D, ...) identify the corresponding cells.</p>
 <table>
 <thead>
 <tr>
@@ -7915,47 +7672,57 @@ a.anchor-link {
 </thead>
 <tbody>
 <tr>
-<td>Setup: reused artifacts, environment</td>
+<td>Setup: Verify reused data, model files and environment</td>
 <td>-</td>
 <td>Stage 0 (0A–0G)</td>
 </tr>
 <tr>
-<td>Part A, before you start: answer spans</td>
+<td>Preparation: Select 10 evaluation questions and mark their answer passages</td>
 <td>-</td>
 <td>Stage 1 (1A–1D)</td>
 </tr>
 <tr>
-<td>A1: dense search</td>
+<td>A1: Build reusable dense search and report the embedding/index details</td>
 <td>2</td>
-<td>Stage 2 (2A–2D)</td>
+<td>Stage 2 (2A–2D); final build time in Stage 3</td>
 </tr>
 <tr>
-<td>A2: chunk size</td>
+<td>A2: Compare 100- and 400-token chunks and justify the chosen size</td>
 <td>3</td>
 <td>Stage 3 (3A–3E)</td>
 </tr>
 <tr>
-<td>B: Dense, BM25, Hybrid</td>
+<td>B: Compare Dense, BM25 and Hybrid search using hit rates and latency</td>
 <td>4</td>
 <td>Stage 4 (4A–4D)</td>
 </tr>
 <tr>
-<td>C: reranking</td>
+<td>C: Rerank search results and measure changes in accuracy, ranking and time</td>
 <td>4</td>
 <td>Stage 5 (5A–5F)</td>
 </tr>
 <tr>
-<td>D1: grounded answers (prompt, ten answers, unanswerable query); baseline trial (1A model), fallback trial (Phi), comparison</td>
+<td>D1: Generate answers with source citations and test an unanswerable question; document any model switch</td>
 <td>3</td>
-<td>Stage 6 (6A–6E, 6F–6I)</td>
+<td>Stage 6 (6A–6I)</td>
 </tr>
 <tr>
-<td>D2: LLM judge (judge setup, results, spot-check, failure analysis; audit appendix)</td>
+<td>D2: Judge answer correctness and support, manually check 3 verdicts, and explain one failure with a proposed fix</td>
 <td>4</td>
 <td>Stage 7 (7A–7F)</td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ccfc85a5-1565-4374-8168-ecfca7e9df28">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Models-used">Models used<a class="anchor-link" href="#Models-used">¶</a></h3><table>
 <thead>
 <tr>
@@ -7985,7 +7752,7 @@ a.anchor-link {
 <td>The model named in the assignment; scores each query and chunk pair together</td>
 </tr>
 <tr>
-<td>Generator, tried first</td>
+<td>Generator, tested first</td>
 <td>1A model: SmolLM2-360M CPT checkpoint plus the QLoRA adapter</td>
 <td>Stage 6 baseline</td>
 <td>The assignment asks for the 1A model first; it gave 0 of 10 numbered citations and answered the unanswerable query</td>
@@ -8000,7 +7767,7 @@ a.anchor-link {
 <td>Judge</td>
 <td><code>allenai/Llama-3.1-Tulu-3-8B</code></td>
 <td>Stage 7</td>
-<td>Must differ from the generator; best of four judge attempts on 12 known-label cases (9 of 12 matched)</td>
+<td>Different model from the generator; best of four judge attempts on 12 known-label cases (9 of 12 matched)</td>
 </tr>
 </tbody>
 </table>
@@ -8009,20 +7776,69 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d5544a14">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9e5dec4d-8778-4178-a3f5-16be0ed21d84">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Setup---Reused-artifacts,-environment-and-configuration-%C2%B7-Stage-0">Setup - Reused artifacts, environment and configuration · Stage 0<a class="anchor-link" href="#Setup---Reused-artifacts,-environment-and-configuration-%C2%B7-Stage-0">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
-<ul>
-<li>Reuse from Assignment 1: the cleaned domain <code>.txt</code> files, 10 queries with expected answers, and the fine-tuned model as generator. No new data is collected.</li>
-<li>This section checks that those artifacts are present and unchanged and records the compute available. No retrieval or model loading happens here.</li>
-</ul>
-<p><strong>Approach used</strong> (Stage 0)</p>
-<p><strong>Goal:</strong> confirm that everything 2B reuses from 1A is present and unchanged, record the compute resources, and fix one configuration that every later stage uses. No retrieval or model loading happens here.</p>
+<h2 id="Setup:-verify-reused-data,-model-files-and-environment-%C2%B7-Stage-0">Setup: verify reused data, model files and environment · Stage 0<a class="anchor-link" href="#Setup:-verify-reused-data,-model-files-and-environment-%C2%B7-Stage-0">¶</a></h2><p><strong>Task brief</strong></p>
+<p>Reuse the cleaned finance documents, evaluation questions and fine-tuned model from Assignment 1A. Verify that the files are unchanged and that the environment can run the RAG pipeline.</p>
+<h3 id="Reused-files:-where-they-come-from-and-what-they-contain">Reused files: where they come from and what they contain<a class="anchor-link" href="#Reused-files:-where-they-come-from-and-what-they-contain">¶</a></h3><p>Paths beginning with <code>data/</code> or <code>models/</code> are relative to the repository folder located in cell 0A. <code>/home/group157</code> is the group's mounted persistent volume (PV); its location is configurable.</p>
 <table>
+<thead>
+<tr>
+<th>Reused artifact</th>
+<th>Read from</th>
+<th>Contents and use in Assignment 2B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cleaned finance documents</td>
+<td><code>data/corpus/*.txt</code></td>
+<td>30 cleaned RBI and SEBI documents containing finance regulations, guidelines and reports. These become the searchable document collection.</td>
+</tr>
+<tr>
+<td>Complete instruction dataset</td>
+<td><code>data/qa/instruction_dataset.jsonl</code></td>
+<td>1,196 finance questions with their expected answers, as submitted in 1A. Used to verify the dataset and its training/evaluation split.</td>
+</tr>
+<tr>
+<td>Dataset with source evidence</td>
+<td><code>data/qa/instruction_dataset_curated.jsonl</code></td>
+<td>The same questions and answers, with source filenames and supporting passages. Used to trace answers to documents and mark retrieval answer spans.</td>
+</tr>
+<tr>
+<td>Training split</td>
+<td><code>data/qa/instruction_dataset_train.jsonl</code></td>
+<td>The 957 question-answer pairs used for QLoRA training. Checked to ensure the ten RAG evaluation questions do not reuse training pairs.</td>
+</tr>
+<tr>
+<td>Evaluation split</td>
+<td><code>data/qa/instruction_dataset_eval.jsonl</code></td>
+<td>The 239 held-out question-answer pairs from 1A. Stage 1 selects ten unchanged questions and expected answers from this file.</td>
+</tr>
+<tr>
+<td>CPT model checkpoint</td>
+<td><code>/home/group157/model-backups/cpt_model_1a/</code> or <code>/home/group157/cpt_model/</code></td>
+<td>The SmolLM2 model weights adapted to finance text, together with its configuration and tokenizer files. Forms the base of the 1A generator.</td>
+</tr>
+<tr>
+<td>QLoRA adapter and tokenizer</td>
+<td><code>models/qlora_finance_adapter/</code></td>
+<td>The small trained weight updates that teach the CPT model to answer finance questions, plus the tokenizer and chat template used during training. Loaded with the CPT model in Stage 6.</td>
+</tr>
+<tr>
+<td>Data and model manifests</td>
+<td><code>data/MANIFEST.sha256</code> and <code>models/MANIFEST.sha256</code></td>
+<td>Expected file fingerprints used to detect missing or changed files. These verify integrity; they do not evaluate answer quality.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Model path selection:</strong> an explicit <code>CPT_DIR</code> setting is checked first, followed by the backup and original CPT directories shown above.</p>
+<p><strong>Additional cross-checks:</strong> the repository corpus, complete Q/A file and adapter are compared with their original copies on the PV when those copies are available.</p>
+<h3 id="What-each-setup-cell-does">What each setup cell does<a class="anchor-link" href="#What-each-setup-cell-does">¶</a></h3><table>
 <thead>
 <tr>
 <th>Cell</th>
@@ -8032,45 +7848,36 @@ a.anchor-link {
 <tbody>
 <tr>
 <td>0A</td>
-<td>Configuration: paths, seed, constants; locate this repository's <code>data/</code> folder</td>
+<td>Locate the repository and reused artifacts; set paths, random seed and shared constants</td>
 </tr>
 <tr>
 <td>0B</td>
-<td>Resources and package versions (GPU, VRAM, host RAM, disk)</td>
+<td>Report GPU memory, container RAM, disk space and installed package versions</td>
 </tr>
 <tr>
 <td>0C</td>
-<td>Data integrity: repository <code>data/</code> against its SHA-256 manifest, and against the 1A copies on the volume</td>
+<td>Verify data fingerprints, question-answer identities and the 957/239 split</td>
 </tr>
 <tr>
 <td>0D</td>
-<td>Model artifacts (CPT model, adapter) checked against the committed hash manifest</td>
+<td>Verify the CPT checkpoint and QLoRA adapter against their expected fingerprints</td>
 </tr>
 <tr>
 <td>0E</td>
-<td>Load the corpus and save an input manifest</td>
+<td>Read the 30 documents into memory and save a record of the inputs</td>
 </tr>
 <tr>
 <td>0F</td>
-<td>Model access and disk budget (no downloads yet)</td>
+<td>Check model metadata access and storage requirements without downloading weights</td>
 </tr>
 <tr>
 <td>0G</td>
-<td>Gate 0 summary</td>
+<td>Summarize setup checks and identify any unresolved issues</td>
 </tr>
 </tbody>
 </table>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a4bee597">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 0A–0G). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Outputs from this section:</strong> environment details, an input manifest and a setup summary, saved under <code>/home/group157/assignment_2b_outputs/</code> by default.</p>
+<p>Stage 0 verifies files and reads the corpus. It does not build a search index or load a model for inference.</p>
 </div>
 </div>
 </div>
@@ -8229,7 +8036,21 @@ Top level of ARTIFACT_ROOT (1A volume):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0A.</strong> <em>Expected:</em> the repository <code>data/</code> folder and the 1A artifacts are found. <em>Observed:</em> Python 3.11.11; the repository root and <code>data/</code> folder resolve, and the 1A volume lists <code>cpt_model</code>, <code>qlora_finance_adapter</code>, <code>domain_corpus</code> and the three instruction JSONL files. Outputs go to <code>assignment_2b_outputs</code>. <em>Meaning:</em> every later cell reads its inputs from known locations, so a missing input stops the run early.</p>
+<p><strong>Observation 0A.</strong></p>
+<ul>
+<li><em>Expected:</em> The repository, reused artifacts and output folder are located before later cells run.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Python 3.11.11; repository: <code>/home/group157/llm-assignment-2b/llm-rag</code>, with its <code>data/</code> folder.</li>
+<li>The 1A volume at <code>/home/group157</code> contains <code>cpt_model</code>, <code>qlora_finance_adapter</code>, <code>domain_corpus</code> and the three instruction JSONL files.</li>
+<li>Outputs go to <code>/home/group157/assignment_2b_outputs</code>.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Every later cell reads inputs from known locations, so a missing input stops the run early.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8367,7 +8188,19 @@ If packages are missing: run kubeflow/setup_env.sh in a terminal and select the 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0B.</strong> <em>Expected:</em> a GPU and the pinned packages are present. <em>Observed:</em> one NVIDIA L40S with 47.8 GB (39.4 GB free) and bfloat16 support; torch 2.5.1+cu124, transformers 4.46.3, sentence-transformers 3.3.1, faiss 1.9.0; no package missing; the container memory limit is 19.3 GB. <em>Meaning:</em> there is enough GPU memory for the 8B-parameter models used later (about 16 GB of weights in bfloat16), and the environment matches the pinned requirements.</p>
+<p><strong>Observation 0B.</strong></p>
+<ul>
+<li><em>Expected:</em> A GPU and the pinned packages are present.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>One NVIDIA L40S with 47.8 GB (39.4 GB free) and bfloat16 support; torch 2.5.1+cu124, transformers 4.46.3, sentence-transformers 3.3.1, faiss 1.9.0; no package missing; the container memory limit is 19.3 GB.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> There is enough GPU memory for the 8B-parameter models used later (about 16 GB of weights in bfloat16), and the environment matches the pinned requirements.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8376,7 +8209,7 @@ If packages are missing: run kubeflow/setup_env.sh in a terminal and select the 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Stage 0C: Data integrity (repository data/ vs its manifest, and vs the 1A copies on the volume)</span>
@@ -8509,7 +8342,22 @@ Split exports: train 957 (expected 957) | eval 239 (expected 239) | overlap 0 | 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0C.</strong> <em>Expected:</em> the repository data equals the frozen 1A data. <em>Observed:</em> 34 of 34 manifest files match (0 missing, 0 changed, 0 extra); 1,196 Q/A rows are identical in the submitted and curated files; the 30 corpus files on the volume equal the repository copies; the split exports have 957 train and 239 eval rows with no overlap and together equal the full file. <em>Meaning:</em> the corpus, questions and split used here are the unchanged 1A inputs.</p>
+<p><strong>Observation 0C.</strong></p>
+<ul>
+<li><em>Expected:</em> Reused data matches its manifest and the 1A copies; training and evaluation pairs do not overlap.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>34 of 34 manifest files match (0 missing, 0 changed, 0 extra)</li>
+<li>1,196 Q/A rows are identical in the submitted and curated files</li>
+<li>30 corpus files on the volume equal the repository copies</li>
+<li>The split exports have 957 train and 239 eval rows with no overlap and together equal the full file.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The repository data and split exports match the reused 1A artifacts.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8640,7 +8488,20 @@ Adapter weights: 6.3 MB | tokenizer saved with adapter: True
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0D.</strong> <em>Expected:</em> the adapter and the continued-pretraining (CPT) model match the committed hash manifest. <em>Observed:</em> adapter: 8 of 8 files match, in the repository and on the volume (weights 6.3 MB, LoRA r=16, alpha 32, q_proj and v_proj); CPT model: 8 of 8 files match (<code>model.safetensors</code> 1.3 GB; LlamaForCausalLM, vocabulary 49,152, 32 layers, 8,192 positions). <em>Meaning:</em> the Stage 6 baseline uses exactly the model that 1A produced.</p>
+<p><strong>Observation 0D.</strong></p>
+<ul>
+<li><em>Expected:</em> The adapter and CPT checkpoint match their recorded file hashes.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Adapter: 8 of 8 files match, in the repository and on the volume (weights 6.3 MB, LoRA r=16, alpha 32, q_proj and v_proj)</li>
+<li>CPT model: 8 of 8 files match (<code>model.safetensors</code> 1.3 GB; LlamaForCausalLM, vocabulary 49,152, 32 layers, 8,192 positions).</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The 1A generator artifacts are verified before Stage 6 loads them.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8765,7 +8626,19 @@ Five largest / five smallest documents (characters):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0E.</strong> <em>Expected:</em> all 30 documents load. <em>Observed:</em> 30 of 30 documents load without error (7,160,100 characters in total, confirmed in the Gate 0 summary) and an input manifest is saved. <em>Meaning:</em> the retrieval stages start from the full corpus; nothing is dropped.</p>
+<p><strong>Observation 0E.</strong></p>
+<ul>
+<li><em>Expected:</em> All cleaned documents load and their provenance is recorded.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>30 of 30 documents load without error (7,160,100 characters in total, confirmed in the Gate 0 summary) and an input manifest is saved.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The complete document collection is available for later chunking.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8852,7 +8725,31 @@ Gated models (e.g. Llama) need an accepted licence and an HF token. In this run 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0F.</strong> <em>Expected:</em> every model used later can be reached, without downloading weights. <em>Observed:</em> 5 of 5 models are reachable; <code>meta-llama/Llama-3.1-8B-Instruct</code> is gated and needs an approved token, the others are open; 2,446 GB of disk is free for the model cache; nothing was downloaded. <em>Meaning:</em> Llama was not usable in this run, so Phi-3.5-mini-instruct (generator) and Tulu-3 8B (judge) are used later and the reasons are recorded in Stages 6 and 7.</p>
+<p><strong>Observation 0F.</strong></p>
+<ul>
+<li><em>Expected:</em> Model metadata access and cache space are checked without downloading weights.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>5 of 5 models are reachable from Kubeflow; <code>meta-llama/Llama-3.1-8B-Instruct</code> is gated and needs an approved token.</li>
+</ul>
+<p>| Role | Model | Where | Why it was chosen |
+|---|---|---|---|
+| Embedder | <code>BAAI/bge-small-en-v1.5</code> | Stages 2 to 5 | Small 384-dimension model with a 512-token limit; its tokenizer sizes the chunks |
+| Keyword search | BM25 (<code>rank_bm25</code>, BM25Okapi), no neural model | Stage 4 | Keyword baseline that differs from the embedder; fused with it by RRF in the hybrid method |
+| Reranker | <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> | Stage 5 | The model named in the assignment; scores each query and chunk pair together |
+| Generator, tested first | 1A model: SmolLM2-360M CPT checkpoint plus the QLoRA adapter | Stage 6 baseline | The assignment asks for the 1A model first; it gave 0 of 10 numbered citations and answered the unanswerable query |
+| Generator, used | <code>microsoft/Phi-3.5-mini-instruct</code> (revision 2fe1924501) | Stage 6 fallback | Llama-3.1-8B-Instruct was tried first and returned HTTP 401 (gated); Phi gave the exact fallback on the unanswerable query |
+| Judge | <code>allenai/Llama-3.1-Tulu-3-8B</code> | Stage 7 | Different model from the generator; best of four judge attempts on 12 known-label cases (9 of 12 matched) |</p>
+<ul>
+<li>2,446 GB of disk is free for the model cache; no model downloads in this step.</li>
+<li>Llama was not usable in this run, so Phi-3.5-mini-instruct (generator) and Tulu-3 8B (judge) are used later and the reasons are recorded in Stages 6 and 7.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Metadata access does not guarantee gated weight access; the model choices and their reasons are recorded in Stages 6 and 7.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8920,22 +8817,19 @@ Saved assignment_2b_outputs/stage0_summary.json
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 0G.</strong> <em>Expected:</em> no hard failure in Stage 0. <em>Observed:</em> 12 of 12 checks PASS (resources, repository manifest, corpus, Q/A rows, volume copies, split exports, adapter, CPT model, documents loaded, model access). <em>Meaning:</em> Stage 0 is complete and the inputs are verified before any retrieval or generation.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7bf7f4dc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 0)</p>
+<p><strong>Observation 0G.</strong></p>
 <ul>
-<li><em>Expected:</em> every reused artifact is present and identical to Assignment 1. <em>Observed:</em> all 12 checks pass: 34 repository data files match their manifest, 30 corpus documents (7,160,100 characters) load, the 957/239 train/evaluation split is reproduced, and the adapter and continued-pretraining files show no changes or missing files.</li>
-<li><em>Compute:</em> an NVIDIA L40S and 2,446 GB free disk for the model cache. All five models checked are reachable; <code>meta-llama/Llama-3.1-8B-Instruct</code> is gated and needs approved access, which is why Stage 6G later records HTTP 401 and uses another model.</li>
-<li><em>Meaning:</em> later results can be traced to unchanged inputs; no retrieval or generation happened in this section.</li>
+<li><em>Expected:</em> All setup checks pass before retrieval or generation.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>12 of 12 checks PASS (resources, repository manifest, corpus, Q/A rows, volume copies, split exports, adapter, CPT model, documents loaded, model access).</li>
+<li>Stage 0 is complete and the inputs are verified before any retrieval or generation.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Stage 0 is complete and the inputs are verified.</li>
 </ul>
 </div>
 </div>
@@ -8947,7 +8841,7 @@ Saved assignment_2b_outputs/stage0_summary.json
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-A-(before-you-start)---Answer-spans-for-the-10-queries-%C2%B7-Stage-1">Part A (before you start) - Answer spans for the 10 queries · Stage 1<a class="anchor-link" href="#Part-A-(before-you-start)---Answer-spans-for-the-10-queries-%C2%B7-Stage-1">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="Preparation:-select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">Preparation: select 10 evaluation questions and mark their answer passages · Stage 1<a class="anchor-link" href="#Preparation:-select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ul>
 <li>Mark, for each of the 10 queries, the answer span: the sentence or short passage in the corpus that answers it. A retrieved chunk is a <strong>hit</strong> if it contains that span.</li>
 <li>Note the embedding model's maximum input length and count tokens with its tokenizer. Parts A, B and C reuse these spans.</li>
@@ -8960,17 +8854,6 @@ Saved assignment_2b_outputs/stage0_summary.json
 <li><strong>Limitations:</strong> the evaluation split prevents reuse of an exact training pair but does not make the facts unseen, because CPT and other SFT pairs use the same corpus. The questions share vocabulary with their sources, which favours BM25. Q08 has near-miss net-worth passages that do not count as hits.</li>
 <li><strong>Unanswerable query:</strong> U01 is an out-of-domain question kept separate from the ten and excluded from their metrics. It is used in D1 step 3 to test the fallback "Not found in the documents".</li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=80f279fe">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 1A–1D). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -9059,7 +8942,21 @@ evaluation questions span 30 of 30 documents; largest sources:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 1A.</strong> <em>Expected:</em> the ten evaluation questions can only come from the held-out split. <em>Observed:</em> 1,196 curated rows = 957 train + 239 eval with 0 overlap; the split is re-derived from <code>random.Random(42).shuffle</code> and matches the exports; the 239 eval questions span 30 of 30 documents (largest: SEBI LODR 29, RBI Annual Report 2025-26 23, Annual Report 2023-24 18). <em>Meaning:</em> the questions were not training pairs.</p>
+<p><strong>Observation 1A.</strong></p>
+<ul>
+<li><em>Expected:</em> The held-out evaluation split is reproduced without overlap with training pairs.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>1,196 curated rows = 957 train + 239 eval with 0 overlap</li>
+<li>The split is re-derived from <code>random.Random(42).shuffle</code> and matches the exports</li>
+<li>The 239 eval questions span 30 of 30 documents (largest: SEBI LODR 29, RBI Annual Report 2025-26 23, Annual Report 2023-24 18).</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Stage 1 can select questions from the original 1A evaluation split.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9321,7 +9218,22 @@ OFFSETS : characters 63,033 to 63,093 of 91,761
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 1B.</strong> <em>Expected:</em> each query has a source passage that supports the whole expected answer. <em>Observed:</em> 10 queries, all evaluation-only, drawn from 10 source documents; each span is present in its document and maps back to raw character offsets (for example Q01 18,032 to 18,154, 122 characters; Q10 63,033 to 63,093, 60 characters); spans range from 60 to 508 characters. <em>Meaning:</em> a retrieved chunk can be scored as a hit or miss automatically, and the spans are frozen before any retrieval.</p>
+<p><strong>Observation 1B.</strong></p>
+<ul>
+<li><em>Expected:</em> Ten evaluation-only questions have supporting passages recorded in their source documents.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>10 queries, all evaluation-only, drawn from 10 source documents</li>
+<li>Each span is present in its document and maps back to raw character offsets (for example Q01 18,032 to 18,154, 122 characters; Q10 63,033 to 63,093, 60 characters)</li>
+<li>Spans range from 60 to 508 characters.</li>
+<li>A retrieved chunk can be scored as a hit or miss automatically, and the spans are frozen before any retrieval.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> A retrieved chunk can be scored as a hit or miss automatically; the spans are frozen before retrieval.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9432,7 +9344,19 @@ Keywords alone do not prove absence, so D1.3 will also inspect the retrieved and
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 1C.</strong> <em>Expected:</em> an unanswerable question that the corpus cannot answer. <em>Observed:</em> for "Who won the FIFA World Cup in 2018?": 0 hits for FIFA, football, soccer and champion; the single "world cup" hit is an RBI note about the ICC men's cricket event with no winner or year; the best keyword matches are unrelated regulatory text. <em>Meaning:</em> U01 has no supporting text. Keyword absence alone is not proof, so D1 also inspects the retrieved and reranked chunks.</p>
+<p><strong>Observation 1C.</strong></p>
+<ul>
+<li><em>Expected:</em> An unanswerable question that the corpus cannot answer.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>For "Who won the FIFA World Cup in 2018?": 0 hits for FIFA, football, soccer and champion.</li>
+<li>The single "world cup" hit is an RBI note about the ICC men's cricket event with no winner or year.</li>
+<li>The best keyword matches are unrelated regulatory text.</li>
+<li>U01 has no supporting text. Keyword absence alone is not proof, so D1 also inspects the retrieved and reranked chunks.</li>
+</ul>
+</blockquote>
 </div>
 </div>
 </div>
@@ -9530,7 +9454,18 @@ Gate 1: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 1D.</strong> <em>Expected:</em> the query set is frozen and reused unchanged. <em>Observed:</em> <code>eval/query_set_frozen.json</code> already exists and its freeze hash matches this build (SHA-256 99eac52609fbde84...); 10 queries plus U01 reload; 4 of 4 Stage 1 checks PASS. <em>Meaning:</em> every later part (A to D) scores the same questions and spans.</p>
+<p><strong>Observation 1D.</strong></p>
+<ul>
+<li><em>Expected:</em> The query set is frozen and reused unchanged.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><code>eval/query_set_frozen.json</code> already exists and its freeze hash matches this build (SHA-256 99eac52609fbde84...)</li>
+<li>10 queries plus U01 reload; 4 of 4 Stage 1 checks PASS.</li>
+<li>Every later part (A to D) scores the same questions and spans.</li>
+</ul>
+</blockquote>
 </div>
 </div>
 </div>
@@ -9541,11 +9476,35 @@ Gate 1: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 1)</p>
+<h3 id="Preparation-summary">Preparation summary<a class="anchor-link" href="#Preparation-summary">¶</a></h3><p>Ten unchanged held-out questions are tied to source passages whose exact text and character offsets are stored. U01 is kept separate. A retrieved chunk counts as a hit only if it contains the stored passage.</p>
+<p><strong>Example: Q10, answerable.</strong></p>
 <ul>
-<li><strong>Evaluation set:</strong> ten unchanged held-out questions, each tied to a source passage whose exact text is stored with its character offsets, plus one unanswerable question (U01). A retrieved chunk counts as a hit only if it contains that stored passage.</li>
-<li><strong>Example, answerable (Q10):</strong> <em>Question:</em> in what form must a company pay the buy-back consideration? <em>Expected:</em> "only by way of cash" (SEBI Buy-Back Regulations, about 63.0k characters into the document (offset 63,033)). <em>Observed:</em> the passage is found at that offset and the question set is frozen with a SHA-256 hash. <em>Meaning:</em> later stages can score retrieval automatically and cannot change the questions to fit the results.</li>
-<li><strong>Example, unanswerable (U01):</strong> <em>Question:</em> who won the FIFA World Cup in 2018? <em>Expected:</em> no support in the corpus. <em>Observed:</em> 0 hits for FIFA, football, soccer, champion; the single "World Cup" hit is an RBI note about the ICC cricket event. <em>Meaning:</em> the only correct system behaviour for U01 is the exact reply <code>Not found in the documents</code>.</li>
+<li><em>Question:</em> In what form must a company pay the buy-back consideration?</li>
+<li><em>Expected:</em> "Only by way of cash" (SEBI Buy-Back Regulations, at character offset 63,033, about 63.0k characters into the document).</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>The passage is found at that offset and the question set is frozen with a SHA-256 hash.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Later stages can score retrieval automatically and cannot change the questions to fit the results.</li>
+</ul>
+<p><strong>Example: U01, unanswerable.</strong></p>
+<ul>
+<li><em>Question:</em> Who won the FIFA World Cup in 2018?</li>
+<li><em>Expected:</em> No support in the corpus.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Zero hits for FIFA, football, soccer and champion.</li>
+<li>The single "World Cup" hit is an RBI note about the ICC cricket event.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The required system response for U01 is exactly <code>Not found in the documents</code>.</li>
 </ul>
 </div>
 </div>
@@ -9557,7 +9516,7 @@ Gate 1: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-A-%C2%B7-A1---Build-dense-search-(2-marks)-%C2%B7-Stage-2">Part A · A1 - Build dense search (2 marks) · Stage 2<a class="anchor-link" href="#Part-A-%C2%B7-A1---Build-dense-search-(2-marks)-%C2%B7-Stage-2">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="A1:-build-reusable-dense-search-and-report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">A1: build reusable dense search and report the embedding/index details (2 marks) · Stage 2<a class="anchor-link" href="#A1:-build-reusable-dense-search-and-report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>One reusable function that embeds chunks, builds a FAISS <code>IndexFlatIP</code> index and returns the top k chunks for a query (1 mark).</li>
 <li>Report the embedding model, vector size, similarity measure, batch size and index build time for the final chunk set (1 mark). The build time for the final chunks is reported in Stage 3 (A2).</li>
@@ -9572,17 +9531,6 @@ Gate 1: all checks passed.
 <li><strong>Scope of this stage:</strong> the interface is shown on a small labelled fixture of invented sentences. Fixture timings are not the A1 build time; Stage 3 builds the real 100- and 400-token chunk sets and reports the final-corpus time.</li>
 <li><strong>Model choice:</strong> <code>BAAI/bge-small-en-v1.5</code> is a small 384-dimension embedder with a 512-token limit that runs on the available GPU. The same model embeds queries and passages, and its own tokenizer is used to size the chunks in Stage 3.</li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=87dd7202">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 2A–2D). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -9671,7 +9619,20 @@ load_seconds                9.41
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 2A.</strong> <em>Expected:</em> the embedder loads with its settings recorded. <em>Observed:</em> BAAI/bge-small-en-v1.5 (revision 5c38ec7c405e), 384-dimension vectors, 512-token limit, on CUDA, batch size 64, cosine similarity (inner product of L2-normalised float32 vectors); loaded in 9.41 s. <em>Meaning:</em> these are the A1 facts for the embedding model; the build time for the real corpus is measured in Stage 3.</p>
+<p><strong>Observation 2A.</strong></p>
+<ul>
+<li><em>Expected:</em> The embedder loads with its settings recorded.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>BAAI/bge-small-en-v1.5 (revision 5c38ec7c405e), 384-dimension vectors, 512-token limit, on CUDA, batch size 64, cosine similarity (inner product of L2-normalised float32 vectors)</li>
+<li>Loaded in 9.41 s.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> These are the A1 facts for the embedding model; the build time for the real corpus is measured in Stage 3.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9768,7 +9729,19 @@ DenseSearcher defined (build / search; passages unprefixed, queries prefixed, ve
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 2B.</strong> <em>Expected:</em> one reusable build and search interface. <em>Observed:</em> <code>DenseSearcher</code> defines <code>build</code> and <code>search</code>; passages are embedded without a prefix, queries with the BGE query prefix, and vectors are normalised float32. <em>Meaning:</em> any chunk list can be indexed and searched with the same code in Stages 3 to 5.</p>
+<p><strong>Observation 2B.</strong></p>
+<ul>
+<li><em>Expected:</em> One reusable build and search interface.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><code>DenseSearcher</code> defines <code>build</code> and <code>search</code>; passages are embedded without a prefix, queries with the BGE query prefix, and vectors are normalised float32.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Any chunk list can be indexed and searched with the same code in Stages 3 to 5.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9898,7 +9871,19 @@ Example result record for the first query (k=2):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 2C.</strong> <em>Expected:</em> the search code behaves correctly on a small labelled fixture. <em>Observed:</em> 8 invented chunks built in 381.1 ms (not a graded time); embeddings (8, 384) with unit norm; ranking equals a brute-force cosine search; k bounds behave (k=100 is capped at 8; invalid k raises ValueError); top-1 correct 6/6 and gold in top 3 6/6. <em>Meaning:</em> the mechanics are correct; the fixture is not retrieval evidence for the corpus.</p>
+<p><strong>Observation 2C.</strong></p>
+<ul>
+<li><em>Expected:</em> The search code behaves correctly on a small labelled fixture.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>8 invented chunks built in 381.1 ms (not a graded time); embeddings (8, 384) with unit norm; ranking equals a brute-force cosine search; k bounds behave (k=100 is capped at 8; invalid k raises ValueError); top-1 correct 6/6 and gold in top 3 6/6.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The mechanics are correct; the fixture is not retrieval evidence for the corpus.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9954,7 +9939,19 @@ Gate 2: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Observation 2D.</strong> <em>Expected:</em> the Stage 2 checks pass. <em>Observed:</em> 3 of 3 checks PASS (embedder, interface, fixture checks); the fixture timing is a mechanics check only. <em>Meaning:</em> the dense search is ready for the real chunk sets in Stage 3.</p>
+<p><strong>Observation 2D.</strong></p>
+<ul>
+<li><em>Expected:</em> The Stage 2 checks pass.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>3 of 3 checks PASS (embedder, interface, fixture checks); the fixture timing is a mechanics check only.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The dense search is ready for the real chunk sets in Stage 3.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9965,10 +9962,24 @@ Gate 2: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 2)</p>
+<p><strong>Observations</strong> (Stage 2)</p>
 <ul>
-<li><strong>What was tested:</strong> the reusable search code (BGE-small embeddings, cosine similarity through an exact FAISS index) on an eight-chunk labelled fixture, not on the corpus.</li>
-<li><strong>Example:</strong> <em>Question:</em> "Where must prepaid wallet issuers keep the money customers have loaded?" <em>Expected:</em> fixture chunk F2. <em>Observed:</em> F2 ranked first (score 0.718), ahead of F6 (0.644). <em>Meaning:</em> the embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only; the graded index build time is measured in Stage 3.</li>
+<li><p><strong>What was tested:</strong> the reusable search code (BGE-small embeddings, cosine similarity through an exact FAISS index) on an eight-chunk labelled fixture, not on the corpus.</p>
+</li>
+<li><p><strong>Example:</strong> <em>Question:</em> "Where must prepaid wallet issuers keep the money customers have loaded?"</p>
+</li>
+<li><p><em>Expected:</em> Fixture chunk F2.</p>
+</li>
+<li><p><em>Observed:</em></p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>F2 ranked first (score 0.718), ahead of F6 (0.644).</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only; the graded index build time is measured in Stage 3.</li>
 </ul>
 </div>
 </div>
@@ -9980,7 +9991,7 @@ Gate 2: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-A-%C2%B7-A2---Choose-a-chunk-size-(3-marks)-%C2%B7-Stage-3">Part A · A2 - Choose a chunk size (3 marks) · Stage 3<a class="anchor-link" href="#Part-A-%C2%B7-A2---Choose-a-chunk-size-(3-marks)-%C2%B7-Stage-3">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="A2:-compare-100--and-400-token-chunks-and-justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">A2: compare 100- and 400-token chunks and justify the chosen size (3 marks) · Stage 3<a class="anchor-link" href="#A2:-compare-100--and-400-token-chunks-and-justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>Chunk the corpus at 100 and 400 tokens with no overlap; run the A1 search on the 10 queries for each size; report total chunks, hit rate@3 and tokens sent per query (top 3) (2 marks).</li>
 <li>In two or three sentences, name the size used in Parts B to D and why, considering hit rate, tokens per query and the Assignment 1 model's context (1 mark).</li>
@@ -10006,7 +10017,7 @@ Gate 2: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 3A–3E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Code → Execution output</strong> (stage cells 3A–3E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -10649,37 +10660,36 @@ Gate 3: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 3)</p>
-<table>
-<thead>
-<tr>
-<th>Chunk size</th>
-<th>Chunks</th>
-<th>hit@3</th>
-<th>Spans split across chunks</th>
-<th>Mean top-3 tokens</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>100</td>
-<td>16,214</td>
-<td>2/10</td>
-<td>5/10</td>
-<td>300</td>
-</tr>
-<tr>
-<td>400</td>
-<td>4,065</td>
-<td>7/10</td>
-<td>0/10</td>
-<td>1,200</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Observations</strong> (Stage 3)</p>
 <ul>
-<li><strong>Chosen: 400 tokens.</strong> Small chunks cut the answer sentence in two; larger chunks keep it whole and carry more surrounding text.</li>
-<li><strong>Example (Q02):</strong> <em>Question:</em> where must a non-bank PPI issuer keep the outstanding balance? <em>Expected:</em> an escrow account with a scheduled commercial bank. <em>Observed:</em> with 100 tokens the answer sentence straddles chunks <code>c100-d12-00093</code> and <code>c100-d12-00094</code>, so no single chunk contains it; with 400 tokens one chunk holds it and ranks first. <em>Meaning:</em> chunk size decides whether the answer can be retrieved at all.</li>
+<li><em>Expected:</em> Compare both chunk sizes on the same ten queries and justify the size used later.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<p>| Chunk size | Chunks | hit@3 | Spans split across chunks | Mean top-3 tokens |
+|---|---|---|---|---|
+| 100 | 16,214 | 2/10 | 5/10 | 300 |
+| 400 | 4,065 | 7/10 | 0/10 | 1,200 |</p>
+</blockquote>
+<ul>
+<li><p><em>Meaning:</em> The comparison balances retrieval hits against the amount of text sent to the generator.</p>
+</li>
+<li><p><strong>Chosen: 400 tokens.</strong> Small chunks cut the answer sentence in two; larger chunks keep it whole and carry more surrounding text.</p>
+</li>
+<li><p><strong>Example (Q02):</strong> <em>Question:</em> Where must a non-bank PPI issuer keep the outstanding balance?</p>
+</li>
+<li><p><em>Expected:</em> An escrow account with a scheduled commercial bank.</p>
+</li>
+<li><p><em>Observed:</em></p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>With 100 tokens the answer sentence straddles chunks <code>c100-d12-00093</code> and <code>c100-d12-00094</code>, so no single chunk contains it; with 400 tokens one chunk holds it and ranks first.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Chunk size decides whether the answer can be retrieved at all.</li>
 <li><strong>Cost and limit:</strong> the 400-token prompts average 1,584 tokens, above the 512-token length used in 1A fine-tuning, so Stage 6 tests the generator instead of assuming it copes. Q06, Q07 and Q10 are still missed in the top 3 at 400 tokens, so chunking alone does not reach 10/10.</li>
 </ul>
 </div>
@@ -10692,7 +10702,7 @@ Gate 3: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-B---Keyword-and-hybrid-search-(4-marks)-%C2%B7-Stage-4">Part B - Keyword and hybrid search (4 marks) · Stage 4<a class="anchor-link" href="#Part-B---Keyword-and-hybrid-search-(4-marks)-%C2%B7-Stage-4">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="B:-compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">B: compare Dense, BM25 and Hybrid search using hit rates and latency (4 marks) · Stage 4<a class="anchor-link" href="#B:-compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <p>Using the chosen chunks, compare on the same 10 queries (top 5 each): <strong>Dense</strong> (1), <strong>BM25</strong> (1) and <strong>Hybrid</strong> with Reciprocal Rank Fusion over the top 20 of each, constant 60, ranks from 1 (1). Report latency (after one warm-up), hit rate@1 and hit rate@3. Then say which method works best, with one query as an example (1).</p>
 <p><strong>Approach used</strong> (Stage 4)</p>
 <ul>
@@ -10716,7 +10726,7 @@ Gate 3: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 4A–4D). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Code → Execution output</strong> (stage cells 4A–4D). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -11278,40 +11288,37 @@ Gate 4: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 4)</p>
-<table>
-<thead>
-<tr>
-<th>Method</th>
-<th>hit@1</th>
-<th>hit@3</th>
-<th>Latency (10 queries)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dense</td>
-<td>4/10</td>
-<td>7/10</td>
-<td>5.8 ms</td>
-</tr>
-<tr>
-<td>BM25</td>
-<td>3/10</td>
-<td>7/10</td>
-<td>10.6 ms</td>
-</tr>
-<tr>
-<td>Hybrid (RRF)</td>
-<td>4/10</td>
-<td>6/10</td>
-<td>17.9 ms</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Observations</strong> (Stage 4)</p>
 <ul>
-<li><strong>Chosen: Dense.</strong> It ties the best hit@3, has the best hit@1 (shared with Hybrid) and is the fastest. Hybrid did not help here, and BM25 found different questions (Q10) than Dense did (Q04, Q08).</li>
-<li><strong>Example (Q04):</strong> <em>Question:</em> what does section 10-A of the Payment and Settlement Systems Act forbid? <em>Expected:</em> a chunk with the clause "no bank or system provider shall impose ... any charge". <em>Observed:</em> Dense ranks that chunk 2nd; BM25 and Hybrid do not return it in their top 5. <em>Meaning:</em> meaning-based matching suits wording-heavy legal questions better than keyword counts on this set.</li>
+<li><em>Expected:</em> Compare Dense, BM25 and Hybrid on hit rates and measured latency.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<p>| Method | hit@1 | hit@3 | Latency (10 queries) |
+|---|---|---|---|
+| Dense | 4/10 | 7/10 | 5.8 ms |
+| BM25 | 3/10 | 7/10 | 10.6 ms |
+| Hybrid (RRF) | 4/10 | 6/10 | 17.9 ms |</p>
+</blockquote>
+<ul>
+<li><p><em>Meaning:</em> The selected method uses the recorded hit rates and latency, with the query example below showing one difference.</p>
+</li>
+<li><p><strong>Chosen: Dense.</strong> It ties the best hit@3, has the best hit@1 (shared with Hybrid) and is the fastest. Hybrid did not help here, and BM25 found different questions (Q10) than Dense did (Q04, Q08).</p>
+</li>
+<li><p><strong>Example (Q04):</strong> <em>Question:</em> What does section 10-A of the Payment and Settlement Systems Act forbid?</p>
+</li>
+<li><p><em>Expected:</em> A chunk with the clause "no bank or system provider shall impose ... any charge".</p>
+</li>
+<li><p><em>Observed:</em></p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>Dense ranks that chunk 2nd; BM25 and Hybrid do not return it in their top 5.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Meaning-based matching suits wording-heavy legal questions better than keyword counts on this set.</li>
 <li><strong>Caution:</strong> ten questions means one question is 10 points; the differences are indicative, not conclusive.</li>
 </ul>
 </div>
@@ -11324,7 +11331,7 @@ Gate 4: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-C---Reranking-(4-marks)-%C2%B7-Stage-5">Part C - Reranking (4 marks) · Stage 5<a class="anchor-link" href="#Part-C---Reranking-(4-marks)-%C2%B7-Stage-5">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="C:-rerank-search-results-and-measure-changes-in-accuracy,-ranking-and-time-(4-marks)-%C2%B7-Stage-5">C: rerank search results and measure changes in accuracy, ranking and time (4 marks) · Stage 5<a class="anchor-link" href="#C:-rerank-search-results-and-measure-changes-in-accuracy,-ranking-and-time-(4-marks)-%C2%B7-Stage-5">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>Retrieve the top 10 with the best Part B method, re-score with a cross-encoder and keep the top 3 (1).</li>
 <li>Show the top 3 before and after reranking for each query, with the rank change rate (1).</li>
@@ -11351,7 +11358,7 @@ Gate 4: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 5A–5F). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Code → Execution output</strong> (stage cells 5A–5F). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -11914,35 +11921,51 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations</strong> (Stage 5)</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>hit@1</th>
-<th>hit@3</th>
-<th>Added time</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dense top 3</td>
-<td>4/10</td>
-<td>7/10</td>
-<td>-</td>
-</tr>
-<tr>
-<td>After cross-encoder reranking</td>
-<td>5/10</td>
-<td>5/10</td>
-<td>about 10.6 ms/query</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Observations</strong> (Stage 5)</p>
 <ul>
-<li><strong>Reading:</strong> reranking improves the very first result but pushes some correct chunks out of the top 3. The cross-encoder can only reorder the Dense top 10, where 8/10 questions have the answer.</li>
-<li><strong>Gained (Q04):</strong> <em>Expected:</em> the 10-A clause chunk first. <em>Observed:</em> it moved from Dense rank 2 to rank 1. <em>Meaning:</em> the cross-encoder judged the question-to-passage fit better than vector similarity.</li>
-<li><strong>Lost (Q01):</strong> <em>Expected:</em> the PA-CB limit chunk (Dense rank 1). <em>Observed:</em> an Annual Report passage that mentions PA-CB scored higher, and the chunk with the limit left the top 3. <em>Meaning:</em> topical overlap can outrank the passage that holds the number.</li>
+<li><em>Expected:</em> Measure whether reranking improves the results and what time it adds.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<p>| | hit@1 | hit@3 | Added time |
+|---|---|---|---|
+| Dense top 3 | 4/10 | 7/10 | - |
+| After cross-encoder reranking | 5/10 | 5/10 | about 10.6 ms/query |</p>
+</blockquote>
+<ul>
+<li><p><em>Meaning:</em> Hit@1 improves, while hit@3 falls; the examples below explain a gain and a loss.</p>
+</li>
+<li><p><strong>Reading:</strong> reranking improves the very first result but pushes some correct chunks out of the top 3. The cross-encoder can only reorder the Dense top 10, where 8/10 questions have the answer.</p>
+</li>
+<li><p><strong>Gained (Q04):</strong></p>
+</li>
+<li><p><em>Expected:</em> The 10-A clause chunk first.</p>
+</li>
+<li><p><em>Observed:</em></p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>It moved from Dense rank 2 to rank 1.</li>
+</ul>
+</blockquote>
+<ul>
+<li><p><em>Meaning:</em> The cross-encoder judged the question-to-passage fit better than vector similarity.</p>
+</li>
+<li><p><strong>Lost (Q01):</strong></p>
+</li>
+<li><p><em>Expected:</em> The PA-CB limit chunk (Dense rank 1).</p>
+</li>
+<li><p><em>Observed:</em></p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>An Annual Report passage that mentions PA-CB scored higher, and the chunk with the limit left the top 3.</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Topical overlap can outrank the passage that holds the number.</li>
 <li><strong>Consequence:</strong> Stage 6 must use these reranked top 3, so only 5 of 10 contexts contain the answer span (Q02, Q03, Q04, Q05, Q09). For the other five the frozen answer span is absent; the passages were inspected (see the Stage 6 notes) before concluding that the needed information is missing, and recovering it needs a retrieval, reranking or context change.</li>
 </ul>
 </div>
@@ -11955,7 +11978,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-D-%C2%B7-D1---Generate-grounded-answers-(3-marks)-%C2%B7-Stage-6">Part D · D1 - Generate grounded answers (3 marks) · Stage 6<a class="anchor-link" href="#Part-D-%C2%B7-D1---Generate-grounded-answers-(3-marks)-%C2%B7-Stage-6">¶</a></h2><p><strong>Block 1 - Task brief</strong> (assignment)</p>
+<h2 id="D1:-generate-answers-with-source-citations-and-test-an-unanswerable-question;-document-any-model-switch-(3-marks)-%C2%B7-Stage-6">D1: generate answers with source citations and test an unanswerable question; document any model switch (3 marks) · Stage 6<a class="anchor-link" href="#D1:-generate-answers-with-source-citations-and-test-an-unanswerable-question;-document-any-model-switch-(3-marks)-%C2%B7-Stage-6">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>A prompt that answers only from the chunks, cites chunk numbers such as [2] and replies "Not found in the documents" otherwise; show it (1).</li>
 <li>For each of the 10 queries, give the Assignment 1 model the reranked top 3 chunks, numbered, and show all 10 answers (1).</li>
@@ -11993,7 +12016,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 <li><strong>Decoding:</strong> greedy (<code>do_sample=False</code>), <code>max_new_tokens=150</code>, no repetition penalty and no n-gram blocking. The 1A evaluation used <code>repetition_penalty=1.1</code> and <code>no_repeat_ngram_size=4</code>; both would block the model from repeating wording that is already in the prompt, which grounded answering requires.</li>
 <li><strong>Context budget:</strong> formatted prompt tokens plus the 150-token output reserve are checked against the model's position limit (8,192). The 1A SFT length (512) and the CPT block length (1,024) are reported separately as training settings, not limits. Chunks are never truncated.</li>
 <li><strong>Checks per answer (heuristic, not the judge):</strong> citation numbers present and within 1 to 3; share of answer words found in the three chunks; exact abstention string; whether the context actually contains the frozen span. These flags decide only whether a failure is recorded; correctness is judged in Stage 7.</li>
-<li><strong>Switch rule:</strong> a different model is considered only if U01 is not answered with the exact fallback, or at least half of the ten answers are flagged. The first flagged raw output is saved unedited. A switch needs operator approval and follows a fixed order of preference (Llama first, Phi second, Qwen last resort).</li>
+<li><strong>Switch rule:</strong> a different model is considered only if U01 is not answered with the exact fallback, or at least half of the ten answers are flagged. The first flagged raw output is saved unedited. A switch needs User approval and follows a fixed order of preference (Llama first, Phi second, Qwen last resort).</li>
 </ul>
 <p><strong>Model choice:</strong> the assignment requires the 1A model to be tried first. It is kept as the baseline trial. Because it gave no numbered citations and answered the unanswerable query, the fallback trial uses an instruct model (reasons in the fallback trial brief and the model-selection diagram).</p>
 </div>
@@ -12006,7 +12029,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">Baseline trial: Assignment 1 model (SmolLM2-360M + continued pre-training + QLoRA) · Stage 6A–6E<a class="anchor-link" href="#Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">¶</a></h3><p><strong>Block 1 - Task brief:</strong> test the Assignment 1 model first with the grounded prompt on the ten reranked top-3 contexts, then on U01 (D1 steps 1–3). 6A also builds the shared inputs, including U01 retrieval and reranking.</p>
+<h3 id="Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">Baseline trial: Assignment 1 model (SmolLM2-360M + continued pre-training + QLoRA) · Stage 6A–6E<a class="anchor-link" href="#Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">¶</a></h3><p><strong>Task brief:</strong> Test the Assignment 1 model first with the grounded prompt on the ten reranked top-3 contexts, then on U01 (D1 steps 1–3). 6A also builds the shared inputs, including U01 retrieval and reranking.</p>
 </div>
 </div>
 </div>
@@ -12017,7 +12040,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 6A–6E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Code → Execution output</strong> (stage cells 6A–6E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -12599,23 +12622,122 @@ Gate 6: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations: Assignment 1 baseline trial</strong> (Stage 6A–6E)</p>
+<p><strong>Observations: Assignment 1 baseline trial</strong> (Stage 6A–6E)</p>
 <ul>
 <li><strong>Inputs:</strong> the reranked top 3 contain the frozen answer span for 5 of 10 questions (Q02, Q03, Q04, Q05, Q09). U01 goes through the same Dense → cross-encoder pipeline. Prompts reach 1,644 tokens plus the 150-token output reserve, within the model's 8,192 positions; the 1A recipe's repetition controls were not used because they would block copying from the chunks.</li>
-<li><strong>Expected → generated</strong> (manual reading of the printed answers):<ul>
-<li><strong>Q01</strong> ₹25 lakh (span not in chunks) → "₹10,000", repeated: wrong.</li>
-<li><strong>Q02</strong> escrow account with a scheduled commercial bank → the same content, then an invented follow-up question.</li>
-<li><strong>Q03</strong> 34% to 83% → "37.5 per cent … to 83 per cent": wrong figure although the chunk says 34%.</li>
-<li><strong>Q04</strong> no bank or system provider may impose a charge → "any change in the payment system that would affect the structure or operation": wrong, although chunk [1] holds the clause.</li>
-<li><strong>Q05</strong> a third-party guarantee up to a share of defaults, follow the Securitisation Directions → a guarantee "not less than the outstanding loan amount", repeated: wrong.</li>
-<li><strong>Q06</strong> Small Payment System Providers (span not in chunks) → a list of PPI issuers, payment aggregators and others: wrong.</li>
-<li><strong>Q07</strong> offer price revised upward (span not in chunks) → "The offer price is not affected", repeated: wrong.</li>
-<li><strong>Q08</strong> fifty crore → "Not found in the documents", repeated: an abstention, although the chunk contains a net-worth clause.</li>
-<li><strong>Q09</strong> ELM of 1% deducted from the clearing member's liquid assets → the deduction is described, the 1% is missing, then invented follow-up questions.</li>
-<li><strong>Q10</strong> only by way of cash (span not in chunks) → "cash, … shares or other specified securities … or a bonus issue": wrong.</li>
-<li><strong>U01</strong> exact fallback <code>Not found in the documents</code> → "The United States won the FIFA World Cup in 2018 …": an invented answer, not an abstention.</li>
+<li><strong>Question-by-question observations</strong> (manual reading of the printed answers):</li>
 </ul>
-</li>
+<p><strong>Q01.</strong></p>
+<ul>
+<li><em>Expected:</em> ₹25 lakh (span not in chunks)</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"₹10,000", repeated: wrong.</li>
+</ul>
+</blockquote>
+<p><strong>Q02.</strong></p>
+<ul>
+<li><em>Expected:</em> Escrow account with a scheduled commercial bank</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>The same content, then an invented follow-up question.</li>
+</ul>
+</blockquote>
+<p><strong>Q03.</strong></p>
+<ul>
+<li><em>Expected:</em> 34% to 83%</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"37.5 per cent … to 83 per cent": wrong figure although the chunk says 34%.</li>
+</ul>
+</blockquote>
+<p><strong>Q04.</strong></p>
+<ul>
+<li><em>Expected:</em> No bank or system provider may impose a charge</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"any change in the payment system that would affect the structure or operation": wrong, although chunk [1] holds the clause.</li>
+</ul>
+</blockquote>
+<p><strong>Q05.</strong></p>
+<ul>
+<li><em>Expected:</em> A third-party guarantee up to a share of defaults, follow the Securitisation Directions</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>A guarantee "not less than the outstanding loan amount", repeated: wrong.</li>
+</ul>
+</blockquote>
+<p><strong>Q06.</strong></p>
+<ul>
+<li><em>Expected:</em> Small Payment System Providers (span not in chunks)</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>A list of PPI issuers, payment aggregators and others: wrong.</li>
+</ul>
+</blockquote>
+<p><strong>Q07.</strong></p>
+<ul>
+<li><em>Expected:</em> Offer price revised upward (span not in chunks)</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"The offer price is not affected", repeated: wrong.</li>
+</ul>
+</blockquote>
+<p><strong>Q08.</strong></p>
+<ul>
+<li><em>Expected:</em> Fifty crore</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"Not found in the documents", repeated: an abstention, although the chunk contains a net-worth clause.</li>
+</ul>
+</blockquote>
+<p><strong>Q09.</strong></p>
+<ul>
+<li><em>Expected:</em> ELM of 1% deducted from the clearing member's liquid assets</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>The deduction is described, the 1% is missing, then invented follow-up questions.</li>
+</ul>
+</blockquote>
+<p><strong>Q10.</strong></p>
+<ul>
+<li><em>Expected:</em> Only by way of cash (span not in chunks)</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"cash, … shares or other specified securities … or a bonus issue": wrong.</li>
+</ul>
+</blockquote>
+<p><strong>U01.</strong></p>
+<ul>
+<li><em>Expected:</em> Exact fallback <code>Not found in the documents</code></li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>"The United States won the FIFA World Cup in 2018 …": an invented answer, not an abstention.</li>
+</ul>
+</blockquote>
+<ul>
 <li><strong>Pattern:</strong> 0/10 answers carry a numbered citation; 9/10 run to the 150-token limit (only Q04 stops on its own), often continuing with invented "Question:" turns. This is the concrete problem shown for D1: the model neither cites the chunks nor abstains.</li>
 </ul>
 </div>
@@ -12628,7 +12750,7 @@ Gate 6: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Fallback-trial:-Phi-3.5-mini-Instruct-%C2%B7-Stage-6F%E2%80%936I">Fallback trial: Phi-3.5-mini-Instruct · Stage 6F–6I<a class="anchor-link" href="#Fallback-trial:-Phi-3.5-mini-Instruct-%C2%B7-Stage-6F%E2%80%936I">¶</a></h3><p><strong>Block 1 - Task brief</strong></p>
+<h3 id="Fallback-trial:-Phi-3.5-mini-Instruct-%C2%B7-Stage-6F%E2%80%936I">Fallback trial: Phi-3.5-mini-Instruct · Stage 6F–6I<a class="anchor-link" href="#Fallback-trial:-Phi-3.5-mini-Instruct-%C2%B7-Stage-6F%E2%80%936I">¶</a></h3><p><strong>Task brief</strong></p>
 <ul>
 <li>Switch to an instruct model because the Assignment 1 model failed D1 (see the baseline-trial observations). Name the model used and show one example of the problem seen.</li>
 <li>Same ten questions plus U01, same chunk mappings, same instruction, greedy decoding and 150-token budget.</li>
@@ -12637,7 +12759,7 @@ Gate 6: all checks passed.
 <p>The 1A trial above is kept unchanged as evidence (<code>stage6_generation.json</code>). Its closing line, "Gate 6: all checks passed", only meant that the code ran and the files were saved; it did not mean the D1 requirements were met. The gate in 6I separates the two.</p>
 <ul>
 <li><strong>Why switch:</strong> the baseline failed D1 on real outputs (no numbered citations in any answer; U01 answered instead of abstaining), recorded in 6F.</li>
-<li><strong>Order of preference:</strong> <code>meta-llama/Llama-3.1-8B-Instruct</code> if the pod's Hugging Face token has access, otherwise <code>microsoft/Phi-3.5-mini-instruct</code>. Qwen is used only if both are unusable, and then only with the reason documented and after operator approval.</li>
+<li><strong>Order of preference:</strong> <code>meta-llama/Llama-3.1-8B-Instruct</code> if the pod's Hugging Face token has access, otherwise <code>microsoft/Phi-3.5-mini-instruct</code>. Qwen is used only if both are unusable, and then only with the reason documented and after User approval.</li>
 <li><strong>Model choice:</strong> Llama-3.1-8B-Instruct was the first choice among the instruct models considered. Phi-3.5-mini-instruct is the second choice, a smaller instruct model (bfloat16, no quantisation) that fits the GPU with room to spare. Qwen2.5-7B-Instruct stays in reserve and is not used.</li>
 <li><strong>Unchanged:</strong> the same ten questions plus U01, the same chunk-to-label mapping rebuilt from the saved baseline file and <code>FINAL_CHUNKS</code>, the same instruction text, greedy decoding, the 150-token output budget and the same checks. Contexts are never shortened.</li>
 <li><strong>Changed:</strong> the fallback model's own tokenizer and saved chat template, its own end-of-turn tokens, and bfloat16 weights (no quantisation). Model and tokenizer revisions are recorded.</li>
@@ -12653,7 +12775,7 @@ Gate 6: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Blocks 2 and 3 - Code → Execution output</strong> (stage cells 6F–6I). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
+<p><strong>Code → Execution output</strong> (stage cells 6F–6I). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -13167,22 +13289,119 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4 - Observations: Phi-3.5-mini fallback trial</strong> (Stage 6F–6I)</p>
+<p><strong>Observations: Phi-3.5-mini fallback trial</strong> (Stage 6F–6I)</p>
 <p><strong>Setup.</strong> The same reranked top-3 chunks, instruction and 150-token budget were used for both generators. The retrieved text contains the answer span for 5 of 10 questions (Q02, Q03, Q04, Q05, Q09); span presence is a diagnostic, and the passages were read before assigning causes. The explanations below are manual readings of the saved outputs and the source passages; they are not judge verdicts. Stage 7 evaluates correctness and citation support.</p>
 <p><strong>Phi-3.5-mini, question by question</strong> (1A result in brackets where it clarifies the failure):</p>
+<p><strong>Q01: Limit for PA-CB, expected ₹25 lakh.</strong></p>
 <ul>
-<li><strong>Q01 (limit for PA-CB, expected ₹25 lakh):</strong> <em>Missing retrieval evidence.</em> The limit sentence lies about 18.0k characters (offset 18,032) into the Payment Aggregator directive; the supplied chunks cover the start of that document and an Annual Report note. The answer states that the chunks lack the information, which is the right behaviour, but it is not the exact fallback string and has no citation, so the strict check flags it. [1A invented ₹10,000.]</li>
-<li><strong>Q02 (where PPI balance is kept):</strong> <em>Content correct.</em> Escrow account with a scheduled commercial bank, plus an optional second bank. It cites [2], but the answer sentence is in chunk [1]; chunk [2] also discusses the escrow balance, so whether it supports the claim is uncertain.</li>
-<li><strong>Q03 (UPI share growth):</strong> <em>Content correct, citation error.</em> 34% to 83% matches the source (1A said 37.5%). It cites [1], which holds the sentence, and [5], which does not exist because only three chunks were supplied.</li>
-<li><strong>Q04 (section 10-A):</strong> <em>Content correct, cut at the limit.</em> It quotes the no-charge clause from chunk [1] and cites [1], but the closing sentence stops mid-clause at 150 tokens.</li>
-<li><strong>Q05 (First Loss Default Guarantee):</strong> <em>Content matches the expected answer, cut at the limit.</em> Third-party guarantee up to a share of defaults; follow the Securitisation of Standard Assets Directions, 2021. It cites [1] and [2]; [1] holds the span, and the support from [2] (an Annual Report chunk) is uncertain.</li>
-<li><strong>Q06 (Payments Vision 2028 new provider class):</strong> <em>Missing evidence and failed abstention.</em> The expected sentence (Small Payment System Providers) is about 15.6k characters (offset 15,589) in; none of the three chunks contains it. Instead of abstaining, the model copied an unrelated survey paragraph from chunk [3] without a citation, and was cut at the limit.</li>
-<li><strong>Q07 (offer price after higher purchase):</strong> <em>Missing evidence, abstained in words.</em> The expected clause is about 35.3k characters (offset 35,313) into the Takeover Regulations; the chunks start at 17.5k, 53.5k and 95.7k. The model says the context lacks the answer and ends with "Not found in the documents", but adds extra text, so the exact-match check flags it.</li>
-<li><strong>Q08 (minimum net worth of an AMC):</strong> <em>Wrong clause retrieved; cause uncertain.</em> The answer, ₹100 crore cited to [1], matches the cited chunk, which holds a "networth of not less than rupees one hundred crore" clause. The frozen expected answer is fifty crore, from a clause just before this chunk that was not retrieved; the judge compares against that frozen answer and does not choose a legal interpretation, and any ambiguity is checked manually against the corpus. Which clause governs in the corpus is not settled here; Stage 7 should check the answer against the expected one.</li>
-<li><strong>Q09 (Extreme Loss Margin):</strong> <em>Correct and cited.</em> 1% on gross open positions, deducted from the clearing member's liquid assets in real time; it quotes chunk [1] and ends before the limit.</li>
-<li><strong>Q10 (buy-back consideration):</strong> <em>Missing evidence, abstained in words.</em> The sentence "only by way of cash" is about 63.0k characters (offset 63,033) in; the chunks cover 0, 10.6k and 18.0k. The answer says the context does not contain it, again without the exact string. [1A claimed cash, shares or bonus issue.]</li>
-<li><strong>U01 (FIFA World Cup 2018):</strong> <em>Abstention passed.</em> The reply is exactly <code>Not found in the documents</code> after 6 generated tokens. [1A said the United States won, then wrote further invented questions.]</li>
+<li><em>Expected:</em> The PA-CB limit is ₹25 lakh.</li>
+<li><em>Observed:</em></li>
 </ul>
+<blockquote>
+<ul>
+<li><em>Missing retrieval evidence.</em> The limit sentence lies about 18.0k characters (offset 18,032) into the Payment Aggregator directive; the supplied chunks cover the start of that document and an Annual Report note. The answer states that the chunks lack the information, which is the right behaviour, but it is not the exact fallback string and has no citation, so the strict check flags it. [1A invented ₹10,000.]</li>
+</ul>
+</blockquote>
+<p><strong>Q02: Where PPI balance is kept.</strong></p>
+<ul>
+<li><em>Expected:</em> The PPI balance is kept in an escrow account with a scheduled commercial bank.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Content correct.</em> Escrow account with a scheduled commercial bank, plus an optional second bank. It cites [2], but the answer sentence is in chunk [1]; chunk [2] also discusses the escrow balance, so whether it supports the claim is uncertain.</li>
+</ul>
+</blockquote>
+<p><strong>Q03: UPI share growth.</strong></p>
+<ul>
+<li><em>Expected:</em> UPI share grows from 34% to 83%.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Content correct, citation error.</em> 34% to 83% matches the source (1A said 37.5%). It cites [1], which holds the sentence, and [5], which does not exist because only three chunks were supplied.</li>
+</ul>
+</blockquote>
+<p><strong>Q04: Section 10-A.</strong></p>
+<ul>
+<li><em>Expected:</em> Section 10-A prohibits a bank or system provider from imposing the specified charge.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Content correct, cut at the limit.</em> It quotes the no-charge clause from chunk [1] and cites [1], but the closing sentence stops mid-clause at 150 tokens.</li>
+</ul>
+</blockquote>
+<p><strong>Q05: First Loss Default Guarantee.</strong></p>
+<ul>
+<li><em>Expected:</em> A third-party guarantee covers up to a share of defaults; follow the Securitisation of Standard Assets Directions, 2021.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Content matches the expected answer, cut at the limit.</em> Third-party guarantee up to a share of defaults; follow the Securitisation of Standard Assets Directions, 2021. It cites [1] and [2]; [1] holds the span, and the support from [2] (an Annual Report chunk) is uncertain.</li>
+</ul>
+</blockquote>
+<p><strong>Q06: Payments Vision 2028 new provider class.</strong></p>
+<ul>
+<li><em>Expected:</em> The new provider class is Small Payment System Providers.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Missing evidence and failed abstention.</em> The expected sentence (Small Payment System Providers) is about 15.6k characters (offset 15,589) in; none of the three chunks contains it. Instead of abstaining, the model copied an unrelated survey paragraph from chunk [3] without a citation, and was cut at the limit.</li>
+</ul>
+</blockquote>
+<p><strong>Q07: Offer price after higher purchase.</strong></p>
+<ul>
+<li><em>Expected:</em> The offer price is revised upward after the higher purchase.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Missing evidence, abstained in words.</em> The expected clause is about 35.3k characters (offset 35,313) into the Takeover Regulations; the chunks start at 17.5k, 53.5k and 95.7k. The model says the context lacks the answer and ends with "Not found in the documents", but adds extra text, so the exact-match check flags it.</li>
+</ul>
+</blockquote>
+<p><strong>Q08: Minimum net worth of an AMC.</strong></p>
+<ul>
+<li><em>Expected:</em> The frozen expected minimum AMC net worth is fifty crore.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Wrong clause retrieved; cause uncertain.</em> The answer, ₹100 crore cited to [1], matches the cited chunk, which holds a "networth of not less than rupees one hundred crore" clause. The frozen expected answer is fifty crore, from a clause just before this chunk that was not retrieved; the judge compares against that frozen answer and does not choose a legal interpretation, and any ambiguity is checked manually against the corpus. Which clause governs in the corpus is not settled here; Stage 7 should check the answer against the expected one.</li>
+</ul>
+</blockquote>
+<p><strong>Q09: Extreme Loss Margin.</strong></p>
+<ul>
+<li><em>Expected:</em> ELM of 1% is deducted from the clearing member's liquid assets.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Correct and cited.</em> 1% on gross open positions, deducted from the clearing member's liquid assets in real time; it quotes chunk [1] and ends before the limit.</li>
+</ul>
+</blockquote>
+<p><strong>Q10: Buy-back consideration.</strong></p>
+<ul>
+<li><em>Expected:</em> Buy-back consideration is paid only by way of cash.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Missing evidence, abstained in words.</em> The sentence "only by way of cash" is about 63.0k characters (offset 63,033) in; the chunks cover 0, 10.6k and 18.0k. The answer says the context does not contain it, again without the exact string. [1A claimed cash, shares or bonus issue.]</li>
+</ul>
+</blockquote>
+<p><strong>U01: FIFA World Cup 2018.</strong></p>
+<ul>
+<li><em>Expected:</em> Reply exactly <code>Not found in the documents</code>.</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li><em>Abstention passed.</em> The reply is exactly <code>Not found in the documents</code> after 6 generated tokens. [1A said the United States won, then wrote further invented questions.]</li>
+</ul>
+</blockquote>
 <p><strong>What it means.</strong></p>
 <ul>
 <li>When the answer text was supplied (Q02, Q03, Q04, Q05, Q09), Phi's content matches the expected answer; citation numbering and the token limit are the problems.</li>
@@ -13200,9 +13419,9 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Comparison-and-model-selection">Comparison and model selection<a class="anchor-link" href="#Comparison-and-model-selection">¶</a></h3><p><strong>Block 1 - Task brief:</strong> name the generator kept for the rest of the pipeline and show the evidence for the choice.</p>
-<p><strong>Blocks 2–3:</strong> no new code; the figures below come from the printed outputs of 6D (1A) and 6H–6I (Phi).</p>
-<p><strong>Block 4 - Observations</strong></p>
+<h3 id="Comparison-and-model-selection">Comparison and model selection<a class="anchor-link" href="#Comparison-and-model-selection">¶</a></h3><p><strong>Task brief:</strong> Name the generator kept for the rest of the pipeline and show the evidence for the choice.</p>
+<p><strong>Code and execution output:</strong> No new code; the figures below come from the printed outputs of 6D (1A) and 6H–6I (Phi).</p>
+<p><strong>Observations</strong></p>
 <table>
 <thead>
 <tr>
@@ -13294,7 +13513,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Part-D-%C2%B7-D2:-Check-the-answers-with-an-LLM-judge-(4-marks)-%C2%B7-Stage-7">Part D · D2: Check the answers with an LLM judge (4 marks) · Stage 7<a class="anchor-link" href="#Part-D-%C2%B7-D2:-Check-the-answers-with-an-LLM-judge-(4-marks)-%C2%B7-Stage-7">¶</a></h2><p><strong>Block 1: Task brief</strong> (assignment)</p>
+<h2 id="D2:-judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">D2: judge answer correctness and support, manually check 3 verdicts, and explain one failure with a proposed fix (4 marks) · Stage 7<a class="anchor-link" href="#D2:-judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>One judge prompt checking <strong>correct</strong> (correct / partly correct / wrong, against the expected answer) and <strong>supported</strong> (yes / no, against the 3 chunks); run it on all 10 answers; show a per-query table (query, correct, supported, reason) and the summary counts (1).</li>
 <li>Spot-check 3 answers by hand, report how many verdicts agree and explain one disagreement (1).</li>
@@ -13314,7 +13533,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 <li><strong>Known limit:</strong> the judge did not match all 12 known-label cases, so its verdicts are indicative, not ground truth. The three hand-labelled answers show how far it can be trusted.</li>
 </ul>
 <p><strong>Flow of the cells below:</strong> Judge setup (7A, 7B) → Results (7C) → Manual spot-check (7D) → Failure analysis (7E) → Save and gate (7F) → Observations.</p>
-<h3 id="Judge-setup">Judge setup<a class="anchor-link" href="#Judge-setup">¶</a></h3><p>The setup cell defines the prompt, the parser and the 12 invented known-label cases, loads the judge, and reports how many of those cases it matches. The next cell records the operator's three hand labels before the judge runs on the real answers.</p>
+<h3 id="Judge-setup">Judge setup<a class="anchor-link" href="#Judge-setup">¶</a></h3><p>The setup cell defines the prompt, the parser and the 12 invented known-label cases, loads the judge, and reports how many of those cases it matches. The next cell records the User's three hand labels before the judge runs on the real answers.</p>
 </div>
 </div>
 </div>
@@ -14318,7 +14537,7 @@ U01 (unanswerable; outside the ten-question counts)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Manual-spot-check">Manual spot-check<a class="anchor-link" href="#Manual-spot-check">¶</a></h3><p>The three hand labels from the setup are compared with the judge's verdicts. Where they differ, the operator records which label is right and why.</p>
+<h3 id="Manual-spot-check">Manual spot-check<a class="anchor-link" href="#Manual-spot-check">¶</a></h3><p>The three hand labels from the setup are compared with the judge's verdicts. Where they differ, the User records which label is right and why.</p>
 </div>
 </div>
 </div>
@@ -14812,83 +15031,141 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Block 4: Observations</strong></p>
+<p><strong>Observations</strong></p>
 <blockquote>
-<p>The figures below are the judge's own labels from the saved raw verdicts. They are not validated answer accuracy: the judge matched 9 of 12 known-label cases (it differs on the supported label for K03, K06 and K12), and it agrees with the operator on 1 of 3 hand-checked answers. The raw verdicts are unchanged and no count has been adjusted.</p>
+<p>The figures below are the judge's own labels from the saved raw verdicts. They are not validated answer accuracy: the judge matched 9 of 12 known-label cases (it differs on the supported label for K03, K06 and K12), and it agrees with the User on 1 of 3 hand-checked answers. The raw verdicts are unchanged and no count has been adjusted.</p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th>Question</th>
-<th>Expected</th>
-<th>Observed</th>
-<th>What it means</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>How did the judge label the ten answers?</td>
-<td>Labels that follow the expected answers and the chunks</td>
-<td>Judge-reported: correct 6/10, partly correct 2/10 (Q06, Q08), wrong 2/10 (Q01, Q10); supported 7/10; all 10 verdicts parsed</td>
-<td>These are the judge's counts. The rows below show where its labels contradict the rubric or the operator, so they are indicative only</td>
-</tr>
-<tr>
-<td>Did the judge follow the abstention rule (abstention is supported: yes, and wrong when a real answer exists)?</td>
-<td>Q01, Q07 and Q10 abstain, so each should be wrong and supported: yes</td>
-<td>Q10: wrong, supported yes (follows the rule). Q01: wrong but supported no. Q07: <strong>correct</strong>, abstains yes, supported yes</td>
-<td><strong>Q07 is a judge error.</strong> Its own reason says the answer abstains and "does not provide the expected answer", yet the label is correct, which contradicts the rubric. The judge-reported correct count of 6 includes this label. Q01 contradicts the rubric on supported</td>
-</tr>
-<tr>
-<td>Do the correct labels agree with a plain-text check of the key phrases?</td>
-<td>Answers labelled correct contain the expected key phrases</td>
-<td>Q02, Q03, Q04, Q05 and Q09 contain all key phrases. Q07 contains 0 of 2 and is still labelled correct</td>
-<td>The plain-text check supports five of the six correct labels and not Q07</td>
-</tr>
-<tr>
-<td>Were there quote issues?</td>
-<td>Each unsupported quote is a sentence from the answer</td>
-<td>2 flagged. Q01: the quoted sentence ("The provided context does not say who must sign a withdrawal.") is not in the answer. Q06: supported no with no quote given</td>
-<td>Nothing was repaired; both issues lower trust in the supported labels</td>
-</tr>
-<tr>
-<td>Were invalid citations found?</td>
-<td>Citation numbers 1 to 3 only</td>
-<td>Q03 cites [5]. The judge accepted it ("stated in chunk [5]")</td>
-<td>Counted by code, not by the judge; the judge missed it</td>
-</tr>
-<tr>
-<td>Did the judge handle the unanswerable query U01?</td>
-<td>The exact fallback is correct, supported and an abstention</td>
-<td>Exact fallback; judge: correct, supported yes, abstains yes</td>
-<td>Matches the rubric (outside the ten-question counts)</td>
-</tr>
-<tr>
-<td>How well did the judge agree with the operator's hand labels?</td>
-<td>Agreement on Q02, Q06 and Q08</td>
-<td>1/3. Q02 matches. Q06: operator wrong / supported; judge partly correct / not supported. Q08: operator wrong / supported; judge partly correct / not supported</td>
-<td>The judge is least reliable on wrong answers, the cases the check exists for</td>
-</tr>
-<tr>
-<td>Why does the operator disagree on Q06?</td>
-<td>A reason read from the chunks</td>
-<td>The answer repeats the survey paragraph from chunk 3 and never mentions Small Payment System Providers; every statement in it comes from chunk 3. The judge's "Answer states" line lists "recognising Small Payment System Providers", a phrase that is not in the answer</td>
-<td>Operator label (wrong, supported) fits the chunks. This is the operator's reading, recorded beside the judge's unchanged verdict</td>
-</tr>
-<tr>
-<td>Why does the operator disagree on Q08?</td>
-<td>A reason read from the chunks</td>
-<td>The answer follows chunk 1 (100 crore); the expected answer says 50 crore. The judge calls the 100 crore "the correct net worth" and the answer unsupported</td>
-<td>Operator label (wrong, supported) fits: wrong against the expected answer, supported by the chunk. This is the operator's reading, recorded beside the judge's unchanged verdict</td>
-</tr>
-<tr>
-<td>What caused the Q06 failure (7E)?</td>
-<td>One cause read from the chunks</td>
-<td>None of the three supplied chunks contains "small payment system providers". The chunk that does (c400-d17-00007) is BM25 rank 7 but Dense rank 102, outside the Dense top 10 pool that was reranked, so it never reached the generator (retrieval). Phi then copied the survey paragraph from chunk 3 instead of replying "Not found in the documents" (generation). Its fused rank is 13 of 29 at depth 20 and 21 of 80 at depth 50, both outside a top 10</td>
-<td>Both causes are present. Deeper hybrid lists alone do not fix it. The proposed fixes (a union of the Dense top 10 and BM25 top 10, 15 chunks for Q06, before the cross-encoder, and a quote-first prompt) are hypotheses that were not run</td>
-</tr>
-</tbody>
-</table>
-<p>Why this matters: an 8B judge gives a useful first pass but mislabelled several of the answers it was asked to check, so the operator labels and the chunk text decide the final reading, and the counts above stay as the judge reported them.</p>
+<p><strong>How did the judge label the ten answers?</strong></p>
+<ul>
+<li><em>Expected:</em> Labels that follow the expected answers and the chunks</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Judge-reported: correct 6/10, partly correct 2/10 (Q06, Q08), wrong 2/10 (Q01, Q10); supported 7/10; all 10 verdicts parsed</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> These are the judge's counts. The rows below show where its labels contradict the rubric or the User, so they are indicative only</li>
+</ul>
+<p><strong>Did the judge follow the abstention rule (abstention is supported: yes, and wrong when a real answer exists)?</strong></p>
+<ul>
+<li><em>Expected:</em> Q01, Q07 and Q10 abstain, so each should be wrong and supported: yes</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Q10: wrong, supported yes (follows the rule). Q01: wrong but supported no. Q07: <strong>correct</strong>, abstains yes, supported yes</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> <strong>Q07 is a judge error.</strong> Its own reason says the answer abstains and "does not provide the expected answer", yet the label is correct, which contradicts the rubric. The judge-reported correct count of 6 includes this label. Q01 contradicts the rubric on supported</li>
+</ul>
+<p><strong>Do the correct labels agree with a plain-text check of the key phrases?</strong></p>
+<ul>
+<li><em>Expected:</em> Answers labelled correct contain the expected key phrases</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Q02, Q03, Q04, Q05 and Q09 contain all key phrases. Q07 contains 0 of 2 and is still labelled correct</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The plain-text check supports five of the six correct labels and not Q07</li>
+</ul>
+<p><strong>Were there quote issues?</strong></p>
+<ul>
+<li><em>Expected:</em> Each unsupported quote is a sentence from the answer</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>2 flagged. Q01: the quoted sentence ("The provided context does not say who must sign a withdrawal.") is not in the answer. Q06: supported no with no quote given</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Nothing was repaired; both issues lower trust in the supported labels</li>
+</ul>
+<p><strong>Were invalid citations found?</strong></p>
+<ul>
+<li><em>Expected:</em> Citation numbers 1 to 3 only</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Q03 cites [5]. The judge accepted it ("stated in chunk [5]")</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Counted by code, not by the judge; the judge missed it</li>
+</ul>
+<p><strong>Did the judge handle the unanswerable query U01?</strong></p>
+<ul>
+<li><em>Expected:</em> The exact fallback is correct, supported and an abstention</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>Exact fallback; judge: correct, supported yes, abstains yes</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Matches the rubric (outside the ten-question counts)</li>
+</ul>
+<p><strong>How well did the judge agree with the User's hand labels?</strong></p>
+<ul>
+<li><em>Expected:</em> Agreement on Q02, Q06 and Q08</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>1/3. Q02 matches. Q06: User wrong / supported; judge partly correct / not supported. Q08: User wrong / supported; judge partly correct / not supported</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> The judge is least reliable on wrong answers, the cases the check exists for</li>
+</ul>
+<p><strong>Why does the User disagree on Q06?</strong></p>
+<ul>
+<li><em>Expected:</em> A reason read from the chunks</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>The answer repeats the survey paragraph from chunk 3 and never mentions Small Payment System Providers; every statement in it comes from chunk 3. The judge's "Answer states" line lists "recognising Small Payment System Providers", a phrase that is not in the answer</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> User label (wrong, supported) fits the chunks. This is the User's reading, recorded beside the judge's unchanged verdict</li>
+</ul>
+<p><strong>Why does the User disagree on Q08?</strong></p>
+<ul>
+<li><em>Expected:</em> A reason read from the chunks</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>The answer follows chunk 1 (100 crore); the expected answer says 50 crore. The judge calls the 100 crore "the correct net worth" and the answer unsupported</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> User label (wrong, supported) fits: wrong against the expected answer, supported by the chunk. This is the User's reading, recorded beside the judge's unchanged verdict</li>
+</ul>
+<p><strong>What caused the Q06 failure (7E)?</strong></p>
+<ul>
+<li><em>Expected:</em> One cause read from the chunks</li>
+<li><em>Observed:</em></li>
+</ul>
+<blockquote>
+<ul>
+<li>None of the three supplied chunks contains "small payment system providers". The chunk that does (c400-d17-00007) is BM25 rank 7 but Dense rank 102, outside the Dense top 10 pool that was reranked, so it never reached the generator (retrieval). Phi then copied the survey paragraph from chunk 3 instead of replying "Not found in the documents" (generation). Its fused rank is 13 of 29 at depth 20 and 21 of 80 at depth 50, both outside a top 10</li>
+</ul>
+</blockquote>
+<ul>
+<li><em>Meaning:</em> Both causes are present. Deeper hybrid lists alone do not fix it. The proposed fixes (a union of the Dense top 10 and BM25 top 10, 15 chunks for Q06, before the cross-encoder, and a quote-first prompt) are hypotheses that were not run</li>
+</ul>
+<p>Why this matters: an 8B judge gives a useful first pass but mislabelled several of the answers it was asked to check, so the User labels and the chunk text decide the final reading, and the counts above stay as the judge reported them.</p>
 </div>
 </div>
 </div>
@@ -14941,11 +15218,11 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 <p><strong>Original run with the first judge (kept, not used for the results)</strong></p>
 <p>Granite 3.0 with the first prompt labelled 0 correct, 7 partly correct and 3 wrong (Q01, Q07, Q10), 9/10 supported, one invalid citation number ([5] in Q03) and 11 quote issues. Several labels contradicted the saved answers, and U01 (the exact fallback) was labelled partly correct. That run is judged unreliable and is not the final summary.</p>
 <p><strong>Spot-check label history</strong></p>
-<p>The first spot-check covered Q01, Q07 and Q10. The operator later reported those labels as entered by mistake (abstentions had been labelled supported: no), and replaced them with labels for Q02, Q06 and Q08 on 2026-11-10 (UTC), after the earlier verdicts were shown and before the final judge run. The earlier labels and their explanation are kept in the audit files.</p>
+<p>The first spot-check covered Q01, Q07 and Q10. The User later reported those labels as entered by mistake (abstentions had been labelled supported: no), and replaced them with labels for Q02, Q06 and Q08 on 2026-11-10 (UTC), after the earlier verdicts were shown and before the final judge run. The earlier labels and their explanation are kept in the audit files.</p>
 <p><strong>Q06 diagnosis correction</strong></p>
 <p>An earlier note blamed the Stage 4 pools of 20. The source chunk (c400-d17-00007) is BM25 rank 7, inside the BM25 top 20, but Dense rank 102, outside the Dense top 10 pool that Stage 5 reranked. Its fused rank is 13 at depth 20 and 21 at depth 50, so deeper lists alone do not guarantee inclusion. A union of the Dense and BM25 top 10 is proposed as a hypothesis to measure.</p>
 <p><strong>Files</strong></p>
-<p>The final judge files are in <code>stage7/final/</code> (operator labels, spot-check explanations, raw verdicts, judge records, calibration record and a SHA-256 manifest whose paths are relative to its own folder). The first run and the superseded labels are in <code>stage7/audit/</code>. The audit notebook and the earlier run show the earlier file names:</p>
+<p>The final judge files are in <code>stage7/final/</code> (User labels, spot-check explanations, raw verdicts, judge records, calibration record and a SHA-256 manifest whose paths are relative to its own folder). The first run and the superseded labels are in <code>stage7/audit/</code>. The audit notebook and the earlier run show the earlier file names:</p>
 <table>
 <thead>
 <tr>
@@ -15031,7 +15308,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 <tr>
 <td>Notebook runs top to bottom (Run All)</td>
 <td>whole notebook</td>
-<td>Final operator Run All on Kubeflow (see <code>README.md</code>, packaging steps)</td>
+<td>Final User Run All on Kubeflow (see <code>README.md</code>, packaging steps)</td>
 </tr>
 <tr>
 <td>HTML export of the same notebook</td>
