@@ -7966,7 +7966,31 @@ git<span class="w"> </span>pull<span class="w"> </span>--ff-only
 </pre></div>
 <p>The setup script creates or reuses <code>venv-rag</code>, installs the required packages and registers <strong>Python (RAG venv)</strong>. The verification script checks packages and basic operations without downloading models. Read its GPU diagnostics as well as the summary; a package-check pass alone does not confirm that a full model run is ready.</p>
 <p><strong>3. Select the RAG interpreter.</strong> Open <code>Group157-Assignment-2b.ipynb</code> from the clone and choose <strong>Kernel → Change Kernel → Python (RAG venv)</strong>. If the existing kernel is the 1A/LLM environment, switch to the RAG kernel. For an editor's interpreter selector, use <code>/home/group157/venv-rag/bin/python</code>.</p>
-<p><strong>4. Reuse the 1A model and check paths, then start 0A.</strong> The existing CPT folder on the Group 157 PV is <code>/home/group157/model-backups/cpt_model_1a/</code>; the trained QLoRA adapter is supplied in <code>models/qlora_finance_adapter/</code> by the clone. These files are reused directly, without retraining. The input table below identifies every Git input and existing PV artifact. <code>ARTIFACT_ROOT</code> defaults to <code>/home/group157</code>; use a PyTorch/CUDA notebook image for the full GPU workflow.</p>
+<p><strong>4. Reuse or download the original 1A CPT checkpoint, then set its path.</strong></p>
+<p>The original CPT checkpoint is published in <a href="https://github.com/devcoderb/llm-rag/releases/tag/cpt-1a-v1">release <code>cpt-1a-v1</code></a>. The asset is <a href="https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz"><code>cpt_model.tar.gz</code></a>; the QLoRA adapter remains in the repository.</p>
+<p>Run this in a <strong>Kubeflow terminal</strong>. On the existing Group 157 PV it reuses the checkpoint without downloading it. If the tensor is absent, it downloads the archive, checks its published SHA-256 and extracts the complete folder into <code>CPT_DIR</code>:</p>
+<div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">CPT_DIR</span><span class="o">=</span>/home/group157/model-backups/cpt_model_1a
+
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-f<span class="w"> </span><span class="s2">"</span><span class="nv">$CPT_DIR</span><span class="s2">/model.safetensors"</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">"Reusing the existing 1A checkpoint: </span><span class="nv">$CPT_DIR</span><span class="s2">"</span>
+<span class="k">else</span>
+<span class="w">  </span><span class="o">(</span>
+<span class="w">    </span><span class="nb">set</span><span class="w"> </span>-e
+<span class="w">    </span><span class="nb">cd</span><span class="w"> </span>/home/group157
+<span class="w">    </span>curl<span class="w"> </span>-fL<span class="w"> </span>--retry<span class="w"> </span><span class="m">3</span><span class="w"> </span><span class="se">\</span>
+<span class="w">      </span><span class="s1">'https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz'</span><span class="w"> </span><span class="se">\</span>
+<span class="w">      </span>-o<span class="w"> </span>cpt_model.tar.gz
+<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s1">'1cb0d7c4a41d19c65755d0dac8bcbdc3937b8c5a3d722fde7864273125933377  cpt_model.tar.gz'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sha256sum<span class="w"> </span>-c<span class="w"> </span>-
+<span class="w">    </span>mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">"</span><span class="nv">$CPT_DIR</span><span class="s2">"</span>
+<span class="w">    </span>tar<span class="w"> </span>-xzf<span class="w"> </span>cpt_model.tar.gz<span class="w"> </span>--strip-components<span class="o">=</span><span class="m">1</span><span class="w"> </span>-C<span class="w"> </span><span class="s2">"</span><span class="nv">$CPT_DIR</span><span class="s2">"</span>
+<span class="w">  </span><span class="o">)</span>
+<span class="k">fi</span>
+</pre></div>
+<p><code>--strip-components=1</code> removes the archive's outer <code>cpt_model/</code> directory, so <code>model.safetensors</code>, <code>config.json</code> and the other six files sit directly inside <code>/home/group157/model-backups/cpt_model_1a/</code>. Stage 0D verifies all eight extracted files against <code>models/MANIFEST.sha256</code>.</p>
+<p><strong>Using <code>CPT_DIR</code> in the notebook:</strong> 0A already detects this default folder. A terminal <code>export</code> is inherited only by processes started from that terminal; it does not change an already-running Jupyter kernel. To select a different checkpoint folder in an open notebook, set the environment variable inside 0A, immediately after its imports and before the CPT path selection:</p>
+<div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"CPT_DIR"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"/home/group157/model-backups/cpt_model_1a"</span>
+</pre></div>
+<p>Without an explicit override, 0A checks <code>/home/group157/model-backups/cpt_model_1a/</code> and then <code>/home/group157/cpt_model/</code>. Run Stage 0 in order. Keep the eight original files together; no CPT or SFT retraining is needed.</p>
 <p>The commands above are preparation instructions, not an automatic notebook cell: installing packages does not switch an already-running kernel. After selecting the RAG kernel, execute Stage 0 and check its results before continuing.</p>
 </div>
 </div>

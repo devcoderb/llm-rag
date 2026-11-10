@@ -113,17 +113,38 @@ The repository includes the corpus, Q/A files, frozen query set and QLoRA adapte
 
 **Reuse the existing 1A tensor files on the Group 157 PV; do not retrain them for 2B.** Stage 6 loads the original CPT `model.safetensors` from `CPT_DIR` and attaches `models/qlora_finance_adapter/adapter_model.safetensors` from this clone. Keep each artifact with its matching configuration and tokenizer files. The repository adapter is already the 1A artifact; the optional adapter on the original volume is only a cross-check. Stage 0D verifies the recorded hashes. Downloading the original SmolLM2 base checkpoint is not a substitute for the finance CPT checkpoint.
 
-**CPT download location: not yet supplied by Group 157.** A shareable checkpoint URL must be provided so another user can reproduce the full run without access to the original volume.
+The original CPT checkpoint is published in [release `cpt-1a-v1`](https://github.com/devcoderb/llm-rag/releases/tag/cpt-1a-v1). The asset is [`cpt_model.tar.gz`](https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz); the QLoRA adapter remains in the repository.
 
-Obtain the original eight-file CPT folder and place it at one of these locations:
+Run this in a **Kubeflow terminal**. On the existing Group 157 PV it reuses the checkpoint without downloading it. If the tensor is absent, it downloads the archive, checks its published SHA-256 and extracts the complete folder into `CPT_DIR`:
 
-1. The directory specified by `CPT_DIR`.
-2. `<ARTIFACT_ROOT>/model-backups/cpt_model_1a/`.
-3. `<ARTIFACT_ROOT>/cpt_model/`.
+```bash
+export CPT_DIR=/home/group157/model-backups/cpt_model_1a
 
-Cell 0A selects the first candidate containing `model.safetensors`. Stage 0D verifies all eight files against `models/MANIFEST.sha256`. A newly trained model is not a substitute for the recorded checkpoint because its hashes will differ. Missing CPT files are reported during setup and prevent a complete run, including the 1A baseline generation in Stage 6.
+if [ -f "$CPT_DIR/model.safetensors" ]; then
+  echo "Reusing the existing 1A checkpoint: $CPT_DIR"
+else
+  (
+    set -e
+    cd /home/group157
+    curl -fL --retry 3 \
+      'https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz' \
+      -o cpt_model.tar.gz
+    echo '1cb0d7c4a41d19c65755d0dac8bcbdc3937b8c5a3d722fde7864273125933377  cpt_model.tar.gz' | sha256sum -c -
+    mkdir -p "$CPT_DIR"
+    tar -xzf cpt_model.tar.gz --strip-components=1 -C "$CPT_DIR"
+  )
+fi
+```
 
-Original corpus, Q/A and adapter copies on the volume are optional cross-checks; the committed repository copies are used as inputs. The separate CPT checkpoint is required. Saved notebook and HTML outputs remain readable without it.
+`--strip-components=1` removes the archive's outer `cpt_model/` directory, so `model.safetensors`, `config.json` and the other six files sit directly inside `/home/group157/model-backups/cpt_model_1a/`. Stage 0D verifies all eight extracted files against `models/MANIFEST.sha256`.
+
+**Using `CPT_DIR` in the notebook:** 0A already detects this default folder. A terminal `export` is inherited only by processes started from that terminal; it does not change an already-running Jupyter kernel. To select a different checkpoint folder in an open notebook, set the environment variable inside 0A, immediately after its imports and before the CPT path selection:
+
+```python
+os.environ["CPT_DIR"] = "/home/group157/model-backups/cpt_model_1a"
+```
+
+Without an explicit override, 0A checks `/home/group157/model-backups/cpt_model_1a/` and then `/home/group157/cpt_model/`. Run Stage 0 in order. Keep the eight original files together; no CPT or SFT retraining is needed.
 
 ## Models used and why
 
