@@ -40,3 +40,29 @@ Stage7 headings/observations/checklist still say not executed/no results despite
 ## Next
 
 Stage7 corrections and revised judge evaluation only, then Codex re-review. Stages0–6 and Phi answers remain approved/unchanged. No packaging approval yet.
+
+
+## Corrections/interface re-review — 1546b34, 2026-11-10
+
+**Manual interface and Q06 diagnosis accepted. Final ten-answer judge run remains pending; Stage 8 not yet approved.** Local HEAD matches origin/main. Notebook syntax and actual norm_qid function tested independently (numeric/formatted IDs accepted; out-of-range/invalid inputs rejected). Correction cells execute without errors; model tests/results are reviewed from saved outputs, not rerun locally.
+
+- Actual accepted selection inputs are2,6,8 -> Q02,Q06,Q08. The loaded/replacement paths now print full question, expected answer, Phi answer, all3 numbered chunks and rubric. Saved labels: Q02 correct/yes; Q06 wrong/yes; Q08 wrong/yes. These fit the declared content-support convention. The selections changed after the initial judge review; preserve and describe their replacement/post-review provenance, not original blind labels.
+- Reloaded paths show all evidence, but can still call print_manual_summary for a concise question/answer/label summary at the end, as the fresh-entry path does. No new labels required.
+- Corrected Q06 evidence: goldchunk Dense102/BM257, inside BM25top20 but outside the selected Dense top10. RRF fused rank13 at depth20 and21 at depth50 demonstrate that deeper lists do not guarantee the cut. Proposed15-chunk union explicitly remains untested; accepted.
+- Calibration now tests content rather than format only. Initial Granite full-label match4/12; revised Granite3.0 7/12; Granite3.3 8/12 with one malformed reply; Tulu3 8B 9/12, all12 correctness labels, all12 abstention labels and9/12 support labels match.
+
+### Avoid an unnecessary perfect-score gate
+
+The earlier review required semantic calibration to catch obvious judge failures; the resulting absolute12/12 gate is an extra review criterion, not a PDF requirement. Requiring perfect calibration from every small judge now prevents any final ten-query evaluation. Replace it transparently with a documented, limited judge selection based on measured calibration. Do not relabel failed cases as passed or relax labels silently.
+
+**Next candidate selected for the final D2 evaluation: `allenai/Llama-3.1-Tulu-3-8B`.** It is already loaded/tested in the recorded US-first search and has the strongest recorded combined result. Use the revised rubric/prompt on the unchanged saved Phi answers. Disclose its three support-check calibration failures and validate resulting judgments manually; passing all correctness calibration cases is not proof that real-answer labels will be correct. Retain raw outputs and any disagreements. No further model-search loop or generator rerun is required now. This selection is approved for running the evaluation, not approval of unobserved final verdicts.
+
+### Presentation for TAs
+
+Version numbers were introduced to preserve earlier unsuccessful attempts and corrections. They are audit history, not separate assignment deliverables. The main D2 section should present **Final judge setup → Final ten-answer results → Three manual spot-checks → One failure/cause/fix → Observations**. Move unsuccessful judge tests and superseded labels/results to a clearly labelled appendix or separate audit notebook/files, retaining evidence and a short limitations note in main D2. Keep the complete1A→Phi generator-switch evidence required by D1.
+
+No final revised verdicts exist in this run:7I/7J were skipped because SEL=None. Do not call the old unreliable0/7/3 summary the final evaluation. After the final judge run, replace stale pending/no-results prose with actual observations, report only one clearly designated final summary and spot-check result, and retain initial attempts only as historical evidence. Internal file paths/IDs may stay versioned; the TA-facing headings do not need “v1/v2” throughout.
+
+### Next Sonnet action
+
+Use Tulu with disclosed calibration limitations for the real ten-answer judge run (U01 separate), compare against the operator’s current saved Q02/Q06/Q08 labels and capture any real disagreement explanation. Preserve the original audit artifacts; produce a single final D2 presentation and summary, then return for Codex review. Notice-board audit remains deferred until Stage7 approval.
