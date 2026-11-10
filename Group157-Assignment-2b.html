@@ -7684,7 +7684,7 @@ a.anchor-link {
 <tr>
 <td>A1: Build reusable dense search and report the embedding/index details</td>
 <td>2</td>
-<td>Stage 2 (2A–2D); final build time in Stage 3</td>
+<td>Stage 2 (2A–2D), with final build time in Stage 3</td>
 </tr>
 <tr>
 <td>A2: Compare 100- and 400-token chunks and justify the chosen size</td>
@@ -7702,7 +7702,7 @@ a.anchor-link {
 <td>Stage 5 (5A–5F)</td>
 </tr>
 <tr>
-<td>D1: Generate answers with source citations and test an unanswerable question; document any model switch</td>
+<td>D1: Generate answers with source citations and test an unanswerable question and document any model switch</td>
 <td>3</td>
 <td>Stage 6 (6A–6I)</td>
 </tr>
@@ -7737,41 +7737,41 @@ a.anchor-link {
 <td>Embedder</td>
 <td><code>BAAI/bge-small-en-v1.5</code></td>
 <td>Stages 2 to 5</td>
-<td>Small 384-dimension model with a 512-token limit; its tokenizer sizes the chunks</td>
+<td>Small 384-dimension model with a 512-token limit and its tokenizer sizes the chunks</td>
 </tr>
 <tr>
 <td>Keyword search</td>
 <td>BM25 (<code>rank_bm25</code>, BM25Okapi), no neural model</td>
 <td>Stage 4</td>
-<td>Keyword baseline that differs from the embedder; fused with it by RRF in the hybrid method</td>
+<td>Keyword baseline that differs from the embedder and is fused with it by RRF in the hybrid method</td>
 </tr>
 <tr>
 <td>Reranker</td>
 <td><code>cross-encoder/ms-marco-MiniLM-L-6-v2</code></td>
 <td>Stage 5</td>
-<td>The model named in the assignment; scores each query and chunk pair together</td>
+<td>The model named in the assignment and scores each query and chunk pair together</td>
 </tr>
 <tr>
 <td>Generator, tested first</td>
 <td>1A model: SmolLM2-360M CPT checkpoint plus the QLoRA adapter</td>
 <td>Stage 6 baseline</td>
-<td>The assignment asks for the 1A model first; it gave 0 of 10 numbered citations and answered the unanswerable query</td>
+<td>The assignment asks for the 1A model first, and it gave 0 of 10 numbered citations and answered the unanswerable query</td>
 </tr>
 <tr>
 <td>Generator, used</td>
 <td><code>microsoft/Phi-3.5-mini-instruct</code> (revision 2fe1924501)</td>
 <td>Stage 6 fallback</td>
-<td>Llama-3.1-8B-Instruct was tried first and returned HTTP 401 (gated); Phi gave the exact fallback on the unanswerable query</td>
+<td>Llama-3.1-8B-Instruct was tried first and returned HTTP 401 (gated), while Phi gave the exact fallback on the unanswerable query</td>
 </tr>
 <tr>
 <td>Judge</td>
 <td><code>allenai/Llama-3.1-Tulu-3-8B</code></td>
 <td>Stage 7</td>
-<td>Different model from the generator; best of four judge attempts on 12 known-label cases (9 of 12 matched)</td>
+<td>Different model from the generator and the best of four judge attempts on 12 known-label cases (9 of 12 matched)</td>
 </tr>
 </tbody>
 </table>
-<p>Observations are written from the printed outputs. Expected answers come from the frozen evaluation set; generated answers are the saved model outputs. Manual readings are labelled as such and are not judge verdicts.</p>
+<p>Observations are written from the printed outputs. Expected answers come from the frozen evaluation set, while generated answers are the saved model outputs. Manual readings are labelled as such and are not judge verdicts.</p>
 </div>
 </div>
 </div>
@@ -7817,7 +7817,7 @@ a.anchor-link {
 <td>Training split</td>
 <td>Git</td>
 <td><code>data/qa/instruction_dataset_train.jsonl</code></td>
-<td>957 pairs used for 1A QLoRA training; checked against evaluation pairs for overlap</td>
+<td>957 pairs used for 1A QLoRA training and checked against evaluation pairs for overlap</td>
 </tr>
 <tr>
 <td>Evaluation split</td>
@@ -7859,7 +7859,7 @@ a.anchor-link {
 <td>1A CPT model tensor</td>
 <td>Group 157 PV</td>
 <td><code>/home/group157/model-backups/cpt_model_1a/model.safetensors</code></td>
-<td>The existing finance CPT weights, reused directly; not downloaded by Git clone</td>
+<td>The existing finance CPT weights, reused directly and not downloaded by Git clone</td>
 </tr>
 <tr>
 <td>CPT configuration and tokenizer</td>
@@ -7869,7 +7869,7 @@ a.anchor-link {
 </tr>
 </tbody>
 </table>
-<p><strong>Reuse the existing 1A tensors.</strong> For this Group 157 run, the CPT checkpoint already exists on the mounted PV and is loaded directly from the backup folder shown above. The adapter used by Stage 6 is the original 1A adapter committed in this repository. Keep both artifacts with their matching configuration and tokenizer files; 0D checks their recorded hashes. No new CPT/SFT training or CPT download is needed on the existing Group 157 PV.</p>
+<p><strong>Reuse the existing 1A tensors.</strong> For this Group 157 run, the CPT checkpoint already exists on the mounted PV and is loaded directly from the backup folder shown above. The adapter used by Stage 6 is the original 1A adapter committed in this repository. Keep both artifacts with their matching configuration and tokenizer files so 0D can check their recorded hashes. No new CPT/SFT training or CPT download is needed on the existing Group 157 PV.</p>
 <p><strong>CPT path selection:</strong> 0A first checks an explicit <code>CPT_DIR</code>, then <code>/home/group157/model-backups/cpt_model_1a/</code>, then <code>/home/group157/cpt_model/</code>. The recorded run selected the backup folder.</p>
 <p><strong>Original PV copies used only for comparison</strong></p>
 <table>
@@ -7884,21 +7884,21 @@ a.anchor-link {
 <tr>
 <td><code>/home/group157/domain_corpus/*.txt</code></td>
 <td>Compared with the 30 repository corpus files</td>
-<td>No; retrieval uses <code>data/corpus/</code></td>
+<td>No, as retrieval uses <code>data/corpus/</code></td>
 </tr>
 <tr>
 <td><code>/home/group157/instruction_dataset.jsonl</code></td>
 <td>Compared with the repository's complete Q/A file</td>
-<td>No; the repository Q/A files are used</td>
+<td>No, as the repository Q/A files are used</td>
 </tr>
 <tr>
 <td><code>/home/group157/qlora_finance_adapter/</code></td>
 <td>Compared with the committed adapter</td>
-<td>No; Stage 6 loads <code>models/qlora_finance_adapter/</code></td>
+<td>No, as Stage 6 loads <code>models/qlora_finance_adapter/</code></td>
 </tr>
 </tbody>
 </table>
-<p>The embedder, reranker, Phi fallback and Tulu judge are separate Hugging Face models: their files are reused from the model cache when available or downloaded when needed. They are not the reused 1A CPT/adapter files. Intermediate chunks, indexes, answers and judge records are generated under <code>/home/group157/assignment_2b_outputs/</code>; they are not additional source-data files to obtain from Git.</p>
+<p>The embedder, reranker, Phi fallback and Tulu judge are separate Hugging Face models: their files are reused from the model cache when available or downloaded when needed. They are not the reused 1A CPT/adapter files. Intermediate chunks, indexes, answers and judge records are generated under <code>/home/group157/assignment_2b_outputs/</code>, and they are not additional source-data files to obtain from Git.</p>
 <h3 id="What-each-setup-cell-does">What each setup cell does<a class="anchor-link" href="#What-each-setup-cell-does">¶</a></h3><table>
 <thead>
 <tr>
@@ -7909,7 +7909,7 @@ a.anchor-link {
 <tbody>
 <tr>
 <td>0A</td>
-<td>Locate the repository and reused artifacts; set paths, random seed and shared constants</td>
+<td>Locate the repository and reused artifacts and set paths, random seed and shared constants</td>
 </tr>
 <tr>
 <td>0B</td>
@@ -7949,7 +7949,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Before-0A:-Get-the-repository-and-prepare-the-Python-environment">Before 0A: Get the repository and prepare the Python environment<a class="anchor-link" href="#Before-0A:-Get-the-repository-and-prepare-the-Python-environment">¶</a></h3><p>Run the commands below in a <strong>Kubeflow terminal</strong>, before executing notebook cells. Downloading the notebook alone does not provide its corpus, adapter and configuration files; clone the complete repository first.</p>
+<h3 id="Before-0A:-Get-the-repository-and-prepare-the-Python-environment">Before 0A: Get the repository and prepare the Python environment<a class="anchor-link" href="#Before-0A:-Get-the-repository-and-prepare-the-Python-environment">¶</a></h3><p>Run the commands below in a <strong>Kubeflow terminal</strong>, before executing notebook cells. Downloading the notebook alone does not provide its corpus, adapter and configuration files, so clone the complete repository first.</p>
 <p><strong>1. Get the repository.</strong> For a fresh clone:</p>
 <div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/home/group157
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/devcoderb/llm-rag.git
@@ -7964,10 +7964,10 @@ git<span class="w"> </span>pull<span class="w"> </span>--ff-only
 <div class="highlight"><pre><span></span>bash<span class="w"> </span>kubeflow/setup_env.sh
 /home/group157/venv-rag/bin/python<span class="w"> </span>kubeflow/check_env.py
 </pre></div>
-<p>The setup script creates or reuses <code>venv-rag</code>, installs the required packages and registers <strong>Python (RAG venv)</strong>. The verification script checks packages and basic operations without downloading models. Read its GPU diagnostics as well as the summary; a package-check pass alone does not confirm that a full model run is ready.</p>
+<p>The setup script creates or reuses <code>venv-rag</code>, installs the required packages and registers <strong>Python (RAG venv)</strong>. The verification script checks packages and basic operations without downloading models. Read the GPU diagnostics along with the summary because a package-check pass alone does not establish readiness for a full model run.</p>
 <p><strong>3. Select the RAG interpreter.</strong> Open <code>Group157-Assignment-2b.ipynb</code> from the clone and choose <strong>Kernel → Change Kernel → Python (RAG venv)</strong>. If the existing kernel is the 1A/LLM environment, switch to the RAG kernel. For an editor's interpreter selector, use <code>/home/group157/venv-rag/bin/python</code>.</p>
 <p><strong>4. Reuse or download the original 1A CPT checkpoint, then set its path.</strong></p>
-<p>The original CPT checkpoint is published in <a href="https://github.com/devcoderb/llm-rag/releases/tag/cpt-1a-v1">release <code>cpt-1a-v1</code></a>. The asset is <a href="https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz"><code>cpt_model.tar.gz</code></a>; the QLoRA adapter remains in the repository.</p>
+<p>The original CPT checkpoint is published in <a href="https://github.com/devcoderb/llm-rag/releases/tag/cpt-1a-v1">release <code>cpt-1a-v1</code></a>. The asset is <a href="https://github.com/devcoderb/llm-rag/releases/download/cpt-1a-v1/cpt_model.tar.gz"><code>cpt_model.tar.gz</code></a>, and the QLoRA adapter remains in the repository.</p>
 <p>Run this in a <strong>Kubeflow terminal</strong>. On the existing Group 157 PV it reuses the checkpoint without downloading it. If the tensor is absent, it downloads the archive, checks its published SHA-256 and extracts the complete folder into <code>CPT_DIR</code>:</p>
 <div class="highlight"><pre><span></span><span class="nb">export</span><span class="w"> </span><span class="nv">CPT_DIR</span><span class="o">=</span>/home/group157/model-backups/cpt_model_1a
 
@@ -7987,10 +7987,10 @@ git<span class="w"> </span>pull<span class="w"> </span>--ff-only
 <span class="k">fi</span>
 </pre></div>
 <p><code>--strip-components=1</code> removes the archive's outer <code>cpt_model/</code> directory, so <code>model.safetensors</code>, <code>config.json</code> and the other six files sit directly inside <code>/home/group157/model-backups/cpt_model_1a/</code>. Stage 0D verifies all eight extracted files against <code>models/MANIFEST.sha256</code>.</p>
-<p><strong>Using <code>CPT_DIR</code> in the notebook:</strong> 0A already detects this default folder. A terminal <code>export</code> is inherited only by processes started from that terminal; it does not change an already-running Jupyter kernel. To select a different checkpoint folder in an open notebook, set the environment variable inside 0A, immediately after its imports and before the CPT path selection:</p>
+<p><strong>Using <code>CPT_DIR</code> in the notebook:</strong> 0A already detects this default folder. A terminal <code>export</code> is inherited only by processes started from that terminal, so it does not change an already-running Jupyter kernel. To select a different checkpoint folder in an open notebook, set the environment variable inside 0A, immediately after its imports and before the CPT path selection:</p>
 <div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">"CPT_DIR"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"/home/group157/model-backups/cpt_model_1a"</span>
 </pre></div>
-<p>Without an explicit override, 0A checks <code>/home/group157/model-backups/cpt_model_1a/</code> and then <code>/home/group157/cpt_model/</code>. Run Stage 0 in order. Keep the eight original files together; no CPT or SFT retraining is needed.</p>
+<p>Without an explicit override, 0A checks <code>/home/group157/model-backups/cpt_model_1a/</code> and then <code>/home/group157/cpt_model/</code>. Run Stage 0 in order. Reuse the eight original files together without repeating CPT or SFT training.</p>
 <p>The commands above are preparation instructions, not an automatic notebook cell: installing packages does not switch an already-running kernel. After selecting the RAG kernel, execute Stage 0 and check its results before continuing.</p>
 </div>
 </div>
@@ -8157,7 +8157,7 @@ Top level of ARTIFACT_ROOT (1A volume):
 </ul>
 <blockquote>
 <ul>
-<li>Python 3.11.11; repository: <code>/home/group157/llm-assignment-2b/llm-rag</code>, with its <code>data/</code> folder.</li>
+<li>Python 3.11.11 is used with the repository at <code>/home/group157/llm-assignment-2b/llm-rag</code>, with its <code>data/</code> folder.</li>
 <li>The 1A volume at <code>/home/group157</code> contains <code>cpt_model</code>, <code>qlora_finance_adapter</code>, <code>domain_corpus</code> and the three instruction JSONL files.</li>
 <li>Outputs go to <code>/home/group157/assignment_2b_outputs</code>.</li>
 </ul>
@@ -8309,7 +8309,8 @@ If packages are missing: run kubeflow/setup_env.sh in a terminal and select the 
 </ul>
 <blockquote>
 <ul>
-<li>One NVIDIA L40S with 47.8 GB (39.4 GB free) and bfloat16 support; torch 2.5.1+cu124, transformers 4.46.3, sentence-transformers 3.3.1, faiss 1.9.0; no package missing; the container memory limit is 19.3 GB.</li>
+<li>One NVIDIA L40S provides 47.8 GB GPU memory with 39.4 GB free and supports bfloat16, while the container RAM limit is 19.3 GB.</li>
+<li>The installed packages match torch 2.5.1+cu124, transformers 4.46.3, sentence-transformers 3.3.1 and faiss 1.9.0, with none missing.</li>
 </ul>
 </blockquote>
 <blockquote>
@@ -8460,7 +8461,7 @@ Split exports: train 957 (expected 957) | eval 239 (expected 239) | overlap 0 | 
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Observation 0C.</strong></p>
 <ul>
-<li><em>Expected:</em> Reused data matches its manifest and the 1A copies; training and evaluation pairs do not overlap.</li>
+<li><em>Expected:</em> Reused data matches its manifest and the 1A copies, and training and evaluation pairs do not overlap.</li>
 <li><em>Observed:</em></li>
 </ul>
 <blockquote>
@@ -8612,7 +8613,7 @@ Adapter weights: 6.3 MB | tokenizer saved with adapter: True
 <blockquote>
 <ul>
 <li>Adapter: 8 of 8 files match, in the repository and on the volume (weights 6.3 MB, LoRA r=16, alpha 32, q_proj and v_proj)</li>
-<li>CPT model: 8 of 8 files match (<code>model.safetensors</code> 1.3 GB; LlamaForCausalLM, vocabulary 49,152, 32 layers, 8,192 positions).</li>
+<li>CPT model: 8 of 8 files match (<code>model.safetensors</code> 1.3 GB, architecture LlamaForCausalLM, vocabulary 49,152, 32 layers, 8,192 positions).</li>
 </ul>
 </blockquote>
 <ul>
@@ -8848,18 +8849,18 @@ Gated models (e.g. Llama) need an accepted licence and an HF token. In this run 
 </ul>
 <blockquote>
 <ul>
-<li>5 of 5 models are reachable from Kubeflow; <code>meta-llama/Llama-3.1-8B-Instruct</code> is gated and needs an approved token.</li>
+<li>5 of 5 models are reachable from Kubeflow, and <code>meta-llama/Llama-3.1-8B-Instruct</code> is gated and needs a token with model access.</li>
 </ul>
 <p>| Role | Model | Where | Why it was chosen |
 |---|---|---|---|
-| Embedder | <code>BAAI/bge-small-en-v1.5</code> | Stages 2 to 5 | Small 384-dimension model with a 512-token limit; its tokenizer sizes the chunks |
-| Keyword search | BM25 (<code>rank_bm25</code>, BM25Okapi), no neural model | Stage 4 | Keyword baseline that differs from the embedder; fused with it by RRF in the hybrid method |
-| Reranker | <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> | Stage 5 | The model named in the assignment; scores each query and chunk pair together |
-| Generator, tested first | 1A model: SmolLM2-360M CPT checkpoint plus the QLoRA adapter | Stage 6 baseline | The assignment asks for the 1A model first; it gave 0 of 10 numbered citations and answered the unanswerable query |
-| Generator, used | <code>microsoft/Phi-3.5-mini-instruct</code> (revision 2fe1924501) | Stage 6 fallback | Llama-3.1-8B-Instruct was tried first and returned HTTP 401 (gated); Phi gave the exact fallback on the unanswerable query |
-| Judge | <code>allenai/Llama-3.1-Tulu-3-8B</code> | Stage 7 | Different model from the generator; best of four judge attempts on 12 known-label cases (9 of 12 matched) |</p>
+| Embedder | <code>BAAI/bge-small-en-v1.5</code> | Stages 2 to 5 | Small 384-dimension model with a 512-token limit and its tokenizer sizes the chunks |
+| Keyword search | BM25 (<code>rank_bm25</code>, BM25Okapi), no neural model | Stage 4 | Keyword baseline that differs from the embedder and is fused with it by RRF in the hybrid method |
+| Reranker | <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> | Stage 5 | The model named in the assignment and scores each query and chunk pair together |
+| Generator, tested first | 1A model: SmolLM2-360M CPT checkpoint plus the QLoRA adapter | Stage 6 baseline | The assignment asks for the 1A model first, and it gave 0 of 10 numbered citations and answered the unanswerable query |
+| Generator, used | <code>microsoft/Phi-3.5-mini-instruct</code> (revision 2fe1924501) | Stage 6 fallback | Llama-3.1-8B-Instruct was tried first and returned HTTP 401 (gated), while Phi gave the exact fallback on the unanswerable query |
+| Judge | <code>allenai/Llama-3.1-Tulu-3-8B</code> | Stage 7 | Different model from the generator and the best of four judge attempts on 12 known-label cases (9 of 12 matched) |</p>
 <ul>
-<li>2,446 GB of disk is free for the model cache; no model downloads in this step.</li>
+<li>2,446 GB of disk is free for the model cache, with no model downloads in this step.</li>
 <li>Llama was not usable in this run, so Phi-3.5-mini-instruct (generator) and Tulu-3 8B (judge) are used later and the reasons are recorded in Stages 6 and 7.</li>
 </ul>
 </blockquote>
@@ -9342,13 +9343,13 @@ OFFSETS : characters 63,033 to 63,093 of 91,761
 <blockquote>
 <ul>
 <li>10 queries, all evaluation-only, drawn from 10 source documents</li>
-<li>Each span is present in its document and maps back to raw character offsets (for example Q01 18,032 to 18,154, 122 characters; Q10 63,033 to 63,093, 60 characters)</li>
+<li>Each span is present in its document and maps back to raw character offsets (for example Q01 18,032 to 18,154, 122 characters, and Q10 63,033 to 63,093, 60 characters)</li>
 <li>Spans range from 60 to 508 characters.</li>
 <li>A retrieved chunk can be scored as a hit or miss automatically, and the spans are frozen before any retrieval.</li>
 </ul>
 </blockquote>
 <ul>
-<li>A retrieved chunk can be scored as a hit or miss automatically; the spans are frozen before retrieval.</li>
+<li>A retrieved chunk can be scored as a hit or miss automatically, and the spans are frozen before retrieval.</li>
 </ul>
 </div>
 </div>
@@ -9578,7 +9579,7 @@ Gate 1: all checks passed.
 <blockquote>
 <ul>
 <li><code>eval/query_set_frozen.json</code> already exists and its freeze hash matches this build (SHA-256 99eac52609fbde84...)</li>
-<li>10 queries plus U01 reload; 4 of 4 Stage 1 checks PASS.</li>
+<li>10 queries plus U01 reload, and 4 of 4 Stage 1 checks PASS.</li>
 <li>Every later part (A to D) scores the same questions and spans.</li>
 </ul>
 </blockquote>
@@ -9709,7 +9710,7 @@ Gate 1: all checks passed.
 <ul>
 <li><strong>Question:</strong> Who won the FIFA World Cup in 2018?</li>
 <li><strong>Expected response:</strong> <code>Not found in the documents</code></li>
-<li><strong>Use:</strong> Tests abstention; excluded from all metrics calculated over Q01–Q10.</li>
+<li><strong>Use:</strong> Tests abstention and is excluded from all metrics calculated over Q01–Q10.</li>
 </ul>
 </div>
 </div>
@@ -9732,8 +9733,8 @@ Gate 1: all checks passed.
 <li><strong>Query prefix:</strong> BGE instructs queries (not passages) to start with <code>Represent this sentence for searching relevant passages: </code>. Passages are embedded without a prefix.</li>
 <li><strong>Normalisation:</strong> vectors are L2-normalised float32, so inner product equals cosine similarity.</li>
 <li><strong>Index:</strong> FAISS <code>IndexFlatIP</code> is an exact (brute-force) inner-product index, not an approximate one.</li>
-<li><strong>Interface:</strong> <code>DenseSearcher.build(chunks)</code> embeds and indexes any chunk list; <code>search(query, k)</code> returns ranked <code>chunk_id</code>, <code>score</code> and <code>text</code>. <code>build_dense_index</code> is the underlying function and returns the index, embeddings and build time.</li>
-<li><strong>Scope of this stage:</strong> the interface is shown on a small labelled fixture of invented sentences. Fixture timings are not the A1 build time; Stage 3 builds the real 100- and 400-token chunk sets and reports the final-corpus time.</li>
+<li><strong>Interface:</strong> <code>DenseSearcher.build(chunks)</code> embeds and indexes any chunk list, and <code>search(query, k)</code> returns ranked <code>chunk_id</code>, <code>score</code> and <code>text</code>. <code>build_dense_index</code> is the underlying function and returns the index, embeddings and build time.</li>
+<li><strong>Scope of this stage:</strong> the interface is shown on a small labelled fixture of invented sentences. Fixture timings are not the A1 build time, and Stage 3 builds the real 100- and 400-token chunk sets and reports the final-corpus time.</li>
 <li><strong>Model choice:</strong> <code>BAAI/bge-small-en-v1.5</code> is a small 384-dimension embedder with a 512-token limit that runs on the available GPU. The same model embeds queries and passages, and its own tokenizer is used to size the chunks in Stage 3.</li>
 </ul>
 </div>
@@ -9836,7 +9837,7 @@ load_seconds                9.41
 </ul>
 </blockquote>
 <ul>
-<li>These are the A1 facts for the embedding model; the build time for the real corpus is measured in Stage 3.</li>
+<li>These are the A1 facts for the embedding model, while the build time for the real corpus is measured in Stage 3.</li>
 </ul>
 </div>
 </div>
@@ -9941,7 +9942,7 @@ DenseSearcher defined (build / search; passages unprefixed, queries prefixed, ve
 </ul>
 <blockquote>
 <ul>
-<li><code>DenseSearcher</code> defines <code>build</code> and <code>search</code>; passages are embedded without a prefix, queries with the BGE query prefix, and vectors are normalised float32.</li>
+<li><code>DenseSearcher</code> provides <code>build</code> and <code>search</code> methods. It embeds passages without a prefix and queries with the BGE query prefix, producing L2-normalised float32 vectors.</li>
 </ul>
 </blockquote>
 <ul>
@@ -10083,11 +10084,14 @@ Example result record for the first query (k=2):
 </ul>
 <blockquote>
 <ul>
-<li>8 invented chunks built in 381.1 ms (not a graded time); embeddings (8, 384) with unit norm; ranking equals a brute-force cosine search; k bounds behave (k=100 is capped at 8; invalid k raises ValueError); top-1 correct 6/6 and gold in top 3 6/6.</li>
+<li>Eight invented chunks were indexed in 381.1 ms, which is a fixture timing rather than a graded corpus build time.</li>
+<li>The (8, 384) embeddings have unit norm, and their ranking matches brute-force cosine search.</li>
+<li>Asking for k=100 returns all eight chunks, while invalid k raises ValueError.</li>
+<li>The gold chunk ranks first for all 6/6 fixture queries and is therefore also present in all 6/6 top-three results.</li>
 </ul>
 </blockquote>
 <ul>
-<li>The mechanics are correct; the fixture is not retrieval evidence for the corpus.</li>
+<li>The mechanics are correct, but the fixture is not retrieval evidence for the corpus.</li>
 </ul>
 </div>
 </div>
@@ -10151,7 +10155,7 @@ Gate 2: all checks passed.
 </ul>
 <blockquote>
 <ul>
-<li>3 of 3 checks PASS (embedder, interface, fixture checks); the fixture timing is a mechanics check only.</li>
+<li>3 of 3 checks PASS (embedder, interface, fixture checks), with the fixture timing is a mechanics check only.</li>
 </ul>
 </blockquote>
 <ul>
@@ -10184,7 +10188,7 @@ Gate 2: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li>The embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only; the graded index build time is measured in Stage 3.</li>
+<li>The embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only, while the graded index build time is measured in Stage 3.</li>
 </ul>
 </div>
 </div>
@@ -10198,17 +10202,17 @@ Gate 2: all checks passed.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="A2:-Compare-100-and-400-token-chunks-and-Justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">A2: Compare 100 and 400-token chunks and Justify the chosen size (3 marks) · Stage 3<a class="anchor-link" href="#A2:-Compare-100-and-400-token-chunks-and-Justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
-<li>Chunk the corpus at 100 and 400 tokens with no overlap; run the A1 search on the 10 queries for each size; report total chunks, hit rate@3 and tokens sent per query (top 3) (2 marks).</li>
+<li>Chunk the corpus at 100 and 400 tokens with no overlap, run the A1 search on the 10 queries for each size, and report total chunks, hit rate@3 and tokens sent per query (top 3) (2 marks).</li>
 <li>In two or three sentences, name the size used in Parts B to D and why, considering hit rate, tokens per query and the Assignment 1 model's context (1 mark).</li>
 </ol>
 <p><strong>Approach used</strong> (Stage 3)</p>
 <ul>
 <li><strong>Chunking:</strong> each document is tokenised with the embedder's tokenizer (<code>BAAI/bge-small-en-v1.5</code>, no special tokens) and cut into consecutive windows of N tokens with no overlap. Chunk text is the raw document substring between the first and last token offsets of the window, so every chunk keeps its document, raw character offsets and a unique ID (<code>c&lt;N&gt;-d&lt;doc&gt;-&lt;chunk&gt;</code>). The last chunk of a document may be shorter.</li>
-<li><strong>Length check:</strong> each stored chunk is re-tokenised with special tokens and must fit the 512-token encoder limit. Cutting inside a word can change the re-tokenised count slightly; the differences are reported.</li>
-<li><strong>Evaluation:</strong> the same ten frozen queries are searched on each chunk set (top 3). A hit means a top-3 chunk contains the frozen span under the Stage 1 hit rule. Spans that fall across a chunk boundary cannot be hit at that size; they are reported, not changed.</li>
-<li><strong>Metrics:</strong> total chunks, hit@3, mean tokens in the top-3 chunks (embedder tokenizer, no special tokens), full-corpus build time (embedding plus <code>index.add</code>, wall clock; model load and fixture time excluded).</li>
+<li><strong>Length check:</strong> each stored chunk is re-tokenised with special tokens and must fit the 512-token encoder limit. Cutting inside a word can change the re-tokenised count slightly, and the differences are reported.</li>
+<li><strong>Evaluation:</strong> the same ten frozen queries are searched on each chunk set (top 3). A hit means a top-3 chunk contains the frozen span under the Stage 1 hit rule. Spans that fall across a chunk boundary cannot be hit at that size, and they are reported, not changed.</li>
+<li><strong>Metrics:</strong> total chunks, hit@3, mean tokens in the top-3 chunks (embedder tokenizer, no special tokens), full-corpus build time (wall-clock embedding plus <code>index.add</code> time, excluding model loading and fixture time).</li>
 <li><strong>Tie policy:</strong> results are ordered by score, then by chunk position, so repeated searches and later stages compare identically. Duplicate chunk IDs are rejected.</li>
-<li><strong>Decision rule (Parts B to D):</strong> the larger hit@3 wins; on a tie, the size with the smaller mean generator prompt (SmolLM2 tokenizer). The generator context check uses the model's position limit; the 512 SFT length is a training setting, not a limit.</li>
+<li><strong>Decision rule (Parts B to D):</strong> the larger hit@3 wins, with ties resolved by choosing the size with the smaller mean generator prompt (SmolLM2 tokenizer). The generator context check uses the model's position limit, and the 512 SFT length is a training setting, not a limit.</li>
 <li><strong>Limit of the evidence:</strong> ten queries give 10% steps, so one query changes hit@3 by ten points.</li>
 </ul>
 <p><strong>Model choice:</strong> no new model. Chunks are cut with the embedder's own tokenizer (<code>BAAI/bge-small-en-v1.5</code>), so no chunk exceeds its 512-token limit.</p>
@@ -10869,7 +10873,7 @@ Gate 3: all checks passed.
 <ul>
 <li><p><em>Meaning:</em> The comparison balances retrieval hits against the amount of text sent to the generator.</p>
 </li>
-<li><p><strong>Chosen: 400 tokens.</strong> Small chunks cut the answer sentence in two; larger chunks keep it whole and carry more surrounding text.</p>
+<li><p><strong>Chosen: 400 tokens.</strong> Small chunks cut the answer sentence in two, and larger chunks keep it whole and carry more surrounding text.</p>
 </li>
 <li><p><strong>Example (Q02):</strong> <em>Question:</em> Where must a non-bank PPI issuer keep the outstanding balance?</p>
 </li>
@@ -10880,7 +10884,7 @@ Gate 3: all checks passed.
 </ul>
 <blockquote>
 <ul>
-<li>With 100 tokens the answer sentence straddles chunks <code>c100-d12-00093</code> and <code>c100-d12-00094</code>, so no single chunk contains it; with 400 tokens one chunk holds it and ranks first.</li>
+<li>With 100 tokens the answer sentence straddles chunks <code>c100-d12-00093</code> and <code>c100-d12-00094</code>, so no single chunk contains it, whereas with 400 tokens one chunk holds it and ranks first.</li>
 </ul>
 </blockquote>
 <ul>
@@ -10912,7 +10916,7 @@ Gate 3: all checks passed.
 <li><strong>Chunk-gap diagnostic:</strong> before use, the characters that fall between chunks (22 at 100 tokens, 6 at 400) are printed and classified.</li>
 <li><strong>Limits:</strong> ten queries give 10% steps. The questions share vocabulary with their source passages, which favours BM25.</li>
 </ul>
-<p><strong>Model choice:</strong> BM25 (<code>rank_bm25</code>, BM25Okapi) is a keyword method with no neural model, so it gives a baseline that differs from the dense embedder. Hybrid search combines the two rankings with reciprocal rank fusion; no new model is added.</p>
+<p><strong>Model choice:</strong> BM25 (<code>rank_bm25</code>, BM25Okapi) is a keyword method with no neural model, so it gives a baseline that differs from the dense embedder. Hybrid search combines the two rankings with reciprocal rank fusion, so no new model is added.</p>
 </div>
 </div>
 </div>
@@ -11500,12 +11504,12 @@ Gate 4: all checks passed.
 </ul>
 <blockquote>
 <ul>
-<li>Dense ranks that chunk 2nd; BM25 and Hybrid do not return it in their top 5.</li>
+<li>Dense ranks that chunk 2nd, and BM25 and Hybrid do not return it in their top 5.</li>
 </ul>
 </blockquote>
 <ul>
 <li><em>Meaning:</em> Meaning-based matching suits wording-heavy legal questions better than keyword counts on this set.</li>
-<li><strong>Caution:</strong> ten questions means one question is 10 points; the differences are indicative, not conclusive.</li>
+<li><strong>Caution:</strong> ten questions means one question is 10 points, so the differences are indicative, not conclusive.</li>
 </ul>
 </div>
 </div>
@@ -11528,9 +11532,9 @@ Gate 4: all checks passed.
 <ul>
 <li><strong>Candidates:</strong> Dense top 10 for each frozen query on the unchanged 400-token <code>FINAL_CHUNKS</code>. Dense is the Part B method chosen on hit@1 (4/10), hit@3 (7/10) and latency. Its top-5 ids and scores must equal the saved Part B results, and hit@1 before reranking must equal the Part B value.</li>
 <li><strong>Cross-encoder:</strong> <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> (the model ID in the assignment PDF), <code>max_length</code> 512, scoring each (query, chunk) pair jointly. The model revision, activation and device are recorded.</li>
-<li><strong>Length check:</strong> every query + chunk pair is tokenised with the cross-encoder tokenizer. Pairs above 512 tokens are truncated by the model; any truncation that removes a frozen span is a failure.</li>
+<li><strong>Length check:</strong> every query + chunk pair is tokenised with the cross-encoder tokenizer. Pairs above 512 tokens are truncated by the model, and any truncation that removes a frozen span is a failure.</li>
 <li><strong>Reranking:</strong> the ten candidates are re-ordered by cross-encoder score (ties keep the Dense order) and the top 3 are kept. Original chunk text is used for metrics and later for generation.</li>
-<li><strong>Metrics:</strong> first-result change rate (share of queries whose top result changes), hit@1 before and after, hit@3 before and after, and cross-encoder scoring time per query after one warm-up call (tokenisation and scoring of the 10 pairs; Dense retrieval and model loading are excluded).</li>
+<li><strong>Metrics:</strong> first-result change rate (share of queries whose top result changes), hit@1 before and after, hit@3 before and after, and cross-encoder scoring time per query after one warm-up call (tokenisation and scoring of the 10 pairs, excluding Dense retrieval and model loading).</li>
 <li><strong>Scope:</strong> reranking only reorders the Dense top 10, so it cannot recover a span that is not among those ten. Ten queries give 10% steps.</li>
 </ul>
 <p><strong>Model choice:</strong> <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> is the model named in the assignment. It reads the query and a chunk together, which lets it reorder candidates that the embedder scored independently.</p>
@@ -12108,7 +12112,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 | After cross-encoder reranking | 5/10 | 5/10 | about 10.6 ms/query |</p>
 </blockquote>
 <ul>
-<li><p><em>Meaning:</em> Hit@1 improves, while hit@3 falls; the examples below explain a gain and a loss.</p>
+<li><p><em>Meaning:</em> Hit@1 improves, while hit@3 falls, and the examples below explain a gain and a loss.</p>
 </li>
 <li><p><strong>Reading:</strong> reranking improves the very first result but pushes some correct chunks out of the top 3. The cross-encoder can only reorder the Dense top 10, where 8/10 questions have the answer.</p>
 </li>
@@ -12141,7 +12145,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </blockquote>
 <ul>
 <li>Topical overlap can outrank the passage that holds the number.</li>
-<li><strong>Consequence:</strong> Stage 6 must use these reranked top 3, so only 5 of 10 contexts contain the answer span (Q02, Q03, Q04, Q05, Q09). For the other five the frozen answer span is absent; the passages were inspected (see the Stage 6 notes) before concluding that the needed information is missing, and recovering it needs a retrieval, reranking or context change.</li>
+<li><strong>Consequence:</strong> Stage 6 must use these reranked top 3, so only 5 of 10 contexts contain the answer span (Q02, Q03, Q04, Q05, Q09). For the other five, the supplied passages were inspected before concluding that the needed information was missing (see the Stage 6 notes). Recovering that evidence requires a retrieval, reranking or context change.</li>
 </ul>
 </div>
 </div>
@@ -12155,7 +12159,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="D1:-Generate-answers-with-source-citations-and-test-an-unanswerable-question">D1: Generate answers with source citations and test an unanswerable question<a class="anchor-link" href="#D1:-Generate-answers-with-source-citations-and-test-an-unanswerable-question">¶</a></h2><h3 id="Document-any-model-switch-(3-marks)-%C2%B7-Stage-6">Document any model switch (3 marks) · Stage 6<a class="anchor-link" href="#Document-any-model-switch-(3-marks)-%C2%B7-Stage-6">¶</a></h3><p><strong>Task brief</strong> (assignment)</p>
 <ol>
-<li>A prompt that answers only from the chunks, cites chunk numbers such as [2] and replies "Not found in the documents" otherwise; show it (1).</li>
+<li>Show a prompt that tells the model to answer only from the chunks, cite chunk numbers such as [2] and reply "Not found in the documents" otherwise (1).</li>
 <li>For each of the 10 queries, give the Assignment 1 model the reranked top 3 chunks, numbered, and show all 10 answers (1).</li>
 <li>Add one query whose answer is not in the corpus and show the model replies that it cannot find it (1).</li>
 </ol>
@@ -12170,7 +12174,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 <tbody>
 <tr>
 <td>1. Prompt (shown)</td>
-<td>6C (template, budget and the exact U01 prompt); instruction text repeated in 6H for the fallback</td>
+<td>6C (template, budget and the exact U01 prompt), with instruction text repeated in 6H for the fallback</td>
 </tr>
 <tr>
 <td>2. Ten answers</td>
@@ -12188,10 +12192,10 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 <li><strong>Inputs:</strong> the hash-verified reranked top-3 chunks for the ten frozen queries (<code>reranked_top3.json</code>, original chunk text), labelled <code>[1]</code> to <code>[3]</code> in rank order. The unanswerable query U01 is passed through the same Dense top-10, cross-encoder top-3 pipeline as a separate item and is excluded from any ten-query metric.</li>
 <li><strong>Generator tested first:</strong> the 1A model (SmolLM2-360M continued-pretraining checkpoint plus the QLoRA adapter), loaded as in 1A (4-bit NF4, double quantisation, float16 compute) with the tokenizer and chat template saved with the adapter. Pad and EOS ids, vocabulary size and embedding rows are checked before the adapter is attached.</li>
 <li><strong>Prompt:</strong> one user message holding the instruction, the three numbered chunks and the question, wrapped by the saved <code>User: ... Assistant:</code> template. The instruction asks for citations like <code>[1]</code> and the exact reply <code>Not found in the documents</code> when the chunks lack the answer.</li>
-<li><strong>Decoding:</strong> greedy (<code>do_sample=False</code>), <code>max_new_tokens=150</code>, no repetition penalty and no n-gram blocking. The 1A evaluation used <code>repetition_penalty=1.1</code> and <code>no_repeat_ngram_size=4</code>; both would block the model from repeating wording that is already in the prompt, which grounded answering requires.</li>
+<li><strong>Decoding:</strong> greedy (<code>do_sample=False</code>), <code>max_new_tokens=150</code>, no repetition penalty and no n-gram blocking. The 1A evaluation used <code>repetition_penalty=1.1</code> and <code>no_repeat_ngram_size=4</code>, both of which would block the model from repeating wording that is already in the prompt, which grounded answering requires.</li>
 <li><strong>Context budget:</strong> formatted prompt tokens plus the 150-token output reserve are checked against the model's position limit (8,192). The 1A SFT length (512) and the CPT block length (1,024) are reported separately as training settings, not limits. Chunks are never truncated.</li>
-<li><strong>Checks per answer (heuristic, not the judge):</strong> citation numbers present and within 1 to 3; share of answer words found in the three chunks; exact abstention string; whether the context actually contains the frozen span. These flags decide only whether a failure is recorded; correctness is judged in Stage 7.</li>
-<li><strong>Switch rule:</strong> a different model is considered only if U01 is not answered with the exact fallback, or at least half of the ten answers are flagged. The first flagged raw output is saved unedited. A switch needs User approval and follows a fixed order of preference (Llama first, Phi second, Qwen last resort).</li>
+<li><strong>Checks per answer (heuristic, not the judge):</strong> citation numbers present and within 1 to 3, the share of answer words found in the three chunks, the exact abstention string, and whether the context actually contains the frozen span. These flags decide only whether a failure is recorded, while correctness is judged in Stage 7.</li>
+<li><strong>Switch rule:</strong> a different model is considered only if U01 is not answered with the exact fallback, or at least half of the ten answers are flagged. The first flagged raw output is saved unedited. The model choice and reason for switching are recorded, following a fixed order of preference (Llama first, Phi second, Qwen last resort).</li>
 </ul>
 <p><strong>Model choice:</strong> the assignment requires the 1A model to be tried first. It is kept as the baseline trial. Because it gave no numbered citations and answered the unanswerable query, the fallback trial uses an instruct model (reasons in the fallback trial brief and the model-selection diagram).</p>
 </div>
@@ -12525,7 +12529,7 @@ Assistant:
     <span class="n">f0</span> <span class="o">=</span> <span class="n">FAILURE_RECORDED</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">First flagged output, saved unedited (</span><span class="si">{</span><span class="n">f0</span><span class="p">[</span><span class="s1">'qid'</span><span class="p">]</span><span class="si">}</span><span class="s2">, flags </span><span class="si">{</span><span class="n">f0</span><span class="p">[</span><span class="s1">'checks'</span><span class="p">][</span><span class="s1">'flags'</span><span class="p">]</span><span class="si">}</span><span class="s2">):"</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">indent</span><span class="p">(</span><span class="n">f0</span><span class="p">[</span><span class="s2">"raw_answer"</span><span class="p">],</span> <span class="s2">"  | "</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Generator decision: "</span> <span class="o">+</span> <span class="p">(</span><span class="s2">"a real grounding/abstention failure is recorded; a different generator may be considered after operator approval (order of preference: Llama-3.1-8B-Instruct, Phi-3.5-mini-Instruct, Qwen last)."</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Generator decision: "</span> <span class="o">+</span> <span class="p">(</span><span class="s2">"A grounding/abstention failure is recorded, so a different generator may be considered in this order: Llama-3.1-8B-Instruct, Phi-3.5-mini-Instruct, then Qwen as a last resort."</span>
       <span class="k">if</span> <span class="n">SWITCH_NEEDED</span> <span class="k">else</span> <span class="s2">"keep the 1A model; no switch is warranted by these checks"</span> <span class="o">+</span> <span class="p">(</span><span class="s2">" (individual flags above are noted for Stage 7)."</span> <span class="k">if</span> <span class="n">FAILURE_RECORDED</span> <span class="k">else</span> <span class="s2">"."</span><span class="p">)))</span>
 <span class="n">STAGE6</span><span class="p">[</span><span class="s2">"answers"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"PASS"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"11 answers generated; ten-query flagged </span><span class="si">{</span><span class="n">n_flag</span><span class="si">}</span><span class="s2">/10; U01 exact fallback </span><span class="si">{</span><span class="n">unans</span><span class="p">[</span><span class="s1">'checks'</span><span class="p">][</span><span class="s1">'exact_fallback'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
@@ -12692,7 +12696,7 @@ First flagged output, saved unedited (Q01, flags ['missing_or_invalid_citation',
 
   | Question: What is the maximum value per transaction for a PA - CB under the RBI Master Direction on Regulation of Payment Aggregators
 
-Generator decision: a real grounding/abstention failure is recorded; a different generator may be considered after operator approval (order of preference: Llama-3.1-8B-Instruct, Phi-3.5-mini-Instruct, Qwen last).
+Generator decision: A grounding/abstention failure is recorded, so a different generator may be considered in this order: Llama-3.1-8B-Instruct, Phi-3.5-mini-Instruct, then Qwen as a last resort.
 </pre>
 </div>
 </div>
@@ -12789,7 +12793,7 @@ Gate 6: all checks passed.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Observations: Assignment 1 baseline trial</strong> (Stage 6A–6E)</p>
 <ul>
-<li><strong>Inputs:</strong> the reranked top 3 contain the frozen answer span for 5 of 10 questions (Q02, Q03, Q04, Q05, Q09). U01 goes through the same Dense → cross-encoder pipeline. Prompts reach 1,644 tokens plus the 150-token output reserve, within the model's 8,192 positions; the 1A recipe's repetition controls were not used because they would block copying from the chunks.</li>
+<li><strong>Inputs:</strong> the reranked top 3 contain the frozen answer span for 5 of 10 questions (Q02, Q03, Q04, Q05, Q09). U01 goes through the same Dense → cross-encoder pipeline. Prompts reach 1,644 tokens plus the 150-token output reserve, within the model's 8,192 positions, and the 1A recipe's repetition controls were not used because they would block copying from the chunks.</li>
 <li><strong>Question-by-question observations</strong> (manual reading of the printed answers):</li>
 </ul>
 <p><strong>Q01.</strong></p>
@@ -12903,7 +12907,7 @@ Gate 6: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li><strong>Pattern:</strong> 0/10 answers carry a numbered citation; 9/10 run to the 150-token limit (only Q04 stops on its own), often continuing with invented "Question:" turns. This is the concrete problem shown for D1: the model neither cites the chunks nor abstains.</li>
+<li><strong>Pattern:</strong> 0/10 answers carry a numbered citation, and 9/10 run to the 150-token limit (only Q04 stops on its own), often continuing with invented "Question:" turns. This is the concrete problem shown for D1: the model neither cites the chunks nor abstains.</li>
 </ul>
 </div>
 </div>
@@ -12921,14 +12925,14 @@ Gate 6: all checks passed.
 <li>Same ten questions plus U01, same chunk mappings, same instruction, greedy decoding and 150-token budget.</li>
 </ul>
 <p><strong>Approach used</strong></p>
-<p>The 1A trial above is kept unchanged as evidence (<code>stage6_generation.json</code>). Its closing line, "Gate 6: all checks passed", only meant that the code ran and the files were saved; it did not mean the D1 requirements were met. The gate in 6I separates the two.</p>
+<p>The 1A trial above is kept unchanged as evidence (<code>stage6_generation.json</code>). Its closing line, "Gate 6: all checks passed", only meant that the code ran and the files were saved, but it did not mean the D1 requirements were met. The gate in 6I separates the two.</p>
 <ul>
-<li><strong>Why switch:</strong> the baseline failed D1 on real outputs (no numbered citations in any answer; U01 answered instead of abstaining), recorded in 6F.</li>
-<li><strong>Order of preference:</strong> <code>meta-llama/Llama-3.1-8B-Instruct</code> if the pod's Hugging Face token has access, otherwise <code>microsoft/Phi-3.5-mini-instruct</code>. Qwen is used only if both are unusable, and then only with the reason documented and after User approval.</li>
+<li><strong>Why switch:</strong> the baseline failed D1 on real outputs (no numbered citations in any answer and U01 answered instead of abstaining), recorded in 6F.</li>
+<li><strong>Order of preference:</strong> <code>meta-llama/Llama-3.1-8B-Instruct</code> if the pod's Hugging Face token has access, otherwise <code>microsoft/Phi-3.5-mini-instruct</code>. Qwen is used only if both are unusable, with the reason documented.</li>
 <li><strong>Model choice:</strong> Llama-3.1-8B-Instruct was the first choice among the instruct models considered. Phi-3.5-mini-instruct is the second choice, a smaller instruct model (bfloat16, no quantisation) that fits the GPU with room to spare. Qwen2.5-7B-Instruct stays in reserve and is not used.</li>
 <li><strong>Unchanged:</strong> the same ten questions plus U01, the same chunk-to-label mapping rebuilt from the saved baseline file and <code>FINAL_CHUNKS</code>, the same instruction text, greedy decoding, the 150-token output budget and the same checks. Contexts are never shortened.</li>
 <li><strong>Changed:</strong> the fallback model's own tokenizer and saved chat template, its own end-of-turn tokens, and bfloat16 weights (no quantisation). Model and tokenizer revisions are recorded.</li>
-<li><strong>Output:</strong> <code>stage6_fallback_generation.json</code> and its own manifest; the baseline files are not modified. The judge (Stage 7) must be a different model from whichever generator is kept.</li>
+<li><strong>Output:</strong> <code>stage6_fallback_generation.json</code> and its own manifest, while the baseline files are not modified. The judge (Stage 7) must be a different model from whichever generator is kept.</li>
 </ul>
 </div>
 </div>
@@ -12966,7 +12970,7 @@ Gate 6: all checks passed.
 <span class="n">q3</span> <span class="o">=</span> <span class="n">BASE_BY</span><span class="p">[</span><span class="s2">"Q03"</span><span class="p">]</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Second example (Q03, the source says 34</span><span class="si">% i</span><span class="s2">n CY-2019; span was in the context):"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">indent</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="n">q3</span><span class="p">[</span><span class="s2">"answer"</span><span class="p">][:</span><span class="mi">200</span><span class="p">],</span> <span class="mi">100</span><span class="p">),</span> <span class="s2">"  | "</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Reason for switching: the 1A model neither cites chunks nor abstains on U01, and it changes facts it was given; the review-approved fallback order is Llama-3.1-8B-Instruct, then Phi-3.5-mini-Instruct."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Reason for switching: the 1A model neither cites chunks nor abstains on U01, and it changes facts it was given, so the fallback order is Llama-3.1-8B-Instruct, then Phi-3.5-mini-Instruct."</span><span class="p">)</span>
 <span class="n">BASELINE_FAILURE</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"u01_raw_answer"</span><span class="p">:</span> <span class="n">BASE_BY</span><span class="p">[</span><span class="s2">"U01"</span><span class="p">][</span><span class="s2">"raw_answer"</span><span class="p">],</span> <span class="s2">"q03_answer"</span><span class="p">:</span> <span class="n">q3</span><span class="p">[</span><span class="s2">"answer"</span><span class="p">],</span> <span class="s2">"summary"</span><span class="p">:</span> <span class="n">BASE_SUMMARY</span><span class="p">}</span>
 <span class="n">STAGE6</span><span class="p">[</span><span class="s2">"baseline_recorded"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"PASS"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"1A: citations </span><span class="si">{</span><span class="n">BASE_SUMMARY</span><span class="p">[</span><span class="s1">'ten_with_valid_citation'</span><span class="p">]</span><span class="si">}</span><span class="s2">/10, U01 abstained </span><span class="si">{</span><span class="n">BASE_SUMMARY</span><span class="p">[</span><span class="s1">'u01_exact_fallback'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
@@ -13009,7 +13013,7 @@ Second example (Q03, the source says 34% in CY-2019; span was in the context):
   | CY-2024, with a CAGR of 74 per cent over five years.  Chart III.12: Growth of Digital Payment
   | Transacti
 
-Reason for switching: the 1A model neither cites chunks nor abstains on U01, and it changes facts it was given; the review-approved fallback order is Llama-3.1-8B-Instruct, then Phi-3.5-mini-Instruct.
+Reason for switching: the 1A model neither cites chunks nor abstains on U01, and it changes facts it was given, so the fallback order is Llama-3.1-8B-Instruct, then Phi-3.5-mini-Instruct.
 
 GPU memory after releasing the 1A model: 0.24 GB allocated
 </pre>
@@ -13043,7 +13047,7 @@ GPU memory after releasing the 1A model: 0.24 GB allocated
         <span class="n">gc</span><span class="o">.</span><span class="n">collect</span><span class="p">();</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">empty_cache</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">ACCESS_LOG</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">a</span><span class="p">[</span><span class="s1">'model'</span><span class="p">]</span><span class="si">:</span><span class="s2">&lt;40</span><span class="si">}{</span><span class="n">a</span><span class="p">[</span><span class="s1">'status'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span> <span class="o">+</span> <span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">    reason: </span><span class="si">{</span><span class="n">a</span><span class="p">[</span><span class="s1">'error'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span> <span class="k">if</span> <span class="s2">"error"</span> <span class="ow">in</span> <span class="n">a</span> <span class="k">else</span> <span class="s2">""</span><span class="p">))</span>
-<span class="k">assert</span> <span class="n">fb_model</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">"Neither Llama nor Phi could be loaded. Stop: report the reasons above; Qwen needs operator approval and a documented reason."</span>
+<span class="k">assert</span> <span class="n">fb_model</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">"Neither Llama nor Phi could be loaded. Report the reasons above and document any alternative model choice."</span>
 <span class="k">if</span> <span class="n">FB_ID</span> <span class="o">!=</span> <span class="n">FALLBACK_CANDIDATES</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">&gt;&gt;&gt; FALLBACK ACTIVE: </span><span class="si">{</span><span class="n">FALLBACK_CANDIDATES</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> is unavailable (</span><span class="si">{</span><span class="n">ACCESS_LOG</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'error'</span><span class="p">]</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()[</span><span class="mi">0</span><span class="p">][:</span><span class="mi">80</span><span class="p">]</span><span class="si">}</span><span class="s2">); using </span><span class="si">{</span><span class="n">FB_ID</span><span class="si">}</span><span class="s2"> instead."</span><span class="p">)</span>
 <span class="k">else</span><span class="p">:</span>
@@ -13444,7 +13448,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>Observations: Phi-3.5-mini fallback trial</strong> (Stage 6F–6I)</p>
-<p><strong>Setup.</strong> The same reranked top-3 chunks, instruction and 150-token budget were used for both generators. The retrieved text contains the answer span for 5 of 10 questions (Q02, Q03, Q04, Q05, Q09); span presence is a diagnostic, and the passages were read before assigning causes. The explanations below are manual readings of the saved outputs and the source passages; they are not judge verdicts. Stage 7 evaluates correctness and citation support.</p>
+<p><strong>Setup.</strong> Both generators received the same reranked top-3 chunks, instruction and 150-token budget. Answer spans are present for Q02, Q03, Q04, Q05 and Q09, giving 5/10 contexts with the frozen passage. The passages were read before assigning causes, using span presence as a diagnostic. The explanations below are manual readings of saved outputs and source passages, while Stage 7 supplies the judge verdicts.</p>
 <p><strong>Phi-3.5-mini, question by question</strong> (1A result in brackets where it clarifies the failure):</p>
 <p><strong>Q01: Limit for PA-CB, expected ₹25 lakh.</strong></p>
 <ul>
@@ -13453,7 +13457,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Missing retrieval evidence.</em> The limit sentence lies about 18.0k characters (offset 18,032) into the Payment Aggregator directive; the supplied chunks cover the start of that document and an Annual Report note. The answer states that the chunks lack the information, which is the right behaviour, but it is not the exact fallback string and has no citation, so the strict check flags it. [1A invented ₹10,000.]</li>
+<li><em>Missing retrieval evidence.</em> The limit sentence lies about 18.0k characters (offset 18,032) into the Payment Aggregator directive, while the supplied chunks cover the start of that document and an Annual Report note. The answer states that the chunks lack the information, which is the right behaviour, but it is not the exact fallback string and has no citation, so the strict check flags it. [1A invented ₹10,000.]</li>
 </ul>
 </blockquote>
 <p><strong>Q02: Where PPI balance is kept.</strong></p>
@@ -13463,7 +13467,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Content correct.</em> Escrow account with a scheduled commercial bank, plus an optional second bank. It cites [2], but the answer sentence is in chunk [1]; chunk [2] also discusses the escrow balance, so whether it supports the claim is uncertain.</li>
+<li><em>Content correct.</em> Escrow account with a scheduled commercial bank, plus an optional second bank. It cites [2], but the answer sentence is in chunk [1], and chunk [2] also discusses the escrow balance, so whether it supports the claim is uncertain.</li>
 </ul>
 </blockquote>
 <p><strong>Q03: UPI share growth.</strong></p>
@@ -13488,12 +13492,12 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </blockquote>
 <p><strong>Q05: First Loss Default Guarantee.</strong></p>
 <ul>
-<li><em>Expected:</em> A third-party guarantee covers up to a share of defaults; follow the Securitisation of Standard Assets Directions, 2021.</li>
+<li><em>Expected:</em> A third-party guarantee covers up to a share of defaults, and the Securitisation of Standard Assets Directions, 2021 must be followed.</li>
 <li><em>Observed:</em></li>
 </ul>
 <blockquote>
 <ul>
-<li><em>Content matches the expected answer, cut at the limit.</em> Third-party guarantee up to a share of defaults; follow the Securitisation of Standard Assets Directions, 2021. It cites [1] and [2]; [1] holds the span, and the support from [2] (an Annual Report chunk) is uncertain.</li>
+<li><em>Content matches the expected answer, cut at the limit.</em> The answer describes a third-party guarantee up to a share of defaults and the duty to follow the Securitisation of Standard Assets Directions, 2021. It cites [1] and [2], although only [1] clearly holds the span and support from the Annual Report chunk [2] is uncertain.</li>
 </ul>
 </blockquote>
 <p><strong>Q06: Payments Vision 2028 new provider class.</strong></p>
@@ -13503,7 +13507,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Missing evidence and failed abstention.</em> The expected sentence (Small Payment System Providers) is about 15.6k characters (offset 15,589) in; none of the three chunks contains it. Instead of abstaining, the model copied an unrelated survey paragraph from chunk [3] without a citation, and was cut at the limit.</li>
+<li><em>Missing evidence and failed abstention.</em> The expected sentence (Small Payment System Providers) is about 15.6k characters (offset 15,589) in, but none of the three chunks contains it. Instead of abstaining, the model copied an unrelated survey paragraph from chunk [3] without a citation, and was cut at the limit.</li>
 </ul>
 </blockquote>
 <p><strong>Q07: Offer price after higher purchase.</strong></p>
@@ -13513,7 +13517,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Missing evidence, abstained in words.</em> The expected clause is about 35.3k characters (offset 35,313) into the Takeover Regulations; the chunks start at 17.5k, 53.5k and 95.7k. The model says the context lacks the answer and ends with "Not found in the documents", but adds extra text, so the exact-match check flags it.</li>
+<li><em>Missing evidence, abstained in words.</em> The expected clause is about 35.3k characters (offset 35,313) into the Takeover Regulations, while the chunks start at 17.5k, 53.5k and 95.7k. The model says the context lacks the answer and ends with "Not found in the documents", but adds extra text, so the exact-match check flags it.</li>
 </ul>
 </blockquote>
 <p><strong>Q08: Minimum net worth of an AMC.</strong></p>
@@ -13523,7 +13527,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Wrong clause retrieved; cause uncertain.</em> The answer, ₹100 crore cited to [1], matches the cited chunk, which holds a "networth of not less than rupees one hundred crore" clause. The frozen expected answer is fifty crore, from a clause just before this chunk that was not retrieved; the judge compares against that frozen answer and does not choose a legal interpretation, and any ambiguity is checked manually against the corpus. Which clause governs in the corpus is not settled here; Stage 7 should check the answer against the expected one.</li>
+<li><em>Wrong clause retrieved, with cause uncertain.</em> The answer, ₹100 crore cited to [1], matches the cited chunk, which holds a "networth of not less than rupees one hundred crore" clause. The frozen expected answer is fifty crore, from a clause just before this chunk that was not retrieved. Stage 7 compares the generated answer with that frozen reference, while any ambiguity between the clauses requires manual inspection of the corpus. This section does not settle which clause governs.</li>
 </ul>
 </blockquote>
 <p><strong>Q09: Extreme Loss Margin.</strong></p>
@@ -13533,7 +13537,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Correct and cited.</em> 1% on gross open positions, deducted from the clearing member's liquid assets in real time; it quotes chunk [1] and ends before the limit.</li>
+<li><em>Correct and cited.</em> The answer states 1% on gross open positions, deducted from the clearing member's liquid assets in real time, quotes chunk [1] and ends before the limit.</li>
 </ul>
 </blockquote>
 <p><strong>Q10: Buy-back consideration.</strong></p>
@@ -13543,7 +13547,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </ul>
 <blockquote>
 <ul>
-<li><em>Missing evidence, abstained in words.</em> The sentence "only by way of cash" is about 63.0k characters (offset 63,033) in; the chunks cover 0, 10.6k and 18.0k. The answer says the context does not contain it, again without the exact string. [1A claimed cash, shares or bonus issue.]</li>
+<li><em>Missing evidence, abstained in words.</em> The sentence "only by way of cash" is about 63.0k characters (offset 63,033) in, while the chunks cover 0, 10.6k and 18.0k. The answer says the context does not contain it, again without the exact string. [1A claimed cash, shares or bonus issue.]</li>
 </ul>
 </blockquote>
 <p><strong>U01: FIFA World Cup 2018.</strong></p>
@@ -13558,10 +13562,10 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </blockquote>
 <p><strong>What it means.</strong></p>
 <ul>
-<li>When the answer text was supplied (Q02, Q03, Q04, Q05, Q09), Phi's content matches the expected answer; citation numbering and the token limit are the problems.</li>
+<li>When the answer text was supplied (Q02, Q03, Q04, Q05, Q09), Phi's content matches the expected answer, but citation numbering and the token limit are the problems.</li>
 <li>When it was not supplied (Q01, Q06, Q07, Q08, Q10), results split: three abstain in words, one copies unrelated text (Q06), and one answers from a neighbouring clause (Q08).</li>
-<li>The required D1 runs and evidence are complete; the strict instruction-compliance checks (exact fallback string, every citation valid) failed. Part of that gap is wording (Q01, Q07, Q10) and part is a quality finding (Q03 citation, Q06 abstention). All flags are kept.</li>
-<li>Recovering the missing evidence needs a retrieval, reranking or context change; a generator change can improve abstention and citation behaviour but cannot supply text that was not retrieved. Stage 7 judges faithfulness and answer quality; no judge verdict is claimed here.</li>
+<li>The required D1 runs and evidence are complete, but the strict instruction-compliance checks (exact fallback string, every citation valid) failed. Part of that gap is wording (Q01, Q07, Q10) and part is a quality finding (Q03 citation, Q06 abstention). All flags are kept.</li>
+<li>Recovering the missing evidence needs a retrieval, reranking or context change, while a generator change can improve abstention and citation behaviour but cannot supply text that was not retrieved. Stage 7 judges faithfulness and answer quality, and no judge verdict is claimed here.</li>
 </ul>
 </div>
 </div>
@@ -13574,7 +13578,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Comparison-and-model-selection">Comparison and model selection<a class="anchor-link" href="#Comparison-and-model-selection">¶</a></h3><p><strong>Task brief:</strong> Name the generator kept for the rest of the pipeline and show the evidence for the choice.</p>
-<p><strong>Code and execution output:</strong> No new code; the figures below come from the printed outputs of 6D (1A) and 6H–6I (Phi).</p>
+<p><strong>Code and execution output:</strong> The comparison uses the printed outputs of 6D (1A) and 6H–6I (Phi), with no additional code.</p>
 <p><strong>Observations</strong></p>
 <table>
 <thead>
@@ -13618,9 +13622,9 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </tbody>
 </table>
 <ul>
-<li><strong>Q03</strong> (expected 34% to 83%): 1A generated 37.5%; Phi generated 34% to 83% and cited [1] (valid) and [5] (no such chunk).</li>
-<li><strong>Q09</strong> (expected ELM of 1%, deducted from the clearing member's liquid assets): 1A omitted the 1%; Phi quoted the sentence and cited [1].</li>
-<li><strong>U01</strong> (expected exact fallback): 1A invented a winner; Phi returned the exact string after 6 tokens.</li>
+<li><strong>Q03</strong> (expected 34% to 83%): 1A generated 37.5%, and Phi generated 34% to 83% and cited [1] (valid) and [5] (no such chunk).</li>
+<li><strong>Q09</strong> (expected ELM of 1%, deducted from the clearing member's liquid assets): 1A omitted the 1%, and Phi quoted the sentence and cited [1].</li>
+<li><strong>U01</strong> (expected exact fallback): 1A invented a winner, while Phi returned the exact string after 6 tokens.</li>
 <li><strong>Selection:</strong> Llama-3.1-8B-Instruct was tried first and refused (gated, HTTP 401), so Phi-3.5-mini-Instruct is the generator for the rest of the pipeline. Phi is not error-free: five answers fail a strict check and the five missing-evidence questions (Q01, Q06, Q07, Q08, Q10) cannot be answered from the supplied chunks. Correctness and support are judged in D2.</li>
 </ul>
 </div>
@@ -13636,13 +13640,13 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 <h3 id="Model-selection-diagram-(Stage-6)">Model-selection diagram (Stage 6)<a class="anchor-link" href="#Model-selection-diagram-(Stage-6)">¶</a></h3><div style="font-family:system-ui,sans-serif;max-width:780px;line-height:1.35;color:#1b1b1b">
 <div style="background:#eef2f7;border:1px solid #9aa9bd;border-radius:6px;padding:8px 12px"><b>1. 1A generator tested first</b><br/>SmolLM2-360M + continued pre-training (CPT) + QLoRA adapter</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
-<div style="background:#fdecea;border:1px solid #d98b84;border-radius:6px;padding:8px 12px"><b>2. Failed</b><br/>0/10 answers with numbered citations; U01 answered ("The United States won...") instead of abstaining</div>
+<div style="background:#fdecea;border:1px solid #d98b84;border-radius:6px;padding:8px 12px"><b>2. Failed</b><br/>0/10 answers with numbered citations and U01 answered ("The United States won...") instead of abstaining</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
 <div style="background:#eef2f7;border:1px solid #9aa9bd;border-radius:6px;padding:8px 12px"><b>3. Llama-3.1-8B-Instruct attempted</b> (first choice)</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
 <div style="background:#fdecea;border:1px solid #d98b84;border-radius:6px;padding:8px 12px"><b>4. Not available</b><br/>gated repository, HTTP 401: access denied</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
-<div style="background:#eef2f7;border:1px solid #9aa9bd;border-radius:6px;padding:8px 12px"><b>5. Phi-3.5-mini-Instruct used</b> (second choice; revision 2fe19245, bfloat16)</div>
+<div style="background:#eef2f7;border:1px solid #9aa9bd;border-radius:6px;padding:8px 12px"><b>5. Phi-3.5-mini-Instruct used</b> (second choice, revision 2fe19245, bfloat16)</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
 <div style="background:#e9f5ec;border:1px solid #86b895;border-radius:6px;padding:8px 12px"><b>6. U01 abstention passed</b> (exact reply <code>Not found in the documents</code>)<br/>Remaining issues in the ten answers (citation format, one unsupported answer, wording of abstentions) need Stage 7 evaluation</div>
 <div style="text-align:center;font-size:18px;color:#666">↓</div>
@@ -13650,11 +13654,11 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div>
 <p>Plain-text version:</p>
 <pre><code>1A SmolLM2-360M + CPT + QLoRA
-  -&gt; failed: 0/10 numbered citations; U01 answered instead of abstaining
+  -&gt; failed: 0/10 numbered citations and U01 answered instead of abstaining
   -&gt; Llama-3.1-8B-Instruct attempted
   -&gt; gated repository, HTTP 401 (access denied)
   -&gt; Phi-3.5-mini-Instruct used (revision 2fe19245..., bfloat16)
-  -&gt; U01 abstention passed; remaining errors need Stage 7 evaluation
+  -&gt; U01 abstention passed, with remaining errors evaluated in Stage 7
   -&gt; Stage 7 judge: Tulu-3 8B (different from the generator)
 </code></pre>
 </div>
@@ -13669,7 +13673,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="D2:-Judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">D2: Judge answer correctness and support, manually check 3 verdicts, and explain one failure with a proposed fix (4 marks) · Stage 7<a class="anchor-link" href="#D2:-Judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
-<li>One judge prompt checking <strong>correct</strong> (correct / partly correct / wrong, against the expected answer) and <strong>supported</strong> (yes / no, against the 3 chunks); run it on all 10 answers; show a per-query table (query, correct, supported, reason) and the summary counts (1).</li>
+<li>Write one judge prompt checking <strong>correct</strong> (correct / partly correct / wrong, against the expected answer) and <strong>supported</strong> (yes / no, against the 3 chunks), run it on all 10 answers, and show a per-query table (query, correct, supported, reason) and summary counts (1).</li>
 <li>Spot-check 3 answers by hand, report how many verdicts agree and explain one disagreement (1).</li>
 <li>For one wrong or unsupported answer, show its 3 chunks and say whether retrieval or generation caused it (1).</li>
 <li>Propose one fix and explain why it would help (1).</li>
@@ -13678,10 +13682,10 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 <p><strong>Approach used</strong> (Stage 7)</p>
 <ul>
 <li><strong>Judge:</strong> <code>allenai/Llama-3.1-Tulu-3-8B</code> (Allen Institute for AI, open weights), a different model from the generator (<code>microsoft/Phi-3.5-mini-instruct</code>). Greedy decoding, bfloat16. The judge prompt never names the generator.</li>
-<li><strong>Model choice:</strong> Tulu-3 was the best of four judge attempts on 12 invented cases with known labels (9 of 12 fully matched; the earlier attempts matched 4, 7 and 8). Llama-3.1-8B-Instruct is gated and was not available. The attempts are listed in the appendix at the end of this section.</li>
+<li><strong>Model choice:</strong> Tulu-3 was the best of four judge attempts on 12 invented cases with known labels (9 of 12 fully matched, and the earlier attempts matched 4, 7 and 8). Llama-3.1-8B-Instruct is gated and was not available. The attempts are listed in the appendix at the end of this section.</li>
 <li><strong>Inputs:</strong> the saved Phi answers from Stage 6 (unchanged, hash-checked), the frozen expected answers and the same three numbered chunks per question. U01 is judged separately and is outside the ten-question totals.</li>
-<li><strong>CORRECT</strong> compares the answer with the expected answer only: <em>correct</em> = every key fact present and none contradicted; <em>partly correct</em> = at least one key fact present but another omitted or a contradicting detail added; <em>wrong</em> = a different fact, no key fact, or an abstention.</li>
-<li><strong>SUPPORTED</strong> compares the answer with the three chunks only: <em>yes</em> = every factual statement is stated in or follows directly from the chunks; <em>no</em> = at least one is not. Citation numbers and phrases such as "According to the context" are not statements.</li>
+<li><strong>CORRECT</strong> compares the answer with the expected answer only: <em>correct</em> = every key fact present and none contradicted, while <em>partly correct</em> = at least one key fact present but another omitted or a contradicting detail added, and <em>wrong</em> = a different fact, no key fact, or an abstention.</li>
+<li><strong>SUPPORTED</strong> compares the answer with the three chunks only: <em>yes</em> = every factual statement is stated in or follows directly from the chunks, while <em>no</em> = at least one is not. Citation numbers and phrases such as "According to the context" are not statements.</li>
 <li><strong>Abstentions</strong> (for example "The provided context does not contain ...") are <em>supported: yes</em> (nothing is asserted) and <em>wrong</em> for a question that has an expected answer.</li>
 <li><strong>Invalid citation numbers</strong> (for example [5] when only three chunks exist) are counted by code from the saved answers and reported separately from the judge labels.</li>
 <li><strong>Known limit:</strong> the judge did not match all 12 known-label cases, so its verdicts are indicative, not ground truth. The three hand-labelled answers show how far it can be trusted.</li>
@@ -14821,7 +14825,7 @@ Saved the operator explanation(s) to final/spotcheck_explanations.json (sha256 d
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Failure-analysis:-Cause-and-Proposed-Fix">Failure analysis: Cause and Proposed Fix<a class="anchor-link" href="#Failure-analysis:-Cause-and-Proposed-Fix">¶</a></h3><p>One failed answer is shown with its three chunks, and the cause (retrieval or generation) is read from the chunk text and the ranks of the source chunk. The proposed fix is a hypothesis; it is not run.</p>
+<h3 id="Failure-analysis:-Cause-and-Proposed-Fix">Failure analysis: Cause and Proposed Fix<a class="anchor-link" href="#Failure-analysis:-Cause-and-Proposed-Fix">¶</a></h3><p>One failed answer is shown with its three chunks, and the cause (retrieval or generation) is read from the chunk text and the ranks of the source chunk. The proposed fix is a hypothesis, and it is not run.</p>
 </div>
 </div>
 </div>
@@ -15196,7 +15200,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 <blockquote>
 <ul>
-<li>Judge-reported: correct 6/10, partly correct 2/10 (Q06, Q08), wrong 2/10 (Q01, Q10); supported 7/10; all 10 verdicts parsed</li>
+<li>All 10 verdicts parsed. The judge labelled 6/10 correct, 2/10 partly correct (Q06, Q08) and 2/10 wrong (Q01, Q10), with 7/10 supported.</li>
 </ul>
 </blockquote>
 <ul>
@@ -15239,7 +15243,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li>Nothing was repaired; both issues lower trust in the supported labels</li>
+<li>Nothing was repaired, and both issues lower trust in the supported labels</li>
 </ul>
 <p><strong>Were invalid citations found?</strong></p>
 <ul>
@@ -15252,7 +15256,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li>Counted by code, not by the judge; the judge missed it</li>
+<li>Counted by code, not by the judge, and the judge missed it</li>
 </ul>
 <p><strong>Did the judge handle the unanswerable query U01?</strong></p>
 <ul>
@@ -15261,7 +15265,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 <blockquote>
 <ul>
-<li>Exact fallback; judge: correct, supported yes, abstains yes</li>
+<li>The exact fallback was returned, and the judge labelled it correct, supported yes and abstains yes.</li>
 </ul>
 </blockquote>
 <ul>
@@ -15274,7 +15278,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 <blockquote>
 <ul>
-<li>1/3. Q02 matches. Q06: User wrong / supported; judge partly correct / not supported. Q08: User wrong / supported; judge partly correct / not supported</li>
+<li>1/3. Q02 matches. Q06: User wrong / supported, while the judge marked it partly correct / not supported. Q08: User wrong / supported, while the judge marked it partly correct / not supported</li>
 </ul>
 </blockquote>
 <ul>
@@ -15287,7 +15291,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 <blockquote>
 <ul>
-<li>The answer repeats the survey paragraph from chunk 3 and never mentions Small Payment System Providers; every statement in it comes from chunk 3. The judge's "Answer states" line lists "recognising Small Payment System Providers", a phrase that is not in the answer</li>
+<li>The answer repeats the survey paragraph from chunk 3 and never mentions Small Payment System Providers, and every statement in it comes from chunk 3. The judge's "Answer states" line lists "recognising Small Payment System Providers", a phrase that is not in the answer</li>
 </ul>
 </blockquote>
 <ul>
@@ -15300,7 +15304,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 <blockquote>
 <ul>
-<li>The answer follows chunk 1 (100 crore); the expected answer says 50 crore. The judge calls the 100 crore "the correct net worth" and the answer unsupported</li>
+<li>The answer follows chunk 1 (100 crore), while the expected answer says 50 crore. The judge calls the 100 crore "the correct net worth" and the answer unsupported</li>
 </ul>
 </blockquote>
 <ul>
@@ -15352,7 +15356,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 <td>2</td>
 <td>Granite 3.0 8B, revised eight-line prompt</td>
 <td>7/12</td>
-<td>Correct labels all matched; supported and abstention labels did not</td>
+<td>Correct labels all matched, but supported and abstention labels did not</td>
 </tr>
 <tr>
 <td>3</td>
@@ -15364,7 +15368,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 <td>4</td>
 <td>Tulu-3 8B, revised prompt</td>
 <td>9/12</td>
-<td>Selected; K03, K06 and K12 differ on supported</td>
+<td>Selected, with supported-label differences on K03, K06 and K12</td>
 </tr>
 </tbody>
 </table>
@@ -15389,9 +15393,9 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h2><p>The finance RAG pipeline was implemented and evaluated using 30 reused RBI/SEBI documents and ten frozen questions from the Assignment 1A evaluation set. The notebook covers dense search, chunk-size comparison, Dense/BM25/Hybrid comparison, reranking, cited-answer generation and a separate LLM judge with manual checks.</p>
 <p><strong>Retrieval:</strong> 400-token chunks improved hit@3 from 2/10 to 7/10 compared with 100-token chunks. Dense search was selected from Part B on its hit rates and latency. Reranking improved hit@1 from 4/10 to 5/10, but reduced hit@3 from 7/10 to 5/10 and added about 10.6 ms per query. Better first-result ranking therefore did not mean better coverage in the three passages supplied to the generator.</p>
-<p><strong>Generation:</strong> the required 1A model was tested first. Its citation and abstention failures justified the documented switch to Phi after Llama access was refused. Phi returned the exact required reply for U01, but five answers still failed strict citation or abstention checks. D1 execution is complete; the grounding instructions were not fully satisfied.</p>
+<p><strong>Generation:</strong> the required 1A model was tested first. Its citation and abstention failures justified the documented switch to Phi after Llama access was refused. Phi returned the exact required reply for U01, but five answers still failed strict citation or abstention checks. D1 execution is complete, but the grounding instructions were not fully satisfied.</p>
 <p><strong>Judging:</strong> Tulu reported six correct, two partly correct and two wrong answers, with seven supported. These are the judge's labels, not validated accuracy: calibration matched 9/12 cases, manual agreement was 1/3, and the Q07 abstention was incorrectly labelled correct. The raw verdicts and disagreements are preserved.</p>
-<p>The experiments show where the pipeline loses evidence and where generation or judging can still fail. For Q06, combining Dense and BM25 candidates before reranking and asking the generator to identify supporting text before answering are proposed improvements; they were not tested. The findings apply to this ten-question set and do not establish general finance-answering reliability.</p>
+<p>The experiments show where the pipeline loses evidence and where generation or judging can still fail. For Q06, combining Dense and BM25 candidates before reranking and asking the generator to identify supporting text before answering remain untested proposals. The findings apply to this ten-question set and do not establish general finance-answering reliability.</p>
 </div>
 </div>
 </div>
