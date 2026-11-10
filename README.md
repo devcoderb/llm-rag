@@ -88,6 +88,8 @@ bash kubeflow/setup_env.sh
 
 The verification script is **`check_env.py`**, not `verify.py`. It checks package versions and imports, FAISS indexing/search and BM25 scoring, without downloading models. It also reports GPU availability and a small 4-bit operation. GPU diagnostics and the interpreter summary are informational, so inspect those messages as well as the final package and functional check results. Passing this script does not verify model access, the CPT files or a full notebook run; Stage 0 checks those inputs separately.
 
+The Stage 0 section of the notebook repeats these terminal commands under **Before 0A: Get the repository and prepare the Python environment** for users opening the notebook directly.
+
 **Change the notebook interpreter/kernel before execution:** open `Group157-Assignment-2b.ipynb`, choose **Kernel → Change Kernel → Python (RAG venv)**. If the existing selection is the 1A/LLM environment, switch it to the RAG kernel. In an editor that asks for a Python interpreter, select `/home/group157/venv-rag/bin/python`.
 
 For a different namespace or volume, set `VOLUME_ROOT` when running both setup and verification. Set the notebook's `ARTIFACT_ROOT` separately in cell 0A, before its paths are constructed, or in the Jupyter process environment before starting Jupyter. A terminal export does not change the environment of an already-running notebook kernel.

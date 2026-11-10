@@ -7881,6 +7881,35 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=stage0-repository-setup">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Before-0A:-Get-the-repository-and-prepare-the-Python-environment">Before 0A: Get the repository and prepare the Python environment<a class="anchor-link" href="#Before-0A:-Get-the-repository-and-prepare-the-Python-environment">¶</a></h3><p>Run the commands below in a <strong>Kubeflow terminal</strong>, before executing notebook cells. Downloading the notebook alone does not provide its corpus, adapter and configuration files; clone the complete repository first.</p>
+<p><strong>1. Get the repository.</strong> For a fresh clone:</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/home/group157
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/devcoderb/llm-rag.git
+<span class="nb">cd</span><span class="w"> </span>llm-rag
+</pre></div>
+<p>For an existing clone, use its actual folder and pull the latest changes instead:</p>
+<div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>/home/group157/llm-rag
+git<span class="w"> </span>pull<span class="w"> </span>--ff-only
+</pre></div>
+<p>Close an older open copy of the notebook before pulling, then reopen the updated file. If the clone is in a different folder, replace the example repository path above.</p>
+<p><strong>2. Set up the environment and verify it.</strong> Run from the repository folder:</p>
+<div class="highlight"><pre><span></span>bash<span class="w"> </span>kubeflow/setup_env.sh
+/home/group157/venv-rag/bin/python<span class="w"> </span>kubeflow/check_env.py
+</pre></div>
+<p>The setup script creates or reuses <code>venv-rag</code>, installs the required packages and registers <strong>Python (RAG venv)</strong>. The verification script checks packages and basic operations without downloading models. Read its GPU diagnostics as well as the summary; a package-check pass alone does not confirm that a full model run is ready.</p>
+<p><strong>3. Select the RAG interpreter.</strong> Open <code>Group157-Assignment-2b.ipynb</code> from the clone and choose <strong>Kernel → Change Kernel → Python (RAG venv)</strong>. If the existing kernel is the 1A/LLM environment, switch to the RAG kernel. For an editor's interpreter selector, use <code>/home/group157/venv-rag/bin/python</code>.</p>
+<p><strong>4. Check the external model and paths, then start 0A.</strong> The 1A CPT checkpoint is not in Git and must be supplied separately; its download URL is still pending in <a href="README.md">README.md</a>. The repository includes the QLoRA adapter. For another namespace, replace <code>/home/group157</code> with the mounted volume path, set <code>VOLUME_ROOT</code> for both terminal scripts, and set <code>ARTIFACT_ROOT</code> in 0A before its paths are constructed. Use a PyTorch/CUDA notebook image for the full GPU workflow.</p>
+<p>The commands above are preparation instructions, not an automatic notebook cell: installing packages does not switch an already-running kernel. After selecting the RAG kernel, execute Stage 0 and check its results before continuing.</p>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6828a4e2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -8049,7 +8078,7 @@ Top level of ARTIFACT_ROOT (1A volume):
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Every later cell reads inputs from known locations, so a missing input stops the run early.</li>
+<li>Every later cell reads inputs from known locations, so a missing input stops the run early.</li>
 </ul>
 </div>
 </div>
@@ -8198,9 +8227,11 @@ If packages are missing: run kubeflow/setup_env.sh in a terminal and select the 
 <li>One NVIDIA L40S with 47.8 GB (39.4 GB free) and bfloat16 support; torch 2.5.1+cu124, transformers 4.46.3, sentence-transformers 3.3.1, faiss 1.9.0; no package missing; the container memory limit is 19.3 GB.</li>
 </ul>
 </blockquote>
+<blockquote>
 <ul>
-<li><em>Meaning:</em> There is enough GPU memory for the 8B-parameter models used later (about 16 GB of weights in bfloat16), and the environment matches the pinned requirements.</li>
+<li>There is enough GPU memory for the 8B-parameter models used later (about 16 GB of weights in bfloat16), and the environment matches the pinned requirements.</li>
 </ul>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8356,7 +8387,7 @@ Split exports: train 957 (expected 957) | eval 239 (expected 239) | overlap 0 | 
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The repository data and split exports match the reused 1A artifacts.</li>
+<li>The repository data and split exports match the reused 1A artifacts.</li>
 </ul>
 </div>
 </div>
@@ -8500,7 +8531,7 @@ Adapter weights: 6.3 MB | tokenizer saved with adapter: True
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The 1A generator artifacts are verified before Stage 6 loads them.</li>
+<li>The 1A generator artifacts are verified before Stage 6 loads them.</li>
 </ul>
 </div>
 </div>
@@ -8637,7 +8668,7 @@ Five largest / five smallest documents (characters):
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The complete document collection is available for later chunking.</li>
+<li>The complete document collection is available for later chunking.</li>
 </ul>
 </div>
 </div>
@@ -8748,7 +8779,7 @@ Gated models (e.g. Llama) need an accepted licence and an HF token. In this run 
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Metadata access does not guarantee gated weight access; the model choices and their reasons are recorded in Stages 6 and 7.</li>
+<li>Metadata access does not guarantee gated weight access and the model choices and their reasons are recorded in Stages 6 and 7.</li>
 </ul>
 </div>
 </div>
@@ -8829,7 +8860,7 @@ Saved assignment_2b_outputs/stage0_summary.json
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Stage 0 is complete and the inputs are verified.</li>
+<li>Stage 0 is complete and the inputs are verified.</li>
 </ul>
 </div>
 </div>
@@ -8841,7 +8872,7 @@ Saved assignment_2b_outputs/stage0_summary.json
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Preparation:-select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">Preparation: select 10 evaluation questions and mark their answer passages · Stage 1<a class="anchor-link" href="#Preparation:-select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="Preparation:-Select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">Preparation: Select 10 evaluation questions and mark their answer passages · Stage 1<a class="anchor-link" href="#Preparation:-Select-10-evaluation-questions-and-mark-their-answer-passages-%C2%B7-Stage-1">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ul>
 <li>Mark, for each of the 10 queries, the answer span: the sentence or short passage in the corpus that answers it. A retrieved chunk is a <strong>hit</strong> if it contains that span.</li>
 <li>Note the embedding model's maximum input length and count tokens with its tokenizer. Parts A, B and C reuse these spans.</li>
@@ -8955,7 +8986,7 @@ evaluation questions span 30 of 30 documents; largest sources:
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Stage 1 can select questions from the original 1A evaluation split.</li>
+<li>Stage 1 can select questions from the original 1A evaluation split.</li>
 </ul>
 </div>
 </div>
@@ -9232,7 +9263,7 @@ OFFSETS : characters 63,033 to 63,093 of 91,761
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> A retrieved chunk can be scored as a hit or miss automatically; the spans are frozen before retrieval.</li>
+<li>A retrieved chunk can be scored as a hit or miss automatically; the spans are frozen before retrieval.</li>
 </ul>
 </div>
 </div>
@@ -9489,7 +9520,7 @@ Gate 1: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Later stages can score retrieval automatically and cannot change the questions to fit the results.</li>
+<li>Later stages can score retrieval automatically and cannot change the questions to fit the results.</li>
 </ul>
 <p><strong>Example: U01, unanswerable.</strong></p>
 <ul>
@@ -9504,7 +9535,7 @@ Gate 1: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The required system response for U01 is exactly <code>Not found in the documents</code>.</li>
+<li>The required system response for U01 is exactly <code>Not found in the documents</code>.</li>
 </ul>
 </div>
 </div>
@@ -9516,7 +9547,7 @@ Gate 1: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="A1:-build-reusable-dense-search-and-report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">A1: build reusable dense search and report the embedding/index details (2 marks) · Stage 2<a class="anchor-link" href="#A1:-build-reusable-dense-search-and-report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="A1:-Build-reusable-dense-search-and-Report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">A1: Build reusable dense search and Report the embedding/index details (2 marks) · Stage 2<a class="anchor-link" href="#A1:-Build-reusable-dense-search-and-Report-the-embedding/index-details-(2-marks)-%C2%B7-Stage-2">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>One reusable function that embeds chunks, builds a FAISS <code>IndexFlatIP</code> index and returns the top k chunks for a query (1 mark).</li>
 <li>Report the embedding model, vector size, similarity measure, batch size and index build time for the final chunk set (1 mark). The build time for the final chunks is reported in Stage 3 (A2).</li>
@@ -9631,7 +9662,7 @@ load_seconds                9.41
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> These are the A1 facts for the embedding model; the build time for the real corpus is measured in Stage 3.</li>
+<li>These are the A1 facts for the embedding model; the build time for the real corpus is measured in Stage 3.</li>
 </ul>
 </div>
 </div>
@@ -9740,7 +9771,7 @@ DenseSearcher defined (build / search; passages unprefixed, queries prefixed, ve
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Any chunk list can be indexed and searched with the same code in Stages 3 to 5.</li>
+<li>Any chunk list can be indexed and searched with the same code in Stages 3 to 5.</li>
 </ul>
 </div>
 </div>
@@ -9882,7 +9913,7 @@ Example result record for the first query (k=2):
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The mechanics are correct; the fixture is not retrieval evidence for the corpus.</li>
+<li>The mechanics are correct; the fixture is not retrieval evidence for the corpus.</li>
 </ul>
 </div>
 </div>
@@ -9979,7 +10010,7 @@ Gate 2: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only; the graded index build time is measured in Stage 3.</li>
+<li>The embedding, normalisation and ranking code behave as intended (top-1 6/6, scores match a brute-force check). The 381 ms fixture time is a mechanics check only; the graded index build time is measured in Stage 3.</li>
 </ul>
 </div>
 </div>
@@ -9991,7 +10022,7 @@ Gate 2: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="A2:-compare-100--and-400-token-chunks-and-justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">A2: compare 100- and 400-token chunks and justify the chosen size (3 marks) · Stage 3<a class="anchor-link" href="#A2:-compare-100--and-400-token-chunks-and-justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="A2:-Compare-100-and-400-token-chunks-and-Justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">A2: Compare 100 and 400-token chunks and Justify the chosen size (3 marks) · Stage 3<a class="anchor-link" href="#A2:-Compare-100-and-400-token-chunks-and-Justify-the-chosen-size-(3-marks)-%C2%B7-Stage-3">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>Chunk the corpus at 100 and 400 tokens with no overlap; run the A1 search on the 10 queries for each size; report total chunks, hit rate@3 and tokens sent per query (top 3) (2 marks).</li>
 <li>In two or three sentences, name the size used in Parts B to D and why, considering hit rate, tokens per query and the Assignment 1 model's context (1 mark).</li>
@@ -10408,7 +10439,7 @@ Saved dense_results_100.json and dense_results_400.json
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Stage 3D: Generator context budget, chunk-size decision and A1 facts</span>
@@ -10442,7 +10473,8 @@ Saved dense_results_100.json and dense_results_400.json
     <span class="n">b</span> <span class="o">=</span> <span class="n">BUDGET</span><span class="p">[</span><span class="n">n</span><span class="p">]</span>
     <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">n</span><span class="si">:</span><span class="s2">&gt;10</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="s1">'mean_prompt_tokens'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;19.1f</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="s1">'max_prompt_tokens'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;18</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">b</span><span class="p">[</span><span class="s1">'prompts_over_512'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;11</span><span class="si">}</span><span class="s2">/10 </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">b</span><span class="p">[</span><span class="s1">'fits_model_positions'</span><span class="p">])</span><span class="si">:</span><span class="s2">&gt;21</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
-<span class="c1"># Decision rule: larger hit@3; on a tie, smaller mean generator prompt. A size whose prompts exceed the model's positions is excluded.</span>
+<span class="c1"># Decision rule: larger hit@3; on a tie, smaller mean generator prompt. </span>
+<span class="c1"># A size whose prompts exceed the model's positions is excluded.</span>
 <span class="n">eligible</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">CHUNK_SIZES</span> <span class="k">if</span> <span class="n">BUDGET</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s2">"fits_model_positions"</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">False</span><span class="p">]</span>
 <span class="k">assert</span> <span class="n">eligible</span><span class="p">,</span> <span class="s2">"no chunk size fits the generator context"</span>
 <span class="n">CHOSEN_CHUNK_SIZE</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">eligible</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">n</span><span class="p">:</span> <span class="p">(</span><span class="o">-</span><span class="n">METRICS</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s2">"hit_at_3"</span><span class="p">],</span> <span class="n">BUDGET</span><span class="p">[</span><span class="n">n</span><span class="p">][</span><span class="s2">"mean_prompt_tokens"</span><span class="p">]))[</span><span class="mi">0</span><span class="p">]</span>
@@ -10518,7 +10550,7 @@ Batch size                                              64
 Device                                                  cuda
 Chunk size (tokens, no overlap)                         400
 Total chunks                                            4065
-Index build time (embedding + index.add, full corpus)   5.79 s
+Index build time (embedding + index.add, full corpus)   5.97 s
 Token counts                                            embedder tokenizer, stored chunk, no special tokens
 Encoder limit                                           512 tokens (max stored chunk 404 with special tokens)
 Tie policy                                              score descending, then chunk position ascending
@@ -10678,8 +10710,10 @@ Gate 3: all checks passed.
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Chunk size decides whether the answer can be retrieved at all.</li>
-<li><strong>Cost and limit:</strong> the 400-token prompts average 1,584 tokens, above the 512-token length used in 1A fine-tuning, so Stage 6 tests the generator instead of assuming it copes. Q06, Q07 and Q10 are still missed in the top 3 at 400 tokens, so chunking alone does not reach 10/10.</li>
+<li><p>Chunk size decides whether the answer can be retrieved at all.</p>
+</li>
+<li><p><strong>Cost and limit:</strong> the 400-token prompts average 1,584 tokens, above the 512-token length used in 1A fine-tuning, so Stage 6 tests the generator instead of assuming it copes. Q06, Q07 and Q10 are still missed in the top 3 at 400 tokens, so chunking alone does not reach 10/10.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -10691,7 +10725,7 @@ Gate 3: all checks passed.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="B:-compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">B: compare Dense, BM25 and Hybrid search using hit rates and latency (4 marks) · Stage 4<a class="anchor-link" href="#B:-compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="B:-Compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">B: Compare Dense, BM25 and Hybrid search using hit rates and latency (4 marks) · Stage 4<a class="anchor-link" href="#B:-Compare-Dense,-BM25-and-Hybrid-search-using-hit-rates-and-latency-(4-marks)-%C2%B7-Stage-4">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <p>Using the chosen chunks, compare on the same 10 queries (top 5 each): <strong>Dense</strong> (1), <strong>BM25</strong> (1) and <strong>Hybrid</strong> with Reciprocal Rank Fusion over the top 20 of each, constant 60, ranks from 1 (1). Report latency (after one warm-up), hit rate@1 and hit rate@3. Then say which method works best, with one query as an example (1).</p>
 <p><strong>Approach used</strong> (Stage 4)</p>
 <ul>
@@ -11917,7 +11951,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </ul>
 </blockquote>
 <ul>
-<li><p><em>Meaning:</em> The cross-encoder judged the question-to-passage fit better than vector similarity.</p>
+<li><p>The cross-encoder judged the question-to-passage fit better than vector similarity.</p>
 </li>
 <li><p><strong>Lost (Q01):</strong></p>
 </li>
@@ -11932,7 +11966,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Topical overlap can outrank the passage that holds the number.</li>
+<li>Topical overlap can outrank the passage that holds the number.</li>
 <li><strong>Consequence:</strong> Stage 6 must use these reranked top 3, so only 5 of 10 contexts contain the answer span (Q02, Q03, Q04, Q05, Q09). For the other five the frozen answer span is absent; the passages were inspected (see the Stage 6 notes) before concluding that the needed information is missing, and recovering it needs a retrieval, reranking or context change.</li>
 </ul>
 </div>
@@ -11945,7 +11979,7 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="D1:-generate-answers-with-source-citations-and-test-an-unanswerable-question;-document-any-model-switch-(3-marks)-%C2%B7-Stage-6">D1: generate answers with source citations and test an unanswerable question; document any model switch (3 marks) · Stage 6<a class="anchor-link" href="#D1:-generate-answers-with-source-citations-and-test-an-unanswerable-question;-document-any-model-switch-(3-marks)-%C2%B7-Stage-6">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="D1:-Generate-answers-with-source-citations-and-test-an-unanswerable-question">D1: Generate answers with source citations and test an unanswerable question<a class="anchor-link" href="#D1:-Generate-answers-with-source-citations-and-test-an-unanswerable-question">¶</a></h2><h3 id="Document-any-model-switch-(3-marks)-%C2%B7-Stage-6">Document any model switch (3 marks) · Stage 6<a class="anchor-link" href="#Document-any-model-switch-(3-marks)-%C2%B7-Stage-6">¶</a></h3><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>A prompt that answers only from the chunks, cites chunk numbers such as [2] and replies "Not found in the documents" otherwise; show it (1).</li>
 <li>For each of the 10 queries, give the Assignment 1 model the reranked top 3 chunks, numbered, and show all 10 answers (1).</li>
@@ -12076,7 +12110,7 @@ Expected correct behaviour: the reply is exactly 'Not found in the documents'.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Stage 6B: Load the 1A generator (CPT checkpoint + QLoRA adapter, 4-bit as in 1A)</span>
@@ -12131,7 +12165,7 @@ Expected correct behaviour: the reply is exactly 'Not found in the documents'.
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Adapter attached: r=</span><span class="si">{</span><span class="n">acfg</span><span class="o">.</span><span class="n">r</span><span class="si">}</span><span class="s2">, alpha=</span><span class="si">{</span><span class="n">acfg</span><span class="o">.</span><span class="n">lora_alpha</span><span class="si">}</span><span class="s2">, targets </span><span class="si">{</span><span class="nb">sorted</span><span class="p">(</span><span class="n">acfg</span><span class="o">.</span><span class="n">target_modules</span><span class="p">)</span><span class="si">}</span><span class="s2">; LoRA-B weights non-zero."</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Weights verified earlier in Stage 0D; sha256 recorded: CPT </span><span class="si">{</span><span class="n">GEN_FACTS</span><span class="p">[</span><span class="s1">'cpt_model_sha256'</span><span class="p">][:</span><span class="mi">12</span><span class="p">]</span><span class="si">}</span><span class="s2">..., adapter </span><span class="si">{</span><span class="n">GEN_FACTS</span><span class="p">[</span><span class="s1">'adapter_sha256'</span><span class="p">][:</span><span class="mi">12</span><span class="p">]</span><span class="si">}</span><span class="s2">..."</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Loaded in </span><span class="si">{</span><span class="n">load_seconds</span><span class="si">:</span><span class="s2">.1f</span><span class="si">}</span><span class="s2"> s; GPU memory in use </span><span class="si">{</span><span class="n">GEN_FACTS</span><span class="p">[</span><span class="s1">'gpu_allocated_gb'</span><span class="p">]</span><span class="si">}</span><span class="s2"> GB on </span><span class="si">{</span><span class="n">GEN_FACTS</span><span class="p">[</span><span class="s1">'gpu'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Chat template saved with the adapter:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Chat template saved with the adapter:"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">gen_tok</span><span class="o">.</span><span class="n">apply_chat_template</span><span class="p">([{</span><span class="s2">"role"</span><span class="p">:</span> <span class="s2">"user"</span><span class="p">,</span> <span class="s2">"content"</span><span class="p">:</span> <span class="s2">"QUESTION"</span><span class="p">}],</span> <span class="n">tokenize</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">add_generation_prompt</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"</span><span class="se">\\</span><span class="s2">n"</span><span class="p">))</span>
 <span class="n">STAGE6</span><span class="p">[</span><span class="s2">"generator_loaded"</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"PASS"</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">GEN_FACTS</span><span class="p">[</span><span class="s1">'name'</span><span class="p">]</span><span class="si">}</span><span class="s2">; pad </span><span class="si">{</span><span class="n">gen_tok</span><span class="o">.</span><span class="n">pad_token_id</span><span class="si">}</span><span class="s2">, eos </span><span class="si">{</span><span class="n">gen_tok</span><span class="o">.</span><span class="n">eos_token_id</span><span class="si">}</span><span class="s2">, rows </span><span class="si">{</span><span class="n">emb_rows</span><span class="si">:</span><span class="s2">,</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
@@ -12153,7 +12187,8 @@ CPT model: vocab_size in config 49,152, embedding rows 49,152, max_position_embe
 
 Adapter attached: r=16, alpha=32, targets ['q_proj', 'v_proj']; LoRA-B weights non-zero.
 Weights verified earlier in Stage 0D; sha256 recorded: CPT 070fbd2cbcc9..., adapter 65282f42c5e0...
-Loaded in 3.0 s; GPU memory in use 0.5 GB on NVIDIA L40S
+Loaded in 18.4 s; GPU memory in use 16.58 GB on NVIDIA L40S
+
 Chat template saved with the adapter:
 \nUser: QUESTION\nAssistant:\n
 </pre>
@@ -13458,7 +13493,7 @@ The 'Gate 6: all checks passed' line printed by 6E referred to execution only.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="D2:-judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">D2: judge answer correctness and support, manually check 3 verdicts, and explain one failure with a proposed fix (4 marks) · Stage 7<a class="anchor-link" href="#D2:-judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
+<h2 id="D2:-Judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">D2: Judge answer correctness and support, manually check 3 verdicts, and explain one failure with a proposed fix (4 marks) · Stage 7<a class="anchor-link" href="#D2:-Judge-answer-correctness-and-support,-manually-check-3-verdicts,-and-explain-one-failure-with-a-proposed-fix-(4-marks)-%C2%B7-Stage-7">¶</a></h2><p><strong>Task brief</strong> (assignment)</p>
 <ol>
 <li>One judge prompt checking <strong>correct</strong> (correct / partly correct / wrong, against the expected answer) and <strong>supported</strong> (yes / no, against the 3 chunks); run it on all 10 answers; show a per-query table (query, correct, supported, reason) and the summary counts (1).</li>
 <li>Spot-check 3 answers by hand, report how many verdicts agree and explain one disagreement (1).</li>
@@ -14612,7 +14647,7 @@ Saved the operator explanation(s) to final/spotcheck_explanations.json (sha256 d
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Failure-analysis:-cause-and-proposed-fix">Failure analysis: cause and proposed fix<a class="anchor-link" href="#Failure-analysis:-cause-and-proposed-fix">¶</a></h3><p>One failed answer is shown with its three chunks, and the cause (retrieval or generation) is read from the chunk text and the ranks of the source chunk. The proposed fix is a hypothesis; it is not run.</p>
+<h3 id="Failure-analysis:-Cause-and-Proposed-Fix">Failure analysis: Cause and Proposed Fix<a class="anchor-link" href="#Failure-analysis:-Cause-and-Proposed-Fix">¶</a></h3><p>One failed answer is shown with its three chunks, and the cause (retrieval or generation) is read from the chunk text and the ranks of the source chunk. The proposed fix is a hypothesis; it is not run.</p>
 </div>
 </div>
 </div>
@@ -14834,7 +14869,7 @@ passage instead of abstaining; requiring a quote makes a missing answer visible.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Save-the-records-and-check-the-gate">Save the records and check the gate<a class="anchor-link" href="#Save-the-records-and-check-the-gate">¶</a></h3>
+<h3 id="Save-the-records-and-Check-the-gate">Save the records and Check the gate<a class="anchor-link" href="#Save-the-records-and-Check-the-gate">¶</a></h3>
 </div>
 </div>
 </div>
@@ -14991,7 +15026,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> These are the judge's counts. The rows below show where its labels contradict the rubric or the User, so they are indicative only</li>
+<li>These are the judge's counts. The rows below show where its labels contradict the rubric or the User, so they are indicative only</li>
 </ul>
 <p><strong>Did the judge follow the abstention rule (abstention is supported: yes, and wrong when a real answer exists)?</strong></p>
 <ul>
@@ -15004,7 +15039,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> <strong>Q07 is a judge error.</strong> Its own reason says the answer abstains and "does not provide the expected answer", yet the label is correct, which contradicts the rubric. The judge-reported correct count of 6 includes this label. Q01 contradicts the rubric on supported</li>
+<li><strong>Q07 is a judge error.</strong> Its own reason says the answer abstains and "does not provide the expected answer", yet the label is correct, which contradicts the rubric. The judge-reported correct count of 6 includes this label. Q01 contradicts the rubric on supported</li>
 </ul>
 <p><strong>Do the correct labels agree with a plain-text check of the key phrases?</strong></p>
 <ul>
@@ -15017,7 +15052,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The plain-text check supports five of the six correct labels and not Q07</li>
+<li>The plain-text check supports five of the six correct labels and not Q07</li>
 </ul>
 <p><strong>Were there quote issues?</strong></p>
 <ul>
@@ -15030,7 +15065,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Nothing was repaired; both issues lower trust in the supported labels</li>
+<li>Nothing was repaired; both issues lower trust in the supported labels</li>
 </ul>
 <p><strong>Were invalid citations found?</strong></p>
 <ul>
@@ -15043,7 +15078,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Counted by code, not by the judge; the judge missed it</li>
+<li>Counted by code, not by the judge; the judge missed it</li>
 </ul>
 <p><strong>Did the judge handle the unanswerable query U01?</strong></p>
 <ul>
@@ -15056,7 +15091,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Matches the rubric (outside the ten-question counts)</li>
+<li>Matches the rubric (outside the ten-question counts)</li>
 </ul>
 <p><strong>How well did the judge agree with the User's hand labels?</strong></p>
 <ul>
@@ -15069,7 +15104,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> The judge is least reliable on wrong answers, the cases the check exists for</li>
+<li>The judge is least reliable on wrong answers, the cases the check exists for</li>
 </ul>
 <p><strong>Why does the User disagree on Q06?</strong></p>
 <ul>
@@ -15082,7 +15117,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> User label (wrong, supported) fits the chunks. This is the User's reading, recorded beside the judge's unchanged verdict</li>
+<li>User label (wrong, supported) fits the chunks. This is the User's reading, recorded beside the judge's unchanged verdict</li>
 </ul>
 <p><strong>Why does the User disagree on Q08?</strong></p>
 <ul>
@@ -15095,7 +15130,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> User label (wrong, supported) fits: wrong against the expected answer, supported by the chunk. This is the User's reading, recorded beside the judge's unchanged verdict</li>
+<li>User label (wrong, supported) fits: wrong against the expected answer, supported by the chunk. This is the User's reading, recorded beside the judge's unchanged verdict</li>
 </ul>
 <p><strong>What caused the Q06 failure (7E)?</strong></p>
 <ul>
@@ -15108,7 +15143,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </ul>
 </blockquote>
 <ul>
-<li><em>Meaning:</em> Both causes are present. Deeper hybrid lists alone do not fix it. The proposed fixes (a union of the Dense top 10 and BM25 top 10, 15 chunks for Q06, before the cross-encoder, and a quote-first prompt) are hypotheses that were not run</li>
+<li>Both causes are present. Deeper hybrid lists alone do not fix it. The proposed fixes (a union of the Dense top 10 and BM25 top 10, 15 chunks for Q06, before the cross-encoder, and a quote-first prompt) are hypotheses that were not run</li>
 </ul>
 <p>Why this matters: an 8B judge gives a useful first pass but mislabelled several of the answers it was asked to check, so the User labels and the chunk text decide the final reading, and the counts above stay as the judge reported them.</p>
 </div>
@@ -15121,7 +15156,7 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Appendix:-judge-audit-trail-(D2)">Appendix: judge audit trail (D2)<a class="anchor-link" href="#Appendix:-judge-audit-trail-(D2)">¶</a></h3><p>The main D2 flow above uses one judge and one set of results. The earlier attempts, the original run and the label history are kept here for audit. The executed cells with their saved outputs are in <code>audit/Group157-Assignment-2b-judge-audit.ipynb</code>.</p>
+<h3 id="Appendix:-Judge-Audit-Trail-(D2)">Appendix: Judge Audit Trail (D2)<a class="anchor-link" href="#Appendix:-Judge-Audit-Trail-(D2)">¶</a></h3><p>The main D2 flow above uses one judge and one set of results. The earlier attempts, the original run and the label history are kept here for audit. The executed cells with their saved outputs are in <code>audit/Group157-Assignment-2b-judge-audit.ipynb</code>.</p>
 <p><strong>Judge attempts on the 12 known-label cases</strong></p>
 <table>
 <thead>
@@ -15168,20 +15203,6 @@ Reliability: WARN, the judge matched 9/12 known-label cases; its verdicts are in
 <p>An earlier note blamed the Stage 4 pools of 20. The source chunk (c400-d17-00007) is BM25 rank 7, inside the BM25 top 20, but Dense rank 102, outside the Dense top 10 pool that Stage 5 reranked. Its fused rank is 13 at depth 20 and 21 at depth 50, so deeper lists alone do not guarantee inclusion. A union of the Dense and BM25 top 10 is proposed as a hypothesis to measure.</p>
 <p><strong>Files</strong></p>
 <p>The final judge files are in <code>stage7/final/</code> (User labels, spot-check explanations, raw verdicts, judge records, calibration record and a SHA-256 manifest whose paths are relative to its own folder). The first run and the superseded labels are in <code>stage7/audit/</code>.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=28066ddf-cfdf-4a30-af6c-dee8cf042caa">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
