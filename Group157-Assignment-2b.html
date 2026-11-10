@@ -7784,60 +7784,121 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Setup:-verify-reused-data,-model-files-and-environment-%C2%B7-Stage-0">Setup: verify reused data, model files and environment · Stage 0<a class="anchor-link" href="#Setup:-verify-reused-data,-model-files-and-environment-%C2%B7-Stage-0">¶</a></h2><p><strong>Task brief</strong></p>
 <p>Reuse the cleaned finance documents, evaluation questions and fine-tuned model from Assignment 1A. Verify that the files are unchanged and that the environment can run the RAG pipeline.</p>
-<h3 id="Reused-files:-where-they-come-from-and-what-they-contain">Reused files: where they come from and what they contain<a class="anchor-link" href="#Reused-files:-where-they-come-from-and-what-they-contain">¶</a></h3><p>Paths beginning with <code>data/</code> or <code>models/</code> are relative to the repository folder located in cell 0A. <code>/home/group157</code> is the group's mounted persistent volume (PV); its location is configurable.</p>
+<h3 id="Reused-files:-where-they-come-from-and-what-they-contain">Reused files: where they come from and what they contain<a class="anchor-link" href="#Reused-files:-where-they-come-from-and-what-they-contain">¶</a></h3><p><strong>Git</strong> means supplied by cloning this repository, even though the clone itself is stored on the PV. <strong>Group 157 PV</strong> means the existing 1A files outside the clone. Paths beginning with <code>data/</code>, <code>models/</code> or <code>eval/</code> are relative to the repository folder found in 0A.</p>
 <table>
 <thead>
 <tr>
-<th>Reused artifact</th>
+<th>Input</th>
+<th>Supplied by</th>
 <th>Read from</th>
-<th>Contents and use in Assignment 2B</th>
+<th>Contents and use</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Cleaned finance documents</td>
+<td>Git</td>
 <td><code>data/corpus/*.txt</code></td>
-<td>30 cleaned RBI and SEBI documents containing finance regulations, guidelines and reports. These become the searchable document collection.</td>
+<td>30 RBI/SEBI texts used as the searchable document collection</td>
 </tr>
 <tr>
 <td>Complete instruction dataset</td>
+<td>Git</td>
 <td><code>data/qa/instruction_dataset.jsonl</code></td>
-<td>1,196 finance questions with their expected answers, as submitted in 1A. Used to verify the dataset and its training/evaluation split.</td>
+<td>1,196 original finance question-answer pairs from 1A</td>
 </tr>
 <tr>
-<td>Dataset with source evidence</td>
+<td>Questions with source evidence</td>
+<td>Git</td>
 <td><code>data/qa/instruction_dataset_curated.jsonl</code></td>
-<td>The same questions and answers, with source filenames and supporting passages. Used to trace answers to documents and mark retrieval answer spans.</td>
+<td>The same pairs with source filenames and evidence text for tracing answers to the corpus</td>
 </tr>
 <tr>
 <td>Training split</td>
+<td>Git</td>
 <td><code>data/qa/instruction_dataset_train.jsonl</code></td>
-<td>The 957 question-answer pairs used for QLoRA training. Checked to ensure the ten RAG evaluation questions do not reuse training pairs.</td>
+<td>957 pairs used for 1A QLoRA training; checked against evaluation pairs for overlap</td>
 </tr>
 <tr>
 <td>Evaluation split</td>
+<td>Git</td>
 <td><code>data/qa/instruction_dataset_eval.jsonl</code></td>
-<td>The 239 held-out question-answer pairs from 1A. Stage 1 selects ten unchanged questions and expected answers from this file.</td>
+<td>239 held-out pairs from which the ten evaluation questions were selected</td>
 </tr>
 <tr>
-<td>CPT model checkpoint</td>
-<td><code>/home/group157/model-backups/cpt_model_1a/</code> or <code>/home/group157/cpt_model/</code></td>
-<td>The SmolLM2 model weights adapted to finance text, together with its configuration and tokenizer files. Forms the base of the 1A generator.</td>
+<td>Frozen evaluation questions</td>
+<td>Git</td>
+<td><code>eval/query_set_frozen.json</code></td>
+<td>Q01–Q10, expected answers, source passages and offsets, plus the separate U01 question</td>
 </tr>
 <tr>
-<td>QLoRA adapter and tokenizer</td>
+<td>Data fingerprints</td>
+<td>Git</td>
+<td><code>data/MANIFEST.sha256</code></td>
+<td>Expected hashes for the 34 data files, checked in 0C</td>
+</tr>
+<tr>
+<td>Model fingerprints</td>
+<td>Git</td>
+<td><code>models/MANIFEST.sha256</code></td>
+<td>Expected hashes for the adapter and external CPT files, checked in 0D</td>
+</tr>
+<tr>
+<td>1A QLoRA adapter tensor</td>
+<td>Git</td>
+<td><code>models/qlora_finance_adapter/adapter_model.safetensors</code></td>
+<td>The trained adapter weight updates attached to the CPT model in the baseline trial</td>
+</tr>
+<tr>
+<td>Adapter configuration and tokenizer</td>
+<td>Git</td>
 <td><code>models/qlora_finance_adapter/</code></td>
-<td>The small trained weight updates that teach the CPT model to answer finance questions, plus the tokenizer and chat template used during training. Loaded with the CPT model in Stage 6.</td>
+<td><code>adapter_config.json</code>, <code>tokenizer.json</code>, <code>tokenizer_config.json</code>, <code>special_tokens_map.json</code>, <code>merges.txt</code>, <code>vocab.json</code> and <code>README.md</code> accompany the adapter</td>
 </tr>
 <tr>
-<td>Data and model manifests</td>
-<td><code>data/MANIFEST.sha256</code> and <code>models/MANIFEST.sha256</code></td>
-<td>Expected file fingerprints used to detect missing or changed files. These verify integrity; they do not evaluate answer quality.</td>
+<td>1A CPT model tensor</td>
+<td>Group 157 PV</td>
+<td><code>/home/group157/model-backups/cpt_model_1a/model.safetensors</code></td>
+<td>The existing finance CPT weights, reused directly; not downloaded by Git clone</td>
+</tr>
+<tr>
+<td>CPT configuration and tokenizer</td>
+<td>Group 157 PV</td>
+<td><code>/home/group157/model-backups/cpt_model_1a/</code></td>
+<td><code>config.json</code>, <code>generation_config.json</code>, <code>tokenizer.json</code>, <code>tokenizer_config.json</code>, <code>special_tokens_map.json</code>, <code>merges.txt</code> and <code>vocab.json</code> accompany the CPT weights</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Model path selection:</strong> an explicit <code>CPT_DIR</code> setting is checked first, followed by the backup and original CPT directories shown above.</p>
-<p><strong>Additional cross-checks:</strong> the repository corpus, complete Q/A file and adapter are compared with their original copies on the PV when those copies are available.</p>
+<p><strong>Reuse the existing 1A tensors.</strong> For this Group 157 run, the CPT checkpoint already exists on the mounted PV and is loaded directly from the backup folder shown above. The adapter used by Stage 6 is the original 1A adapter committed in this repository. Keep both artifacts with their matching configuration and tokenizer files; 0D checks their recorded hashes. No new CPT/SFT training or CPT download is needed on the existing Group 157 PV.</p>
+<p><strong>CPT path selection:</strong> 0A first checks an explicit <code>CPT_DIR</code>, then <code>/home/group157/model-backups/cpt_model_1a/</code>, then <code>/home/group157/cpt_model/</code>. The recorded run selected the backup folder.</p>
+<p><strong>Original PV copies used only for comparison</strong></p>
+<table>
+<thead>
+<tr>
+<th>PV path</th>
+<th>What is checked</th>
+<th>Used as the main input?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/home/group157/domain_corpus/*.txt</code></td>
+<td>Compared with the 30 repository corpus files</td>
+<td>No; retrieval uses <code>data/corpus/</code></td>
+</tr>
+<tr>
+<td><code>/home/group157/instruction_dataset.jsonl</code></td>
+<td>Compared with the repository's complete Q/A file</td>
+<td>No; the repository Q/A files are used</td>
+</tr>
+<tr>
+<td><code>/home/group157/qlora_finance_adapter/</code></td>
+<td>Compared with the committed adapter</td>
+<td>No; Stage 6 loads <code>models/qlora_finance_adapter/</code></td>
+</tr>
+</tbody>
+</table>
+<p>The embedder, reranker, Phi fallback and Tulu judge are separate Hugging Face models: their files are reused from the model cache when available or downloaded when needed. They are not the reused 1A CPT/adapter files. Intermediate chunks, indexes, answers and judge records are generated under <code>/home/group157/assignment_2b_outputs/</code>; they are not additional source-data files to obtain from Git.</p>
 <h3 id="What-each-setup-cell-does">What each setup cell does<a class="anchor-link" href="#What-each-setup-cell-does">¶</a></h3><table>
 <thead>
 <tr>
@@ -7905,7 +7966,7 @@ git<span class="w"> </span>pull<span class="w"> </span>--ff-only
 </pre></div>
 <p>The setup script creates or reuses <code>venv-rag</code>, installs the required packages and registers <strong>Python (RAG venv)</strong>. The verification script checks packages and basic operations without downloading models. Read its GPU diagnostics as well as the summary; a package-check pass alone does not confirm that a full model run is ready.</p>
 <p><strong>3. Select the RAG interpreter.</strong> Open <code>Group157-Assignment-2b.ipynb</code> from the clone and choose <strong>Kernel → Change Kernel → Python (RAG venv)</strong>. If the existing kernel is the 1A/LLM environment, switch to the RAG kernel. For an editor's interpreter selector, use <code>/home/group157/venv-rag/bin/python</code>.</p>
-<p><strong>4. Check the external model and paths, then start 0A.</strong> The 1A CPT checkpoint is not in Git and must be supplied separately; its download URL is still pending in <a href="README.md">README.md</a>. The repository includes the QLoRA adapter. For another namespace, replace <code>/home/group157</code> with the mounted volume path, set <code>VOLUME_ROOT</code> for both terminal scripts, and set <code>ARTIFACT_ROOT</code> in 0A before its paths are constructed. Use a PyTorch/CUDA notebook image for the full GPU workflow.</p>
+<p><strong>4. Reuse the 1A model and check paths, then start 0A.</strong> The existing CPT folder on the Group 157 PV is <code>/home/group157/model-backups/cpt_model_1a/</code>; the trained QLoRA adapter is supplied in <code>models/qlora_finance_adapter/</code> by the clone. These files are reused directly, without retraining. The input table below identifies every Git input and existing PV artifact. <code>ARTIFACT_ROOT</code> defaults to <code>/home/group157</code>; use a PyTorch/CUDA notebook image for the full GPU workflow.</p>
 <p>The commands above are preparation instructions, not an automatic notebook cell: installing packages does not switch an already-running kernel. After selecting the RAG kernel, execute Stage 0 and check its results before continuing.</p>
 </div>
 </div>
@@ -9536,6 +9597,95 @@ Gate 1: all checks passed.
 </blockquote>
 <ul>
 <li>The required system response for U01 is exactly <code>Not found in the documents</code>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=evaluation-question-reference">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Evaluation-questions:-Q01%E2%80%93Q10">Evaluation questions: Q01–Q10<a class="anchor-link" href="#Evaluation-questions:-Q01%E2%80%93Q10">¶</a></h3><p>These are the exact frozen questions and expected answers used throughout Parts A–D. The expected answers are the references from Assignment 1A, not the generated model answers.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Question</th>
+<th>Expected answer</th>
+<th>Source document</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q01</td>
+<td>What is the maximum value per transaction for a PA - CB under the RBI Master Direction on Regulation of Payment Aggregators?</td>
+<td>For inward or outward transactions processed by a PA - CB, the maximum value per transaction is ₹25 lakh.</td>
+<td><code>RBI - Master Direction on Regulation of Payment Aggregator.txt</code></td>
+</tr>
+<tr>
+<td>Q02</td>
+<td>Where must a non-bank PPI issuer maintain the outstanding balance of PPIs under the RBI Master Direction on Prepaid Payment Instruments (PPIs)?</td>
+<td>A non-bank PPI issuer is required to maintain the outstanding balance in an escrow account with any scheduled commercial bank. It may maintain an additional escrow account with a different scheduled commercial bank.</td>
+<td><code>RBI - Master Direction on Prepaid Payment Instruments.txt</code></td>
+</tr>
+<tr>
+<td>Q03</td>
+<td>How much did UPI's share of digital payments volume grow between CY-2019 and CY-2024, according to RBI's Payment Systems Report (December 2024)?</td>
+<td>UPI's contribution to digital payments volume rose from 34% in CY-2019 to 83% in CY-2024.</td>
+<td><code>RBI - Payment Systems Report Dec 2024.txt</code></td>
+</tr>
+<tr>
+<td>Q04</td>
+<td>What does section 10-A of the Payment and Settlement Systems Act, 2007 forbid banks and system providers from doing?</td>
+<td>No bank or system provider may impose, directly or indirectly, any charge on a person making or receiving a payment through the prescribed electronic modes.</td>
+<td><code>RBI - Payment and Settlement Systems Act 2007.txt</code></td>
+</tr>
+<tr>
+<td>Q05</td>
+<td>How does RBI's Digital Lending Guidelines describe First Loss Default Guarantee arrangements, and what must Regulated Entities follow for them?</td>
+<td>In an FLDG, a third party guarantees to compensate up to a certain percentage of default in a loan portfolio. REs must adhere to the Securitisation of Standard Assets Directions, 2021, especially the synthetic securitisation provisions.</td>
+<td><code>RBI - Digital Lending Guidelines.txt</code></td>
+</tr>
+<tr>
+<td>Q06</td>
+<td>What new class of providers does RBI's Payments Vision 2028 propose to explore recognising?</td>
+<td>It proposes recognising Small Payment System Providers, which would not need RBI authorisation before carrying out their activities.</td>
+<td><code>RBI - Payments Vision 2028.txt</code></td>
+</tr>
+<tr>
+<td>Q07</td>
+<td>Under SEBI's Takeover Regulations, 2011, what happens to the offer price if the acquirer buys shares during the offer period at a higher price?</td>
+<td>The offer price is revised upward to the highest price paid or payable for any such acquisition during the offer period.</td>
+<td><code>SEBI - Takeover SAST Regulations 2011.txt</code></td>
+</tr>
+<tr>
+<td>Q08</td>
+<td>Under the SEBI (Mutual Funds) Regulations, 1996, what minimum net worth must an asset management company have to be approved under the eligibility criteria in the general case?</td>
+<td>The asset management company must have a net worth of not less than rupees fifty crore, deployed in assets as may be specified by the Board.</td>
+<td><code>SEBI - Mutual Funds Regulations 1996.txt</code></td>
+</tr>
+<tr>
+<td>Q09</td>
+<td>Under the SEBI Master Circular for Commodity Derivatives, what Extreme Loss Margin is levied on gross open positions, and how is it deducted?</td>
+<td>An Extreme Loss Margin of 1% on gross open positions is levied and deducted from the liquid assets of the clearing member on an online, real time basis.</td>
+<td><code>SEBI - Master Circular for Commodity Derivatives.txt</code></td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>Under SEBI's Buy-Back of Securities Regulations, 2018, in what form must a company pay the buy-back consideration?</td>
+<td>The company shall pay the consideration only by way of cash.</td>
+<td><code>SEBI - Buy-Back of Securities.txt</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>U01: separate unanswerable question</strong></p>
+<ul>
+<li><strong>Question:</strong> Who won the FIFA World Cup in 2018?</li>
+<li><strong>Expected response:</strong> <code>Not found in the documents</code></li>
+<li><strong>Use:</strong> Tests abstention; excluded from all metrics calculated over Q01–Q10.</li>
 </ul>
 </div>
 </div>

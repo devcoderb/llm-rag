@@ -57,18 +57,24 @@ llm-rag/
 └── LICENSE
 ```
 
-| Reused file or folder | What it contains and how it is used |
-|---|---|
-| `data/corpus/*.txt` | Finance regulations, guidelines and reports that form the searchable collection |
-| `data/qa/instruction_dataset.jsonl` | The 1,196 original finance question-answer pairs from 1A |
-| `data/qa/instruction_dataset_curated.jsonl` | The same pairs with source filenames and supporting text, used to trace answers to documents |
-| `data/qa/instruction_dataset_train.jsonl` | The 957 pairs used for 1A instruction fine-tuning; checked for overlap with evaluation pairs |
-| `data/qa/instruction_dataset_eval.jsonl` | The 239 held-out pairs from which the ten RAG questions were selected |
-| `eval/query_set_frozen.json` | The unchanged ten questions and expected answers, supporting passages and character offsets, plus the separate unanswerable question U01 |
-| `models/qlora_finance_adapter/` | The small QLoRA weight updates and tokenizer attached to the CPT checkpoint for the 1A baseline trial |
-| `data/MANIFEST.sha256`, `models/MANIFEST.sha256` | Expected file hashes checked in Stage 0 to detect missing or changed inputs |
+**Git** means supplied by cloning this repository, even though the clone itself is stored on the PV. **Group 157 PV** means the existing 1A files outside the clone. Paths beginning with `data/`, `models/` or `eval/` are relative to the repository folder found in 0A.
 
-The CPT checkpoint is stored outside Git. Its location and the files generated during execution are described below.
+| Input | Supplied by | Read from | Contents and use |
+|---|---|---|---|
+| Cleaned finance documents | Git | `data/corpus/*.txt` | 30 RBI/SEBI texts used as the searchable document collection |
+| Complete instruction dataset | Git | `data/qa/instruction_dataset.jsonl` | 1,196 original finance question-answer pairs from 1A |
+| Questions with source evidence | Git | `data/qa/instruction_dataset_curated.jsonl` | The same pairs with source filenames and evidence text for tracing answers to the corpus |
+| Training split | Git | `data/qa/instruction_dataset_train.jsonl` | 957 pairs used for 1A QLoRA training; checked against evaluation pairs for overlap |
+| Evaluation split | Git | `data/qa/instruction_dataset_eval.jsonl` | 239 held-out pairs from which the ten evaluation questions were selected |
+| Frozen evaluation questions | Git | `eval/query_set_frozen.json` | Q01–Q10, expected answers, source passages and offsets, plus the separate U01 question |
+| Data fingerprints | Git | `data/MANIFEST.sha256` | Expected hashes for the 34 data files, checked in 0C |
+| Model fingerprints | Git | `models/MANIFEST.sha256` | Expected hashes for the adapter and external CPT files, checked in 0D |
+| 1A QLoRA adapter tensor | Git | `models/qlora_finance_adapter/adapter_model.safetensors` | The trained adapter weight updates attached to the CPT model in the baseline trial |
+| Adapter configuration and tokenizer | Git | `models/qlora_finance_adapter/` | `adapter_config.json`, `tokenizer.json`, `tokenizer_config.json`, `special_tokens_map.json`, `merges.txt`, `vocab.json` and `README.md` accompany the adapter |
+| 1A CPT model tensor | Group 157 PV | `/home/group157/model-backups/cpt_model_1a/model.safetensors` | The existing finance CPT weights, reused directly; not downloaded by Git clone |
+| CPT configuration and tokenizer | Group 157 PV | `/home/group157/model-backups/cpt_model_1a/` | `config.json`, `generation_config.json`, `tokenizer.json`, `tokenizer_config.json`, `special_tokens_map.json`, `merges.txt` and `vocab.json` accompany the CPT weights |
+
+For the existing Group 157 run, the CPT files are already on the mounted PV at `/home/group157/model-backups/cpt_model_1a/`; the notebook reuses them directly. The original PV corpus, Q/A and adapter copies are cross-checks only; their Git copies supply the pipeline inputs. Other model downloads and generated outputs are described below.
 
 ## Clone, set up and verify on Kubeflow
 
@@ -104,6 +110,8 @@ For a different namespace or volume, set `VOLUME_ROOT` when running both setup a
 ## Obtain the 1A CPT checkpoint before running
 
 The repository includes the corpus, Q/A files, frozen query set and QLoRA adapter. It does **not** include the continued-pretraining checkpoint: its `model.safetensors` file is about 1.45 GB. A fresh clone alone is therefore insufficient for a complete rerun.
+
+**Reuse the existing 1A tensor files on the Group 157 PV; do not retrain them for 2B.** Stage 6 loads the original CPT `model.safetensors` from `CPT_DIR` and attaches `models/qlora_finance_adapter/adapter_model.safetensors` from this clone. Keep each artifact with its matching configuration and tokenizer files. The repository adapter is already the 1A artifact; the optional adapter on the original volume is only a cross-check. Stage 0D verifies the recorded hashes. Downloading the original SmolLM2 base checkpoint is not a substitute for the finance CPT checkpoint.
 
 **CPT download location: not yet supplied by Group 157.** A shareable checkpoint URL must be provided so another user can reproduce the full run without access to the original volume.
 
