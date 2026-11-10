@@ -10010,17 +10010,6 @@ Gate 2: all checks passed.
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=29e9546a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Code → Execution output</strong> (stage cells 3A–3E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0d7fad72">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -10719,17 +10708,6 @@ Gate 3: all checks passed.
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=495179d4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Code → Execution output</strong> (stage cells 4A–4D). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=26086bab">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -11348,17 +11326,6 @@ Gate 4: all checks passed.
 <li><strong>Scope:</strong> reranking only reorders the Dense top 10, so it cannot recover a span that is not among those ten. Ten queries give 10% steps.</li>
 </ul>
 <p><strong>Model choice:</strong> <code>cross-encoder/ms-marco-MiniLM-L-6-v2</code> is the model named in the assignment. It reads the query and a chunk together, which lets it reorder candidates that the embedder scored independently.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0a32c57f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Code → Execution output</strong> (stage cells 5A–5F). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -12030,17 +11997,6 @@ is 8/10. With ten queries each query is 10 points, so this is indicative, not co
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">Baseline trial: Assignment 1 model (SmolLM2-360M + continued pre-training + QLoRA) · Stage 6A–6E<a class="anchor-link" href="#Baseline-trial:-Assignment-1-model-(SmolLM2-360M-+-continued-pre-training-+-QLoRA)-%C2%B7-Stage-6A%E2%80%936E">¶</a></h3><p><strong>Task brief:</strong> Test the Assignment 1 model first with the grounded prompt on the ten reranked top-3 contexts, then on U01 (D1 steps 1–3). 6A also builds the shared inputs, including U01 retrieval and reranking.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=191562a8">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Code → Execution output</strong> (stage cells 6A–6E). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
@@ -12765,17 +12721,6 @@ Gate 6: all checks passed.
 <li><strong>Changed:</strong> the fallback model's own tokenizer and saved chat template, its own end-of-turn tokens, and bfloat16 weights (no quantisation). Model and tokenizer revisions are recorded.</li>
 <li><strong>Output:</strong> <code>stage6_fallback_generation.json</code> and its own manifest; the baseline files are not modified. The judge (Stage 7) must be a different model from whichever generator is kept.</li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ee2f676b">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>Code → Execution output</strong> (stage cells 6F–6I). Each code cell below is followed by its own saved output; nothing here is re-run or copied by hand.</p>
 </div>
 </div>
 </div>
