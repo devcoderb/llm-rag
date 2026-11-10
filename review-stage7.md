@@ -66,3 +66,31 @@ No final revised verdicts exist in this run:7I/7J were skipped because SEL=None.
 ### Next Sonnet action
 
 Use Tulu with disclosed calibration limitations for the real ten-answer judge run (U01 separate), compare against the operator’s current saved Q02/Q06/Q08 labels and capture any real disagreement explanation. Preserve the original audit artifacts; produce a single final D2 presentation and summary, then return for Codex review. Notice-board audit remains deferred until Stage7 approval.
+
+
+## Single-flow final-run review — e9e8602 / d342bd2, 2026-11-10
+
+**D2 execution, manual spot-check and failure analysis accepted. No more judge/model-search or Phi reruns required. Two reporting/save corrections remain before packaging.** Reviewed executed e9e8602 and local save-name fix d342bd2; local branch has this one save-fix commit ahead of origin/main. User-reported Mac hashes differ, so this note identifies commits actually inspected rather than assuming hash equality across copies. Audit notebook is separate, main D2 has one judge/results flow.
+
+Verified from code and saved outputs:
+- Six final-stage cells executed70–74,76; syntax valid, no error outputs. Execution-count gap is not itself a failure; final save cell was rerun.
+- Tulu revision666943798adbde0b1aff34626007e26986a3c107, distinct from Phi, bf16/greedy. Max prompt2636 +400 reserve=3036 fits configured131072 positions.
+- Calibration9/12, support-check failuresK03/K06/K12 explicitly WARN, not hidden. This does not prove final correctness.
+- Independently counted raw judge labels:6correct,2partly,2wrong,7supported,3abstentions. One invalid citation[5] inQ03;2quote issues. U01 correct/yes/abstainsyes matches rubric.
+- Operator Q02/Q06/Q08 labels and actual explanations saved;1/3 full agreement. Explanations correctly distinguish answer content from reference correctness and support.
+- Q06 full3chunks/source diagnostics show missing expected evidence; gold Dense102/BM257, excluded by Dense top10 reranking. Candidate-union proposal is correctly stated as untested, not guaranteed improvement.
+- Frozen input hash independently unchanged. Phi generation not rerun. Judge JSON writes/reloads evidenced in notebook; attached stage7/v2 files are not present in the accessible workspace, so their individual hashes have not been independently verified here.
+
+### Reporting correction (no inference rerun)
+
+The final Observations cell still says “Pending operator execution”. Replace it with the actual raw-judge summary, manual1/3 agreement and limitations. Explicitly identify **Q07 as a judge error**: it labels an answerable-question abstention CORRECT correct and ABSTAINS yes, contradicting the rubric. Also explain Q06/Q08 operator disagreements, Q01 support/abstention inconsistency and quote issues. Retain raw verdicts/counts unchanged and label them as judge-reported figures, not validated answer accuracy. Any human corrections must be separately attributed; do not silently change6/2/2 to an adjudicated total. Update observations/appendix/checklist to name the actual final files.
+
+### [P2] Final-save manifest is not reliably created or resolvable
+
+Final Stage7F (cell ID8c2ccbbd) writes stage7_final_manifest.sha256 only inside the `else` branch for a nonexistent final JSON. In the reported current PV state the final JSON already exists, so rerunning this save cell can print the new manifest name without creating/verifying it; the old filename remains stage7_v2_manifest.sha256.
+
+The manifest writer also emits only f.name. MANUAL_PATH is stage7/manual_spotcheck.json, but the manifest lives in stage7/v2. Its `manual_spotcheck.json` entry therefore points at a nonexistent sibling unless a separate duplicate has been packaged there. Use paths relative to the manifest directory (e.g. ../manual_spotcheck.json) or collect all final submission artifacts under one folder. Validate from the manifest's own directory.
+
+Sonnet: preserve all existing records. Choose one actual final manifest path; create/update it even when final JSON already exists; validate all referenced files and hashes. Check existing final JSON's model/revision, prompts, answers, labels/summary/spot-check against the current run, not just the raw verdict strings. Fail clearly if mismatched. This is a save/integrity fix only: run7F and reporting updates, not inference. Archive the legacy manifest or explain its role without claiming a nonexistent new file was verified.
+
+Next: these two small corrections, then Stage7 reporting/save recheck. Notice-board audit follows Stage7 approval; packaging after that. Stages0–6 remain unchanged and approved.
