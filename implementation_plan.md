@@ -3,7 +3,7 @@
 **Group 157 · Domain: Indian Financial Markets & Digital Payments (final local sources: RBI / SEBI)**
 **Deliverable:** one notebook `Group157-Assignment-2b.ipynb` (all outputs visible) + HTML export. 20 marks (A 5 · B 4 · C 4 · D 7).
 **Implementer:** Sonnet. **Reviewer/tester:** Codex Sol. **Operator:** runs and explains each stage.
-**Review status (2026-11-09):** Stages 0–6 deliverables approved. Stage 6 fallback reviewed at `9f57596`: Llama gated/401, Phi selected, all ten answers saved, U01 exact abstention passed. Citation/factual/truncation failures remain for D2. Distinguish strict all-answer compliance from required-run completion; see `review-stage6.md`. Next: Stage 7 / D2 with a different US judge; test IBM Granite 3.0 8B access/load/context as an alternative to unavailable Llama.
+**Review status (2026-11-09):** Stages 0–6 required runs/evidence approved. Presentation re-review of `b2aac74`/`9411623` confirms unchanged code/outputs; both commits already on origin/main. Preserve Stage 6 strict-compliance failures for D2; no generation rerun required. Next: Stage 7 with IBM Granite 3.0 8B Instruct as judge candidate, subject to actual load/context/format checks. Small interpretation-wording corrections are listed in `review-stage6.md`.
 
 **Working cadence:** Sonnet explains the concept, adds only the current stage’s small group of markdown/code cells, and gives the operator an expected-output checklist. Operator executes and discusses the outputs; Codex audits code, outputs and claims. Resolve defects before starting the next stage. Later stages below are a roadmap, not permission to generate the whole notebook at once.
 
